@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.beligum.blocks.schema.ebucore</groupId>
+    <artifactId>blocks-schema-ebucore</artifactId>
+    <version>0.0.1</version>
+    <packaging>jar</packaging>
+
+    <url>http://www.beligum.com</url>
+
+    <parent>
+        <groupId>com.beligum</groupId>
+        <artifactId>parent-web</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <properties>
+        <jdkLevel>1.7</jdkLevel>
+        <git.url.repo.name>${git.url.repo.prefix}blocks.schema.ebucore</git.url.repo.name>
+    </properties>
+
+    <scm>
+        <connection>${git.scm.url}</connection>
+    </scm>
+
+    <dependencies></dependencies>
+
+    <build>
+        <plugins>
+            <!-- Wrapper around the JAXB Schema Compiler (XJC). See https://github.com/highsource/maven-jaxb2-plugin-->
+            <!-- Note: ebucore.xsd scheme -->
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.12.3</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <!-- See https://github.com/highsource/maven-jaxb2-plugin/wiki/Configuration-Cheat-Sheet -->
+                <configuration>
+                    <generateDirectory>${basedir}/src/main/java</generateDirectory>
+                    <!--<generatePackage>com.beligum.blocks.schema.ebucore.v2015</generatePackage>-->
+                    <removeOldOutput>true</removeOldOutput>
+                    <!--<verbose>true</verbose>-->
+
+                    <schemaDirectory>src/main/resources</schemaDirectory>
+                    <schemaIncludes>
+                        <include>ebucore.xsd</include>
+                    </schemaIncludes>
+
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

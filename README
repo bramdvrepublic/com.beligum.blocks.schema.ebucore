@@ -1,0 +1,10 @@
+Original schema file downloaded from here:
+https://tech.ebu.ch/docs/tech/tech3293.pdf
+--> https://www.ebu.ch/metadata/schemas/EBUCore/ebucore.zip
+(see https://tech.ebu.ch/MetadataEbuCore for overview)
+
+To generate, run the jaxb2:generate plugin, or from command line:
+  mvn clean org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:0.12.3:generate
+
+Note: because of the complexity of the xsd, it wasn't possible to set the generatePackage config in the pom.xml,
+so I generated the packages without and renamed them later to their final names you see here.
