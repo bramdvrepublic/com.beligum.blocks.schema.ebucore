@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>com.beligum.blocks.schema.ebucore</groupId>
+    <groupId>com.beligum.blocks</groupId>
     <artifactId>blocks-schema-ebucore</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
 
     <url>http://www.beligum.com</url>
@@ -35,13 +35,14 @@
                 <groupId>org.jvnet.jaxb2.maven2</groupId>
                 <artifactId>maven-jaxb2-plugin</artifactId>
                 <version>0.12.3</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>generate</goal>
-                        </goals>
-                    </execution>
-                </executions>
+                <!-- don't auto-generate -->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<goals>-->
+                            <!--<goal>generate</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+                <!--</executions>-->
                 <!-- See https://github.com/highsource/maven-jaxb2-plugin/wiki/Configuration-Cheat-Sheet -->
                 <configuration>
                     <generateDirectory>${basedir}/src/main/java</generateDirectory>
