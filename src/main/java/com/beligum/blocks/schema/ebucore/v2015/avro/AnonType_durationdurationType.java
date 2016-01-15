@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_durationdurationType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence formatLabel;
   @Deprecated public java.lang.CharSequence formatDefinition;
@@ -152,18 +153,18 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
   }
 
   /** Creates a new AnonType_durationdurationType RecordBuilder */
-  public static AnonType_durationdurationType.Builder newBuilder() {
-    return new AnonType_durationdurationType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder();
   }
   
   /** Creates a new AnonType_durationdurationType RecordBuilder by copying an existing Builder */
-  public static AnonType_durationdurationType.Builder newBuilder(AnonType_durationdurationType.Builder other) {
-    return new AnonType_durationdurationType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder(other);
   }
   
   /** Creates a new AnonType_durationdurationType RecordBuilder by copying an existing AnonType_durationdurationType instance */
-  public static AnonType_durationdurationType.Builder newBuilder(AnonType_durationdurationType other) {
-    return new AnonType_durationdurationType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder(other);
   }
   
   /**
@@ -181,11 +182,11 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
 
     /** Creates a new Builder */
     private Builder() {
-      super(AnonType_durationdurationType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(AnonType_durationdurationType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.formatLabel)) {
         this.formatLabel = data().deepCopy(fields()[0].schema(), other.formatLabel);
@@ -214,8 +215,8 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Creates a Builder by copying an existing AnonType_durationdurationType instance */
-    private Builder(AnonType_durationdurationType other) {
-            super(AnonType_durationdurationType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.SCHEMA$);
       if (isValidValue(fields()[0], other.formatLabel)) {
         this.formatLabel = data().deepCopy(fields()[0].schema(), other.formatLabel);
         fieldSetFlags()[0] = true;
@@ -248,7 +249,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatLabel' field */
-    public AnonType_durationdurationType.Builder setFormatLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.formatLabel = value;
       fieldSetFlags()[0] = true;
@@ -261,7 +262,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatLabel' field */
-    public AnonType_durationdurationType.Builder clearFormatLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatLabel() {
       formatLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -273,7 +274,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatDefinition' field */
-    public AnonType_durationdurationType.Builder setFormatDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.formatDefinition = value;
       fieldSetFlags()[1] = true;
@@ -286,7 +287,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatDefinition' field */
-    public AnonType_durationdurationType.Builder clearFormatDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatDefinition() {
       formatDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -298,7 +299,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatLink' field */
-    public AnonType_durationdurationType.Builder setFormatLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.formatLink = value;
       fieldSetFlags()[2] = true;
@@ -311,7 +312,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatLink' field */
-    public AnonType_durationdurationType.Builder clearFormatLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatLink() {
       formatLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -323,7 +324,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatSource' field */
-    public AnonType_durationdurationType.Builder setFormatSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.formatSource = value;
       fieldSetFlags()[3] = true;
@@ -336,7 +337,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatSource' field */
-    public AnonType_durationdurationType.Builder clearFormatSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatSource() {
       formatSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -348,7 +349,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatNamespace' field */
-    public AnonType_durationdurationType.Builder setFormatNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.formatNamespace = value;
       fieldSetFlags()[4] = true;
@@ -361,7 +362,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatNamespace' field */
-    public AnonType_durationdurationType.Builder clearFormatNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatNamespace() {
       formatNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -373,7 +374,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'formatLanguage' field */
-    public AnonType_durationdurationType.Builder setFormatLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder setFormatLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.formatLanguage = value;
       fieldSetFlags()[5] = true;
@@ -386,7 +387,7 @@ public class AnonType_durationdurationType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'formatLanguage' field */
-    public AnonType_durationdurationType.Builder clearFormatLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType.Builder clearFormatLanguage() {
       formatLanguage = null;
       fieldSetFlags()[5] = false;
       return this;

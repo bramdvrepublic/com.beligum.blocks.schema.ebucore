@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class String9 extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"String9\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"String9\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -285,18 +286,18 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
   }
 
   /** Creates a new String9 RecordBuilder */
-  public static String9.Builder newBuilder() {
-    return new String9.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder();
   }
   
   /** Creates a new String9 RecordBuilder by copying an existing Builder */
-  public static String9.Builder newBuilder(String9.Builder other) {
-    return new String9.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder(other);
   }
   
   /** Creates a new String9 RecordBuilder by copying an existing String9 instance */
-  public static String9.Builder newBuilder(String9 other) {
-    return new String9.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.String9 other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder(other);
   }
   
   /**
@@ -321,11 +322,11 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
 
     /** Creates a new Builder */
     private Builder() {
-      super(String9.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.String9.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(String9.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -382,8 +383,8 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Creates a Builder by copying an existing String9 instance */
-    private Builder(String9 other) {
-            super(String9.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.String9 other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.String9.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -444,7 +445,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public String9.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -457,7 +458,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public String9.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -469,7 +470,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public String9.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -482,7 +483,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public String9.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -494,7 +495,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeLink' field */
-    public String9.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -507,7 +508,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeLink' field */
-    public String9.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -519,7 +520,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeSource' field */
-    public String9.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -532,7 +533,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeSource' field */
-    public String9.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -544,7 +545,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public String9.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -557,7 +558,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public String9.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -569,7 +570,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public String9.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -582,7 +583,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public String9.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -594,7 +595,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatLabel' field */
-    public String9.Builder setFormatLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatLabel(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.formatLabel = value;
       fieldSetFlags()[6] = true;
@@ -607,7 +608,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatLabel' field */
-    public String9.Builder clearFormatLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatLabel() {
       formatLabel = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -619,7 +620,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatDefinition' field */
-    public String9.Builder setFormatDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.formatDefinition = value;
       fieldSetFlags()[7] = true;
@@ -632,7 +633,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatDefinition' field */
-    public String9.Builder clearFormatDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatDefinition() {
       formatDefinition = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -644,7 +645,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatLink' field */
-    public String9.Builder setFormatLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatLink(java.lang.CharSequence value) {
       validate(fields()[8], value);
       this.formatLink = value;
       fieldSetFlags()[8] = true;
@@ -657,7 +658,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatLink' field */
-    public String9.Builder clearFormatLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatLink() {
       formatLink = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -669,7 +670,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatSource' field */
-    public String9.Builder setFormatSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatSource(java.lang.CharSequence value) {
       validate(fields()[9], value);
       this.formatSource = value;
       fieldSetFlags()[9] = true;
@@ -682,7 +683,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatSource' field */
-    public String9.Builder clearFormatSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatSource() {
       formatSource = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -694,7 +695,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatNamespace' field */
-    public String9.Builder setFormatNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatNamespace(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.formatNamespace = value;
       fieldSetFlags()[10] = true;
@@ -707,7 +708,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatNamespace' field */
-    public String9.Builder clearFormatNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatNamespace() {
       formatNamespace = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -719,7 +720,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'formatLanguage' field */
-    public String9.Builder setFormatLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setFormatLanguage(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.formatLanguage = value;
       fieldSetFlags()[11] = true;
@@ -732,7 +733,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'formatLanguage' field */
-    public String9.Builder clearFormatLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearFormatLanguage() {
       formatLanguage = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -744,7 +745,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'unit' field */
-    public String9.Builder setUnit(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder setUnit(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.unit = value;
       fieldSetFlags()[12] = true;
@@ -757,7 +758,7 @@ public class String9 extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'unit' field */
-    public String9.Builder clearUnit() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.String9.Builder clearUnit() {
       unit = null;
       fieldSetFlags()[12] = false;
       return this;

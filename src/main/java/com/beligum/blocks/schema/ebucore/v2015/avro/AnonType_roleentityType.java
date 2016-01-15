@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -171,18 +172,18 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
   }
 
   /** Creates a new AnonType_roleentityType RecordBuilder */
-  public static AnonType_roleentityType.Builder newBuilder() {
-    return new AnonType_roleentityType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder();
   }
   
   /** Creates a new AnonType_roleentityType RecordBuilder by copying an existing Builder */
-  public static AnonType_roleentityType.Builder newBuilder(AnonType_roleentityType.Builder other) {
-    return new AnonType_roleentityType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder(other);
   }
   
   /** Creates a new AnonType_roleentityType RecordBuilder by copying an existing AnonType_roleentityType instance */
-  public static AnonType_roleentityType.Builder newBuilder(AnonType_roleentityType other) {
-    return new AnonType_roleentityType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder(other);
   }
   
   /**
@@ -201,11 +202,11 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
 
     /** Creates a new Builder */
     private Builder() {
-      super(AnonType_roleentityType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(AnonType_roleentityType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -238,8 +239,8 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Creates a Builder by copying an existing AnonType_roleentityType instance */
-    private Builder(AnonType_roleentityType other) {
-            super(AnonType_roleentityType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -276,7 +277,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public AnonType_roleentityType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -289,7 +290,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public AnonType_roleentityType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -301,7 +302,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public AnonType_roleentityType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -314,7 +315,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public AnonType_roleentityType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -326,7 +327,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeLink' field */
-    public AnonType_roleentityType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -339,7 +340,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeLink' field */
-    public AnonType_roleentityType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -351,7 +352,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeSource' field */
-    public AnonType_roleentityType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -364,7 +365,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeSource' field */
-    public AnonType_roleentityType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -376,7 +377,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public AnonType_roleentityType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -389,7 +390,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public AnonType_roleentityType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -401,7 +402,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public AnonType_roleentityType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -414,7 +415,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public AnonType_roleentityType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -426,7 +427,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'costCentre' field */
-    public AnonType_roleentityType.Builder setCostCentre(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder setCostCentre(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.costCentre = value;
       fieldSetFlags()[6] = true;
@@ -439,7 +440,7 @@ public class AnonType_roleentityType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'costCentre' field */
-    public AnonType_roleentityType.Builder clearCostCentre() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_roleentityType.Builder clearCostCentre() {
       costCentre = null;
       fieldSetFlags()[6] = false;
       return this;

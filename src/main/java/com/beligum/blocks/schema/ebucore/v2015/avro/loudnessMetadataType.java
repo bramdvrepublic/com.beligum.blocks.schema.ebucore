@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"loudnessMetadataType\",\"fields\":[{\"name\":\"loudnessMethod\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessMethod\"},{\"name\":\"loudnessRecType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessRecType\"},{\"name\":\"loudnessCorrectionType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessCorrectionType\"},{\"name\":\"integratedLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element integratedLoudness\"},{\"name\":\"loudnessRange\",\"type\":[\"null\",\"float\"],\"source\":\"element loudnessRange\"},{\"name\":\"maxTruePeak\",\"type\":[\"null\",\"float\"],\"source\":\"element maxTruePeak\"},{\"name\":\"maxMomentary\",\"type\":[\"null\",\"float\"],\"source\":\"element maxMomentary\"},{\"name\":\"maxShortTerm\",\"type\":[\"null\",\"float\"],\"source\":\"element maxShortTerm\"},{\"name\":\"dialogLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element dialogLoudness\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"loudnessMetadataType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"loudnessMethod\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessMethod\"},{\"name\":\"loudnessRecType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessRecType\"},{\"name\":\"loudnessCorrectionType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessCorrectionType\"},{\"name\":\"integratedLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element integratedLoudness\"},{\"name\":\"loudnessRange\",\"type\":[\"null\",\"float\"],\"source\":\"element loudnessRange\"},{\"name\":\"maxTruePeak\",\"type\":[\"null\",\"float\"],\"source\":\"element maxTruePeak\"},{\"name\":\"maxMomentary\",\"type\":[\"null\",\"float\"],\"source\":\"element maxMomentary\"},{\"name\":\"maxShortTerm\",\"type\":[\"null\",\"float\"],\"source\":\"element maxShortTerm\"},{\"name\":\"dialogLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element dialogLoudness\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence loudnessMethod;
   @Deprecated public java.lang.CharSequence loudnessRecType;
@@ -209,18 +210,18 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
   }
 
   /** Creates a new loudnessMetadataType RecordBuilder */
-  public static loudnessMetadataType.Builder newBuilder() {
-    return new loudnessMetadataType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder();
   }
   
   /** Creates a new loudnessMetadataType RecordBuilder by copying an existing Builder */
-  public static loudnessMetadataType.Builder newBuilder(loudnessMetadataType.Builder other) {
-    return new loudnessMetadataType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder(other);
   }
   
   /** Creates a new loudnessMetadataType RecordBuilder by copying an existing loudnessMetadataType instance */
-  public static loudnessMetadataType.Builder newBuilder(loudnessMetadataType other) {
-    return new loudnessMetadataType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder(other);
   }
   
   /**
@@ -241,11 +242,11 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
 
     /** Creates a new Builder */
     private Builder() {
-      super(loudnessMetadataType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(loudnessMetadataType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.loudnessMethod)) {
         this.loudnessMethod = data().deepCopy(fields()[0].schema(), other.loudnessMethod);
@@ -286,8 +287,8 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Creates a Builder by copying an existing loudnessMetadataType instance */
-    private Builder(loudnessMetadataType other) {
-            super(loudnessMetadataType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.SCHEMA$);
       if (isValidValue(fields()[0], other.loudnessMethod)) {
         this.loudnessMethod = data().deepCopy(fields()[0].schema(), other.loudnessMethod);
         fieldSetFlags()[0] = true;
@@ -332,7 +333,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'loudnessMethod' field */
-    public loudnessMetadataType.Builder setLoudnessMethod(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setLoudnessMethod(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.loudnessMethod = value;
       fieldSetFlags()[0] = true;
@@ -345,7 +346,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'loudnessMethod' field */
-    public loudnessMetadataType.Builder clearLoudnessMethod() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearLoudnessMethod() {
       loudnessMethod = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -357,7 +358,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'loudnessRecType' field */
-    public loudnessMetadataType.Builder setLoudnessRecType(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setLoudnessRecType(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.loudnessRecType = value;
       fieldSetFlags()[1] = true;
@@ -370,7 +371,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'loudnessRecType' field */
-    public loudnessMetadataType.Builder clearLoudnessRecType() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearLoudnessRecType() {
       loudnessRecType = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -382,7 +383,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'loudnessCorrectionType' field */
-    public loudnessMetadataType.Builder setLoudnessCorrectionType(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setLoudnessCorrectionType(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.loudnessCorrectionType = value;
       fieldSetFlags()[2] = true;
@@ -395,7 +396,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'loudnessCorrectionType' field */
-    public loudnessMetadataType.Builder clearLoudnessCorrectionType() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearLoudnessCorrectionType() {
       loudnessCorrectionType = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -407,7 +408,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'integratedLoudness' field */
-    public loudnessMetadataType.Builder setIntegratedLoudness(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setIntegratedLoudness(java.lang.Float value) {
       validate(fields()[3], value);
       this.integratedLoudness = value;
       fieldSetFlags()[3] = true;
@@ -420,7 +421,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'integratedLoudness' field */
-    public loudnessMetadataType.Builder clearIntegratedLoudness() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearIntegratedLoudness() {
       integratedLoudness = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -432,7 +433,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'loudnessRange' field */
-    public loudnessMetadataType.Builder setLoudnessRange(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setLoudnessRange(java.lang.Float value) {
       validate(fields()[4], value);
       this.loudnessRange = value;
       fieldSetFlags()[4] = true;
@@ -445,7 +446,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'loudnessRange' field */
-    public loudnessMetadataType.Builder clearLoudnessRange() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearLoudnessRange() {
       loudnessRange = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -457,7 +458,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'maxTruePeak' field */
-    public loudnessMetadataType.Builder setMaxTruePeak(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setMaxTruePeak(java.lang.Float value) {
       validate(fields()[5], value);
       this.maxTruePeak = value;
       fieldSetFlags()[5] = true;
@@ -470,7 +471,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'maxTruePeak' field */
-    public loudnessMetadataType.Builder clearMaxTruePeak() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearMaxTruePeak() {
       maxTruePeak = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -482,7 +483,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'maxMomentary' field */
-    public loudnessMetadataType.Builder setMaxMomentary(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setMaxMomentary(java.lang.Float value) {
       validate(fields()[6], value);
       this.maxMomentary = value;
       fieldSetFlags()[6] = true;
@@ -495,7 +496,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'maxMomentary' field */
-    public loudnessMetadataType.Builder clearMaxMomentary() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearMaxMomentary() {
       maxMomentary = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -507,7 +508,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'maxShortTerm' field */
-    public loudnessMetadataType.Builder setMaxShortTerm(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setMaxShortTerm(java.lang.Float value) {
       validate(fields()[7], value);
       this.maxShortTerm = value;
       fieldSetFlags()[7] = true;
@@ -520,7 +521,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'maxShortTerm' field */
-    public loudnessMetadataType.Builder clearMaxShortTerm() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearMaxShortTerm() {
       maxShortTerm = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -532,7 +533,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'dialogLoudness' field */
-    public loudnessMetadataType.Builder setDialogLoudness(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder setDialogLoudness(java.lang.Float value) {
       validate(fields()[8], value);
       this.dialogLoudness = value;
       fieldSetFlags()[8] = true;
@@ -545,7 +546,7 @@ public class loudnessMetadataType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'dialogLoudness' field */
-    public loudnessMetadataType.Builder clearDialogLoudness() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.loudnessMetadataType.Builder clearDialogLoudness() {
       dialogLoudness = null;
       fieldSetFlags()[8] = false;
       return this;

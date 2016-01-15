@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class Float8 extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Float8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Float8\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -171,18 +172,18 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
   }
 
   /** Creates a new Float8 RecordBuilder */
-  public static Float8.Builder newBuilder() {
-    return new Float8.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder();
   }
   
   /** Creates a new Float8 RecordBuilder by copying an existing Builder */
-  public static Float8.Builder newBuilder(Float8.Builder other) {
-    return new Float8.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder(other);
   }
   
   /** Creates a new Float8 RecordBuilder by copying an existing Float8 instance */
-  public static Float8.Builder newBuilder(Float8 other) {
-    return new Float8.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.Float8 other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder(other);
   }
   
   /**
@@ -201,11 +202,11 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
 
     /** Creates a new Builder */
     private Builder() {
-      super(Float8.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.Float8.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(Float8.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -238,8 +239,8 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Creates a Builder by copying an existing Float8 instance */
-    private Builder(Float8 other) {
-            super(Float8.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.Float8 other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.Float8.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -276,7 +277,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public Float8.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -289,7 +290,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public Float8.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -301,7 +302,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public Float8.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -314,7 +315,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public Float8.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -326,7 +327,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeLink' field */
-    public Float8.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -339,7 +340,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeLink' field */
-    public Float8.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -351,7 +352,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeSource' field */
-    public Float8.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -364,7 +365,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeSource' field */
-    public Float8.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -376,7 +377,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public Float8.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -389,7 +390,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public Float8.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -401,7 +402,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public Float8.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -414,7 +415,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public Float8.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -426,7 +427,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Sets the value of the 'unit' field */
-    public Float8.Builder setUnit(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder setUnit(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.unit = value;
       fieldSetFlags()[6] = true;
@@ -439,7 +440,7 @@ public class Float8 extends org.apache.avro.specific.SpecificRecordBase implemen
     }
     
     /** Clears the value of the 'unit' field */
-    public Float8.Builder clearUnit() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.Float8.Builder clearUnit() {
       unit = null;
       fieldSetFlags()[6] = false;
       return this;

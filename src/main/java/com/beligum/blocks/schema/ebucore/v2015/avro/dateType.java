@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class dateType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"dateType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"precision\",\"type\":[\"null\",\"string\"],\"source\":\"attribute precision\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element date\"},{\"name\":\"created\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_createddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element created\"},{\"name\":\"issued\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_issueddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element issued\"},{\"name\":\"modified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_modifieddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element modified\"},{\"name\":\"digitised\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_digitiseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element digitised\"},{\"name\":\"released\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_releaseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element released\"},{\"name\":\"copyrighted\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element copyrighted\"},{\"name\":\"encoded\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_encodeddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element encoded\"},{\"name\":\"alternative\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeDateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element alternative\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"element note\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"dateType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"precision\",\"type\":[\"null\",\"string\"],\"source\":\"attribute precision\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element date\"},{\"name\":\"created\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_createddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element created\"},{\"name\":\"issued\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_issueddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element issued\"},{\"name\":\"modified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_modifieddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element modified\"},{\"name\":\"digitised\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_digitiseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element digitised\"},{\"name\":\"released\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_releaseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element released\"},{\"name\":\"copyrighted\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element copyrighted\"},{\"name\":\"encoded\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_encodeddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element encoded\"},{\"name\":\"alternative\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeDateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element alternative\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"element note\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -21,15 +22,15 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
   @Deprecated public java.lang.CharSequence formatNamespace;
   @Deprecated public java.lang.CharSequence formatLanguage;
   @Deprecated public java.lang.CharSequence precision;
-  @Deprecated public java.util.List<elementType> date;
-  @Deprecated public AnonType_createddateType created;
-  @Deprecated public AnonType_issueddateType issued;
-  @Deprecated public AnonType_modifieddateType modified;
-  @Deprecated public AnonType_digitiseddateType digitised;
-  @Deprecated public AnonType_releaseddateType released;
-  @Deprecated public AnonType_copyrighteddateType copyrighted;
-  @Deprecated public AnonType_encodeddateType encoded;
-  @Deprecated public java.util.List<alternativeDateType> alternative;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> date;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType created;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType issued;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType modified;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType digitised;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType released;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType copyrighted;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType encoded;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> alternative;
   @Deprecated public java.lang.CharSequence note;
 
   /**
@@ -42,7 +43,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * All-args constructor.
    */
-  public dateType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence formatLabel, java.lang.CharSequence formatDefinition, java.lang.CharSequence formatLink, java.lang.CharSequence formatSource, java.lang.CharSequence formatNamespace, java.lang.CharSequence formatLanguage, java.lang.CharSequence precision, java.util.List<elementType> date, AnonType_createddateType created, AnonType_issueddateType issued, AnonType_modifieddateType modified, AnonType_digitiseddateType digitised, AnonType_releaseddateType released, AnonType_copyrighteddateType copyrighted, AnonType_encodeddateType encoded, java.util.List<alternativeDateType> alternative, java.lang.CharSequence note) {
+  public dateType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence formatLabel, java.lang.CharSequence formatDefinition, java.lang.CharSequence formatLink, java.lang.CharSequence formatSource, java.lang.CharSequence formatNamespace, java.lang.CharSequence formatLanguage, java.lang.CharSequence precision, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> date, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType created, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType issued, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType modified, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType digitised, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType released, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType copyrighted, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType encoded, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> alternative, java.lang.CharSequence note) {
     this.typeLabel = typeLabel;
     this.typeDefinition = typeDefinition;
     this.typeLink = typeLink;
@@ -115,15 +116,15 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     case 10: formatNamespace = (java.lang.CharSequence)value$; break;
     case 11: formatLanguage = (java.lang.CharSequence)value$; break;
     case 12: precision = (java.lang.CharSequence)value$; break;
-    case 13: date = (java.util.List<elementType>)value$; break;
-    case 14: created = (AnonType_createddateType)value$; break;
-    case 15: issued = (AnonType_issueddateType)value$; break;
-    case 16: modified = (AnonType_modifieddateType)value$; break;
-    case 17: digitised = (AnonType_digitiseddateType)value$; break;
-    case 18: released = (AnonType_releaseddateType)value$; break;
-    case 19: copyrighted = (AnonType_copyrighteddateType)value$; break;
-    case 20: encoded = (AnonType_encodeddateType)value$; break;
-    case 21: alternative = (java.util.List<alternativeDateType>)value$; break;
+    case 13: date = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
+    case 14: created = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType)value$; break;
+    case 15: issued = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType)value$; break;
+    case 16: modified = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType)value$; break;
+    case 17: digitised = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType)value$; break;
+    case 18: released = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType)value$; break;
+    case 19: copyrighted = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType)value$; break;
+    case 20: encoded = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType)value$; break;
+    case 21: alternative = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType>)value$; break;
     case 22: note = (java.lang.CharSequence)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
@@ -327,7 +328,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * Gets the value of the 'date' field.
    */
-  public java.util.List<elementType> getDate() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDate() {
     return date;
   }
 
@@ -335,14 +336,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'date' field.
    * @param value the value to set.
    */
-  public void setDate(java.util.List<elementType> value) {
+  public void setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
     this.date = value;
   }
 
   /**
    * Gets the value of the 'created' field.
    */
-  public AnonType_createddateType getCreated() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType getCreated() {
     return created;
   }
 
@@ -350,14 +351,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'created' field.
    * @param value the value to set.
    */
-  public void setCreated(AnonType_createddateType value) {
+  public void setCreated(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType value) {
     this.created = value;
   }
 
   /**
    * Gets the value of the 'issued' field.
    */
-  public AnonType_issueddateType getIssued() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType getIssued() {
     return issued;
   }
 
@@ -365,14 +366,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'issued' field.
    * @param value the value to set.
    */
-  public void setIssued(AnonType_issueddateType value) {
+  public void setIssued(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType value) {
     this.issued = value;
   }
 
   /**
    * Gets the value of the 'modified' field.
    */
-  public AnonType_modifieddateType getModified() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType getModified() {
     return modified;
   }
 
@@ -380,14 +381,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'modified' field.
    * @param value the value to set.
    */
-  public void setModified(AnonType_modifieddateType value) {
+  public void setModified(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType value) {
     this.modified = value;
   }
 
   /**
    * Gets the value of the 'digitised' field.
    */
-  public AnonType_digitiseddateType getDigitised() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType getDigitised() {
     return digitised;
   }
 
@@ -395,14 +396,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'digitised' field.
    * @param value the value to set.
    */
-  public void setDigitised(AnonType_digitiseddateType value) {
+  public void setDigitised(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType value) {
     this.digitised = value;
   }
 
   /**
    * Gets the value of the 'released' field.
    */
-  public AnonType_releaseddateType getReleased() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType getReleased() {
     return released;
   }
 
@@ -410,14 +411,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'released' field.
    * @param value the value to set.
    */
-  public void setReleased(AnonType_releaseddateType value) {
+  public void setReleased(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType value) {
     this.released = value;
   }
 
   /**
    * Gets the value of the 'copyrighted' field.
    */
-  public AnonType_copyrighteddateType getCopyrighted() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType getCopyrighted() {
     return copyrighted;
   }
 
@@ -425,14 +426,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'copyrighted' field.
    * @param value the value to set.
    */
-  public void setCopyrighted(AnonType_copyrighteddateType value) {
+  public void setCopyrighted(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType value) {
     this.copyrighted = value;
   }
 
   /**
    * Gets the value of the 'encoded' field.
    */
-  public AnonType_encodeddateType getEncoded() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType getEncoded() {
     return encoded;
   }
 
@@ -440,14 +441,14 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'encoded' field.
    * @param value the value to set.
    */
-  public void setEncoded(AnonType_encodeddateType value) {
+  public void setEncoded(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType value) {
     this.encoded = value;
   }
 
   /**
    * Gets the value of the 'alternative' field.
    */
-  public java.util.List<alternativeDateType> getAlternative() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> getAlternative() {
     return alternative;
   }
 
@@ -455,7 +456,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'alternative' field.
    * @param value the value to set.
    */
-  public void setAlternative(java.util.List<alternativeDateType> value) {
+  public void setAlternative(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> value) {
     this.alternative = value;
   }
 
@@ -475,18 +476,18 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
   }
 
   /** Creates a new dateType RecordBuilder */
-  public static dateType.Builder newBuilder() {
-    return new dateType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder();
   }
   
   /** Creates a new dateType RecordBuilder by copying an existing Builder */
-  public static dateType.Builder newBuilder(dateType.Builder other) {
-    return new dateType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder(other);
   }
   
   /** Creates a new dateType RecordBuilder by copying an existing dateType instance */
-  public static dateType.Builder newBuilder(dateType other) {
-    return new dateType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.dateType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder(other);
   }
   
   /**
@@ -508,24 +509,24 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     private java.lang.CharSequence formatNamespace;
     private java.lang.CharSequence formatLanguage;
     private java.lang.CharSequence precision;
-    private java.util.List<elementType> date;
-    private AnonType_createddateType created;
-    private AnonType_issueddateType issued;
-    private AnonType_modifieddateType modified;
-    private AnonType_digitiseddateType digitised;
-    private AnonType_releaseddateType released;
-    private AnonType_copyrighteddateType copyrighted;
-    private AnonType_encodeddateType encoded;
-    private java.util.List<alternativeDateType> alternative;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> date;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType created;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType issued;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType modified;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType digitised;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType released;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType copyrighted;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType encoded;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> alternative;
     private java.lang.CharSequence note;
 
     /** Creates a new Builder */
     private Builder() {
-      super(dateType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.dateType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(dateType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -622,8 +623,8 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Creates a Builder by copying an existing dateType instance */
-    private Builder(dateType other) {
-            super(dateType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.dateType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.dateType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -724,7 +725,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public dateType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -737,7 +738,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public dateType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -749,7 +750,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public dateType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -762,7 +763,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public dateType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -774,7 +775,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLink' field */
-    public dateType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -787,7 +788,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLink' field */
-    public dateType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -799,7 +800,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeSource' field */
-    public dateType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -812,7 +813,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeSource' field */
-    public dateType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -824,7 +825,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public dateType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -837,7 +838,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public dateType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -849,7 +850,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public dateType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -862,7 +863,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public dateType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -874,7 +875,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatLabel' field */
-    public dateType.Builder setFormatLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatLabel(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.formatLabel = value;
       fieldSetFlags()[6] = true;
@@ -887,7 +888,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatLabel' field */
-    public dateType.Builder clearFormatLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatLabel() {
       formatLabel = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -899,7 +900,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatDefinition' field */
-    public dateType.Builder setFormatDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.formatDefinition = value;
       fieldSetFlags()[7] = true;
@@ -912,7 +913,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatDefinition' field */
-    public dateType.Builder clearFormatDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatDefinition() {
       formatDefinition = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -924,7 +925,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatLink' field */
-    public dateType.Builder setFormatLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatLink(java.lang.CharSequence value) {
       validate(fields()[8], value);
       this.formatLink = value;
       fieldSetFlags()[8] = true;
@@ -937,7 +938,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatLink' field */
-    public dateType.Builder clearFormatLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatLink() {
       formatLink = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -949,7 +950,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatSource' field */
-    public dateType.Builder setFormatSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatSource(java.lang.CharSequence value) {
       validate(fields()[9], value);
       this.formatSource = value;
       fieldSetFlags()[9] = true;
@@ -962,7 +963,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatSource' field */
-    public dateType.Builder clearFormatSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatSource() {
       formatSource = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -974,7 +975,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatNamespace' field */
-    public dateType.Builder setFormatNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatNamespace(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.formatNamespace = value;
       fieldSetFlags()[10] = true;
@@ -987,7 +988,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatNamespace' field */
-    public dateType.Builder clearFormatNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatNamespace() {
       formatNamespace = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -999,7 +1000,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'formatLanguage' field */
-    public dateType.Builder setFormatLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setFormatLanguage(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.formatLanguage = value;
       fieldSetFlags()[11] = true;
@@ -1012,7 +1013,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'formatLanguage' field */
-    public dateType.Builder clearFormatLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearFormatLanguage() {
       formatLanguage = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -1024,7 +1025,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'precision' field */
-    public dateType.Builder setPrecision(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setPrecision(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.precision = value;
       fieldSetFlags()[12] = true;
@@ -1037,19 +1038,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'precision' field */
-    public dateType.Builder clearPrecision() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearPrecision() {
       precision = null;
       fieldSetFlags()[12] = false;
       return this;
     }
 
     /** Gets the value of the 'date' field */
-    public java.util.List<elementType> getDate() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDate() {
       return date;
     }
     
     /** Sets the value of the 'date' field */
-    public dateType.Builder setDate(java.util.List<elementType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
       validate(fields()[13], value);
       this.date = value;
       fieldSetFlags()[13] = true;
@@ -1062,19 +1063,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'date' field */
-    public dateType.Builder clearDate() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearDate() {
       date = null;
       fieldSetFlags()[13] = false;
       return this;
     }
 
     /** Gets the value of the 'created' field */
-    public AnonType_createddateType getCreated() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType getCreated() {
       return created;
     }
     
     /** Sets the value of the 'created' field */
-    public dateType.Builder setCreated(AnonType_createddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setCreated(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType value) {
       validate(fields()[14], value);
       this.created = value;
       fieldSetFlags()[14] = true;
@@ -1087,19 +1088,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'created' field */
-    public dateType.Builder clearCreated() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearCreated() {
       created = null;
       fieldSetFlags()[14] = false;
       return this;
     }
 
     /** Gets the value of the 'issued' field */
-    public AnonType_issueddateType getIssued() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType getIssued() {
       return issued;
     }
     
     /** Sets the value of the 'issued' field */
-    public dateType.Builder setIssued(AnonType_issueddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setIssued(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType value) {
       validate(fields()[15], value);
       this.issued = value;
       fieldSetFlags()[15] = true;
@@ -1112,19 +1113,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'issued' field */
-    public dateType.Builder clearIssued() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearIssued() {
       issued = null;
       fieldSetFlags()[15] = false;
       return this;
     }
 
     /** Gets the value of the 'modified' field */
-    public AnonType_modifieddateType getModified() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType getModified() {
       return modified;
     }
     
     /** Sets the value of the 'modified' field */
-    public dateType.Builder setModified(AnonType_modifieddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setModified(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType value) {
       validate(fields()[16], value);
       this.modified = value;
       fieldSetFlags()[16] = true;
@@ -1137,19 +1138,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'modified' field */
-    public dateType.Builder clearModified() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearModified() {
       modified = null;
       fieldSetFlags()[16] = false;
       return this;
     }
 
     /** Gets the value of the 'digitised' field */
-    public AnonType_digitiseddateType getDigitised() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType getDigitised() {
       return digitised;
     }
     
     /** Sets the value of the 'digitised' field */
-    public dateType.Builder setDigitised(AnonType_digitiseddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setDigitised(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType value) {
       validate(fields()[17], value);
       this.digitised = value;
       fieldSetFlags()[17] = true;
@@ -1162,19 +1163,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'digitised' field */
-    public dateType.Builder clearDigitised() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearDigitised() {
       digitised = null;
       fieldSetFlags()[17] = false;
       return this;
     }
 
     /** Gets the value of the 'released' field */
-    public AnonType_releaseddateType getReleased() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType getReleased() {
       return released;
     }
     
     /** Sets the value of the 'released' field */
-    public dateType.Builder setReleased(AnonType_releaseddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setReleased(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType value) {
       validate(fields()[18], value);
       this.released = value;
       fieldSetFlags()[18] = true;
@@ -1187,19 +1188,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'released' field */
-    public dateType.Builder clearReleased() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearReleased() {
       released = null;
       fieldSetFlags()[18] = false;
       return this;
     }
 
     /** Gets the value of the 'copyrighted' field */
-    public AnonType_copyrighteddateType getCopyrighted() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType getCopyrighted() {
       return copyrighted;
     }
     
     /** Sets the value of the 'copyrighted' field */
-    public dateType.Builder setCopyrighted(AnonType_copyrighteddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setCopyrighted(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType value) {
       validate(fields()[19], value);
       this.copyrighted = value;
       fieldSetFlags()[19] = true;
@@ -1212,19 +1213,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'copyrighted' field */
-    public dateType.Builder clearCopyrighted() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearCopyrighted() {
       copyrighted = null;
       fieldSetFlags()[19] = false;
       return this;
     }
 
     /** Gets the value of the 'encoded' field */
-    public AnonType_encodeddateType getEncoded() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType getEncoded() {
       return encoded;
     }
     
     /** Sets the value of the 'encoded' field */
-    public dateType.Builder setEncoded(AnonType_encodeddateType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setEncoded(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType value) {
       validate(fields()[20], value);
       this.encoded = value;
       fieldSetFlags()[20] = true;
@@ -1237,19 +1238,19 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'encoded' field */
-    public dateType.Builder clearEncoded() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearEncoded() {
       encoded = null;
       fieldSetFlags()[20] = false;
       return this;
     }
 
     /** Gets the value of the 'alternative' field */
-    public java.util.List<alternativeDateType> getAlternative() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> getAlternative() {
       return alternative;
     }
     
     /** Sets the value of the 'alternative' field */
-    public dateType.Builder setAlternative(java.util.List<alternativeDateType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setAlternative(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType> value) {
       validate(fields()[21], value);
       this.alternative = value;
       fieldSetFlags()[21] = true;
@@ -1262,7 +1263,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'alternative' field */
-    public dateType.Builder clearAlternative() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearAlternative() {
       alternative = null;
       fieldSetFlags()[21] = false;
       return this;
@@ -1274,7 +1275,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'note' field */
-    public dateType.Builder setNote(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder setNote(java.lang.CharSequence value) {
       validate(fields()[22], value);
       this.note = value;
       fieldSetFlags()[22] = true;
@@ -1287,7 +1288,7 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'note' field */
-    public dateType.Builder clearNote() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.dateType.Builder clearNote() {
       note = null;
       fieldSetFlags()[22] = false;
       return this;
@@ -1310,15 +1311,15 @@ public class dateType extends org.apache.avro.specific.SpecificRecordBase implem
         record.formatNamespace = fieldSetFlags()[10] ? this.formatNamespace : (java.lang.CharSequence) defaultValue(fields()[10]);
         record.formatLanguage = fieldSetFlags()[11] ? this.formatLanguage : (java.lang.CharSequence) defaultValue(fields()[11]);
         record.precision = fieldSetFlags()[12] ? this.precision : (java.lang.CharSequence) defaultValue(fields()[12]);
-        record.date = fieldSetFlags()[13] ? this.date : (java.util.List<elementType>) defaultValue(fields()[13]);
-        record.created = fieldSetFlags()[14] ? this.created : (AnonType_createddateType) defaultValue(fields()[14]);
-        record.issued = fieldSetFlags()[15] ? this.issued : (AnonType_issueddateType) defaultValue(fields()[15]);
-        record.modified = fieldSetFlags()[16] ? this.modified : (AnonType_modifieddateType) defaultValue(fields()[16]);
-        record.digitised = fieldSetFlags()[17] ? this.digitised : (AnonType_digitiseddateType) defaultValue(fields()[17]);
-        record.released = fieldSetFlags()[18] ? this.released : (AnonType_releaseddateType) defaultValue(fields()[18]);
-        record.copyrighted = fieldSetFlags()[19] ? this.copyrighted : (AnonType_copyrighteddateType) defaultValue(fields()[19]);
-        record.encoded = fieldSetFlags()[20] ? this.encoded : (AnonType_encodeddateType) defaultValue(fields()[20]);
-        record.alternative = fieldSetFlags()[21] ? this.alternative : (java.util.List<alternativeDateType>) defaultValue(fields()[21]);
+        record.date = fieldSetFlags()[13] ? this.date : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[13]);
+        record.created = fieldSetFlags()[14] ? this.created : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_createddateType) defaultValue(fields()[14]);
+        record.issued = fieldSetFlags()[15] ? this.issued : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_issueddateType) defaultValue(fields()[15]);
+        record.modified = fieldSetFlags()[16] ? this.modified : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_modifieddateType) defaultValue(fields()[16]);
+        record.digitised = fieldSetFlags()[17] ? this.digitised : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_digitiseddateType) defaultValue(fields()[17]);
+        record.released = fieldSetFlags()[18] ? this.released : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_releaseddateType) defaultValue(fields()[18]);
+        record.copyrighted = fieldSetFlags()[19] ? this.copyrighted : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType) defaultValue(fields()[19]);
+        record.encoded = fieldSetFlags()[20] ? this.encoded : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_encodeddateType) defaultValue(fields()[20]);
+        record.alternative = fieldSetFlags()[21] ? this.alternative : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType>) defaultValue(fields()[21]);
         record.note = fieldSetFlags()[22] ? this.note : (java.lang.CharSequence) defaultValue(fields()[22]);
         return record;
       } catch (Exception e) {

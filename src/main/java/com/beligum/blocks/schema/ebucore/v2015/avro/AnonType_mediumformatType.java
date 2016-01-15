@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_mediumformatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_mediumformatType\",\"fields\":[{\"name\":\"mediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute mediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_mediumformatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"mediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute mediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence mediumId;
   @Deprecated public java.lang.CharSequence typeLabel;
@@ -171,18 +172,18 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
   }
 
   /** Creates a new AnonType_mediumformatType RecordBuilder */
-  public static AnonType_mediumformatType.Builder newBuilder() {
-    return new AnonType_mediumformatType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder();
   }
   
   /** Creates a new AnonType_mediumformatType RecordBuilder by copying an existing Builder */
-  public static AnonType_mediumformatType.Builder newBuilder(AnonType_mediumformatType.Builder other) {
-    return new AnonType_mediumformatType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder(other);
   }
   
   /** Creates a new AnonType_mediumformatType RecordBuilder by copying an existing AnonType_mediumformatType instance */
-  public static AnonType_mediumformatType.Builder newBuilder(AnonType_mediumformatType other) {
-    return new AnonType_mediumformatType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder(other);
   }
   
   /**
@@ -201,11 +202,11 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
 
     /** Creates a new Builder */
     private Builder() {
-      super(AnonType_mediumformatType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(AnonType_mediumformatType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.mediumId)) {
         this.mediumId = data().deepCopy(fields()[0].schema(), other.mediumId);
@@ -238,8 +239,8 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Creates a Builder by copying an existing AnonType_mediumformatType instance */
-    private Builder(AnonType_mediumformatType other) {
-            super(AnonType_mediumformatType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.SCHEMA$);
       if (isValidValue(fields()[0], other.mediumId)) {
         this.mediumId = data().deepCopy(fields()[0].schema(), other.mediumId);
         fieldSetFlags()[0] = true;
@@ -276,7 +277,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'mediumId' field */
-    public AnonType_mediumformatType.Builder setMediumId(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setMediumId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.mediumId = value;
       fieldSetFlags()[0] = true;
@@ -289,7 +290,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'mediumId' field */
-    public AnonType_mediumformatType.Builder clearMediumId() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearMediumId() {
       mediumId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -301,7 +302,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public AnonType_mediumformatType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeLabel = value;
       fieldSetFlags()[1] = true;
@@ -314,7 +315,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public AnonType_mediumformatType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -326,7 +327,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public AnonType_mediumformatType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeDefinition = value;
       fieldSetFlags()[2] = true;
@@ -339,7 +340,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public AnonType_mediumformatType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -351,7 +352,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeLink' field */
-    public AnonType_mediumformatType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeLink = value;
       fieldSetFlags()[3] = true;
@@ -364,7 +365,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeLink' field */
-    public AnonType_mediumformatType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -376,7 +377,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeSource' field */
-    public AnonType_mediumformatType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeSource = value;
       fieldSetFlags()[4] = true;
@@ -389,7 +390,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeSource' field */
-    public AnonType_mediumformatType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -401,7 +402,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public AnonType_mediumformatType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeNamespace = value;
       fieldSetFlags()[5] = true;
@@ -414,7 +415,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public AnonType_mediumformatType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -426,7 +427,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public AnonType_mediumformatType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.typeLanguage = value;
       fieldSetFlags()[6] = true;
@@ -439,7 +440,7 @@ public class AnonType_mediumformatType extends org.apache.avro.specific.Specific
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public AnonType_mediumformatType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_mediumformatType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[6] = false;
       return this;

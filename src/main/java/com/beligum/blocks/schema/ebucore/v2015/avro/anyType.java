@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class anyType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"anyType\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"anyType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.util.Map<java.lang.CharSequence,java.lang.CharSequence> others;
 
@@ -57,18 +58,18 @@ public class anyType extends org.apache.avro.specific.SpecificRecordBase impleme
   }
 
   /** Creates a new anyType RecordBuilder */
-  public static anyType.Builder newBuilder() {
-    return new anyType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder();
   }
   
   /** Creates a new anyType RecordBuilder by copying an existing Builder */
-  public static anyType.Builder newBuilder(anyType.Builder other) {
-    return new anyType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder(other);
   }
   
   /** Creates a new anyType RecordBuilder by copying an existing anyType instance */
-  public static anyType.Builder newBuilder(anyType other) {
-    return new anyType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.anyType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder(other);
   }
   
   /**
@@ -81,11 +82,11 @@ public class anyType extends org.apache.avro.specific.SpecificRecordBase impleme
 
     /** Creates a new Builder */
     private Builder() {
-      super(anyType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.anyType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(anyType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.others)) {
         this.others = data().deepCopy(fields()[0].schema(), other.others);
@@ -94,8 +95,8 @@ public class anyType extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Creates a Builder by copying an existing anyType instance */
-    private Builder(anyType other) {
-            super(anyType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.anyType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.anyType.SCHEMA$);
       if (isValidValue(fields()[0], other.others)) {
         this.others = data().deepCopy(fields()[0].schema(), other.others);
         fieldSetFlags()[0] = true;
@@ -108,7 +109,7 @@ public class anyType extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Sets the value of the 'others' field */
-    public anyType.Builder setOthers(java.util.Map<java.lang.CharSequence,java.lang.CharSequence> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder setOthers(java.util.Map<java.lang.CharSequence,java.lang.CharSequence> value) {
       validate(fields()[0], value);
       this.others = value;
       fieldSetFlags()[0] = true;
@@ -121,7 +122,7 @@ public class anyType extends org.apache.avro.specific.SpecificRecordBase impleme
     }
     
     /** Clears the value of the 'others' field */
-    public anyType.Builder clearOthers() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.anyType.Builder clearOthers() {
       others = null;
       fieldSetFlags()[0] = false;
       return this;

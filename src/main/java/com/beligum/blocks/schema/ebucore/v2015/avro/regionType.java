@@ -3,13 +3,14 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class regionType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"regionType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public AnonType_countryregionType country;
-  @Deprecated public java.util.List<AnonType_countryRegionregionType> countryRegion;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType country;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> countryRegion;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -21,7 +22,7 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * All-args constructor.
    */
-  public regionType(AnonType_countryregionType country, java.util.List<AnonType_countryRegionregionType> countryRegion) {
+  public regionType(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType country, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> countryRegion) {
     this.country = country;
     this.countryRegion = countryRegion;
   }
@@ -39,8 +40,8 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: country = (AnonType_countryregionType)value$; break;
-    case 1: countryRegion = (java.util.List<AnonType_countryRegionregionType>)value$; break;
+    case 0: country = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType)value$; break;
+    case 1: countryRegion = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -48,7 +49,7 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * Gets the value of the 'country' field.
    */
-  public AnonType_countryregionType getCountry() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType getCountry() {
     return country;
   }
 
@@ -56,14 +57,14 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'country' field.
    * @param value the value to set.
    */
-  public void setCountry(AnonType_countryregionType value) {
+  public void setCountry(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType value) {
     this.country = value;
   }
 
   /**
    * Gets the value of the 'countryRegion' field.
    */
-  public java.util.List<AnonType_countryRegionregionType> getCountryRegion() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> getCountryRegion() {
     return countryRegion;
   }
 
@@ -71,23 +72,23 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'countryRegion' field.
    * @param value the value to set.
    */
-  public void setCountryRegion(java.util.List<AnonType_countryRegionregionType> value) {
+  public void setCountryRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> value) {
     this.countryRegion = value;
   }
 
   /** Creates a new regionType RecordBuilder */
-  public static regionType.Builder newBuilder() {
-    return new regionType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder();
   }
   
   /** Creates a new regionType RecordBuilder by copying an existing Builder */
-  public static regionType.Builder newBuilder(regionType.Builder other) {
-    return new regionType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder(other);
   }
   
   /** Creates a new regionType RecordBuilder by copying an existing regionType instance */
-  public static regionType.Builder newBuilder(regionType other) {
-    return new regionType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.regionType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder(other);
   }
   
   /**
@@ -96,16 +97,16 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<regionType>
     implements org.apache.avro.data.RecordBuilder<regionType> {
 
-    private AnonType_countryregionType country;
-    private java.util.List<AnonType_countryRegionregionType> countryRegion;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType country;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> countryRegion;
 
     /** Creates a new Builder */
     private Builder() {
-      super(regionType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.regionType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(regionType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.country)) {
         this.country = data().deepCopy(fields()[0].schema(), other.country);
@@ -118,8 +119,8 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Creates a Builder by copying an existing regionType instance */
-    private Builder(regionType other) {
-            super(regionType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.regionType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.regionType.SCHEMA$);
       if (isValidValue(fields()[0], other.country)) {
         this.country = data().deepCopy(fields()[0].schema(), other.country);
         fieldSetFlags()[0] = true;
@@ -131,12 +132,12 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
     }
 
     /** Gets the value of the 'country' field */
-    public AnonType_countryregionType getCountry() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType getCountry() {
       return country;
     }
     
     /** Sets the value of the 'country' field */
-    public regionType.Builder setCountry(AnonType_countryregionType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder setCountry(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType value) {
       validate(fields()[0], value);
       this.country = value;
       fieldSetFlags()[0] = true;
@@ -149,19 +150,19 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'country' field */
-    public regionType.Builder clearCountry() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder clearCountry() {
       country = null;
       fieldSetFlags()[0] = false;
       return this;
     }
 
     /** Gets the value of the 'countryRegion' field */
-    public java.util.List<AnonType_countryRegionregionType> getCountryRegion() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> getCountryRegion() {
       return countryRegion;
     }
     
     /** Sets the value of the 'countryRegion' field */
-    public regionType.Builder setCountryRegion(java.util.List<AnonType_countryRegionregionType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder setCountryRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType> value) {
       validate(fields()[1], value);
       this.countryRegion = value;
       fieldSetFlags()[1] = true;
@@ -174,7 +175,7 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'countryRegion' field */
-    public regionType.Builder clearCountryRegion() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.regionType.Builder clearCountryRegion() {
       countryRegion = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -184,8 +185,8 @@ public class regionType extends org.apache.avro.specific.SpecificRecordBase impl
     public regionType build() {
       try {
         regionType record = new regionType();
-        record.country = fieldSetFlags()[0] ? this.country : (AnonType_countryregionType) defaultValue(fields()[0]);
-        record.countryRegion = fieldSetFlags()[1] ? this.countryRegion : (java.util.List<AnonType_countryRegionregionType>) defaultValue(fields()[1]);
+        record.country = fieldSetFlags()[0] ? this.country : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType) defaultValue(fields()[0]);
+        record.countryRegion = fieldSetFlags()[1] ? this.countryRegion : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryRegionregionType>) defaultValue(fields()[1]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

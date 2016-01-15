@@ -3,12 +3,13 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class matrixType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"matrixType\",\"fields\":[{\"name\":\"coefficient\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coefficientType\",\"fields\":[{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"attribute gain\"},{\"name\":\"gainVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute gainVar\"},{\"name\":\"phase\",\"type\":[\"null\",\"float\"],\"source\":\"attribute phase\"},{\"name\":\"phaseVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute phaseVar\"}]}},\"source\":\"element coefficient\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"matrixType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"coefficient\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coefficientType\",\"fields\":[{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"attribute gain\"},{\"name\":\"gainVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute gainVar\"},{\"name\":\"phase\",\"type\":[\"null\",\"float\"],\"source\":\"attribute phase\"},{\"name\":\"phaseVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute phaseVar\"}]}},\"source\":\"element coefficient\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public java.util.List<coefficientType> coefficient;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> coefficient;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -20,7 +21,7 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * All-args constructor.
    */
-  public matrixType(java.util.List<coefficientType> coefficient) {
+  public matrixType(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> coefficient) {
     this.coefficient = coefficient;
   }
 
@@ -36,7 +37,7 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: coefficient = (java.util.List<coefficientType>)value$; break;
+    case 0: coefficient = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -44,7 +45,7 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * Gets the value of the 'coefficient' field.
    */
-  public java.util.List<coefficientType> getCoefficient() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> getCoefficient() {
     return coefficient;
   }
 
@@ -52,23 +53,23 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'coefficient' field.
    * @param value the value to set.
    */
-  public void setCoefficient(java.util.List<coefficientType> value) {
+  public void setCoefficient(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> value) {
     this.coefficient = value;
   }
 
   /** Creates a new matrixType RecordBuilder */
-  public static matrixType.Builder newBuilder() {
-    return new matrixType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder();
   }
   
   /** Creates a new matrixType RecordBuilder by copying an existing Builder */
-  public static matrixType.Builder newBuilder(matrixType.Builder other) {
-    return new matrixType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder(other);
   }
   
   /** Creates a new matrixType RecordBuilder by copying an existing matrixType instance */
-  public static matrixType.Builder newBuilder(matrixType other) {
-    return new matrixType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder(other);
   }
   
   /**
@@ -77,15 +78,15 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<matrixType>
     implements org.apache.avro.data.RecordBuilder<matrixType> {
 
-    private java.util.List<coefficientType> coefficient;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> coefficient;
 
     /** Creates a new Builder */
     private Builder() {
-      super(matrixType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(matrixType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.coefficient)) {
         this.coefficient = data().deepCopy(fields()[0].schema(), other.coefficient);
@@ -94,8 +95,8 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Creates a Builder by copying an existing matrixType instance */
-    private Builder(matrixType other) {
-            super(matrixType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.SCHEMA$);
       if (isValidValue(fields()[0], other.coefficient)) {
         this.coefficient = data().deepCopy(fields()[0].schema(), other.coefficient);
         fieldSetFlags()[0] = true;
@@ -103,12 +104,12 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
     }
 
     /** Gets the value of the 'coefficient' field */
-    public java.util.List<coefficientType> getCoefficient() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> getCoefficient() {
       return coefficient;
     }
     
     /** Sets the value of the 'coefficient' field */
-    public matrixType.Builder setCoefficient(java.util.List<coefficientType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder setCoefficient(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType> value) {
       validate(fields()[0], value);
       this.coefficient = value;
       fieldSetFlags()[0] = true;
@@ -121,7 +122,7 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'coefficient' field */
-    public matrixType.Builder clearCoefficient() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.matrixType.Builder clearCoefficient() {
       coefficient = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -131,7 +132,7 @@ public class matrixType extends org.apache.avro.specific.SpecificRecordBase impl
     public matrixType build() {
       try {
         matrixType record = new matrixType();
-        record.coefficient = fieldSetFlags()[0] ? this.coefficient : (java.util.List<coefficientType>) defaultValue(fields()[0]);
+        record.coefficient = fieldSetFlags()[0] ? this.coefficient : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coefficientType>) defaultValue(fields()[0]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

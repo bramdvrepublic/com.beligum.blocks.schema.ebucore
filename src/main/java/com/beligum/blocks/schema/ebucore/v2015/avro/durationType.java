@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class durationType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"durationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element duration\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"durationType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element duration\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -16,8 +17,8 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
   @Deprecated public java.lang.CharSequence typeLanguage;
   @Deprecated public java.lang.CharSequence timecode;
   @Deprecated public java.lang.CharSequence normalPlayTime;
-  @Deprecated public editUnitNumberType editUnitNumber;
-  @Deprecated public AnonType_durationdurationType duration;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber;
+  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType duration;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -29,7 +30,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
   /**
    * All-args constructor.
    */
-  public durationType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence timecode, java.lang.CharSequence normalPlayTime, editUnitNumberType editUnitNumber, AnonType_durationdurationType duration) {
+  public durationType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence timecode, java.lang.CharSequence normalPlayTime, com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType duration) {
     this.typeLabel = typeLabel;
     this.typeDefinition = typeDefinition;
     this.typeLink = typeLink;
@@ -71,8 +72,8 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     case 5: typeLanguage = (java.lang.CharSequence)value$; break;
     case 6: timecode = (java.lang.CharSequence)value$; break;
     case 7: normalPlayTime = (java.lang.CharSequence)value$; break;
-    case 8: editUnitNumber = (editUnitNumberType)value$; break;
-    case 9: duration = (AnonType_durationdurationType)value$; break;
+    case 8: editUnitNumber = (com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType)value$; break;
+    case 9: duration = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -200,7 +201,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
   /**
    * Gets the value of the 'editUnitNumber' field.
    */
-  public editUnitNumberType getEditUnitNumber() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType getEditUnitNumber() {
     return editUnitNumber;
   }
 
@@ -208,14 +209,14 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
    * Sets the value of the 'editUnitNumber' field.
    * @param value the value to set.
    */
-  public void setEditUnitNumber(editUnitNumberType value) {
+  public void setEditUnitNumber(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType value) {
     this.editUnitNumber = value;
   }
 
   /**
    * Gets the value of the 'duration' field.
    */
-  public AnonType_durationdurationType getDuration() {
+  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType getDuration() {
     return duration;
   }
 
@@ -223,23 +224,23 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
    * Sets the value of the 'duration' field.
    * @param value the value to set.
    */
-  public void setDuration(AnonType_durationdurationType value) {
+  public void setDuration(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType value) {
     this.duration = value;
   }
 
   /** Creates a new durationType RecordBuilder */
-  public static durationType.Builder newBuilder() {
-    return new durationType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder();
   }
   
   /** Creates a new durationType RecordBuilder by copying an existing Builder */
-  public static durationType.Builder newBuilder(durationType.Builder other) {
-    return new durationType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder(other);
   }
   
   /** Creates a new durationType RecordBuilder by copying an existing durationType instance */
-  public static durationType.Builder newBuilder(durationType other) {
-    return new durationType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.durationType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder(other);
   }
   
   /**
@@ -256,16 +257,16 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     private java.lang.CharSequence typeLanguage;
     private java.lang.CharSequence timecode;
     private java.lang.CharSequence normalPlayTime;
-    private editUnitNumberType editUnitNumber;
-    private AnonType_durationdurationType duration;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber;
+    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType duration;
 
     /** Creates a new Builder */
     private Builder() {
-      super(durationType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.durationType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(durationType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -310,8 +311,8 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Creates a Builder by copying an existing durationType instance */
-    private Builder(durationType other) {
-            super(durationType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.durationType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.durationType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -360,7 +361,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public durationType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -373,7 +374,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public durationType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -385,7 +386,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public durationType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -398,7 +399,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public durationType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -410,7 +411,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeLink' field */
-    public durationType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -423,7 +424,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeLink' field */
-    public durationType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -435,7 +436,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeSource' field */
-    public durationType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -448,7 +449,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeSource' field */
-    public durationType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -460,7 +461,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public durationType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -473,7 +474,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public durationType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -485,7 +486,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public durationType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -498,7 +499,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public durationType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -510,7 +511,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'timecode' field */
-    public durationType.Builder setTimecode(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setTimecode(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.timecode = value;
       fieldSetFlags()[6] = true;
@@ -523,7 +524,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'timecode' field */
-    public durationType.Builder clearTimecode() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearTimecode() {
       timecode = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -535,7 +536,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'normalPlayTime' field */
-    public durationType.Builder setNormalPlayTime(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setNormalPlayTime(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.normalPlayTime = value;
       fieldSetFlags()[7] = true;
@@ -548,19 +549,19 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'normalPlayTime' field */
-    public durationType.Builder clearNormalPlayTime() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearNormalPlayTime() {
       normalPlayTime = null;
       fieldSetFlags()[7] = false;
       return this;
     }
 
     /** Gets the value of the 'editUnitNumber' field */
-    public editUnitNumberType getEditUnitNumber() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType getEditUnitNumber() {
       return editUnitNumber;
     }
     
     /** Sets the value of the 'editUnitNumber' field */
-    public durationType.Builder setEditUnitNumber(editUnitNumberType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setEditUnitNumber(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType value) {
       validate(fields()[8], value);
       this.editUnitNumber = value;
       fieldSetFlags()[8] = true;
@@ -573,19 +574,19 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'editUnitNumber' field */
-    public durationType.Builder clearEditUnitNumber() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearEditUnitNumber() {
       editUnitNumber = null;
       fieldSetFlags()[8] = false;
       return this;
     }
 
     /** Gets the value of the 'duration' field */
-    public AnonType_durationdurationType getDuration() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType getDuration() {
       return duration;
     }
     
     /** Sets the value of the 'duration' field */
-    public durationType.Builder setDuration(AnonType_durationdurationType value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder setDuration(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType value) {
       validate(fields()[9], value);
       this.duration = value;
       fieldSetFlags()[9] = true;
@@ -598,7 +599,7 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'duration' field */
-    public durationType.Builder clearDuration() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType.Builder clearDuration() {
       duration = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -616,8 +617,8 @@ public class durationType extends org.apache.avro.specific.SpecificRecordBase im
         record.typeLanguage = fieldSetFlags()[5] ? this.typeLanguage : (java.lang.CharSequence) defaultValue(fields()[5]);
         record.timecode = fieldSetFlags()[6] ? this.timecode : (java.lang.CharSequence) defaultValue(fields()[6]);
         record.normalPlayTime = fieldSetFlags()[7] ? this.normalPlayTime : (java.lang.CharSequence) defaultValue(fields()[7]);
-        record.editUnitNumber = fieldSetFlags()[8] ? this.editUnitNumber : (editUnitNumberType) defaultValue(fields()[8]);
-        record.duration = fieldSetFlags()[9] ? this.duration : (AnonType_durationdurationType) defaultValue(fields()[9]);
+        record.editUnitNumber = fieldSetFlags()[8] ? this.editUnitNumber : (com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType) defaultValue(fields()[8]);
+        record.duration = fieldSetFlags()[9] ? this.duration : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_durationdurationType) defaultValue(fields()[9]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

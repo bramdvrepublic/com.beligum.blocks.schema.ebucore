@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_copyrighteddateType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence startYear;
   @Deprecated public java.lang.CharSequence startDate;
@@ -171,18 +172,18 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
   }
 
   /** Creates a new AnonType_copyrighteddateType RecordBuilder */
-  public static AnonType_copyrighteddateType.Builder newBuilder() {
-    return new AnonType_copyrighteddateType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder();
   }
   
   /** Creates a new AnonType_copyrighteddateType RecordBuilder by copying an existing Builder */
-  public static AnonType_copyrighteddateType.Builder newBuilder(AnonType_copyrighteddateType.Builder other) {
-    return new AnonType_copyrighteddateType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder(other);
   }
   
   /** Creates a new AnonType_copyrighteddateType RecordBuilder by copying an existing AnonType_copyrighteddateType instance */
-  public static AnonType_copyrighteddateType.Builder newBuilder(AnonType_copyrighteddateType other) {
-    return new AnonType_copyrighteddateType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder(other);
   }
   
   /**
@@ -201,11 +202,11 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
 
     /** Creates a new Builder */
     private Builder() {
-      super(AnonType_copyrighteddateType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(AnonType_copyrighteddateType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.startYear)) {
         this.startYear = data().deepCopy(fields()[0].schema(), other.startYear);
@@ -238,8 +239,8 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Creates a Builder by copying an existing AnonType_copyrighteddateType instance */
-    private Builder(AnonType_copyrighteddateType other) {
-            super(AnonType_copyrighteddateType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.SCHEMA$);
       if (isValidValue(fields()[0], other.startYear)) {
         this.startYear = data().deepCopy(fields()[0].schema(), other.startYear);
         fieldSetFlags()[0] = true;
@@ -276,7 +277,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'startYear' field */
-    public AnonType_copyrighteddateType.Builder setStartYear(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setStartYear(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.startYear = value;
       fieldSetFlags()[0] = true;
@@ -289,7 +290,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'startYear' field */
-    public AnonType_copyrighteddateType.Builder clearStartYear() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearStartYear() {
       startYear = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -301,7 +302,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'startDate' field */
-    public AnonType_copyrighteddateType.Builder setStartDate(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setStartDate(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.startDate = value;
       fieldSetFlags()[1] = true;
@@ -314,7 +315,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'startDate' field */
-    public AnonType_copyrighteddateType.Builder clearStartDate() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearStartDate() {
       startDate = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -326,7 +327,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'startTime' field */
-    public AnonType_copyrighteddateType.Builder setStartTime(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setStartTime(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.startTime = value;
       fieldSetFlags()[2] = true;
@@ -339,7 +340,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'startTime' field */
-    public AnonType_copyrighteddateType.Builder clearStartTime() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearStartTime() {
       startTime = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -351,7 +352,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'endYear' field */
-    public AnonType_copyrighteddateType.Builder setEndYear(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setEndYear(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.endYear = value;
       fieldSetFlags()[3] = true;
@@ -364,7 +365,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'endYear' field */
-    public AnonType_copyrighteddateType.Builder clearEndYear() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearEndYear() {
       endYear = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -376,7 +377,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'endDate' field */
-    public AnonType_copyrighteddateType.Builder setEndDate(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setEndDate(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.endDate = value;
       fieldSetFlags()[4] = true;
@@ -389,7 +390,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'endDate' field */
-    public AnonType_copyrighteddateType.Builder clearEndDate() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearEndDate() {
       endDate = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -401,7 +402,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'endTime' field */
-    public AnonType_copyrighteddateType.Builder setEndTime(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setEndTime(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.endTime = value;
       fieldSetFlags()[5] = true;
@@ -414,7 +415,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'endTime' field */
-    public AnonType_copyrighteddateType.Builder clearEndTime() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearEndTime() {
       endTime = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -426,7 +427,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Sets the value of the 'period' field */
-    public AnonType_copyrighteddateType.Builder setPeriod(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder setPeriod(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.period = value;
       fieldSetFlags()[6] = true;
@@ -439,7 +440,7 @@ public class AnonType_copyrighteddateType extends org.apache.avro.specific.Speci
     }
     
     /** Clears the value of the 'period' field */
-    public AnonType_copyrighteddateType.Builder clearPeriod() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_copyrighteddateType.Builder clearPeriod() {
       period = null;
       fieldSetFlags()[6] = false;
       return this;

@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_metadataTrackmetadataFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_metadataTrackmetadataFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence trackId;
   @Deprecated public java.lang.CharSequence trackName;
@@ -190,18 +191,18 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
   }
 
   /** Creates a new AnonType_metadataTrackmetadataFormatType RecordBuilder */
-  public static AnonType_metadataTrackmetadataFormatType.Builder newBuilder() {
-    return new AnonType_metadataTrackmetadataFormatType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder();
   }
   
   /** Creates a new AnonType_metadataTrackmetadataFormatType RecordBuilder by copying an existing Builder */
-  public static AnonType_metadataTrackmetadataFormatType.Builder newBuilder(AnonType_metadataTrackmetadataFormatType.Builder other) {
-    return new AnonType_metadataTrackmetadataFormatType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder(other);
   }
   
   /** Creates a new AnonType_metadataTrackmetadataFormatType RecordBuilder by copying an existing AnonType_metadataTrackmetadataFormatType instance */
-  public static AnonType_metadataTrackmetadataFormatType.Builder newBuilder(AnonType_metadataTrackmetadataFormatType other) {
-    return new AnonType_metadataTrackmetadataFormatType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder(other);
   }
   
   /**
@@ -221,11 +222,11 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
 
     /** Creates a new Builder */
     private Builder() {
-      super(AnonType_metadataTrackmetadataFormatType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(AnonType_metadataTrackmetadataFormatType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.trackId)) {
         this.trackId = data().deepCopy(fields()[0].schema(), other.trackId);
@@ -262,8 +263,8 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Creates a Builder by copying an existing AnonType_metadataTrackmetadataFormatType instance */
-    private Builder(AnonType_metadataTrackmetadataFormatType other) {
-            super(AnonType_metadataTrackmetadataFormatType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.trackId)) {
         this.trackId = data().deepCopy(fields()[0].schema(), other.trackId);
         fieldSetFlags()[0] = true;
@@ -304,7 +305,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'trackId' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTrackId(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTrackId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.trackId = value;
       fieldSetFlags()[0] = true;
@@ -317,7 +318,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'trackId' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTrackId() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTrackId() {
       trackId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -329,7 +330,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'trackName' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTrackName(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTrackName(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.trackName = value;
       fieldSetFlags()[1] = true;
@@ -342,7 +343,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'trackName' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTrackName() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTrackName() {
       trackName = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -354,7 +355,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLabel = value;
       fieldSetFlags()[2] = true;
@@ -367,7 +368,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -379,7 +380,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeDefinition = value;
       fieldSetFlags()[3] = true;
@@ -392,7 +393,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -404,7 +405,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeLink' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeLink = value;
       fieldSetFlags()[4] = true;
@@ -417,7 +418,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeLink' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -429,7 +430,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeSource' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeSource = value;
       fieldSetFlags()[5] = true;
@@ -442,7 +443,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeSource' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -454,7 +455,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.typeNamespace = value;
       fieldSetFlags()[6] = true;
@@ -467,7 +468,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -479,7 +480,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.typeLanguage = value;
       fieldSetFlags()[7] = true;
@@ -492,7 +493,7 @@ public class AnonType_metadataTrackmetadataFormatType extends org.apache.avro.sp
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public AnonType_metadataTrackmetadataFormatType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_metadataTrackmetadataFormatType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[7] = false;
       return this;

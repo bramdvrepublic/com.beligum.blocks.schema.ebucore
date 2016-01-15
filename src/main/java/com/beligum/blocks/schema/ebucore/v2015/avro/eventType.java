@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class eventType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"eventType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"eventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute eventId\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",\"elementType\"],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"eventType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"eventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute eventId\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",\"elementType\"],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -16,9 +17,9 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
   @Deprecated public java.lang.CharSequence typeLanguage;
   @Deprecated public java.lang.CharSequence eventId;
   @Deprecated public java.lang.CharSequence note;
-  @Deprecated public java.util.List<elementType> name;
-  @Deprecated public java.util.List<elementType> description;
-  @Deprecated public java.util.List<locationType> location;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description;
+  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -30,7 +31,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
   /**
    * All-args constructor.
    */
-  public eventType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence eventId, java.lang.CharSequence note, java.util.List<elementType> name, java.util.List<elementType> description, java.util.List<locationType> location) {
+  public eventType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence eventId, java.lang.CharSequence note, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location) {
     this.typeLabel = typeLabel;
     this.typeDefinition = typeDefinition;
     this.typeLink = typeLink;
@@ -74,9 +75,9 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     case 5: typeLanguage = (java.lang.CharSequence)value$; break;
     case 6: eventId = (java.lang.CharSequence)value$; break;
     case 7: note = (java.lang.CharSequence)value$; break;
-    case 8: name = (java.util.List<elementType>)value$; break;
-    case 9: description = (java.util.List<elementType>)value$; break;
-    case 10: location = (java.util.List<locationType>)value$; break;
+    case 8: name = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
+    case 9: description = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
+    case 10: location = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -204,7 +205,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
   /**
    * Gets the value of the 'name' field.
    */
-  public java.util.List<elementType> getName() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getName() {
     return name;
   }
 
@@ -212,14 +213,14 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'name' field.
    * @param value the value to set.
    */
-  public void setName(java.util.List<elementType> value) {
+  public void setName(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
     this.name = value;
   }
 
   /**
    * Gets the value of the 'description' field.
    */
-  public java.util.List<elementType> getDescription() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDescription() {
     return description;
   }
 
@@ -227,14 +228,14 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'description' field.
    * @param value the value to set.
    */
-  public void setDescription(java.util.List<elementType> value) {
+  public void setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
     this.description = value;
   }
 
   /**
    * Gets the value of the 'location' field.
    */
-  public java.util.List<locationType> getLocation() {
+  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> getLocation() {
     return location;
   }
 
@@ -242,23 +243,23 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'location' field.
    * @param value the value to set.
    */
-  public void setLocation(java.util.List<locationType> value) {
+  public void setLocation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> value) {
     this.location = value;
   }
 
   /** Creates a new eventType RecordBuilder */
-  public static eventType.Builder newBuilder() {
-    return new eventType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder();
   }
   
   /** Creates a new eventType RecordBuilder by copying an existing Builder */
-  public static eventType.Builder newBuilder(eventType.Builder other) {
-    return new eventType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder(other);
   }
   
   /** Creates a new eventType RecordBuilder by copying an existing eventType instance */
-  public static eventType.Builder newBuilder(eventType other) {
-    return new eventType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.eventType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder(other);
   }
   
   /**
@@ -275,17 +276,17 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     private java.lang.CharSequence typeLanguage;
     private java.lang.CharSequence eventId;
     private java.lang.CharSequence note;
-    private java.util.List<elementType> name;
-    private java.util.List<elementType> description;
-    private java.util.List<locationType> location;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description;
+    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location;
 
     /** Creates a new Builder */
     private Builder() {
-      super(eventType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.eventType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(eventType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -334,8 +335,8 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Creates a Builder by copying an existing eventType instance */
-    private Builder(eventType other) {
-            super(eventType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.eventType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.eventType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -388,7 +389,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public eventType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -401,7 +402,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public eventType.Builder clearTypeLabel() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -413,7 +414,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public eventType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -426,7 +427,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public eventType.Builder clearTypeDefinition() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -438,7 +439,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLink' field */
-    public eventType.Builder setTypeLink(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -451,7 +452,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLink' field */
-    public eventType.Builder clearTypeLink() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -463,7 +464,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeSource' field */
-    public eventType.Builder setTypeSource(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -476,7 +477,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeSource' field */
-    public eventType.Builder clearTypeSource() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -488,7 +489,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public eventType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -501,7 +502,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public eventType.Builder clearTypeNamespace() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -513,7 +514,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public eventType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -526,7 +527,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public eventType.Builder clearTypeLanguage() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -538,7 +539,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'eventId' field */
-    public eventType.Builder setEventId(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setEventId(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.eventId = value;
       fieldSetFlags()[6] = true;
@@ -551,7 +552,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'eventId' field */
-    public eventType.Builder clearEventId() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearEventId() {
       eventId = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -563,7 +564,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'note' field */
-    public eventType.Builder setNote(java.lang.CharSequence value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setNote(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.note = value;
       fieldSetFlags()[7] = true;
@@ -576,19 +577,19 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'note' field */
-    public eventType.Builder clearNote() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearNote() {
       note = null;
       fieldSetFlags()[7] = false;
       return this;
     }
 
     /** Gets the value of the 'name' field */
-    public java.util.List<elementType> getName() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getName() {
       return name;
     }
     
     /** Sets the value of the 'name' field */
-    public eventType.Builder setName(java.util.List<elementType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setName(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
       validate(fields()[8], value);
       this.name = value;
       fieldSetFlags()[8] = true;
@@ -601,19 +602,19 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'name' field */
-    public eventType.Builder clearName() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearName() {
       name = null;
       fieldSetFlags()[8] = false;
       return this;
     }
 
     /** Gets the value of the 'description' field */
-    public java.util.List<elementType> getDescription() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDescription() {
       return description;
     }
     
     /** Sets the value of the 'description' field */
-    public eventType.Builder setDescription(java.util.List<elementType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
       validate(fields()[9], value);
       this.description = value;
       fieldSetFlags()[9] = true;
@@ -626,19 +627,19 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'description' field */
-    public eventType.Builder clearDescription() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearDescription() {
       description = null;
       fieldSetFlags()[9] = false;
       return this;
     }
 
     /** Gets the value of the 'location' field */
-    public java.util.List<locationType> getLocation() {
+    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> getLocation() {
       return location;
     }
     
     /** Sets the value of the 'location' field */
-    public eventType.Builder setLocation(java.util.List<locationType> value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder setLocation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> value) {
       validate(fields()[10], value);
       this.location = value;
       fieldSetFlags()[10] = true;
@@ -651,7 +652,7 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'location' field */
-    public eventType.Builder clearLocation() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.eventType.Builder clearLocation() {
       location = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -669,9 +670,9 @@ public class eventType extends org.apache.avro.specific.SpecificRecordBase imple
         record.typeLanguage = fieldSetFlags()[5] ? this.typeLanguage : (java.lang.CharSequence) defaultValue(fields()[5]);
         record.eventId = fieldSetFlags()[6] ? this.eventId : (java.lang.CharSequence) defaultValue(fields()[6]);
         record.note = fieldSetFlags()[7] ? this.note : (java.lang.CharSequence) defaultValue(fields()[7]);
-        record.name = fieldSetFlags()[8] ? this.name : (java.util.List<elementType>) defaultValue(fields()[8]);
-        record.description = fieldSetFlags()[9] ? this.description : (java.util.List<elementType>) defaultValue(fields()[9]);
-        record.location = fieldSetFlags()[10] ? this.location : (java.util.List<locationType>) defaultValue(fields()[10]);
+        record.name = fieldSetFlags()[8] ? this.name : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[8]);
+        record.description = fieldSetFlags()[9] ? this.description : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[9]);
+        record.location = fieldSetFlags()[10] ? this.location : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType>) defaultValue(fields()[10]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

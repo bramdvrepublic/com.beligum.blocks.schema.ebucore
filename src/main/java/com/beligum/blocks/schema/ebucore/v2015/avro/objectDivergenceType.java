@@ -3,10 +3,11 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
+package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class objectDivergenceType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"objectDivergenceType\",\"fields\":[{\"name\":\"azimuthRange\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuthRange\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"objectDivergenceType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"azimuthRange\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuthRange\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.Float azimuthRange;
 
@@ -57,18 +58,18 @@ public class objectDivergenceType extends org.apache.avro.specific.SpecificRecor
   }
 
   /** Creates a new objectDivergenceType RecordBuilder */
-  public static objectDivergenceType.Builder newBuilder() {
-    return new objectDivergenceType.Builder();
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder newBuilder() {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder();
   }
   
   /** Creates a new objectDivergenceType RecordBuilder by copying an existing Builder */
-  public static objectDivergenceType.Builder newBuilder(objectDivergenceType.Builder other) {
-    return new objectDivergenceType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder(other);
   }
   
   /** Creates a new objectDivergenceType RecordBuilder by copying an existing objectDivergenceType instance */
-  public static objectDivergenceType.Builder newBuilder(objectDivergenceType other) {
-    return new objectDivergenceType.Builder(other);
+  public static com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType other) {
+    return new com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder(other);
   }
   
   /**
@@ -81,11 +82,11 @@ public class objectDivergenceType extends org.apache.avro.specific.SpecificRecor
 
     /** Creates a new Builder */
     private Builder() {
-      super(objectDivergenceType.SCHEMA$);
+      super(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(objectDivergenceType.Builder other) {
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.azimuthRange)) {
         this.azimuthRange = data().deepCopy(fields()[0].schema(), other.azimuthRange);
@@ -94,8 +95,8 @@ public class objectDivergenceType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Creates a Builder by copying an existing objectDivergenceType instance */
-    private Builder(objectDivergenceType other) {
-            super(objectDivergenceType.SCHEMA$);
+    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType other) {
+            super(com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.SCHEMA$);
       if (isValidValue(fields()[0], other.azimuthRange)) {
         this.azimuthRange = data().deepCopy(fields()[0].schema(), other.azimuthRange);
         fieldSetFlags()[0] = true;
@@ -108,7 +109,7 @@ public class objectDivergenceType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Sets the value of the 'azimuthRange' field */
-    public objectDivergenceType.Builder setAzimuthRange(java.lang.Float value) {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder setAzimuthRange(java.lang.Float value) {
       validate(fields()[0], value);
       this.azimuthRange = value;
       fieldSetFlags()[0] = true;
@@ -121,7 +122,7 @@ public class objectDivergenceType extends org.apache.avro.specific.SpecificRecor
     }
     
     /** Clears the value of the 'azimuthRange' field */
-    public objectDivergenceType.Builder clearAzimuthRange() {
+    public com.beligum.blocks.schema.ebucore.v2015.avro.objectDivergenceType.Builder clearAzimuthRange() {
       azimuthRange = null;
       fieldSetFlags()[0] = false;
       return this;
