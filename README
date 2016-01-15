@@ -8,3 +8,16 @@ To generate, run the jaxb2:generate plugin, or from command line:
 
 Note: because of the complexity of the xsd, it wasn't possible to set the generatePackage config in the pom.xml,
 so I generated the packages without and renamed them later to their final names you see here.
+
+To generate the avro schema, this is what I did:
+  see https://github.com/stealthly/xml-avro
+  git clone git@github.com:stealthly/xml-avro.git
+    (or see 3rd party folder)
+  cd xml-avro
+  generate XML files from both (ebucore and dc core) schemas, doesn't matter which field, but for dc core, don't take an abstract one
+    use IntelliJ for this: open the schema, then Tools->XML Actions->Generate XML
+  edit the schemas so the imports are absolute, eg:
+    <import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/xml.xsd" />
+  run the converter:
+    java -jar target/xml-avro*.jar /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd.xml
+
