@@ -44,7 +44,8 @@
                 <version>${avro.version}</version>
                 <executions>
                     <execution>
-                        <phase>generate-sources</phase>
+                        <!-- don't auto-generate -->
+                        <!--<phase>generate-sources</phase>-->
                         <goals>
                             <goal>schema</goal>
                         </goals>
