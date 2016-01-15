@@ -5,7 +5,7 @@
 
     <groupId>com.beligum.blocks</groupId>
     <artifactId>blocks-schema-ebucore</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <url>http://www.beligum.com</url>
@@ -19,16 +19,43 @@
     <properties>
         <jdkLevel>1.7</jdkLevel>
         <git.url.repo.name>${git.url.repo.prefix}blocks.schema.ebucore</git.url.repo.name>
+
+        <avro.version>1.7.7</avro.version>
     </properties>
 
     <scm>
         <connection>${git.scm.url}</connection>
     </scm>
 
-    <dependencies></dependencies>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro</artifactId>
+            <version>${avro.version}</version>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
+
+            <plugin>
+                <groupId>org.apache.avro</groupId>
+                <artifactId>avro-maven-plugin</artifactId>
+                <version>${avro.version}</version>
+                <executions>
+                    <execution>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>schema</goal>
+                        </goals>
+                        <configuration>
+                            <sourceDirectory>${project.basedir}/src/main/avro/</sourceDirectory>
+                            <outputDirectory>${project.build.directory}/generated-sources/avro</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
             <!-- Wrapper around the JAXB Schema Compiler (XJC). See https://github.com/highsource/maven-jaxb2-plugin-->
             <!-- Note: ebucore.xsd scheme -->
             <plugin>

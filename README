@@ -20,4 +20,4 @@ To generate the avro schema, this is what I did:
     <import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/xml.xsd" />
   run the converter:
     java -jar target/xml-avro*.jar /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd.xml
-
+  copy ebucore.avsc to src/main/avro/ebucore.avsc
