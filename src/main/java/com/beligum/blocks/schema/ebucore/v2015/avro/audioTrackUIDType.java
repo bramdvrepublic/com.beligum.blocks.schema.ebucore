@@ -3,16 +3,15 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"audioTrackUIDType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"UID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute UID\"},{\"name\":\"sampleRate\",\"type\":[\"null\",\"int\"],\"source\":\"attribute sampleRate\"},{\"name\":\"bitDepth\",\"type\":[\"null\",\"int\"],\"source\":\"attribute bitDepth\"},{\"name\":\"audioMXFLookUp\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioMXFLookUpType\",\"fields\":[{\"name\":\"packageUIDRef\",\"type\":\"string\",\"source\":\"element packageUIDRef\"},{\"name\":\"trackIDRef\",\"type\":\"string\",\"source\":\"element trackIDRef\"},{\"name\":\"channelIDRef\",\"type\":\"string\",\"source\":\"element channelIDRef\"}]}],\"source\":\"element audioMXFLookUp\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioTrackFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioPackFormatIDRef\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"audioTrackUIDType\",\"fields\":[{\"name\":\"UID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute UID\"},{\"name\":\"sampleRate\",\"type\":[\"null\",\"int\"],\"source\":\"attribute sampleRate\"},{\"name\":\"bitDepth\",\"type\":[\"null\",\"int\"],\"source\":\"attribute bitDepth\"},{\"name\":\"audioMXFLookUp\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioMXFLookUpType\",\"fields\":[{\"name\":\"packageUIDRef\",\"type\":\"string\",\"source\":\"element packageUIDRef\"},{\"name\":\"trackIDRef\",\"type\":\"string\",\"source\":\"element trackIDRef\"},{\"name\":\"channelIDRef\",\"type\":\"string\",\"source\":\"element channelIDRef\"}]}],\"source\":\"element audioMXFLookUp\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioTrackFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioPackFormatIDRef\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence UID;
   @Deprecated public java.lang.Integer sampleRate;
   @Deprecated public java.lang.Integer bitDepth;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType audioMXFLookUp;
+  @Deprecated public audioMXFLookUpType audioMXFLookUp;
   @Deprecated public java.lang.CharSequence audioTrackFormatIDRef;
   @Deprecated public java.lang.CharSequence audioPackFormatIDRef;
 
@@ -26,7 +25,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
   /**
    * All-args constructor.
    */
-  public audioTrackUIDType(java.lang.CharSequence UID, java.lang.Integer sampleRate, java.lang.Integer bitDepth, com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType audioMXFLookUp, java.lang.CharSequence audioTrackFormatIDRef, java.lang.CharSequence audioPackFormatIDRef) {
+  public audioTrackUIDType(java.lang.CharSequence UID, java.lang.Integer sampleRate, java.lang.Integer bitDepth, audioMXFLookUpType audioMXFLookUp, java.lang.CharSequence audioTrackFormatIDRef, java.lang.CharSequence audioPackFormatIDRef) {
     this.UID = UID;
     this.sampleRate = sampleRate;
     this.bitDepth = bitDepth;
@@ -55,7 +54,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     case 0: UID = (java.lang.CharSequence)value$; break;
     case 1: sampleRate = (java.lang.Integer)value$; break;
     case 2: bitDepth = (java.lang.Integer)value$; break;
-    case 3: audioMXFLookUp = (com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType)value$; break;
+    case 3: audioMXFLookUp = (audioMXFLookUpType)value$; break;
     case 4: audioTrackFormatIDRef = (java.lang.CharSequence)value$; break;
     case 5: audioPackFormatIDRef = (java.lang.CharSequence)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
@@ -110,7 +109,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
   /**
    * Gets the value of the 'audioMXFLookUp' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType getAudioMXFLookUp() {
+  public audioMXFLookUpType getAudioMXFLookUp() {
     return audioMXFLookUp;
   }
 
@@ -118,7 +117,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
    * Sets the value of the 'audioMXFLookUp' field.
    * @param value the value to set.
    */
-  public void setAudioMXFLookUp(com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType value) {
+  public void setAudioMXFLookUp(audioMXFLookUpType value) {
     this.audioMXFLookUp = value;
   }
 
@@ -153,18 +152,18 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
   }
 
   /** Creates a new audioTrackUIDType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder();
+  public static audioTrackUIDType.Builder newBuilder() {
+    return new audioTrackUIDType.Builder();
   }
   
   /** Creates a new audioTrackUIDType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder(other);
+  public static audioTrackUIDType.Builder newBuilder(audioTrackUIDType.Builder other) {
+    return new audioTrackUIDType.Builder(other);
   }
   
   /** Creates a new audioTrackUIDType RecordBuilder by copying an existing audioTrackUIDType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder(other);
+  public static audioTrackUIDType.Builder newBuilder(audioTrackUIDType other) {
+    return new audioTrackUIDType.Builder(other);
   }
   
   /**
@@ -176,17 +175,17 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     private java.lang.CharSequence UID;
     private java.lang.Integer sampleRate;
     private java.lang.Integer bitDepth;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType audioMXFLookUp;
+    private audioMXFLookUpType audioMXFLookUp;
     private java.lang.CharSequence audioTrackFormatIDRef;
     private java.lang.CharSequence audioPackFormatIDRef;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.SCHEMA$);
+      super(audioTrackUIDType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder other) {
+    private Builder(audioTrackUIDType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.UID)) {
         this.UID = data().deepCopy(fields()[0].schema(), other.UID);
@@ -215,8 +214,8 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Creates a Builder by copying an existing audioTrackUIDType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.SCHEMA$);
+    private Builder(audioTrackUIDType other) {
+            super(audioTrackUIDType.SCHEMA$);
       if (isValidValue(fields()[0], other.UID)) {
         this.UID = data().deepCopy(fields()[0].schema(), other.UID);
         fieldSetFlags()[0] = true;
@@ -249,7 +248,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Sets the value of the 'UID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setUID(java.lang.CharSequence value) {
+    public audioTrackUIDType.Builder setUID(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.UID = value;
       fieldSetFlags()[0] = true;
@@ -262,7 +261,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'UID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearUID() {
+    public audioTrackUIDType.Builder clearUID() {
       UID = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -274,7 +273,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Sets the value of the 'sampleRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setSampleRate(java.lang.Integer value) {
+    public audioTrackUIDType.Builder setSampleRate(java.lang.Integer value) {
       validate(fields()[1], value);
       this.sampleRate = value;
       fieldSetFlags()[1] = true;
@@ -287,7 +286,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'sampleRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearSampleRate() {
+    public audioTrackUIDType.Builder clearSampleRate() {
       sampleRate = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -299,7 +298,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Sets the value of the 'bitDepth' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setBitDepth(java.lang.Integer value) {
+    public audioTrackUIDType.Builder setBitDepth(java.lang.Integer value) {
       validate(fields()[2], value);
       this.bitDepth = value;
       fieldSetFlags()[2] = true;
@@ -312,19 +311,19 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'bitDepth' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearBitDepth() {
+    public audioTrackUIDType.Builder clearBitDepth() {
       bitDepth = null;
       fieldSetFlags()[2] = false;
       return this;
     }
 
     /** Gets the value of the 'audioMXFLookUp' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType getAudioMXFLookUp() {
+    public audioMXFLookUpType getAudioMXFLookUp() {
       return audioMXFLookUp;
     }
     
     /** Sets the value of the 'audioMXFLookUp' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setAudioMXFLookUp(com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType value) {
+    public audioTrackUIDType.Builder setAudioMXFLookUp(audioMXFLookUpType value) {
       validate(fields()[3], value);
       this.audioMXFLookUp = value;
       fieldSetFlags()[3] = true;
@@ -337,7 +336,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'audioMXFLookUp' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearAudioMXFLookUp() {
+    public audioTrackUIDType.Builder clearAudioMXFLookUp() {
       audioMXFLookUp = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -349,7 +348,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Sets the value of the 'audioTrackFormatIDRef' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setAudioTrackFormatIDRef(java.lang.CharSequence value) {
+    public audioTrackUIDType.Builder setAudioTrackFormatIDRef(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.audioTrackFormatIDRef = value;
       fieldSetFlags()[4] = true;
@@ -362,7 +361,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'audioTrackFormatIDRef' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearAudioTrackFormatIDRef() {
+    public audioTrackUIDType.Builder clearAudioTrackFormatIDRef() {
       audioTrackFormatIDRef = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -374,7 +373,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Sets the value of the 'audioPackFormatIDRef' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder setAudioPackFormatIDRef(java.lang.CharSequence value) {
+    public audioTrackUIDType.Builder setAudioPackFormatIDRef(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.audioPackFormatIDRef = value;
       fieldSetFlags()[5] = true;
@@ -387,7 +386,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'audioPackFormatIDRef' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioTrackUIDType.Builder clearAudioPackFormatIDRef() {
+    public audioTrackUIDType.Builder clearAudioPackFormatIDRef() {
       audioPackFormatIDRef = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -400,7 +399,7 @@ public class audioTrackUIDType extends org.apache.avro.specific.SpecificRecordBa
         record.UID = fieldSetFlags()[0] ? this.UID : (java.lang.CharSequence) defaultValue(fields()[0]);
         record.sampleRate = fieldSetFlags()[1] ? this.sampleRate : (java.lang.Integer) defaultValue(fields()[1]);
         record.bitDepth = fieldSetFlags()[2] ? this.bitDepth : (java.lang.Integer) defaultValue(fields()[2]);
-        record.audioMXFLookUp = fieldSetFlags()[3] ? this.audioMXFLookUp : (com.beligum.blocks.schema.ebucore.v2015.avro.audioMXFLookUpType) defaultValue(fields()[3]);
+        record.audioMXFLookUp = fieldSetFlags()[3] ? this.audioMXFLookUp : (audioMXFLookUpType) defaultValue(fields()[3]);
         record.audioTrackFormatIDRef = fieldSetFlags()[4] ? this.audioTrackFormatIDRef : (java.lang.CharSequence) defaultValue(fields()[4]);
         record.audioPackFormatIDRef = fieldSetFlags()[5] ? this.audioPackFormatIDRef : (java.lang.CharSequence) defaultValue(fields()[5]);
         return record;

@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class positionType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"positionType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"},{\"name\":\"screenEdgeLock\",\"type\":[\"null\",\"string\"],\"source\":\"attribute screenEdgeLock\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"positionType\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"},{\"name\":\"screenEdgeLock\",\"type\":[\"null\",\"string\"],\"source\":\"attribute screenEdgeLock\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence coordinate;
   @Deprecated public java.lang.CharSequence bound;
@@ -96,18 +95,18 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
   }
 
   /** Creates a new positionType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder();
+  public static positionType.Builder newBuilder() {
+    return new positionType.Builder();
   }
   
   /** Creates a new positionType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder(other);
+  public static positionType.Builder newBuilder(positionType.Builder other) {
+    return new positionType.Builder(other);
   }
   
   /** Creates a new positionType RecordBuilder by copying an existing positionType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.positionType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder(other);
+  public static positionType.Builder newBuilder(positionType other) {
+    return new positionType.Builder(other);
   }
   
   /**
@@ -122,11 +121,11 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.positionType.SCHEMA$);
+      super(positionType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder other) {
+    private Builder(positionType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.coordinate)) {
         this.coordinate = data().deepCopy(fields()[0].schema(), other.coordinate);
@@ -143,8 +142,8 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Creates a Builder by copying an existing positionType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.positionType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.positionType.SCHEMA$);
+    private Builder(positionType other) {
+            super(positionType.SCHEMA$);
       if (isValidValue(fields()[0], other.coordinate)) {
         this.coordinate = data().deepCopy(fields()[0].schema(), other.coordinate);
         fieldSetFlags()[0] = true;
@@ -165,7 +164,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'coordinate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder setCoordinate(java.lang.CharSequence value) {
+    public positionType.Builder setCoordinate(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.coordinate = value;
       fieldSetFlags()[0] = true;
@@ -178,7 +177,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'coordinate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder clearCoordinate() {
+    public positionType.Builder clearCoordinate() {
       coordinate = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -190,7 +189,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'bound' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder setBound(java.lang.CharSequence value) {
+    public positionType.Builder setBound(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.bound = value;
       fieldSetFlags()[1] = true;
@@ -203,7 +202,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'bound' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder clearBound() {
+    public positionType.Builder clearBound() {
       bound = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -215,7 +214,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Sets the value of the 'screenEdgeLock' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder setScreenEdgeLock(java.lang.CharSequence value) {
+    public positionType.Builder setScreenEdgeLock(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.screenEdgeLock = value;
       fieldSetFlags()[2] = true;
@@ -228,7 +227,7 @@ public class positionType extends org.apache.avro.specific.SpecificRecordBase im
     }
     
     /** Clears the value of the 'screenEdgeLock' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.positionType.Builder clearScreenEdgeLock() {
+    public positionType.Builder clearScreenEdgeLock() {
       screenEdgeLock = null;
       fieldSetFlags()[2] = false;
       return this;

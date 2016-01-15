@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class zoneType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"zoneType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"zoneType\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.Float minX;
   @Deprecated public java.lang.Float maxX;
@@ -153,18 +152,18 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
   }
 
   /** Creates a new zoneType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder();
+  public static zoneType.Builder newBuilder() {
+    return new zoneType.Builder();
   }
   
   /** Creates a new zoneType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder(other);
+  public static zoneType.Builder newBuilder(zoneType.Builder other) {
+    return new zoneType.Builder(other);
   }
   
   /** Creates a new zoneType RecordBuilder by copying an existing zoneType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder(other);
+  public static zoneType.Builder newBuilder(zoneType other) {
+    return new zoneType.Builder(other);
   }
   
   /**
@@ -182,11 +181,11 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.SCHEMA$);
+      super(zoneType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder other) {
+    private Builder(zoneType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.minX)) {
         this.minX = data().deepCopy(fields()[0].schema(), other.minX);
@@ -215,8 +214,8 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Creates a Builder by copying an existing zoneType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.SCHEMA$);
+    private Builder(zoneType other) {
+            super(zoneType.SCHEMA$);
       if (isValidValue(fields()[0], other.minX)) {
         this.minX = data().deepCopy(fields()[0].schema(), other.minX);
         fieldSetFlags()[0] = true;
@@ -249,7 +248,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'minX' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMinX(java.lang.Float value) {
+    public zoneType.Builder setMinX(java.lang.Float value) {
       validate(fields()[0], value);
       this.minX = value;
       fieldSetFlags()[0] = true;
@@ -262,7 +261,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'minX' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMinX() {
+    public zoneType.Builder clearMinX() {
       minX = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -274,7 +273,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'maxX' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMaxX(java.lang.Float value) {
+    public zoneType.Builder setMaxX(java.lang.Float value) {
       validate(fields()[1], value);
       this.maxX = value;
       fieldSetFlags()[1] = true;
@@ -287,7 +286,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'maxX' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMaxX() {
+    public zoneType.Builder clearMaxX() {
       maxX = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -299,7 +298,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'minY' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMinY(java.lang.Float value) {
+    public zoneType.Builder setMinY(java.lang.Float value) {
       validate(fields()[2], value);
       this.minY = value;
       fieldSetFlags()[2] = true;
@@ -312,7 +311,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'minY' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMinY() {
+    public zoneType.Builder clearMinY() {
       minY = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -324,7 +323,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'maxY' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMaxY(java.lang.Float value) {
+    public zoneType.Builder setMaxY(java.lang.Float value) {
       validate(fields()[3], value);
       this.maxY = value;
       fieldSetFlags()[3] = true;
@@ -337,7 +336,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'maxY' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMaxY() {
+    public zoneType.Builder clearMaxY() {
       maxY = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -349,7 +348,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'minZ' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMinZ(java.lang.Float value) {
+    public zoneType.Builder setMinZ(java.lang.Float value) {
       validate(fields()[4], value);
       this.minZ = value;
       fieldSetFlags()[4] = true;
@@ -362,7 +361,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'minZ' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMinZ() {
+    public zoneType.Builder clearMinZ() {
       minZ = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -374,7 +373,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'maxZ' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder setMaxZ(java.lang.Float value) {
+    public zoneType.Builder setMaxZ(java.lang.Float value) {
       validate(fields()[5], value);
       this.maxZ = value;
       fieldSetFlags()[5] = true;
@@ -387,7 +386,7 @@ public class zoneType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'maxZ' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneType.Builder clearMaxZ() {
+    public zoneType.Builder clearMaxZ() {
       maxZ = null;
       fieldSetFlags()[5] = false;
       return this;

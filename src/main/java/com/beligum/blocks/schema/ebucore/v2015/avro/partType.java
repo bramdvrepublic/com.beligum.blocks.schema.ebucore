@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class partType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"partType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"partId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partId\"},{\"name\":\"partName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partName\"},{\"name\":\"partDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partDefinition\"},{\"name\":\"partNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partNumber\"},{\"name\":\"partTotalNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partTotalNumber\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"titleType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element title\"}]}},\"source\":\"element title\"},{\"name\":\"alternativeTitle\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeTitleType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"statusLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLabel\"},{\"name\":\"statusDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusDefinition\"},{\"name\":\"statusLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLink\"},{\"name\":\"statusSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusSource\"},{\"name\":\"statusNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusNamespace\"},{\"name\":\"statusLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLanguage\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element title\"}]}},\"source\":\"element alternativeTitle\"},{\"name\":\"creator\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ty","peDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"t","ype\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}},\"source\":\"element creator\"},{\"name\":\"subject\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"subjectType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"subject\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element subject\"},{\"name\":\"subjectCode\",\"type\":[\"null\",\"string\"],\"source\":\"element subjectCode\"},{\"name\":\"subjectDefinition\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element subjectDefinition\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element subject\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"descriptionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"castFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute castFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element description\"},{\"name\":\"publisher\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element publisher\"},{\"name\":\"contributor\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contributor\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"dateType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"precision\",\"type\":[\"null\",\"string\"],\"source\":\"attribute precision\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element date\"},{\"name\":\"created\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_createddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element created\"","},{\"name\":\"issued\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_issueddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element issued\"},{\"name\":\"modified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_modifieddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element modified\"},{\"name\":\"digitised\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_digitiseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element digitised\"},{\"name\":\"released\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_releaseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element released\"},{\"name\":\"copyrighted\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element copyrighted\"},{\"name\":\"encoded\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_encodeddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element encoded\"},{\"name\":\"alternative\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeDateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element alternative\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"element note\"}]}},\"source\":\"element date\"},{\"name\":\"type\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"typeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"type\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element type\"},{\"name\":\"genre\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_genretypeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"level\",\"type\":[\"null\",\"string\"],\"source\":\"attribute level\"}]}},\"source\":\"element genre\"},{\"name\":\"objectType\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_objectTypetypeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element objectType\"},{\"name\":\"targetAudience\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audienceType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribu","te formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"targetRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}},\"source\":\"element targetRegion\"},{\"name\":\"targetExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element targetExclusionRegion\"}]}},\"source\":\"element targetAudience\"},{\"name\":\"audienceLevel\",\"type\":{\"type\":\"array\",\"items\":\"audienceType\"},\"source\":\"element audienceLevel\"}]}},\"source\":\"element type\"},{\"name\":\"format\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"formatType\",\"fields\":[{\"name\":\"formatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatId\"},{\"name\":\"formatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatVersionId\"},{\"name\":\"formatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatName\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"format\",\"type\":[\"null\",\"elementType\"],\"source\":\"element format\"},{\"name\":\"medium\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_mediumformatType\",\"fields\":[{\"name\":\"mediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute mediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element medium\"},{\"name\":\"imageFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"imageFormatType\",\"fields\":[{\"name\":\"imageFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatId\"},{\"name\":\"imageFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatVersionId\"},{\"name\":\"imageFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatName\"},{\"name\":\"imageFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatDefinition\"},{\"name\":\"imageFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatProfile\"},{\"name\":\"imagePresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute imagePresenceFlag\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"dimensionType\",\"fields\":[{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element height\"},{\"name\":\"orientation\",\"type\":[\"null\",\"string\"],\"source\":\"element orientation\"},{\"name\":\"aspectRatio\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"aspectRatioType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":\"string\",\"source\":\"element factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":\"string\",\"source\":\"element factorDenominator\"}]}],\"source\":\"element aspectRatio\"},{\"name\":\"imageEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_imageEncodingimageFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element imageEncoding\"},{\"name\":\"imageCodec\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"codecType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"codecIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element codecIdentifier\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"],\"source\":\"element name\"},{\"name\":\"vendor\",\"type\":[\"null\",\"string\"],\"source\":\"element vendor\"},{\"name\":\"version\",\"type\":[\"null\",\"string\"],\"source\":\"element version\"},{\"name\":\"family\",\"type\":[\"null\",\"string\"],\"source\":\"element family\"},{\"name\":\"url\",\"type\":[\"null\",\"string\"],\"source\":\"element url\"}]}],\"source\":\"element imageCodec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String0\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"form","atLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean1\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float2\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"so","urce\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}},\"source\":\"element imageFormat\"},{\"name\":\"videoFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"videoFormatType\",\"fields\":[{\"name\":\"videoFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatId\"},{\"name\":\"videoFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatVersionId\"},{\"name\":\"videoFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatName\"},{\"name\":\"videoFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatDefinition\"},{\"name\":\"videoFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatProfile\"},{\"name\":\"videoFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatProfileLevel\"},{\"name\":\"videoPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute videoPresenceFlag\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_widthvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element width\"},{\"name\":\"height\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_heightvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element height\"},{\"name\":\"lines\",\"type\":[\"null\",\"string\"],\"source\":\"element lines\"},{\"name\":\"frameRate\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"rationalType\",\"fields\":[{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element frameRate\"},{\"name\":\"aspectRatio\",\"type\":{\"type\":\"array\",\"items\":\"aspectRatioType\"},\"source\":\"element aspectRatio\"},{\"name\":\"videoEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_videoEncodingvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element videoEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"bitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"scanningFormat\",\"type\":[\"null\",\"string\"],\"source\":\"element scanningFormat\"},{\"name\":\"scanningOrder\",\"type\":[\"null\",\"string\"],\"source\":\"element scanningOrder\"},{\"name\":\"noiseFilter\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_noiseFiltervideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"vendorId\",\"type\":\"string\",\"source\":\"attribute vendorId\"}]}],\"source\":\"element noiseFilter\"},{\"name\":\"videoTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_videoTrackvideoFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element videoTrack\"},{\"name\":\"flag_3D\",\"type\":[\"null\",\"boolean\"],\"source\":\"element flag_3D\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"filterType\",\"fields\":[{\"name\":\"filterOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"trackIdRef\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"anyType\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}},\"source\":\"element trackIdRef\"},{\"name\":\"filterProfile\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_filterProfilefilterType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ","typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element filterProfile\"},{\"name\":\"filterSetting\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_filterSettingfilterType\",\"fields\":[{\"name\":\"filterAttributeOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterAttributeOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String3\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean4\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float5\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"}]}},\"source\":\"element filterSetting\"}]}},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String6\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean7\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"t","ype\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element videoFormat\"},{\"name\":\"audioFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioFormatType\",\"fields\":[{\"name\":\"audioFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatId\"},{\"name\":\"audioFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatVersionId\"},{\"name\":\"audioFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatName\"},{\"name\":\"audioFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatDefinition\"},{\"name\":\"audioFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfile\"},{\"name\":\"audioFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfileLevel\"},{\"name\":\"audioPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute audioPresenceFlag\"},{\"name\":\"audioEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioEncodingaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"audioTrackConfiguration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioTrackConfiguration\"},{\"name\":\"samplingRate\",\"type\":[\"null\",\"long\"],\"source\":\"element samplingRate\"},{\"name\":\"sampleSize\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleSize\"},{\"name\":\"sampleType\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleType\"},{\"name\":\"bitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"audioTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_audioTrackaudioFormatType\",\"fields\":[{\"name\":\"trackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackLanguage\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element audioTrack\"},{\"name\":\"channels\",\"type\":[\"null\",\"string\"],\"source\":\"element channels\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":\"filterType\"},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String9\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean10\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float11\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRationa","l\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element audioFormat\"},{\"name\":\"audioFormatExtended\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioFormatExtendedType\",\"fields\":[{\"name\":\"audioFormatExtendedID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatExtendedID\"},{\"name\":\"audioFormatExtendedName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatExtendedName\"},{\"name\":\"audioProgramme\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioProgrammeType\",\"fields\":[{\"name\":\"audioProgrammeID\",\"type\":\"string\",\"source\":\"attribute audioProgrammeID\"},{\"name\":\"audioProgrammeName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioProgrammeName\"},{\"name\":\"audioProgrammeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioProgrammeLanguage\"},{\"name\":\"start\",\"type\":[\"null\",\"string\"],\"source\":\"attribute start\"},{\"name\":\"end\",\"type\":[\"null\",\"string\"],\"source\":\"attribute end\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"maxDuckingDepth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxDuckingDepth\"},{\"name\":\"audioContentIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioContentIDRef\"},{\"name\":\"loudnessMetadata\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"loudnessMetadataType\",\"fields\":[{\"name\":\"loudnessMethod\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessMethod\"},{\"name\":\"loudnessRecType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessRecType\"},{\"name\":\"loudnessCorrectionType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessCorrectionType\"},{\"name\":\"integratedLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element integratedLoudness\"},{\"name\":\"loudnessRange\",\"type\":[\"null\",\"float\"],\"source\":\"element loudnessRange\"},{\"name\":\"maxTruePeak\",\"type\":[\"null\",\"float\"],\"source\":\"element maxTruePeak\"},{\"name\":\"maxMomentary\",\"type\":[\"null\",\"float\"],\"source\":\"element maxMomentary\"},{\"name\":\"maxShortTerm\",\"type\":[\"null\",\"float\"],\"source\":\"element maxShortTerm\"},{\"name\":\"dialogLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element dialogLoudness\"}]}],\"source\":\"element loudnessMetadata\"},{\"name\":\"audioProgrammeReferenceScreen\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioProgrammeReferenceScreenType\",\"fields\":[{\"name\":\"aspectRatio\",\"type\":[\"null\",\"float\"],\"source\":\"element aspectRatio\"},{\"name\":\"screenCentrePosition\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"screenCentrePositionType\",\"fields\":[{\"name\":\"azimuth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuth\"},{\"name\":\"elevation\",\"type\":[\"null\",\"float\"],\"source\":\"attribute elevation\"},{\"name\":\"distance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute distance\"},{\"name\":\"X\",\"type\":[\"null\",\"float\"],\"source\":\"attribute X\"},{\"name\":\"Y\",\"type\":[\"null\",\"float\"],\"source\":\"attribute Y\"},{\"name\":\"Z\",\"type\":[\"null\",\"float\"],\"source\":\"attribute Z\"}]}],\"source\":\"element screenCentrePosition\"},{\"name\":\"screenWidth\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"screenWidthType\",\"fields\":[{\"name\":\"azimuth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuth\"},{\"name\":\"X\",\"type\":[\"null\",\"float\"],\"source\":\"attribute X\"}]}],\"source\":\"element screenWidth\"}]}],\"source\":\"element audioProgrammeReferenceScreen\"}]}},\"source\":\"element audioProgramme\"},{\"name\":\"audioContent\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioContentType\",\"fields\":[{\"name\":\"audioContentID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentID\"},{\"name\":\"audioContentName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentName\"},{\"name\":\"audioContentLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentLanguage\"},{\"name\":\"audioObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioObjectIDRef\"},{\"name\":\"loudnessMetadata\",\"type\":[\"null\",\"loudnessMetadataType\"],\"source\":\"element loudnessMetadata\"},{\"name\":\"dialogue\",\"type\":{\"type\":\"record\",\"name\":\"dialogueType\",\"fields\":[{\"name\":\"nonDialogueContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute nonDialogueContentKind\"},{\"name\":\"dialogueContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute dialogueContentKind\"},{\"name\":\"mixedContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute mixedContentKind\"}]},\"source\":\"element dialogue\"}]}},\"source\":\"element audioContent\"},{\"name\":\"audioObject\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioObjectType\",\"fields\":[{\"name\":\"audioObjectID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioObjectID\"},{\"name\":\"audioObjectName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioObjectName\"},{\"name\":\"start\",\"type\":[\"null\",\"string\"],\"source\":\"attribute start\"},{\"name\":\"duration\",\"type\":[\"null\",\"string\"],\"source\":\"attribute duration\"},{\"name\":\"dialogue\",\"type\":[\"null\",\"int\"],\"source\":\"attribute dialogue\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"attribute importance\"},{\"name\":\"interact\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute interact\"},{\"name\":\"disableDucking\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute disableDucking\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"},{\"name\":\"audioObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioObjectIDRef\"},{\"name\":\"audioComplementaryObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioComplementaryObjectIDRef\"},{\"name\":\"audioTrackUIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioTrackUIDRef\"},{\"name\":\"audioObjectInteraction\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioObjectInteractionType\",\"fields\":[{\"name\":\"onOffInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute onOffInteract\"},{\"name\":\"gainInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute gainInteract\"},{\"name\":\"positionInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute positionInteract\"},{\"name\":\"gainInteractionRange\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"gainInteractionRangeType\",\"fields\":[{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"}]}},\"source\":\"element gainInteractionRange\"},{\"name\":\"positionInteractionRange\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"positionInteractionRangeType\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"}]}},\"source\":\"element positionInteractionRange\"}]}},\"source\":\"element audioObjectInteraction\"}]}},\"source\":\"element audioObject\"},{\"name\":\"audioPackFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioPackFormatType\",\"fields\":[{\"name\":\"absoluteDistance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute absoluteDistance\"},{\"name\":\"audioPackFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioPackFormatID\"},{\"name\":\"audioPackFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioPackFormatName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"st","ring\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"attribute importance\"},{\"name\":\"audioChannelFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioChannelFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"}]}},\"source\":\"element audioPackFormat\"},{\"name\":\"audioChannelFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioChannelFormatType\",\"fields\":[{\"name\":\"audioChannelFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioChannelFormatName\"},{\"name\":\"audioChannelFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioChannelFormatID\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"frequency\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_frequency\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element frequency\"},{\"name\":\"audioBlockFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioBlockFormatType\",\"fields\":[{\"name\":\"audioBlockFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioBlockFormatID\"},{\"name\":\"rtime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rtime\"},{\"name\":\"duration\",\"type\":[\"null\",\"string\"],\"source\":\"attribute duration\"},{\"name\":\"speakerLabel\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element speakerLabel\"},{\"name\":\"position\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"positionType\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"},{\"name\":\"screenEdgeLock\",\"type\":[\"null\",\"string\"],\"source\":\"attribute screenEdgeLock\"}]}},\"source\":\"element position\"},{\"name\":\"matrix\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"matrixType\",\"fields\":[{\"name\":\"coefficient\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coefficientType\",\"fields\":[{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"attribute gain\"},{\"name\":\"gainVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute gainVar\"},{\"name\":\"phase\",\"type\":[\"null\",\"float\"],\"source\":\"attribute phase\"},{\"name\":\"phaseVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute phaseVar\"}]}},\"source\":\"element coefficient\"}]}],\"source\":\"element matrix\"},{\"name\":\"cartesian\",\"type\":[\"null\",\"boolean\"],\"source\":\"element cartesian\"},{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"element gain\"},{\"name\":\"diffuse\",\"type\":[\"null\",\"float\"],\"source\":\"element diffuse\"},{\"name\":\"width\",\"type\":[\"null\",\"float\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"float\"],\"source\":\"element height\"},{\"name\":\"depth\",\"type\":[\"null\",\"float\"],\"source\":\"element depth\"},{\"name\":\"channelLock\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"channelLockType\",\"fields\":[{\"name\":\"maxDistance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxDistance\"}]}],\"source\":\"element channelLock\"},{\"name\":\"objectDivergence\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"objectDivergenceType\",\"fields\":[{\"name\":\"azimuthRange\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuthRange\"}]}],\"source\":\"element objectDivergence\"},{\"name\":\"jumpPosition\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"jumpPositionType\",\"fields\":[{\"name\":\"interpolationLength\",\"type\":[\"null\",\"float\"],\"source\":\"attribute interpolationLength\"}]}],\"source\":\"element jumpPosition\"},{\"name\":\"zoneExclusion\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"zoneExclusionType\",\"fields\":[{\"name\":\"zone\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"zoneType\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}},\"source\":\"element zone\"}]}],\"source\":\"element zoneExclusion\"},{\"name\":\"screenRef\",\"type\":[\"null\",\"boolean\"],\"source\":\"element screenRef\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"element importance\"},{\"name\":\"equation\",\"type\":[\"null\",\"string\"],\"source\":\"element equation\"},{\"name\":\"degree\",\"type\":[\"null\",\"int\"],\"source\":\"element degree\"},{\"name\":\"order\",\"type\":[\"null\",\"int\"],\"source\":\"element order\"}]}},\"source\":\"element audioBlockFormat\"}]}},\"source\":\"element audioChannelFormat\"},{\"name\":\"audioBlockFormat\",\"type\":{\"type\":\"array\",\"items\":\"audioBlockFormatType\"},\"source\":\"element audioBlockFormat\"},{\"name\":\"audioStreamFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioStreamFormatType\",\"fields\":[{\"name\":\"audioStreamFormatID\",\"type\":\"string\",\"source\":\"attribute audioStreamFormatID\"},{\"name\":\"audioStreamFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioStreamFormatName\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"audioChannelFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioChannelFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioTrackFormatIDRef\"}]}},\"source\":\"element audioStreamFormat\"},{\"name\":\"audioTrackFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioTrackFormatType\",\"fields\":[{\"name\":\"audioTrackFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioTrackFormatID\"},{\"name\":\"audioTrackFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioTrackFormatName\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"audioStreamFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioStreamFormatIDRef\"}]}},\"source\":\"element audioTrackFormat\"},{\"name\":\"audioTrackUID\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioTrackUIDType\",\"fields\":[{\"name\":\"UID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute UID\"},{\"name\":\"sampleRate\",\"type\":[\"null\",\"int\"],\"source\":\"attribute sampleRate\"},{\"name\":\"bitDepth\",\"type\":[\"","null\",\"int\"],\"source\":\"attribute bitDepth\"},{\"name\":\"audioMXFLookUp\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioMXFLookUpType\",\"fields\":[{\"name\":\"packageUIDRef\",\"type\":\"string\",\"source\":\"element packageUIDRef\"},{\"name\":\"trackIDRef\",\"type\":\"string\",\"source\":\"element trackIDRef\"},{\"name\":\"channelIDRef\",\"type\":\"string\",\"source\":\"element channelIDRef\"}]}],\"source\":\"element audioMXFLookUp\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioTrackFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioPackFormatIDRef\"}]}},\"source\":\"element audioTrackUID\"}]}},\"source\":\"element audioFormatExtended\"},{\"name\":\"containerFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"containerFormatType\",\"fields\":[{\"name\":\"containerFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatId\"},{\"name\":\"containerFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatVersionId\"},{\"name\":\"containerFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatName\"},{\"name\":\"containerFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatProfile\"},{\"name\":\"containerFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatProfileLevel\"},{\"name\":\"containerFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatDefinition\"},{\"name\":\"containerEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_containerEncodingcontainerFormatType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element containerEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String12\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean13\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float14\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element containerFormat\"},{\"name\":\"signingFormat\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"signingFormatType\",\"fields\":[{\"name\":\"signingFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatId\"},{\"name\":\"signingFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatVersionId\"},{\"name\":\"signingFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatName\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"signingSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"signingPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute signingPresenceFlag\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element signingFormat\"},{\"name\":\"dataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"dataFormatType\",\"fields\":[{\"name\":\"dataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatId\"},{\"name\":\"dataFormatVersio","nId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatVersionId\"},{\"name\":\"dataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatName\"},{\"name\":\"dataFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatDefinition\"},{\"name\":\"dataTrackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackId\"},{\"name\":\"dataTrackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackName\"},{\"name\":\"dataTrackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackLanguage\"},{\"name\":\"dataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatProfile\"},{\"name\":\"dataFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatProfileLevel\"},{\"name\":\"dataPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute dataPresenceFlag\"},{\"name\":\"captioningFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"captioningFormatType\",\"fields\":[{\"name\":\"captioningFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatId\"},{\"name\":\"captioningFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatName\"},{\"name\":\"captioningFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatProfile\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"captioningSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"closed\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute closed\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"captioningPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute captioningPresenceFlag\"}]}},\"source\":\"element captioningFormat\"},{\"name\":\"subtitlingFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"subtitlingFormatType\",\"fields\":[{\"name\":\"subtitlingFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatId\"},{\"name\":\"subtitlingFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatName\"},{\"name\":\"subtitlingFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatProfile\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"subtitlingSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"closed\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute closed\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"subtitlingPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute subtitlingPresenceFlag\"}]}},\"source\":\"element subtitlingFormat\"},{\"name\":\"ancillaryDataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"ancillaryDataFormatType\",\"fields\":[{\"name\":\"ancillaryDataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatId\"},{\"name\":\"ancillaryDataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatName\"},{\"name\":\"ancillaryDataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatProfile\"},{\"name\":\"DID\",\"type\":[\"null\",\"string\"],\"source\":\"element DID\"},{\"name\":\"SDID\",\"type\":[\"null\",\"string\"],\"source\":\"element SDID\"},{\"name\":\"lineNumber\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element lineNumber\"},{\"name\":\"wrappingType\",\"type\":[\"null\",\"string\"],\"source\":\"element wrappingType\"}]}},\"source\":\"element ancillaryDataFormat\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String15\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\"",":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float17\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element dataFormat\"},{\"name\":\"timecodeFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timecodeFormatType\",\"fields\":[{\"name\":\"timecodeFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatId\"},{\"name\":\"timecodeFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatVersionId\"},{\"name\":\"timecodeFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatName\"},{\"name\":\"timecodeFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatDefinition\"},{\"name\":\"timecodeStart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}},\"source\":\"element timecodeStart\"},{\"name\":\"timecodeTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_timecodeTracktimecodeFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element timecodeTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String18\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean19\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float20\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technic","alAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element timecodeFormat\"},{\"name\":\"metadataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"metadataFormatType\",\"fields\":[{\"name\":\"metadataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatId\"},{\"name\":\"metadataFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatVersionId\"},{\"name\":\"metadataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatName\"},{\"name\":\"metadataFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatDefinition\"},{\"name\":\"metadataTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_metadataTrackmetadataFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element metadataTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String21\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean22\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float23\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"start\",\"type\":[\"null\",\"timeType\"],\"source\":\"element start\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"durationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",\"editUnitNumberType\"],\"source\":\"element editUnitNumber\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element duration\"}]}],\"source\":\"element duration\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element metadataFormat\"},{\"name\":\"start\",\"type\":{\"type\":\"array\",\"items\":\"timeType\"},\"source\":\"element start\"},{\"name\":\"end\",\"type\":{\"type\":\"array\",\"items\":\"timeType\"},\"source\":\"element end\"},{\"name\":\"duration\",\"type\":{\"type\":\"array\",\"items\":\"durationType\"},\"source\":\"element duration\"},{\"name\":\"fileSize\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element fileSize\"},{\"name\":\"fileName\",\"type\":[\"null\",\"string\"],\"source\":\"element fileName\"},{\"name\":\"mimeType\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_mimeTypefileInfo\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}","},\"source\":\"element mimeType\"},{\"name\":\"locator\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_locatorfileInfo\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element locator\"},{\"name\":\"hash\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"hashType\",\"fields\":[{\"name\":\"hashValue\",\"type\":\"string\",\"source\":\"element hashValue\"},{\"name\":\"hashFunction\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_hashFunctionhashType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element hashFunction\"}]}],\"source\":\"element hash\"},{\"name\":\"overallBitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element overallBitRate\"},{\"name\":\"documentFormat\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"documentFormatType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"documentFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatId\"},{\"name\":\"documentFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatVersionId\"},{\"name\":\"documentFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatName\"},{\"name\":\"documentFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatProfile\"},{\"name\":\"documentFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatDefinition\"},{\"name\":\"wordCount\",\"type\":[\"null\",\"string\"],\"source\":\"element wordCount\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element height\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String24\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean25\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float26\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}],\"source\":\"element documentFormat\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String27\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attr","ibute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean28\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float29\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"dateCreated\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_dateCreatedformatType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element dateCreated\"},{\"name\":\"dateModified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_dateModifiedformatType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element dateModified\"}]}},\"source\":\"element format\"},{\"name\":\"identifier\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element identifier\"},{\"name\":\"source\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element source\"},{\"name\":\"language\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"languageType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"language\",\"type\":[\"null\",\"elementType\"],\"source\":\"element language\"}]}},\"source\":\"element language\"},{\"name\":\"relation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"relationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"runningOrderNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute runningOrderNumber\"},{\"name\":\"totalNumberOfGroupMembers\",\"type\":[\"null\",\"string\"],\"source\":\"attribute totalNumberOfGroupMembers\"},{\"name\":\"orderedGroupFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute orderedGroupFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"relation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element relation\"},{\"name\":\"relationIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element relationIdentifier\"},{\"name\":\"relationLink\",\"type\":[\"null\",\"string\"],\"source\":\"element relationLink\"}]}},\"source\":\"element relation\"},{\"name\":\"isRelatedTo\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isRelatedTo\"},{\"name\":\"isNextInSequence\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isNextInSequence\"},{\"name\":\"followsInSequence\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element followsInSequence\"},{\"name\":\"isVersionOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isVersionOf\"},{\"name\":\"hasVersion\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasVersion\"},{\"name\":\"isReplacedBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isReplacedBy\"},{\"name\":\"replaces\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element replaces\"},{\"name\":\"isRequiredBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isRequiredBy\"},{\"name\":\"requires\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element requires\"},{\"name\":\"isPartOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isPartOf\"},{\"name\":\"hasPart\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasPart\"},{\"name\":\"hasTrackPart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_hasTrackPartcoreMetadataType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"nul","l\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"runningOrderNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute runningOrderNumber\"},{\"name\":\"totalNumberOfGroupMembers\",\"type\":[\"null\",\"string\"],\"source\":\"attribute totalNumberOfGroupMembers\"},{\"name\":\"orderedGroupFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute orderedGroupFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"relation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element relation\"},{\"name\":\"relationIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element relationIdentifier\"},{\"name\":\"relationLink\",\"type\":[\"null\",\"string\"],\"source\":\"element relationLink\"},{\"name\":\"trackPartTitle\",\"type\":\"alternativeTitleType\",\"source\":\"element trackPartTitle\"},{\"name\":\"destinationId\",\"type\":[\"null\",\"string\"],\"source\":\"element destinationId\"},{\"name\":\"destinationStart\",\"type\":[\"null\",\"timeType\"],\"source\":\"element destinationStart\"},{\"name\":\"destinationEnd\",\"type\":[\"null\",\"timeType\"],\"source\":\"element destinationEnd\"},{\"name\":\"sourceId\",\"type\":[\"null\",\"string\"],\"source\":\"element sourceId\"},{\"name\":\"sourceStart\",\"type\":[\"null\",\"timeType\"],\"source\":\"element sourceStart\"},{\"name\":\"sourceEnd\",\"type\":[\"null\",\"timeType\"],\"source\":\"element sourceEnd\"}]}},\"source\":\"element hasTrackPart\"},{\"name\":\"isReferencedBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isReferencedBy\"},{\"name\":\"references\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element references\"},{\"name\":\"isFormatOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isFormatOf\"},{\"name\":\"hasFormat\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasFormat\"},{\"name\":\"isEpisodeOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isEpisodeOf\"},{\"name\":\"isSeasonOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isSeasonOf\"},{\"name\":\"hasEpisode\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasEpisode\"},{\"name\":\"hasSeason\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasSeason\"},{\"name\":\"hasSeries\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasSeries\"},{\"name\":\"isSeriesOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isSeriesOf\"},{\"name\":\"isMemberOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isMemberOf\"},{\"name\":\"hasMember\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasMember\"},{\"name\":\"sameAs\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element sameAs\"},{\"name\":\"coverage\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coverageType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"coverage\",\"type\":[\"null\",\"elementType\"],\"source\":\"element coverage\"},{\"name\":\"temporal\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"temporalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"PeriodOfTime\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"periodOfTimeType\",\"fields\":[{\"name\":\"periodId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute periodId\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"periodName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element periodName\"}]}},\"source\":\"element PeriodOfTime\"}]}],\"source\":\"element temporal\"},{\"name\":\"spatial\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"spatialType\",\"fields\":[{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",\"elementType\"],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",\"regionType\"],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}],\"source\":\"element spatial\"}]}},\"source\":\"element coverage\"},{\"name\":\"rights\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"rightsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"formatIDRefs\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatIDRefs\"},{\"name\":\"rightsID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rightsID\"},{\"name\":\"rights\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element rights\"},{\"name\":\"rightsLink\",\"type\":[\"null\",\"string\"],\"source\":\"element rightsLink\"},{\"name\":\"rightsHolder\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element rightsHolder\"},{\"name\":\"exploitationIssues\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element exploitationIssues\"},{\"name\":\"copyrightStatement\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"sou","rce\":\"element copyrightStatement\"},{\"name\":\"coverage\",\"type\":{\"type\":\"array\",\"items\":\"coverageType\"},\"source\":\"element coverage\"},{\"name\":\"rightsClearanceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"element rightsClearanceFlag\"},{\"name\":\"processingRestrictionFlag\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_processingRestrictionFlagrightsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"qualityClass\",\"type\":[\"null\",\"string\"],\"source\":\"attribute qualityClass\"},{\"name\":\"restrictions\",\"type\":[\"null\",\"string\"],\"source\":\"attribute restrictions\"}]}],\"source\":\"element processingRestrictionFlag\"},{\"name\":\"disclaimer\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element disclaimer\"},{\"name\":\"rightsAttributedId\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element rightsAttributedId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":\"contactDetailsType\"},\"source\":\"element contactDetails\"}]}},\"source\":\"element rights\"},{\"name\":\"version\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"versionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element version\"},{\"name\":\"publicationHistory\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"publicationHistoryType\",\"fields\":[{\"name\":\"publicationHistoryId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationHistoryId\"},{\"name\":\"publicationEvent\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"publicationEventType\",\"fields\":[{\"name\":\"publicationEventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationEventId\"},{\"name\":\"publicationEventName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationEventName\"},{\"name\":\"firstShowing\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute firstShowing\"},{\"name\":\"lastShowing\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute lastShowing\"},{\"name\":\"live\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute live\"},{\"name\":\"liveProduction\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute liveProduction\"},{\"name\":\"free\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute free\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"formatIdRef\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatIdRef\"},{\"name\":\"rightsIDRefs\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rightsIDRefs\"},{\"name\":\"publicationDate\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationDate\"},{\"name\":\"publicationTime\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationTime\"},{\"name\":\"scheduleDate\",\"type\":[\"null\",\"string\"],\"source\":\"element scheduleDate\"},{\"name\":\"publicationService\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationServiceType\",\"fields\":[{\"name\":\"serviceId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute serviceId\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"publicationServiceName\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationServiceName\"},{\"name\":\"publicationSource\",\"type\":[\"null\",\"organisationDetailsType\"],\"source\":\"element publicationSource\"}]}],\"source\":\"element publicationService\"},{\"name\":\"publicationMedium\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationMediumType\",\"fields\":[{\"name\":\"publicationMediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationMediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element publicationMedium\"},{\"name\":\"publicationChannel\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationChannelType\",\"fields\":[{\"name\":\"publicationChannelId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationChannelId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"}]}],\"source\":\"element publicationChannel\"},{\"name\":\"publicationRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element publicationRegion\"}]}},\"source\":\"element publicationEvent\"}]}},\"source\":\"element publicationHistory\"},{\"name\":\"planning\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"planningType\",\"fields\":[{\"name\":\"planningId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute planningId\"},{\"name\":\"publicationEvent\",\"type\":{\"type\":\"array\",\"items\":\"publicationEventType\"},\"source\":\"element publicationEvent\"}]}},\"source\":\"element planning\"},{\"name\":\"rating\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"ratingType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"ratingSystem\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingSystem\"},{\"name\":\"ratingEnvironment\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingEnvironment\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"ratingValue\",\"type\":{\"type\":\"array\",\"items\":\"elementT","ype\"},\"source\":\"element ratingValue\"},{\"name\":\"ratingLink\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element ratingLink\"},{\"name\":\"ratingScaleMaxValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMaxValue\"},{\"name\":\"ratingScaleMinValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMinValue\"},{\"name\":\"ratingProvider\",\"type\":[\"null\",\"entityType\"],\"source\":\"element ratingProvider\"},{\"name\":\"ratingRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingRegion\"},{\"name\":\"ratingExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingExclusionRegion\"}]}},\"source\":\"element rating\"},{\"name\":\"audienceRating\",\"type\":{\"type\":\"array\",\"items\":\"ratingType\"},\"source\":\"element audienceRating\"},{\"name\":\"event\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"eventType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"eventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute eventId\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":\"locationType\"},\"source\":\"element location\"}]}},\"source\":\"element event\"},{\"name\":\"part\",\"type\":{\"type\":\"array\",\"items\":\"partType\"},\"source\":\"element part\"},{\"name\":\"partStartTime\",\"type\":[\"null\",\"timeType\"],\"source\":\"element partStartTime\"},{\"name\":\"partDuration\",\"type\":[\"null\",\"durationType\"],\"source\":\"element partDuration\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"partType\",\"fields\":[{\"name\":\"partId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partId\"},{\"name\":\"partName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partName\"},{\"name\":\"partDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partDefinition\"},{\"name\":\"partNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partNumber\"},{\"name\":\"partTotalNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute partTotalNumber\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"titleType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element title\"}]}},\"source\":\"element title\"},{\"name\":\"alternativeTitle\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeTitleType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"statusLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLabel\"},{\"name\":\"statusDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusDefinition\"},{\"name\":\"statusLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLink\"},{\"name\":\"statusSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusSource\"},{\"name\":\"statusNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusNamespace\"},{\"name\":\"statusLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute statusLanguage\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"title\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element title\"}]}},\"source\":\"element alternativeTitle\"},{\"name\":\"creator\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],","\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"na","me\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}},\"source\":\"element creator\"},{\"name\":\"subject\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"subjectType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"subject\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element subject\"},{\"name\":\"subjectCode\",\"type\":[\"null\",\"string\"],\"source\":\"element subjectCode\"},{\"name\":\"subjectDefinition\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element subjectDefinition\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element subject\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"descriptionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"length\",\"type\":[\"null\",\"string\"],\"source\":\"attribute length\"},{\"name\":\"geographicalScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalScope\"},{\"name\":\"geographicalExclusionScope\",\"type\":[\"null\",\"string\"],\"source\":\"attribute geographicalExclusionScope\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"castFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute castFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element description\"},{\"name\":\"publisher\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element publisher\"},{\"name\":\"contributor\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contributor\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"dateType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"precision\",\"type\":[\"null\",\"string\"],\"source\":\"attribute precision\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element date\"},{\"name\":\"created\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_createddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element created\"},{\"name\":\"issued\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"","AnonType_issueddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element issued\"},{\"name\":\"modified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_modifieddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element modified\"},{\"name\":\"digitised\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_digitiseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element digitised\"},{\"name\":\"released\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_releaseddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element released\"},{\"name\":\"copyrighted\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_copyrighteddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element copyrighted\"},{\"name\":\"encoded\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_encodeddateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element encoded\"},{\"name\":\"alternative\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"alternativeDateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element alternative\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"element note\"}]}},\"source\":\"element date\"},{\"name\":\"type\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"typeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"type\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element type\"},{\"name\":\"genre\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_genretypeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"level\",\"type\":[\"null\",\"string\"],\"source\":\"attribute level\"}]}},\"source\":\"element genre\"},{\"name\":\"objectType\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_objectTypetypeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element objectType\"},{\"name\":\"targetAudience\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audienceType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null","\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"targetRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}},\"source\":\"element targetRegion\"},{\"name\":\"targetExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element targetExclusionRegion\"}]}},\"source\":\"element targetAudience\"},{\"name\":\"audienceLevel\",\"type\":{\"type\":\"array\",\"items\":\"audienceType\"},\"source\":\"element audienceLevel\"}]}},\"source\":\"element type\"},{\"name\":\"format\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"formatType\",\"fields\":[{\"name\":\"formatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatId\"},{\"name\":\"formatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatVersionId\"},{\"name\":\"formatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatName\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"format\",\"type\":[\"null\",\"elementType\"],\"source\":\"element format\"},{\"name\":\"medium\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_mediumformatType\",\"fields\":[{\"name\":\"mediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute mediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element medium\"},{\"name\":\"imageFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"imageFormatType\",\"fields\":[{\"name\":\"imageFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatId\"},{\"name\":\"imageFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatVersionId\"},{\"name\":\"imageFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatName\"},{\"name\":\"imageFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatDefinition\"},{\"name\":\"imageFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute imageFormatProfile\"},{\"name\":\"imagePresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute imagePresenceFlag\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"dimensionType\",\"fields\":[{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element height\"},{\"name\":\"orientation\",\"type\":[\"null\",\"string\"],\"source\":\"element orientation\"},{\"name\":\"aspectRatio\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"aspectRatioType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":\"string\",\"source\":\"element factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":\"string\",\"source\":\"element factorDenominator\"}]}],\"source\":\"element aspectRatio\"},{\"name\":\"imageEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_imageEncodingimageFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element imageEncoding\"},{\"name\":\"imageCodec\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"codecType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"codecIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element codecIdentifier\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"],\"source\":\"element name\"},{\"name\":\"vendor\",\"type\":[\"null\",\"string\"],\"source\":\"element vendor\"},{\"name\":\"version\",\"type\":[\"null\",\"string\"],\"source\":\"element version\"},{\"name\":\"family\",\"type\":[\"null\",\"string\"],\"source\":\"element family\"},{\"name\":\"url\",\"type\":[\"null\",\"string\"],\"source\":\"element url\"}]}],\"source\":\"element imageCodec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String0\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute format","Link\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean1\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float2\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominat","or\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}},\"source\":\"element imageFormat\"},{\"name\":\"videoFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"videoFormatType\",\"fields\":[{\"name\":\"videoFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatId\"},{\"name\":\"videoFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatVersionId\"},{\"name\":\"videoFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatName\"},{\"name\":\"videoFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatDefinition\"},{\"name\":\"videoFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatProfile\"},{\"name\":\"videoFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute videoFormatProfileLevel\"},{\"name\":\"videoPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute videoPresenceFlag\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_widthvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element width\"},{\"name\":\"height\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_heightvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element height\"},{\"name\":\"lines\",\"type\":[\"null\",\"string\"],\"source\":\"element lines\"},{\"name\":\"frameRate\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"rationalType\",\"fields\":[{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element frameRate\"},{\"name\":\"aspectRatio\",\"type\":{\"type\":\"array\",\"items\":\"aspectRatioType\"},\"source\":\"element aspectRatio\"},{\"name\":\"videoEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_videoEncodingvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element videoEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"bitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"scanningFormat\",\"type\":[\"null\",\"string\"],\"source\":\"element scanningFormat\"},{\"name\":\"scanningOrder\",\"type\":[\"null\",\"string\"],\"source\":\"element scanningOrder\"},{\"name\":\"noiseFilter\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_noiseFiltervideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"vendorId\",\"type\":\"string\",\"source\":\"attribute vendorId\"}]}],\"source\":\"element noiseFilter\"},{\"name\":\"videoTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_videoTrackvideoFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element videoTrack\"},{\"name\":\"flag_3D\",\"type\":[\"null\",\"boolean\"],\"source\":\"element flag_3D\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"filterType\",\"fields\":[{\"name\":\"filterOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"trackIdRef\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"anyType\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}},\"source\":\"element trackIdRef\"},{\"name\":\"filterProfile\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_filterProfilefilterType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string","\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element filterProfile\"},{\"name\":\"filterSetting\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_filterSettingfilterType\",\"fields\":[{\"name\":\"filterAttributeOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterAttributeOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String3\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean4\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float5\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"}]}},\"source\":\"element filterSetting\"}]}},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String6\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean7\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"}",",{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element videoFormat\"},{\"name\":\"audioFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioFormatType\",\"fields\":[{\"name\":\"audioFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatId\"},{\"name\":\"audioFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatVersionId\"},{\"name\":\"audioFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatName\"},{\"name\":\"audioFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatDefinition\"},{\"name\":\"audioFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfile\"},{\"name\":\"audioFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfileLevel\"},{\"name\":\"audioPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute audioPresenceFlag\"},{\"name\":\"audioEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioEncodingaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"audioTrackConfiguration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioTrackConfiguration\"},{\"name\":\"samplingRate\",\"type\":[\"null\",\"long\"],\"source\":\"element samplingRate\"},{\"name\":\"sampleSize\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleSize\"},{\"name\":\"sampleType\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleType\"},{\"name\":\"bitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"audioTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_audioTrackaudioFormatType\",\"fields\":[{\"name\":\"trackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackLanguage\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element audioTrack\"},{\"name\":\"channels\",\"type\":[\"null\",\"string\"],\"source\":\"element channels\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":\"filterType\"},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String9\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean10\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float11\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRation","alType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element audioFormat\"},{\"name\":\"audioFormatExtended\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioFormatExtendedType\",\"fields\":[{\"name\":\"audioFormatExtendedID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatExtendedID\"},{\"name\":\"audioFormatExtendedName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatExtendedName\"},{\"name\":\"audioProgramme\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioProgrammeType\",\"fields\":[{\"name\":\"audioProgrammeID\",\"type\":\"string\",\"source\":\"attribute audioProgrammeID\"},{\"name\":\"audioProgrammeName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioProgrammeName\"},{\"name\":\"audioProgrammeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioProgrammeLanguage\"},{\"name\":\"start\",\"type\":[\"null\",\"string\"],\"source\":\"attribute start\"},{\"name\":\"end\",\"type\":[\"null\",\"string\"],\"source\":\"attribute end\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"maxDuckingDepth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxDuckingDepth\"},{\"name\":\"audioContentIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioContentIDRef\"},{\"name\":\"loudnessMetadata\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"loudnessMetadataType\",\"fields\":[{\"name\":\"loudnessMethod\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessMethod\"},{\"name\":\"loudnessRecType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessRecType\"},{\"name\":\"loudnessCorrectionType\",\"type\":[\"null\",\"string\"],\"source\":\"attribute loudnessCorrectionType\"},{\"name\":\"integratedLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element integratedLoudness\"},{\"name\":\"loudnessRange\",\"type\":[\"null\",\"float\"],\"source\":\"element loudnessRange\"},{\"name\":\"maxTruePeak\",\"type\":[\"null\",\"float\"],\"source\":\"element maxTruePeak\"},{\"name\":\"maxMomentary\",\"type\":[\"null\",\"float\"],\"source\":\"element maxMomentary\"},{\"name\":\"maxShortTerm\",\"type\":[\"null\",\"float\"],\"source\":\"element maxShortTerm\"},{\"name\":\"dialogLoudness\",\"type\":[\"null\",\"float\"],\"source\":\"element dialogLoudness\"}]}],\"source\":\"element loudnessMetadata\"},{\"name\":\"audioProgrammeReferenceScreen\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioProgrammeReferenceScreenType\",\"fields\":[{\"name\":\"aspectRatio\",\"type\":[\"null\",\"float\"],\"source\":\"element aspectRatio\"},{\"name\":\"screenCentrePosition\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"screenCentrePositionType\",\"fields\":[{\"name\":\"azimuth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuth\"},{\"name\":\"elevation\",\"type\":[\"null\",\"float\"],\"source\":\"attribute elevation\"},{\"name\":\"distance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute distance\"},{\"name\":\"X\",\"type\":[\"null\",\"float\"],\"source\":\"attribute X\"},{\"name\":\"Y\",\"type\":[\"null\",\"float\"],\"source\":\"attribute Y\"},{\"name\":\"Z\",\"type\":[\"null\",\"float\"],\"source\":\"attribute Z\"}]}],\"source\":\"element screenCentrePosition\"},{\"name\":\"screenWidth\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"screenWidthType\",\"fields\":[{\"name\":\"azimuth\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuth\"},{\"name\":\"X\",\"type\":[\"null\",\"float\"],\"source\":\"attribute X\"}]}],\"source\":\"element screenWidth\"}]}],\"source\":\"element audioProgrammeReferenceScreen\"}]}},\"source\":\"element audioProgramme\"},{\"name\":\"audioContent\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioContentType\",\"fields\":[{\"name\":\"audioContentID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentID\"},{\"name\":\"audioContentName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentName\"},{\"name\":\"audioContentLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioContentLanguage\"},{\"name\":\"audioObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioObjectIDRef\"},{\"name\":\"loudnessMetadata\",\"type\":[\"null\",\"loudnessMetadataType\"],\"source\":\"element loudnessMetadata\"},{\"name\":\"dialogue\",\"type\":{\"type\":\"record\",\"name\":\"dialogueType\",\"fields\":[{\"name\":\"nonDialogueContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute nonDialogueContentKind\"},{\"name\":\"dialogueContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute dialogueContentKind\"},{\"name\":\"mixedContentKind\",\"type\":[\"null\",\"int\"],\"source\":\"attribute mixedContentKind\"}]},\"source\":\"element dialogue\"}]}},\"source\":\"element audioContent\"},{\"name\":\"audioObject\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioObjectType\",\"fields\":[{\"name\":\"audioObjectID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioObjectID\"},{\"name\":\"audioObjectName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioObjectName\"},{\"name\":\"start\",\"type\":[\"null\",\"string\"],\"source\":\"attribute start\"},{\"name\":\"duration\",\"type\":[\"null\",\"string\"],\"source\":\"attribute duration\"},{\"name\":\"dialogue\",\"type\":[\"null\",\"int\"],\"source\":\"attribute dialogue\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"attribute importance\"},{\"name\":\"interact\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute interact\"},{\"name\":\"disableDucking\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute disableDucking\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"},{\"name\":\"audioObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioObjectIDRef\"},{\"name\":\"audioComplementaryObjectIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioComplementaryObjectIDRef\"},{\"name\":\"audioTrackUIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioTrackUIDRef\"},{\"name\":\"audioObjectInteraction\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioObjectInteractionType\",\"fields\":[{\"name\":\"onOffInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute onOffInteract\"},{\"name\":\"gainInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute gainInteract\"},{\"name\":\"positionInteract\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute positionInteract\"},{\"name\":\"gainInteractionRange\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"gainInteractionRangeType\",\"fields\":[{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"}]}},\"source\":\"element gainInteractionRange\"},{\"name\":\"positionInteractionRange\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"positionInteractionRangeType\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"}]}},\"source\":\"element positionInteractionRange\"}]}},\"source\":\"element audioObjectInteraction\"}]}},\"source\":\"element audioObject\"},{\"name\":\"audioPackFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioPackFormatType\",\"fields\":[{\"name\":\"absoluteDistance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute absoluteDistance\"},{\"name\":\"audioPackFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioPackFormatID\"},{\"name\":\"audioPackFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioPackFormatName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLi","nk\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"attribute importance\"},{\"name\":\"audioChannelFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioChannelFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"}]}},\"source\":\"element audioPackFormat\"},{\"name\":\"audioChannelFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioChannelFormatType\",\"fields\":[{\"name\":\"audioChannelFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioChannelFormatName\"},{\"name\":\"audioChannelFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioChannelFormatID\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"frequency\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_frequency\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element frequency\"},{\"name\":\"audioBlockFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioBlockFormatType\",\"fields\":[{\"name\":\"audioBlockFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioBlockFormatID\"},{\"name\":\"rtime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rtime\"},{\"name\":\"duration\",\"type\":[\"null\",\"string\"],\"source\":\"attribute duration\"},{\"name\":\"speakerLabel\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element speakerLabel\"},{\"name\":\"position\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"positionType\",\"fields\":[{\"name\":\"coordinate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute coordinate\"},{\"name\":\"bound\",\"type\":[\"null\",\"string\"],\"source\":\"attribute bound\"},{\"name\":\"screenEdgeLock\",\"type\":[\"null\",\"string\"],\"source\":\"attribute screenEdgeLock\"}]}},\"source\":\"element position\"},{\"name\":\"matrix\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"matrixType\",\"fields\":[{\"name\":\"coefficient\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coefficientType\",\"fields\":[{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"attribute gain\"},{\"name\":\"gainVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute gainVar\"},{\"name\":\"phase\",\"type\":[\"null\",\"float\"],\"source\":\"attribute phase\"},{\"name\":\"phaseVar\",\"type\":[\"null\",\"string\"],\"source\":\"attribute phaseVar\"}]}},\"source\":\"element coefficient\"}]}],\"source\":\"element matrix\"},{\"name\":\"cartesian\",\"type\":[\"null\",\"boolean\"],\"source\":\"element cartesian\"},{\"name\":\"gain\",\"type\":[\"null\",\"float\"],\"source\":\"element gain\"},{\"name\":\"diffuse\",\"type\":[\"null\",\"float\"],\"source\":\"element diffuse\"},{\"name\":\"width\",\"type\":[\"null\",\"float\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"float\"],\"source\":\"element height\"},{\"name\":\"depth\",\"type\":[\"null\",\"float\"],\"source\":\"element depth\"},{\"name\":\"channelLock\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"channelLockType\",\"fields\":[{\"name\":\"maxDistance\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxDistance\"}]}],\"source\":\"element channelLock\"},{\"name\":\"objectDivergence\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"objectDivergenceType\",\"fields\":[{\"name\":\"azimuthRange\",\"type\":[\"null\",\"float\"],\"source\":\"attribute azimuthRange\"}]}],\"source\":\"element objectDivergence\"},{\"name\":\"jumpPosition\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"jumpPositionType\",\"fields\":[{\"name\":\"interpolationLength\",\"type\":[\"null\",\"float\"],\"source\":\"attribute interpolationLength\"}]}],\"source\":\"element jumpPosition\"},{\"name\":\"zoneExclusion\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"zoneExclusionType\",\"fields\":[{\"name\":\"zone\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"zoneType\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}},\"source\":\"element zone\"}]}],\"source\":\"element zoneExclusion\"},{\"name\":\"screenRef\",\"type\":[\"null\",\"boolean\"],\"source\":\"element screenRef\"},{\"name\":\"importance\",\"type\":[\"null\",\"int\"],\"source\":\"element importance\"},{\"name\":\"equation\",\"type\":[\"null\",\"string\"],\"source\":\"element equation\"},{\"name\":\"degree\",\"type\":[\"null\",\"int\"],\"source\":\"element degree\"},{\"name\":\"order\",\"type\":[\"null\",\"int\"],\"source\":\"element order\"}]}},\"source\":\"element audioBlockFormat\"}]}},\"source\":\"element audioChannelFormat\"},{\"name\":\"audioBlockFormat\",\"type\":{\"type\":\"array\",\"items\":\"audioBlockFormatType\"},\"source\":\"element audioBlockFormat\"},{\"name\":\"audioStreamFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioStreamFormatType\",\"fields\":[{\"name\":\"audioStreamFormatID\",\"type\":\"string\",\"source\":\"attribute audioStreamFormatID\"},{\"name\":\"audioStreamFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioStreamFormatName\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"audioChannelFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioChannelFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioPackFormatIDRef\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element audioTrackFormatIDRef\"}]}},\"source\":\"element audioStreamFormat\"},{\"name\":\"audioTrackFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioTrackFormatType\",\"fields\":[{\"name\":\"audioTrackFormatID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioTrackFormatID\"},{\"name\":\"audioTrackFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioTrackFormatName\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"audioStreamFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioStreamFormatIDRef\"}]}},\"source\":\"element audioTrackFormat\"},{\"name\":\"audioTrackUID\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"audioTrackUIDType\",\"fields\":[{\"name\":\"UID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute UID\"},{\"name\":\"sampleRate\",\"type\":[\"null\",\"int\"],\"source\":\"attribute sampleRate\"},{\"name\":\"bitDepth\",\"type\":[\"null\",\"int\"],\"source\":\"attribute bitDepth\"},{\"name\":\"audioM","XFLookUp\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"audioMXFLookUpType\",\"fields\":[{\"name\":\"packageUIDRef\",\"type\":\"string\",\"source\":\"element packageUIDRef\"},{\"name\":\"trackIDRef\",\"type\":\"string\",\"source\":\"element trackIDRef\"},{\"name\":\"channelIDRef\",\"type\":\"string\",\"source\":\"element channelIDRef\"}]}],\"source\":\"element audioMXFLookUp\"},{\"name\":\"audioTrackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioTrackFormatIDRef\"},{\"name\":\"audioPackFormatIDRef\",\"type\":[\"null\",\"string\"],\"source\":\"element audioPackFormatIDRef\"}]}},\"source\":\"element audioTrackUID\"}]}},\"source\":\"element audioFormatExtended\"},{\"name\":\"containerFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"containerFormatType\",\"fields\":[{\"name\":\"containerFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatId\"},{\"name\":\"containerFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatVersionId\"},{\"name\":\"containerFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatName\"},{\"name\":\"containerFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatProfile\"},{\"name\":\"containerFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatProfileLevel\"},{\"name\":\"containerFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute containerFormatDefinition\"},{\"name\":\"containerEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_containerEncodingcontainerFormatType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element containerEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String12\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean13\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float14\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element containerFormat\"},{\"name\":\"signingFormat\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"signingFormatType\",\"fields\":[{\"name\":\"signingFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatId\"},{\"name\":\"signingFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatVersionId\"},{\"name\":\"signingFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingFormatName\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"signingSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute signingSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"signingPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute signingPresenceFlag\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element signingFormat\"},{\"name\":\"dataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"dataFormatType\",\"fields\":[{\"name\":\"dataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatId\"},{\"name\":\"dataFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataForma","tVersionId\"},{\"name\":\"dataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatName\"},{\"name\":\"dataFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatDefinition\"},{\"name\":\"dataTrackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackId\"},{\"name\":\"dataTrackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackName\"},{\"name\":\"dataTrackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataTrackLanguage\"},{\"name\":\"dataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatProfile\"},{\"name\":\"dataFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute dataFormatProfileLevel\"},{\"name\":\"dataPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute dataPresenceFlag\"},{\"name\":\"captioningFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"captioningFormatType\",\"fields\":[{\"name\":\"captioningFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatId\"},{\"name\":\"captioningFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatName\"},{\"name\":\"captioningFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningFormatProfile\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"captioningSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute captioningSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"closed\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute closed\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"captioningPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute captioningPresenceFlag\"}]}},\"source\":\"element captioningFormat\"},{\"name\":\"subtitlingFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"subtitlingFormatType\",\"fields\":[{\"name\":\"subtitlingFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatId\"},{\"name\":\"subtitlingFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatName\"},{\"name\":\"subtitlingFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingFormatProfile\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"subtitlingSourceUri\",\"type\":[\"null\",\"string\"],\"source\":\"attribute subtitlingSourceUri\"},{\"name\":\"language\",\"type\":[\"null\",\"string\"],\"source\":\"attribute language\"},{\"name\":\"closed\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute closed\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"subtitlingPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute subtitlingPresenceFlag\"}]}},\"source\":\"element subtitlingFormat\"},{\"name\":\"ancillaryDataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"ancillaryDataFormatType\",\"fields\":[{\"name\":\"ancillaryDataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatId\"},{\"name\":\"ancillaryDataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatName\"},{\"name\":\"ancillaryDataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatProfile\"},{\"name\":\"DID\",\"type\":[\"null\",\"string\"],\"source\":\"element DID\"},{\"name\":\"SDID\",\"type\":[\"null\",\"string\"],\"source\":\"element SDID\"},{\"name\":\"lineNumber\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element lineNumber\"},{\"name\":\"wrappingType\",\"type\":[\"null\",\"string\"],\"source\":\"element wrappingType\"}]}},\"source\":\"element ancillaryDataFormat\"},{\"name\":\"codec\",\"type\":[\"null\",\"codecType\"],\"source\":\"element codec\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String15\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"n","ull\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float17\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element dataFormat\"},{\"name\":\"timecodeFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timecodeFormatType\",\"fields\":[{\"name\":\"timecodeFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatId\"},{\"name\":\"timecodeFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatVersionId\"},{\"name\":\"timecodeFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatName\"},{\"name\":\"timecodeFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatDefinition\"},{\"name\":\"timecodeStart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}},\"source\":\"element timecodeStart\"},{\"name\":\"timecodeTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_timecodeTracktimecodeFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element timecodeTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String18\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean19\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float20\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type","\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element timecodeFormat\"},{\"name\":\"metadataFormat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"metadataFormatType\",\"fields\":[{\"name\":\"metadataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatId\"},{\"name\":\"metadataFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatVersionId\"},{\"name\":\"metadataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatName\"},{\"name\":\"metadataFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute metadataFormatDefinition\"},{\"name\":\"metadataTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_metadataTrackmetadataFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element metadataTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String21\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean22\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float23\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"start\",\"type\":[\"null\",\"timeType\"],\"source\":\"element start\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"durationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",\"editUnitNumberType\"],\"source\":\"element editUnitNumber\"},{\"name\":\"duration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_durationdurationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element duration\"}]}],\"source\":\"element duration\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}},\"source\":\"element metadataFormat\"},{\"name\":\"start\",\"type\":{\"type\":\"array\",\"items\":\"timeType\"},\"source\":\"element start\"},{\"name\":\"end\",\"type\":{\"type\":\"array\",\"items\":\"timeType\"},\"source\":\"element end\"},{\"name\":\"duration\",\"type\":{\"type\":\"array\",\"items\":\"durationType\"},\"source\":\"element duration\"},{\"name\":\"fileSize\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element fileSize\"},{\"name\":\"fileName\",\"type\":[\"null\",\"string\"],\"source\":\"element fileName\"},{\"name\":\"mimeType\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_mimeTypefileInfo\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element mimeType\"},{\"name\":\"locator\",\"type\":{\"t","ype\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_locatorfileInfo\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element locator\"},{\"name\":\"hash\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"hashType\",\"fields\":[{\"name\":\"hashValue\",\"type\":\"string\",\"source\":\"element hashValue\"},{\"name\":\"hashFunction\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_hashFunctionhashType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element hashFunction\"}]}],\"source\":\"element hash\"},{\"name\":\"overallBitRate\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element overallBitRate\"},{\"name\":\"documentFormat\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"documentFormatType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"documentFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatId\"},{\"name\":\"documentFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatVersionId\"},{\"name\":\"documentFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatName\"},{\"name\":\"documentFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatProfile\"},{\"name\":\"documentFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute documentFormatDefinition\"},{\"name\":\"wordCount\",\"type\":[\"null\",\"string\"],\"source\":\"element wordCount\"},{\"name\":\"regionDelimX\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimX\"},{\"name\":\"regionDelimY\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element regionDelimY\"},{\"name\":\"width\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element width\"},{\"name\":\"height\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element height\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String24\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean25\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float26\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":\"AnonType_comment\"},\"source\":\"element comment\"}]}],\"source\":\"element documentFormat\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String27\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"nul","l\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean28\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float29\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"dateCreated\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_dateCreatedformatType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element dateCreated\"},{\"name\":\"dateModified\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_dateModifiedformatType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}],\"source\":\"element dateModified\"}]}},\"source\":\"element format\"},{\"name\":\"identifier\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element identifier\"},{\"name\":\"source\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element source\"},{\"name\":\"language\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"languageType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"language\",\"type\":[\"null\",\"elementType\"],\"source\":\"element language\"}]}},\"source\":\"element language\"},{\"name\":\"relation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"relationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"runningOrderNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute runningOrderNumber\"},{\"name\":\"totalNumberOfGroupMembers\",\"type\":[\"null\",\"string\"],\"source\":\"attribute totalNumberOfGroupMembers\"},{\"name\":\"orderedGroupFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute orderedGroupFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"relation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element relation\"},{\"name\":\"relationIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element relationIdentifier\"},{\"name\":\"relationLink\",\"type\":[\"null\",\"string\"],\"source\":\"element relationLink\"}]}},\"source\":\"element relation\"},{\"name\":\"isRelatedTo\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isRelatedTo\"},{\"name\":\"isNextInSequence\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isNextInSequence\"},{\"name\":\"followsInSequence\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element followsInSequence\"},{\"name\":\"isVersionOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isVersionOf\"},{\"name\":\"hasVersion\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasVersion\"},{\"name\":\"isReplacedBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isReplacedBy\"},{\"name\":\"replaces\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element replaces\"},{\"name\":\"isRequiredBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isRequiredBy\"},{\"name\":\"requires\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element requires\"},{\"name\":\"isPartOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isPartOf\"},{\"name\":\"hasPart\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasPart\"},{\"name\":\"hasTrackPart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_hasTrackPartcoreMetadataType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSo","urce\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"runningOrderNumber\",\"type\":[\"null\",\"string\"],\"source\":\"attribute runningOrderNumber\"},{\"name\":\"totalNumberOfGroupMembers\",\"type\":[\"null\",\"string\"],\"source\":\"attribute totalNumberOfGroupMembers\"},{\"name\":\"orderedGroupFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute orderedGroupFlag\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"relation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element relation\"},{\"name\":\"relationIdentifier\",\"type\":[\"null\",\"identifierType\"],\"source\":\"element relationIdentifier\"},{\"name\":\"relationLink\",\"type\":[\"null\",\"string\"],\"source\":\"element relationLink\"},{\"name\":\"trackPartTitle\",\"type\":\"alternativeTitleType\",\"source\":\"element trackPartTitle\"},{\"name\":\"destinationId\",\"type\":[\"null\",\"string\"],\"source\":\"element destinationId\"},{\"name\":\"destinationStart\",\"type\":[\"null\",\"timeType\"],\"source\":\"element destinationStart\"},{\"name\":\"destinationEnd\",\"type\":[\"null\",\"timeType\"],\"source\":\"element destinationEnd\"},{\"name\":\"sourceId\",\"type\":[\"null\",\"string\"],\"source\":\"element sourceId\"},{\"name\":\"sourceStart\",\"type\":[\"null\",\"timeType\"],\"source\":\"element sourceStart\"},{\"name\":\"sourceEnd\",\"type\":[\"null\",\"timeType\"],\"source\":\"element sourceEnd\"}]}},\"source\":\"element hasTrackPart\"},{\"name\":\"isReferencedBy\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isReferencedBy\"},{\"name\":\"references\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element references\"},{\"name\":\"isFormatOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isFormatOf\"},{\"name\":\"hasFormat\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasFormat\"},{\"name\":\"isEpisodeOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isEpisodeOf\"},{\"name\":\"isSeasonOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isSeasonOf\"},{\"name\":\"hasEpisode\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasEpisode\"},{\"name\":\"hasSeason\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasSeason\"},{\"name\":\"hasSeries\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasSeries\"},{\"name\":\"isSeriesOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isSeriesOf\"},{\"name\":\"isMemberOf\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element isMemberOf\"},{\"name\":\"hasMember\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element hasMember\"},{\"name\":\"sameAs\",\"type\":{\"type\":\"array\",\"items\":\"relationType\"},\"source\":\"element sameAs\"},{\"name\":\"coverage\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"coverageType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"coverage\",\"type\":[\"null\",\"elementType\"],\"source\":\"element coverage\"},{\"name\":\"temporal\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"temporalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"PeriodOfTime\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"periodOfTimeType\",\"fields\":[{\"name\":\"periodId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute periodId\"},{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"periodName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element periodName\"}]}},\"source\":\"element PeriodOfTime\"}]}],\"source\":\"element temporal\"},{\"name\":\"spatial\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"spatialType\",\"fields\":[{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",\"elementType\"],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",\"regionType\"],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}],\"source\":\"element spatial\"}]}},\"source\":\"element coverage\"},{\"name\":\"rights\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"rightsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"formatIDRefs\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatIDRefs\"},{\"name\":\"rightsID\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rightsID\"},{\"name\":\"rights\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element rights\"},{\"name\":\"rightsLink\",\"type\":[\"null\",\"string\"],\"source\":\"element rightsLink\"},{\"name\":\"rightsHolder\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element rightsHolder\"},{\"name\":\"exploitationIssues\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element exploitationIssues\"},{\"name\":\"copyrightStatement\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element copyrightStatement\"},{\"name\":\"coverage\",\"type","\":{\"type\":\"array\",\"items\":\"coverageType\"},\"source\":\"element coverage\"},{\"name\":\"rightsClearanceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"element rightsClearanceFlag\"},{\"name\":\"processingRestrictionFlag\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_processingRestrictionFlagrightsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"qualityClass\",\"type\":[\"null\",\"string\"],\"source\":\"attribute qualityClass\"},{\"name\":\"restrictions\",\"type\":[\"null\",\"string\"],\"source\":\"attribute restrictions\"}]}],\"source\":\"element processingRestrictionFlag\"},{\"name\":\"disclaimer\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element disclaimer\"},{\"name\":\"rightsAttributedId\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element rightsAttributedId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":\"contactDetailsType\"},\"source\":\"element contactDetails\"}]}},\"source\":\"element rights\"},{\"name\":\"version\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"versionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element version\"},{\"name\":\"publicationHistory\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"publicationHistoryType\",\"fields\":[{\"name\":\"publicationHistoryId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationHistoryId\"},{\"name\":\"publicationEvent\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"publicationEventType\",\"fields\":[{\"name\":\"publicationEventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationEventId\"},{\"name\":\"publicationEventName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationEventName\"},{\"name\":\"firstShowing\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute firstShowing\"},{\"name\":\"lastShowing\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute lastShowing\"},{\"name\":\"live\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute live\"},{\"name\":\"liveProduction\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute liveProduction\"},{\"name\":\"free\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute free\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"formatIdRef\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatIdRef\"},{\"name\":\"rightsIDRefs\",\"type\":[\"null\",\"string\"],\"source\":\"attribute rightsIDRefs\"},{\"name\":\"publicationDate\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationDate\"},{\"name\":\"publicationTime\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationTime\"},{\"name\":\"scheduleDate\",\"type\":[\"null\",\"string\"],\"source\":\"element scheduleDate\"},{\"name\":\"publicationService\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationServiceType\",\"fields\":[{\"name\":\"serviceId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute serviceId\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"publicationServiceName\",\"type\":[\"null\",\"string\"],\"source\":\"element publicationServiceName\"},{\"name\":\"publicationSource\",\"type\":[\"null\",\"organisationDetailsType\"],\"source\":\"element publicationSource\"}]}],\"source\":\"element publicationService\"},{\"name\":\"publicationMedium\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationMediumType\",\"fields\":[{\"name\":\"publicationMediumId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationMediumId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element publicationMedium\"},{\"name\":\"publicationChannel\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"publicationChannelType\",\"fields\":[{\"name\":\"publicationChannelId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute publicationChannelId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"}]}],\"source\":\"element publicationChannel\"},{\"name\":\"publicationRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element publicationRegion\"}]}},\"source\":\"element publicationEvent\"}]}},\"source\":\"element publicationHistory\"},{\"name\":\"planning\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"planningType\",\"fields\":[{\"name\":\"planningId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute planningId\"},{\"name\":\"publicationEvent\",\"type\":{\"type\":\"array\",\"items\":\"publicationEventType\"},\"source\":\"element publicationEvent\"}]}},\"source\":\"element planning\"},{\"name\":\"rating\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"ratingType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"ratingSystem\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingSystem\"},{\"name\":\"ratingEnvironment\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingEnvironment\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"ratingValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingValue\"},{\"name\":\"ratingLink\",","\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element ratingLink\"},{\"name\":\"ratingScaleMaxValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMaxValue\"},{\"name\":\"ratingScaleMinValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMinValue\"},{\"name\":\"ratingProvider\",\"type\":[\"null\",\"entityType\"],\"source\":\"element ratingProvider\"},{\"name\":\"ratingRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingRegion\"},{\"name\":\"ratingExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingExclusionRegion\"}]}},\"source\":\"element rating\"},{\"name\":\"audienceRating\",\"type\":{\"type\":\"array\",\"items\":\"ratingType\"},\"source\":\"element audienceRating\"},{\"name\":\"event\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"eventType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"eventId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute eventId\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":\"locationType\"},\"source\":\"element location\"}]}},\"source\":\"element event\"},{\"name\":\"part\",\"type\":{\"type\":\"array\",\"items\":\"partType\"},\"source\":\"element part\"},{\"name\":\"partStartTime\",\"type\":[\"null\",\"timeType\"],\"source\":\"element partStartTime\"},{\"name\":\"partDuration\",\"type\":[\"null\",\"durationType\"],\"source\":\"element partDuration\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence partId;
   @Deprecated public java.lang.CharSequence partName;
@@ -20,56 +19,56 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
   @Deprecated public java.lang.CharSequence typeSource;
   @Deprecated public java.lang.CharSequence typeNamespace;
   @Deprecated public java.lang.CharSequence typeLanguage;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> title;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> alternativeTitle;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> creator;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> subject;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> description;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> publisher;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> contributor;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> date;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> type;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> format;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> identifier;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> source;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> language;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> relation;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRelatedTo;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isNextInSequence;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> followsInSequence;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isVersionOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasVersion;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReplacedBy;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> replaces;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRequiredBy;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> requires;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isPartOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasPart;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> hasTrackPart;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReferencedBy;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> references;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isFormatOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasFormat;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isEpisodeOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeasonOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasEpisode;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeason;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeries;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeriesOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isMemberOf;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasMember;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> sameAs;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> coverage;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> rights;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> version;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> publicationHistory;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> planning;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> rating;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> audienceRating;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> event;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> part;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.timeType partStartTime;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.durationType partDuration;
+  @Deprecated public java.util.List<titleType> title;
+  @Deprecated public java.util.List<alternativeTitleType> alternativeTitle;
+  @Deprecated public java.util.List<entityType> creator;
+  @Deprecated public java.util.List<subjectType> subject;
+  @Deprecated public java.util.List<descriptionType> description;
+  @Deprecated public java.util.List<entityType> publisher;
+  @Deprecated public java.util.List<entityType> contributor;
+  @Deprecated public java.util.List<dateType> date;
+  @Deprecated public java.util.List<typeType> type;
+  @Deprecated public java.util.List<formatType> format;
+  @Deprecated public java.util.List<identifierType> identifier;
+  @Deprecated public java.util.List<elementType> source;
+  @Deprecated public java.util.List<languageType> language;
+  @Deprecated public java.util.List<relationType> relation;
+  @Deprecated public java.util.List<relationType> isRelatedTo;
+  @Deprecated public java.util.List<relationType> isNextInSequence;
+  @Deprecated public java.util.List<relationType> followsInSequence;
+  @Deprecated public java.util.List<relationType> isVersionOf;
+  @Deprecated public java.util.List<relationType> hasVersion;
+  @Deprecated public java.util.List<relationType> isReplacedBy;
+  @Deprecated public java.util.List<relationType> replaces;
+  @Deprecated public java.util.List<relationType> isRequiredBy;
+  @Deprecated public java.util.List<relationType> requires;
+  @Deprecated public java.util.List<relationType> isPartOf;
+  @Deprecated public java.util.List<relationType> hasPart;
+  @Deprecated public java.util.List<AnonType_hasTrackPartcoreMetadataType> hasTrackPart;
+  @Deprecated public java.util.List<relationType> isReferencedBy;
+  @Deprecated public java.util.List<relationType> references;
+  @Deprecated public java.util.List<relationType> isFormatOf;
+  @Deprecated public java.util.List<relationType> hasFormat;
+  @Deprecated public java.util.List<relationType> isEpisodeOf;
+  @Deprecated public java.util.List<relationType> isSeasonOf;
+  @Deprecated public java.util.List<relationType> hasEpisode;
+  @Deprecated public java.util.List<relationType> hasSeason;
+  @Deprecated public java.util.List<relationType> hasSeries;
+  @Deprecated public java.util.List<relationType> isSeriesOf;
+  @Deprecated public java.util.List<relationType> isMemberOf;
+  @Deprecated public java.util.List<relationType> hasMember;
+  @Deprecated public java.util.List<relationType> sameAs;
+  @Deprecated public java.util.List<coverageType> coverage;
+  @Deprecated public java.util.List<rightsType> rights;
+  @Deprecated public java.util.List<versionType> version;
+  @Deprecated public java.util.List<publicationHistoryType> publicationHistory;
+  @Deprecated public java.util.List<planningType> planning;
+  @Deprecated public java.util.List<ratingType> rating;
+  @Deprecated public java.util.List<ratingType> audienceRating;
+  @Deprecated public java.util.List<eventType> event;
+  @Deprecated public java.util.List<partType> part;
+  @Deprecated public timeType partStartTime;
+  @Deprecated public durationType partDuration;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -81,7 +80,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * All-args constructor.
    */
-  public partType(java.lang.CharSequence partId, java.lang.CharSequence partName, java.lang.CharSequence partDefinition, java.lang.CharSequence partNumber, java.lang.CharSequence partTotalNumber, java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> title, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> alternativeTitle, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> creator, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> subject, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> description, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> publisher, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> contributor, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> date, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> type, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> format, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> identifier, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> source, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> language, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> relation, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRelatedTo, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isNextInSequence, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> followsInSequence, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isVersionOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasVersion, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReplacedBy, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> replaces, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRequiredBy, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> requires, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isPartOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasPart, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> hasTrackPart, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReferencedBy, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> references, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isFormatOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasFormat, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isEpisodeOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeasonOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasEpisode, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeason, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeries, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeriesOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isMemberOf, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasMember, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> sameAs, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> coverage, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> rights, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> version, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> publicationHistory, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> planning, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> rating, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> audienceRating, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> event, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> part, com.beligum.blocks.schema.ebucore.v2015.avro.timeType partStartTime, com.beligum.blocks.schema.ebucore.v2015.avro.durationType partDuration) {
+  public partType(java.lang.CharSequence partId, java.lang.CharSequence partName, java.lang.CharSequence partDefinition, java.lang.CharSequence partNumber, java.lang.CharSequence partTotalNumber, java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.util.List<titleType> title, java.util.List<alternativeTitleType> alternativeTitle, java.util.List<entityType> creator, java.util.List<subjectType> subject, java.util.List<descriptionType> description, java.util.List<entityType> publisher, java.util.List<entityType> contributor, java.util.List<dateType> date, java.util.List<typeType> type, java.util.List<formatType> format, java.util.List<identifierType> identifier, java.util.List<elementType> source, java.util.List<languageType> language, java.util.List<relationType> relation, java.util.List<relationType> isRelatedTo, java.util.List<relationType> isNextInSequence, java.util.List<relationType> followsInSequence, java.util.List<relationType> isVersionOf, java.util.List<relationType> hasVersion, java.util.List<relationType> isReplacedBy, java.util.List<relationType> replaces, java.util.List<relationType> isRequiredBy, java.util.List<relationType> requires, java.util.List<relationType> isPartOf, java.util.List<relationType> hasPart, java.util.List<AnonType_hasTrackPartcoreMetadataType> hasTrackPart, java.util.List<relationType> isReferencedBy, java.util.List<relationType> references, java.util.List<relationType> isFormatOf, java.util.List<relationType> hasFormat, java.util.List<relationType> isEpisodeOf, java.util.List<relationType> isSeasonOf, java.util.List<relationType> hasEpisode, java.util.List<relationType> hasSeason, java.util.List<relationType> hasSeries, java.util.List<relationType> isSeriesOf, java.util.List<relationType> isMemberOf, java.util.List<relationType> hasMember, java.util.List<relationType> sameAs, java.util.List<coverageType> coverage, java.util.List<rightsType> rights, java.util.List<versionType> version, java.util.List<publicationHistoryType> publicationHistory, java.util.List<planningType> planning, java.util.List<ratingType> rating, java.util.List<ratingType> audienceRating, java.util.List<eventType> event, java.util.List<partType> part, timeType partStartTime, durationType partDuration) {
     this.partId = partId;
     this.partName = partName;
     this.partDefinition = partDefinition;
@@ -228,56 +227,56 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     case 8: typeSource = (java.lang.CharSequence)value$; break;
     case 9: typeNamespace = (java.lang.CharSequence)value$; break;
     case 10: typeLanguage = (java.lang.CharSequence)value$; break;
-    case 11: title = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType>)value$; break;
-    case 12: alternativeTitle = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType>)value$; break;
-    case 13: creator = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>)value$; break;
-    case 14: subject = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType>)value$; break;
-    case 15: description = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType>)value$; break;
-    case 16: publisher = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>)value$; break;
-    case 17: contributor = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>)value$; break;
-    case 18: date = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType>)value$; break;
-    case 19: type = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType>)value$; break;
-    case 20: format = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType>)value$; break;
-    case 21: identifier = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType>)value$; break;
-    case 22: source = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 23: language = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType>)value$; break;
-    case 24: relation = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 25: isRelatedTo = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 26: isNextInSequence = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 27: followsInSequence = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 28: isVersionOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 29: hasVersion = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 30: isReplacedBy = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 31: replaces = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 32: isRequiredBy = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 33: requires = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 34: isPartOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 35: hasPart = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 36: hasTrackPart = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType>)value$; break;
-    case 37: isReferencedBy = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 38: references = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 39: isFormatOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 40: hasFormat = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 41: isEpisodeOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 42: isSeasonOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 43: hasEpisode = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 44: hasSeason = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 45: hasSeries = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 46: isSeriesOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 47: isMemberOf = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 48: hasMember = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 49: sameAs = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>)value$; break;
-    case 50: coverage = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType>)value$; break;
-    case 51: rights = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType>)value$; break;
-    case 52: version = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType>)value$; break;
-    case 53: publicationHistory = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType>)value$; break;
-    case 54: planning = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType>)value$; break;
-    case 55: rating = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType>)value$; break;
-    case 56: audienceRating = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType>)value$; break;
-    case 57: event = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType>)value$; break;
-    case 58: part = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType>)value$; break;
-    case 59: partStartTime = (com.beligum.blocks.schema.ebucore.v2015.avro.timeType)value$; break;
-    case 60: partDuration = (com.beligum.blocks.schema.ebucore.v2015.avro.durationType)value$; break;
+    case 11: title = (java.util.List<titleType>)value$; break;
+    case 12: alternativeTitle = (java.util.List<alternativeTitleType>)value$; break;
+    case 13: creator = (java.util.List<entityType>)value$; break;
+    case 14: subject = (java.util.List<subjectType>)value$; break;
+    case 15: description = (java.util.List<descriptionType>)value$; break;
+    case 16: publisher = (java.util.List<entityType>)value$; break;
+    case 17: contributor = (java.util.List<entityType>)value$; break;
+    case 18: date = (java.util.List<dateType>)value$; break;
+    case 19: type = (java.util.List<typeType>)value$; break;
+    case 20: format = (java.util.List<formatType>)value$; break;
+    case 21: identifier = (java.util.List<identifierType>)value$; break;
+    case 22: source = (java.util.List<elementType>)value$; break;
+    case 23: language = (java.util.List<languageType>)value$; break;
+    case 24: relation = (java.util.List<relationType>)value$; break;
+    case 25: isRelatedTo = (java.util.List<relationType>)value$; break;
+    case 26: isNextInSequence = (java.util.List<relationType>)value$; break;
+    case 27: followsInSequence = (java.util.List<relationType>)value$; break;
+    case 28: isVersionOf = (java.util.List<relationType>)value$; break;
+    case 29: hasVersion = (java.util.List<relationType>)value$; break;
+    case 30: isReplacedBy = (java.util.List<relationType>)value$; break;
+    case 31: replaces = (java.util.List<relationType>)value$; break;
+    case 32: isRequiredBy = (java.util.List<relationType>)value$; break;
+    case 33: requires = (java.util.List<relationType>)value$; break;
+    case 34: isPartOf = (java.util.List<relationType>)value$; break;
+    case 35: hasPart = (java.util.List<relationType>)value$; break;
+    case 36: hasTrackPart = (java.util.List<AnonType_hasTrackPartcoreMetadataType>)value$; break;
+    case 37: isReferencedBy = (java.util.List<relationType>)value$; break;
+    case 38: references = (java.util.List<relationType>)value$; break;
+    case 39: isFormatOf = (java.util.List<relationType>)value$; break;
+    case 40: hasFormat = (java.util.List<relationType>)value$; break;
+    case 41: isEpisodeOf = (java.util.List<relationType>)value$; break;
+    case 42: isSeasonOf = (java.util.List<relationType>)value$; break;
+    case 43: hasEpisode = (java.util.List<relationType>)value$; break;
+    case 44: hasSeason = (java.util.List<relationType>)value$; break;
+    case 45: hasSeries = (java.util.List<relationType>)value$; break;
+    case 46: isSeriesOf = (java.util.List<relationType>)value$; break;
+    case 47: isMemberOf = (java.util.List<relationType>)value$; break;
+    case 48: hasMember = (java.util.List<relationType>)value$; break;
+    case 49: sameAs = (java.util.List<relationType>)value$; break;
+    case 50: coverage = (java.util.List<coverageType>)value$; break;
+    case 51: rights = (java.util.List<rightsType>)value$; break;
+    case 52: version = (java.util.List<versionType>)value$; break;
+    case 53: publicationHistory = (java.util.List<publicationHistoryType>)value$; break;
+    case 54: planning = (java.util.List<planningType>)value$; break;
+    case 55: rating = (java.util.List<ratingType>)value$; break;
+    case 56: audienceRating = (java.util.List<ratingType>)value$; break;
+    case 57: event = (java.util.List<eventType>)value$; break;
+    case 58: part = (java.util.List<partType>)value$; break;
+    case 59: partStartTime = (timeType)value$; break;
+    case 60: partDuration = (durationType)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -450,7 +449,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * Gets the value of the 'title' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> getTitle() {
+  public java.util.List<titleType> getTitle() {
     return title;
   }
 
@@ -458,14 +457,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'title' field.
    * @param value the value to set.
    */
-  public void setTitle(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> value) {
+  public void setTitle(java.util.List<titleType> value) {
     this.title = value;
   }
 
   /**
    * Gets the value of the 'alternativeTitle' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> getAlternativeTitle() {
+  public java.util.List<alternativeTitleType> getAlternativeTitle() {
     return alternativeTitle;
   }
 
@@ -473,14 +472,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'alternativeTitle' field.
    * @param value the value to set.
    */
-  public void setAlternativeTitle(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> value) {
+  public void setAlternativeTitle(java.util.List<alternativeTitleType> value) {
     this.alternativeTitle = value;
   }
 
   /**
    * Gets the value of the 'creator' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getCreator() {
+  public java.util.List<entityType> getCreator() {
     return creator;
   }
 
@@ -488,14 +487,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'creator' field.
    * @param value the value to set.
    */
-  public void setCreator(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+  public void setCreator(java.util.List<entityType> value) {
     this.creator = value;
   }
 
   /**
    * Gets the value of the 'subject' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> getSubject() {
+  public java.util.List<subjectType> getSubject() {
     return subject;
   }
 
@@ -503,14 +502,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'subject' field.
    * @param value the value to set.
    */
-  public void setSubject(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> value) {
+  public void setSubject(java.util.List<subjectType> value) {
     this.subject = value;
   }
 
   /**
    * Gets the value of the 'description' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> getDescription() {
+  public java.util.List<descriptionType> getDescription() {
     return description;
   }
 
@@ -518,14 +517,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'description' field.
    * @param value the value to set.
    */
-  public void setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> value) {
+  public void setDescription(java.util.List<descriptionType> value) {
     this.description = value;
   }
 
   /**
    * Gets the value of the 'publisher' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getPublisher() {
+  public java.util.List<entityType> getPublisher() {
     return publisher;
   }
 
@@ -533,14 +532,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'publisher' field.
    * @param value the value to set.
    */
-  public void setPublisher(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+  public void setPublisher(java.util.List<entityType> value) {
     this.publisher = value;
   }
 
   /**
    * Gets the value of the 'contributor' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getContributor() {
+  public java.util.List<entityType> getContributor() {
     return contributor;
   }
 
@@ -548,14 +547,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'contributor' field.
    * @param value the value to set.
    */
-  public void setContributor(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+  public void setContributor(java.util.List<entityType> value) {
     this.contributor = value;
   }
 
   /**
    * Gets the value of the 'date' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> getDate() {
+  public java.util.List<dateType> getDate() {
     return date;
   }
 
@@ -563,14 +562,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'date' field.
    * @param value the value to set.
    */
-  public void setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> value) {
+  public void setDate(java.util.List<dateType> value) {
     this.date = value;
   }
 
   /**
    * Gets the value of the 'type' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> getType() {
+  public java.util.List<typeType> getType() {
     return type;
   }
 
@@ -578,14 +577,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'type' field.
    * @param value the value to set.
    */
-  public void setType(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> value) {
+  public void setType(java.util.List<typeType> value) {
     this.type = value;
   }
 
   /**
    * Gets the value of the 'format' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> getFormat() {
+  public java.util.List<formatType> getFormat() {
     return format;
   }
 
@@ -593,14 +592,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'format' field.
    * @param value the value to set.
    */
-  public void setFormat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> value) {
+  public void setFormat(java.util.List<formatType> value) {
     this.format = value;
   }
 
   /**
    * Gets the value of the 'identifier' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> getIdentifier() {
+  public java.util.List<identifierType> getIdentifier() {
     return identifier;
   }
 
@@ -608,14 +607,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'identifier' field.
    * @param value the value to set.
    */
-  public void setIdentifier(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> value) {
+  public void setIdentifier(java.util.List<identifierType> value) {
     this.identifier = value;
   }
 
   /**
    * Gets the value of the 'source' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getSource() {
+  public java.util.List<elementType> getSource() {
     return source;
   }
 
@@ -623,14 +622,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'source' field.
    * @param value the value to set.
    */
-  public void setSource(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setSource(java.util.List<elementType> value) {
     this.source = value;
   }
 
   /**
    * Gets the value of the 'language' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> getLanguage() {
+  public java.util.List<languageType> getLanguage() {
     return language;
   }
 
@@ -638,14 +637,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'language' field.
    * @param value the value to set.
    */
-  public void setLanguage(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> value) {
+  public void setLanguage(java.util.List<languageType> value) {
     this.language = value;
   }
 
   /**
    * Gets the value of the 'relation' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getRelation() {
+  public java.util.List<relationType> getRelation() {
     return relation;
   }
 
@@ -653,14 +652,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'relation' field.
    * @param value the value to set.
    */
-  public void setRelation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setRelation(java.util.List<relationType> value) {
     this.relation = value;
   }
 
   /**
    * Gets the value of the 'isRelatedTo' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsRelatedTo() {
+  public java.util.List<relationType> getIsRelatedTo() {
     return isRelatedTo;
   }
 
@@ -668,14 +667,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isRelatedTo' field.
    * @param value the value to set.
    */
-  public void setIsRelatedTo(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsRelatedTo(java.util.List<relationType> value) {
     this.isRelatedTo = value;
   }
 
   /**
    * Gets the value of the 'isNextInSequence' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsNextInSequence() {
+  public java.util.List<relationType> getIsNextInSequence() {
     return isNextInSequence;
   }
 
@@ -683,14 +682,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isNextInSequence' field.
    * @param value the value to set.
    */
-  public void setIsNextInSequence(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsNextInSequence(java.util.List<relationType> value) {
     this.isNextInSequence = value;
   }
 
   /**
    * Gets the value of the 'followsInSequence' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getFollowsInSequence() {
+  public java.util.List<relationType> getFollowsInSequence() {
     return followsInSequence;
   }
 
@@ -698,14 +697,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'followsInSequence' field.
    * @param value the value to set.
    */
-  public void setFollowsInSequence(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setFollowsInSequence(java.util.List<relationType> value) {
     this.followsInSequence = value;
   }
 
   /**
    * Gets the value of the 'isVersionOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsVersionOf() {
+  public java.util.List<relationType> getIsVersionOf() {
     return isVersionOf;
   }
 
@@ -713,14 +712,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isVersionOf' field.
    * @param value the value to set.
    */
-  public void setIsVersionOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsVersionOf(java.util.List<relationType> value) {
     this.isVersionOf = value;
   }
 
   /**
    * Gets the value of the 'hasVersion' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasVersion() {
+  public java.util.List<relationType> getHasVersion() {
     return hasVersion;
   }
 
@@ -728,14 +727,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasVersion' field.
    * @param value the value to set.
    */
-  public void setHasVersion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasVersion(java.util.List<relationType> value) {
     this.hasVersion = value;
   }
 
   /**
    * Gets the value of the 'isReplacedBy' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsReplacedBy() {
+  public java.util.List<relationType> getIsReplacedBy() {
     return isReplacedBy;
   }
 
@@ -743,14 +742,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isReplacedBy' field.
    * @param value the value to set.
    */
-  public void setIsReplacedBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsReplacedBy(java.util.List<relationType> value) {
     this.isReplacedBy = value;
   }
 
   /**
    * Gets the value of the 'replaces' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getReplaces() {
+  public java.util.List<relationType> getReplaces() {
     return replaces;
   }
 
@@ -758,14 +757,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'replaces' field.
    * @param value the value to set.
    */
-  public void setReplaces(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setReplaces(java.util.List<relationType> value) {
     this.replaces = value;
   }
 
   /**
    * Gets the value of the 'isRequiredBy' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsRequiredBy() {
+  public java.util.List<relationType> getIsRequiredBy() {
     return isRequiredBy;
   }
 
@@ -773,14 +772,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isRequiredBy' field.
    * @param value the value to set.
    */
-  public void setIsRequiredBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsRequiredBy(java.util.List<relationType> value) {
     this.isRequiredBy = value;
   }
 
   /**
    * Gets the value of the 'requires' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getRequires() {
+  public java.util.List<relationType> getRequires() {
     return requires;
   }
 
@@ -788,14 +787,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'requires' field.
    * @param value the value to set.
    */
-  public void setRequires(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setRequires(java.util.List<relationType> value) {
     this.requires = value;
   }
 
   /**
    * Gets the value of the 'isPartOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsPartOf() {
+  public java.util.List<relationType> getIsPartOf() {
     return isPartOf;
   }
 
@@ -803,14 +802,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isPartOf' field.
    * @param value the value to set.
    */
-  public void setIsPartOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsPartOf(java.util.List<relationType> value) {
     this.isPartOf = value;
   }
 
   /**
    * Gets the value of the 'hasPart' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasPart() {
+  public java.util.List<relationType> getHasPart() {
     return hasPart;
   }
 
@@ -818,14 +817,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasPart' field.
    * @param value the value to set.
    */
-  public void setHasPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasPart(java.util.List<relationType> value) {
     this.hasPart = value;
   }
 
   /**
    * Gets the value of the 'hasTrackPart' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> getHasTrackPart() {
+  public java.util.List<AnonType_hasTrackPartcoreMetadataType> getHasTrackPart() {
     return hasTrackPart;
   }
 
@@ -833,14 +832,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasTrackPart' field.
    * @param value the value to set.
    */
-  public void setHasTrackPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> value) {
+  public void setHasTrackPart(java.util.List<AnonType_hasTrackPartcoreMetadataType> value) {
     this.hasTrackPart = value;
   }
 
   /**
    * Gets the value of the 'isReferencedBy' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsReferencedBy() {
+  public java.util.List<relationType> getIsReferencedBy() {
     return isReferencedBy;
   }
 
@@ -848,14 +847,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isReferencedBy' field.
    * @param value the value to set.
    */
-  public void setIsReferencedBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsReferencedBy(java.util.List<relationType> value) {
     this.isReferencedBy = value;
   }
 
   /**
    * Gets the value of the 'references' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getReferences() {
+  public java.util.List<relationType> getReferences() {
     return references;
   }
 
@@ -863,14 +862,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'references' field.
    * @param value the value to set.
    */
-  public void setReferences(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setReferences(java.util.List<relationType> value) {
     this.references = value;
   }
 
   /**
    * Gets the value of the 'isFormatOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsFormatOf() {
+  public java.util.List<relationType> getIsFormatOf() {
     return isFormatOf;
   }
 
@@ -878,14 +877,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isFormatOf' field.
    * @param value the value to set.
    */
-  public void setIsFormatOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsFormatOf(java.util.List<relationType> value) {
     this.isFormatOf = value;
   }
 
   /**
    * Gets the value of the 'hasFormat' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasFormat() {
+  public java.util.List<relationType> getHasFormat() {
     return hasFormat;
   }
 
@@ -893,14 +892,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasFormat' field.
    * @param value the value to set.
    */
-  public void setHasFormat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasFormat(java.util.List<relationType> value) {
     this.hasFormat = value;
   }
 
   /**
    * Gets the value of the 'isEpisodeOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsEpisodeOf() {
+  public java.util.List<relationType> getIsEpisodeOf() {
     return isEpisodeOf;
   }
 
@@ -908,14 +907,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isEpisodeOf' field.
    * @param value the value to set.
    */
-  public void setIsEpisodeOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsEpisodeOf(java.util.List<relationType> value) {
     this.isEpisodeOf = value;
   }
 
   /**
    * Gets the value of the 'isSeasonOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsSeasonOf() {
+  public java.util.List<relationType> getIsSeasonOf() {
     return isSeasonOf;
   }
 
@@ -923,14 +922,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isSeasonOf' field.
    * @param value the value to set.
    */
-  public void setIsSeasonOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsSeasonOf(java.util.List<relationType> value) {
     this.isSeasonOf = value;
   }
 
   /**
    * Gets the value of the 'hasEpisode' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasEpisode() {
+  public java.util.List<relationType> getHasEpisode() {
     return hasEpisode;
   }
 
@@ -938,14 +937,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasEpisode' field.
    * @param value the value to set.
    */
-  public void setHasEpisode(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasEpisode(java.util.List<relationType> value) {
     this.hasEpisode = value;
   }
 
   /**
    * Gets the value of the 'hasSeason' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasSeason() {
+  public java.util.List<relationType> getHasSeason() {
     return hasSeason;
   }
 
@@ -953,14 +952,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasSeason' field.
    * @param value the value to set.
    */
-  public void setHasSeason(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasSeason(java.util.List<relationType> value) {
     this.hasSeason = value;
   }
 
   /**
    * Gets the value of the 'hasSeries' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasSeries() {
+  public java.util.List<relationType> getHasSeries() {
     return hasSeries;
   }
 
@@ -968,14 +967,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasSeries' field.
    * @param value the value to set.
    */
-  public void setHasSeries(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasSeries(java.util.List<relationType> value) {
     this.hasSeries = value;
   }
 
   /**
    * Gets the value of the 'isSeriesOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsSeriesOf() {
+  public java.util.List<relationType> getIsSeriesOf() {
     return isSeriesOf;
   }
 
@@ -983,14 +982,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isSeriesOf' field.
    * @param value the value to set.
    */
-  public void setIsSeriesOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsSeriesOf(java.util.List<relationType> value) {
     this.isSeriesOf = value;
   }
 
   /**
    * Gets the value of the 'isMemberOf' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsMemberOf() {
+  public java.util.List<relationType> getIsMemberOf() {
     return isMemberOf;
   }
 
@@ -998,14 +997,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'isMemberOf' field.
    * @param value the value to set.
    */
-  public void setIsMemberOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setIsMemberOf(java.util.List<relationType> value) {
     this.isMemberOf = value;
   }
 
   /**
    * Gets the value of the 'hasMember' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasMember() {
+  public java.util.List<relationType> getHasMember() {
     return hasMember;
   }
 
@@ -1013,14 +1012,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'hasMember' field.
    * @param value the value to set.
    */
-  public void setHasMember(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setHasMember(java.util.List<relationType> value) {
     this.hasMember = value;
   }
 
   /**
    * Gets the value of the 'sameAs' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getSameAs() {
+  public java.util.List<relationType> getSameAs() {
     return sameAs;
   }
 
@@ -1028,14 +1027,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'sameAs' field.
    * @param value the value to set.
    */
-  public void setSameAs(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+  public void setSameAs(java.util.List<relationType> value) {
     this.sameAs = value;
   }
 
   /**
    * Gets the value of the 'coverage' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> getCoverage() {
+  public java.util.List<coverageType> getCoverage() {
     return coverage;
   }
 
@@ -1043,14 +1042,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'coverage' field.
    * @param value the value to set.
    */
-  public void setCoverage(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> value) {
+  public void setCoverage(java.util.List<coverageType> value) {
     this.coverage = value;
   }
 
   /**
    * Gets the value of the 'rights' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> getRights() {
+  public java.util.List<rightsType> getRights() {
     return rights;
   }
 
@@ -1058,14 +1057,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'rights' field.
    * @param value the value to set.
    */
-  public void setRights(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> value) {
+  public void setRights(java.util.List<rightsType> value) {
     this.rights = value;
   }
 
   /**
    * Gets the value of the 'version' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> getVersion() {
+  public java.util.List<versionType> getVersion() {
     return version;
   }
 
@@ -1073,14 +1072,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'version' field.
    * @param value the value to set.
    */
-  public void setVersion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> value) {
+  public void setVersion(java.util.List<versionType> value) {
     this.version = value;
   }
 
   /**
    * Gets the value of the 'publicationHistory' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> getPublicationHistory() {
+  public java.util.List<publicationHistoryType> getPublicationHistory() {
     return publicationHistory;
   }
 
@@ -1088,14 +1087,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'publicationHistory' field.
    * @param value the value to set.
    */
-  public void setPublicationHistory(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> value) {
+  public void setPublicationHistory(java.util.List<publicationHistoryType> value) {
     this.publicationHistory = value;
   }
 
   /**
    * Gets the value of the 'planning' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> getPlanning() {
+  public java.util.List<planningType> getPlanning() {
     return planning;
   }
 
@@ -1103,14 +1102,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'planning' field.
    * @param value the value to set.
    */
-  public void setPlanning(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> value) {
+  public void setPlanning(java.util.List<planningType> value) {
     this.planning = value;
   }
 
   /**
    * Gets the value of the 'rating' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> getRating() {
+  public java.util.List<ratingType> getRating() {
     return rating;
   }
 
@@ -1118,14 +1117,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'rating' field.
    * @param value the value to set.
    */
-  public void setRating(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> value) {
+  public void setRating(java.util.List<ratingType> value) {
     this.rating = value;
   }
 
   /**
    * Gets the value of the 'audienceRating' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> getAudienceRating() {
+  public java.util.List<ratingType> getAudienceRating() {
     return audienceRating;
   }
 
@@ -1133,14 +1132,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'audienceRating' field.
    * @param value the value to set.
    */
-  public void setAudienceRating(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> value) {
+  public void setAudienceRating(java.util.List<ratingType> value) {
     this.audienceRating = value;
   }
 
   /**
    * Gets the value of the 'event' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> getEvent() {
+  public java.util.List<eventType> getEvent() {
     return event;
   }
 
@@ -1148,14 +1147,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'event' field.
    * @param value the value to set.
    */
-  public void setEvent(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> value) {
+  public void setEvent(java.util.List<eventType> value) {
     this.event = value;
   }
 
   /**
    * Gets the value of the 'part' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> getPart() {
+  public java.util.List<partType> getPart() {
     return part;
   }
 
@@ -1163,14 +1162,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'part' field.
    * @param value the value to set.
    */
-  public void setPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> value) {
+  public void setPart(java.util.List<partType> value) {
     this.part = value;
   }
 
   /**
    * Gets the value of the 'partStartTime' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.timeType getPartStartTime() {
+  public timeType getPartStartTime() {
     return partStartTime;
   }
 
@@ -1178,14 +1177,14 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'partStartTime' field.
    * @param value the value to set.
    */
-  public void setPartStartTime(com.beligum.blocks.schema.ebucore.v2015.avro.timeType value) {
+  public void setPartStartTime(timeType value) {
     this.partStartTime = value;
   }
 
   /**
    * Gets the value of the 'partDuration' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.durationType getPartDuration() {
+  public durationType getPartDuration() {
     return partDuration;
   }
 
@@ -1193,23 +1192,23 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'partDuration' field.
    * @param value the value to set.
    */
-  public void setPartDuration(com.beligum.blocks.schema.ebucore.v2015.avro.durationType value) {
+  public void setPartDuration(durationType value) {
     this.partDuration = value;
   }
 
   /** Creates a new partType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder();
+  public static partType.Builder newBuilder() {
+    return new partType.Builder();
   }
   
   /** Creates a new partType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder(other);
+  public static partType.Builder newBuilder(partType.Builder other) {
+    return new partType.Builder(other);
   }
   
   /** Creates a new partType RecordBuilder by copying an existing partType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.partType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder(other);
+  public static partType.Builder newBuilder(partType other) {
+    return new partType.Builder(other);
   }
   
   /**
@@ -1229,64 +1228,64 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     private java.lang.CharSequence typeSource;
     private java.lang.CharSequence typeNamespace;
     private java.lang.CharSequence typeLanguage;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> title;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> alternativeTitle;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> creator;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> subject;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> description;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> publisher;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> contributor;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> date;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> type;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> format;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> identifier;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> source;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> language;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> relation;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRelatedTo;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isNextInSequence;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> followsInSequence;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isVersionOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasVersion;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReplacedBy;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> replaces;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isRequiredBy;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> requires;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isPartOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasPart;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> hasTrackPart;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isReferencedBy;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> references;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isFormatOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasFormat;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isEpisodeOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeasonOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasEpisode;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeason;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasSeries;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isSeriesOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> isMemberOf;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> hasMember;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> sameAs;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> coverage;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> rights;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> version;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> publicationHistory;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> planning;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> rating;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> audienceRating;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> event;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> part;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.timeType partStartTime;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.durationType partDuration;
+    private java.util.List<titleType> title;
+    private java.util.List<alternativeTitleType> alternativeTitle;
+    private java.util.List<entityType> creator;
+    private java.util.List<subjectType> subject;
+    private java.util.List<descriptionType> description;
+    private java.util.List<entityType> publisher;
+    private java.util.List<entityType> contributor;
+    private java.util.List<dateType> date;
+    private java.util.List<typeType> type;
+    private java.util.List<formatType> format;
+    private java.util.List<identifierType> identifier;
+    private java.util.List<elementType> source;
+    private java.util.List<languageType> language;
+    private java.util.List<relationType> relation;
+    private java.util.List<relationType> isRelatedTo;
+    private java.util.List<relationType> isNextInSequence;
+    private java.util.List<relationType> followsInSequence;
+    private java.util.List<relationType> isVersionOf;
+    private java.util.List<relationType> hasVersion;
+    private java.util.List<relationType> isReplacedBy;
+    private java.util.List<relationType> replaces;
+    private java.util.List<relationType> isRequiredBy;
+    private java.util.List<relationType> requires;
+    private java.util.List<relationType> isPartOf;
+    private java.util.List<relationType> hasPart;
+    private java.util.List<AnonType_hasTrackPartcoreMetadataType> hasTrackPart;
+    private java.util.List<relationType> isReferencedBy;
+    private java.util.List<relationType> references;
+    private java.util.List<relationType> isFormatOf;
+    private java.util.List<relationType> hasFormat;
+    private java.util.List<relationType> isEpisodeOf;
+    private java.util.List<relationType> isSeasonOf;
+    private java.util.List<relationType> hasEpisode;
+    private java.util.List<relationType> hasSeason;
+    private java.util.List<relationType> hasSeries;
+    private java.util.List<relationType> isSeriesOf;
+    private java.util.List<relationType> isMemberOf;
+    private java.util.List<relationType> hasMember;
+    private java.util.List<relationType> sameAs;
+    private java.util.List<coverageType> coverage;
+    private java.util.List<rightsType> rights;
+    private java.util.List<versionType> version;
+    private java.util.List<publicationHistoryType> publicationHistory;
+    private java.util.List<planningType> planning;
+    private java.util.List<ratingType> rating;
+    private java.util.List<ratingType> audienceRating;
+    private java.util.List<eventType> event;
+    private java.util.List<partType> part;
+    private timeType partStartTime;
+    private durationType partDuration;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.partType.SCHEMA$);
+      super(partType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder other) {
+    private Builder(partType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.partId)) {
         this.partId = data().deepCopy(fields()[0].schema(), other.partId);
@@ -1535,8 +1534,8 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Creates a Builder by copying an existing partType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.partType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.partType.SCHEMA$);
+    private Builder(partType other) {
+            super(partType.SCHEMA$);
       if (isValidValue(fields()[0], other.partId)) {
         this.partId = data().deepCopy(fields()[0].schema(), other.partId);
         fieldSetFlags()[0] = true;
@@ -1789,7 +1788,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'partId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartId(java.lang.CharSequence value) {
+    public partType.Builder setPartId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.partId = value;
       fieldSetFlags()[0] = true;
@@ -1802,7 +1801,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartId() {
+    public partType.Builder clearPartId() {
       partId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -1814,7 +1813,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'partName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartName(java.lang.CharSequence value) {
+    public partType.Builder setPartName(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.partName = value;
       fieldSetFlags()[1] = true;
@@ -1827,7 +1826,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartName() {
+    public partType.Builder clearPartName() {
       partName = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -1839,7 +1838,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'partDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartDefinition(java.lang.CharSequence value) {
+    public partType.Builder setPartDefinition(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.partDefinition = value;
       fieldSetFlags()[2] = true;
@@ -1852,7 +1851,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartDefinition() {
+    public partType.Builder clearPartDefinition() {
       partDefinition = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -1864,7 +1863,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'partNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartNumber(java.lang.CharSequence value) {
+    public partType.Builder setPartNumber(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.partNumber = value;
       fieldSetFlags()[3] = true;
@@ -1877,7 +1876,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartNumber() {
+    public partType.Builder clearPartNumber() {
       partNumber = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -1889,7 +1888,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'partTotalNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartTotalNumber(java.lang.CharSequence value) {
+    public partType.Builder setPartTotalNumber(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.partTotalNumber = value;
       fieldSetFlags()[4] = true;
@@ -1902,7 +1901,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partTotalNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartTotalNumber() {
+    public partType.Builder clearPartTotalNumber() {
       partTotalNumber = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -1914,7 +1913,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public partType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLabel = value;
       fieldSetFlags()[5] = true;
@@ -1927,7 +1926,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeLabel() {
+    public partType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -1939,7 +1938,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public partType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.typeDefinition = value;
       fieldSetFlags()[6] = true;
@@ -1952,7 +1951,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeDefinition() {
+    public partType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -1964,7 +1963,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeLink(java.lang.CharSequence value) {
+    public partType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.typeLink = value;
       fieldSetFlags()[7] = true;
@@ -1977,7 +1976,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeLink() {
+    public partType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -1989,7 +1988,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeSource(java.lang.CharSequence value) {
+    public partType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[8], value);
       this.typeSource = value;
       fieldSetFlags()[8] = true;
@@ -2002,7 +2001,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeSource() {
+    public partType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -2014,7 +2013,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public partType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[9], value);
       this.typeNamespace = value;
       fieldSetFlags()[9] = true;
@@ -2027,7 +2026,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeNamespace() {
+    public partType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -2039,7 +2038,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public partType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.typeLanguage = value;
       fieldSetFlags()[10] = true;
@@ -2052,19 +2051,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTypeLanguage() {
+    public partType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[10] = false;
       return this;
     }
 
     /** Gets the value of the 'title' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> getTitle() {
+    public java.util.List<titleType> getTitle() {
       return title;
     }
     
     /** Sets the value of the 'title' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setTitle(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType> value) {
+    public partType.Builder setTitle(java.util.List<titleType> value) {
       validate(fields()[11], value);
       this.title = value;
       fieldSetFlags()[11] = true;
@@ -2077,19 +2076,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'title' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearTitle() {
+    public partType.Builder clearTitle() {
       title = null;
       fieldSetFlags()[11] = false;
       return this;
     }
 
     /** Gets the value of the 'alternativeTitle' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> getAlternativeTitle() {
+    public java.util.List<alternativeTitleType> getAlternativeTitle() {
       return alternativeTitle;
     }
     
     /** Sets the value of the 'alternativeTitle' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setAlternativeTitle(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType> value) {
+    public partType.Builder setAlternativeTitle(java.util.List<alternativeTitleType> value) {
       validate(fields()[12], value);
       this.alternativeTitle = value;
       fieldSetFlags()[12] = true;
@@ -2102,19 +2101,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'alternativeTitle' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearAlternativeTitle() {
+    public partType.Builder clearAlternativeTitle() {
       alternativeTitle = null;
       fieldSetFlags()[12] = false;
       return this;
     }
 
     /** Gets the value of the 'creator' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getCreator() {
+    public java.util.List<entityType> getCreator() {
       return creator;
     }
     
     /** Sets the value of the 'creator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setCreator(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+    public partType.Builder setCreator(java.util.List<entityType> value) {
       validate(fields()[13], value);
       this.creator = value;
       fieldSetFlags()[13] = true;
@@ -2127,19 +2126,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'creator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearCreator() {
+    public partType.Builder clearCreator() {
       creator = null;
       fieldSetFlags()[13] = false;
       return this;
     }
 
     /** Gets the value of the 'subject' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> getSubject() {
+    public java.util.List<subjectType> getSubject() {
       return subject;
     }
     
     /** Sets the value of the 'subject' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setSubject(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType> value) {
+    public partType.Builder setSubject(java.util.List<subjectType> value) {
       validate(fields()[14], value);
       this.subject = value;
       fieldSetFlags()[14] = true;
@@ -2152,19 +2151,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'subject' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearSubject() {
+    public partType.Builder clearSubject() {
       subject = null;
       fieldSetFlags()[14] = false;
       return this;
     }
 
     /** Gets the value of the 'description' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> getDescription() {
+    public java.util.List<descriptionType> getDescription() {
       return description;
     }
     
     /** Sets the value of the 'description' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType> value) {
+    public partType.Builder setDescription(java.util.List<descriptionType> value) {
       validate(fields()[15], value);
       this.description = value;
       fieldSetFlags()[15] = true;
@@ -2177,19 +2176,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'description' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearDescription() {
+    public partType.Builder clearDescription() {
       description = null;
       fieldSetFlags()[15] = false;
       return this;
     }
 
     /** Gets the value of the 'publisher' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getPublisher() {
+    public java.util.List<entityType> getPublisher() {
       return publisher;
     }
     
     /** Sets the value of the 'publisher' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPublisher(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+    public partType.Builder setPublisher(java.util.List<entityType> value) {
       validate(fields()[16], value);
       this.publisher = value;
       fieldSetFlags()[16] = true;
@@ -2202,19 +2201,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'publisher' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPublisher() {
+    public partType.Builder clearPublisher() {
       publisher = null;
       fieldSetFlags()[16] = false;
       return this;
     }
 
     /** Gets the value of the 'contributor' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getContributor() {
+    public java.util.List<entityType> getContributor() {
       return contributor;
     }
     
     /** Sets the value of the 'contributor' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setContributor(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+    public partType.Builder setContributor(java.util.List<entityType> value) {
       validate(fields()[17], value);
       this.contributor = value;
       fieldSetFlags()[17] = true;
@@ -2227,19 +2226,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'contributor' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearContributor() {
+    public partType.Builder clearContributor() {
       contributor = null;
       fieldSetFlags()[17] = false;
       return this;
     }
 
     /** Gets the value of the 'date' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> getDate() {
+    public java.util.List<dateType> getDate() {
       return date;
     }
     
     /** Sets the value of the 'date' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType> value) {
+    public partType.Builder setDate(java.util.List<dateType> value) {
       validate(fields()[18], value);
       this.date = value;
       fieldSetFlags()[18] = true;
@@ -2252,19 +2251,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'date' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearDate() {
+    public partType.Builder clearDate() {
       date = null;
       fieldSetFlags()[18] = false;
       return this;
     }
 
     /** Gets the value of the 'type' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> getType() {
+    public java.util.List<typeType> getType() {
       return type;
     }
     
     /** Sets the value of the 'type' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setType(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType> value) {
+    public partType.Builder setType(java.util.List<typeType> value) {
       validate(fields()[19], value);
       this.type = value;
       fieldSetFlags()[19] = true;
@@ -2277,19 +2276,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'type' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearType() {
+    public partType.Builder clearType() {
       type = null;
       fieldSetFlags()[19] = false;
       return this;
     }
 
     /** Gets the value of the 'format' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> getFormat() {
+    public java.util.List<formatType> getFormat() {
       return format;
     }
     
     /** Sets the value of the 'format' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setFormat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType> value) {
+    public partType.Builder setFormat(java.util.List<formatType> value) {
       validate(fields()[20], value);
       this.format = value;
       fieldSetFlags()[20] = true;
@@ -2302,19 +2301,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'format' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearFormat() {
+    public partType.Builder clearFormat() {
       format = null;
       fieldSetFlags()[20] = false;
       return this;
     }
 
     /** Gets the value of the 'identifier' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> getIdentifier() {
+    public java.util.List<identifierType> getIdentifier() {
       return identifier;
     }
     
     /** Sets the value of the 'identifier' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIdentifier(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType> value) {
+    public partType.Builder setIdentifier(java.util.List<identifierType> value) {
       validate(fields()[21], value);
       this.identifier = value;
       fieldSetFlags()[21] = true;
@@ -2327,19 +2326,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'identifier' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIdentifier() {
+    public partType.Builder clearIdentifier() {
       identifier = null;
       fieldSetFlags()[21] = false;
       return this;
     }
 
     /** Gets the value of the 'source' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getSource() {
+    public java.util.List<elementType> getSource() {
       return source;
     }
     
     /** Sets the value of the 'source' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setSource(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public partType.Builder setSource(java.util.List<elementType> value) {
       validate(fields()[22], value);
       this.source = value;
       fieldSetFlags()[22] = true;
@@ -2352,19 +2351,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'source' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearSource() {
+    public partType.Builder clearSource() {
       source = null;
       fieldSetFlags()[22] = false;
       return this;
     }
 
     /** Gets the value of the 'language' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> getLanguage() {
+    public java.util.List<languageType> getLanguage() {
       return language;
     }
     
     /** Sets the value of the 'language' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setLanguage(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType> value) {
+    public partType.Builder setLanguage(java.util.List<languageType> value) {
       validate(fields()[23], value);
       this.language = value;
       fieldSetFlags()[23] = true;
@@ -2377,19 +2376,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'language' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearLanguage() {
+    public partType.Builder clearLanguage() {
       language = null;
       fieldSetFlags()[23] = false;
       return this;
     }
 
     /** Gets the value of the 'relation' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getRelation() {
+    public java.util.List<relationType> getRelation() {
       return relation;
     }
     
     /** Sets the value of the 'relation' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setRelation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setRelation(java.util.List<relationType> value) {
       validate(fields()[24], value);
       this.relation = value;
       fieldSetFlags()[24] = true;
@@ -2402,19 +2401,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'relation' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearRelation() {
+    public partType.Builder clearRelation() {
       relation = null;
       fieldSetFlags()[24] = false;
       return this;
     }
 
     /** Gets the value of the 'isRelatedTo' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsRelatedTo() {
+    public java.util.List<relationType> getIsRelatedTo() {
       return isRelatedTo;
     }
     
     /** Sets the value of the 'isRelatedTo' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsRelatedTo(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsRelatedTo(java.util.List<relationType> value) {
       validate(fields()[25], value);
       this.isRelatedTo = value;
       fieldSetFlags()[25] = true;
@@ -2427,19 +2426,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isRelatedTo' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsRelatedTo() {
+    public partType.Builder clearIsRelatedTo() {
       isRelatedTo = null;
       fieldSetFlags()[25] = false;
       return this;
     }
 
     /** Gets the value of the 'isNextInSequence' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsNextInSequence() {
+    public java.util.List<relationType> getIsNextInSequence() {
       return isNextInSequence;
     }
     
     /** Sets the value of the 'isNextInSequence' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsNextInSequence(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsNextInSequence(java.util.List<relationType> value) {
       validate(fields()[26], value);
       this.isNextInSequence = value;
       fieldSetFlags()[26] = true;
@@ -2452,19 +2451,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isNextInSequence' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsNextInSequence() {
+    public partType.Builder clearIsNextInSequence() {
       isNextInSequence = null;
       fieldSetFlags()[26] = false;
       return this;
     }
 
     /** Gets the value of the 'followsInSequence' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getFollowsInSequence() {
+    public java.util.List<relationType> getFollowsInSequence() {
       return followsInSequence;
     }
     
     /** Sets the value of the 'followsInSequence' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setFollowsInSequence(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setFollowsInSequence(java.util.List<relationType> value) {
       validate(fields()[27], value);
       this.followsInSequence = value;
       fieldSetFlags()[27] = true;
@@ -2477,19 +2476,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'followsInSequence' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearFollowsInSequence() {
+    public partType.Builder clearFollowsInSequence() {
       followsInSequence = null;
       fieldSetFlags()[27] = false;
       return this;
     }
 
     /** Gets the value of the 'isVersionOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsVersionOf() {
+    public java.util.List<relationType> getIsVersionOf() {
       return isVersionOf;
     }
     
     /** Sets the value of the 'isVersionOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsVersionOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsVersionOf(java.util.List<relationType> value) {
       validate(fields()[28], value);
       this.isVersionOf = value;
       fieldSetFlags()[28] = true;
@@ -2502,19 +2501,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isVersionOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsVersionOf() {
+    public partType.Builder clearIsVersionOf() {
       isVersionOf = null;
       fieldSetFlags()[28] = false;
       return this;
     }
 
     /** Gets the value of the 'hasVersion' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasVersion() {
+    public java.util.List<relationType> getHasVersion() {
       return hasVersion;
     }
     
     /** Sets the value of the 'hasVersion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasVersion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasVersion(java.util.List<relationType> value) {
       validate(fields()[29], value);
       this.hasVersion = value;
       fieldSetFlags()[29] = true;
@@ -2527,19 +2526,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasVersion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasVersion() {
+    public partType.Builder clearHasVersion() {
       hasVersion = null;
       fieldSetFlags()[29] = false;
       return this;
     }
 
     /** Gets the value of the 'isReplacedBy' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsReplacedBy() {
+    public java.util.List<relationType> getIsReplacedBy() {
       return isReplacedBy;
     }
     
     /** Sets the value of the 'isReplacedBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsReplacedBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsReplacedBy(java.util.List<relationType> value) {
       validate(fields()[30], value);
       this.isReplacedBy = value;
       fieldSetFlags()[30] = true;
@@ -2552,19 +2551,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isReplacedBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsReplacedBy() {
+    public partType.Builder clearIsReplacedBy() {
       isReplacedBy = null;
       fieldSetFlags()[30] = false;
       return this;
     }
 
     /** Gets the value of the 'replaces' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getReplaces() {
+    public java.util.List<relationType> getReplaces() {
       return replaces;
     }
     
     /** Sets the value of the 'replaces' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setReplaces(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setReplaces(java.util.List<relationType> value) {
       validate(fields()[31], value);
       this.replaces = value;
       fieldSetFlags()[31] = true;
@@ -2577,19 +2576,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'replaces' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearReplaces() {
+    public partType.Builder clearReplaces() {
       replaces = null;
       fieldSetFlags()[31] = false;
       return this;
     }
 
     /** Gets the value of the 'isRequiredBy' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsRequiredBy() {
+    public java.util.List<relationType> getIsRequiredBy() {
       return isRequiredBy;
     }
     
     /** Sets the value of the 'isRequiredBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsRequiredBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsRequiredBy(java.util.List<relationType> value) {
       validate(fields()[32], value);
       this.isRequiredBy = value;
       fieldSetFlags()[32] = true;
@@ -2602,19 +2601,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isRequiredBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsRequiredBy() {
+    public partType.Builder clearIsRequiredBy() {
       isRequiredBy = null;
       fieldSetFlags()[32] = false;
       return this;
     }
 
     /** Gets the value of the 'requires' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getRequires() {
+    public java.util.List<relationType> getRequires() {
       return requires;
     }
     
     /** Sets the value of the 'requires' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setRequires(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setRequires(java.util.List<relationType> value) {
       validate(fields()[33], value);
       this.requires = value;
       fieldSetFlags()[33] = true;
@@ -2627,19 +2626,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'requires' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearRequires() {
+    public partType.Builder clearRequires() {
       requires = null;
       fieldSetFlags()[33] = false;
       return this;
     }
 
     /** Gets the value of the 'isPartOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsPartOf() {
+    public java.util.List<relationType> getIsPartOf() {
       return isPartOf;
     }
     
     /** Sets the value of the 'isPartOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsPartOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsPartOf(java.util.List<relationType> value) {
       validate(fields()[34], value);
       this.isPartOf = value;
       fieldSetFlags()[34] = true;
@@ -2652,19 +2651,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isPartOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsPartOf() {
+    public partType.Builder clearIsPartOf() {
       isPartOf = null;
       fieldSetFlags()[34] = false;
       return this;
     }
 
     /** Gets the value of the 'hasPart' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasPart() {
+    public java.util.List<relationType> getHasPart() {
       return hasPart;
     }
     
     /** Sets the value of the 'hasPart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasPart(java.util.List<relationType> value) {
       validate(fields()[35], value);
       this.hasPart = value;
       fieldSetFlags()[35] = true;
@@ -2677,19 +2676,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasPart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasPart() {
+    public partType.Builder clearHasPart() {
       hasPart = null;
       fieldSetFlags()[35] = false;
       return this;
     }
 
     /** Gets the value of the 'hasTrackPart' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> getHasTrackPart() {
+    public java.util.List<AnonType_hasTrackPartcoreMetadataType> getHasTrackPart() {
       return hasTrackPart;
     }
     
     /** Sets the value of the 'hasTrackPart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasTrackPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType> value) {
+    public partType.Builder setHasTrackPart(java.util.List<AnonType_hasTrackPartcoreMetadataType> value) {
       validate(fields()[36], value);
       this.hasTrackPart = value;
       fieldSetFlags()[36] = true;
@@ -2702,19 +2701,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasTrackPart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasTrackPart() {
+    public partType.Builder clearHasTrackPart() {
       hasTrackPart = null;
       fieldSetFlags()[36] = false;
       return this;
     }
 
     /** Gets the value of the 'isReferencedBy' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsReferencedBy() {
+    public java.util.List<relationType> getIsReferencedBy() {
       return isReferencedBy;
     }
     
     /** Sets the value of the 'isReferencedBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsReferencedBy(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsReferencedBy(java.util.List<relationType> value) {
       validate(fields()[37], value);
       this.isReferencedBy = value;
       fieldSetFlags()[37] = true;
@@ -2727,19 +2726,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isReferencedBy' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsReferencedBy() {
+    public partType.Builder clearIsReferencedBy() {
       isReferencedBy = null;
       fieldSetFlags()[37] = false;
       return this;
     }
 
     /** Gets the value of the 'references' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getReferences() {
+    public java.util.List<relationType> getReferences() {
       return references;
     }
     
     /** Sets the value of the 'references' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setReferences(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setReferences(java.util.List<relationType> value) {
       validate(fields()[38], value);
       this.references = value;
       fieldSetFlags()[38] = true;
@@ -2752,19 +2751,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'references' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearReferences() {
+    public partType.Builder clearReferences() {
       references = null;
       fieldSetFlags()[38] = false;
       return this;
     }
 
     /** Gets the value of the 'isFormatOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsFormatOf() {
+    public java.util.List<relationType> getIsFormatOf() {
       return isFormatOf;
     }
     
     /** Sets the value of the 'isFormatOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsFormatOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsFormatOf(java.util.List<relationType> value) {
       validate(fields()[39], value);
       this.isFormatOf = value;
       fieldSetFlags()[39] = true;
@@ -2777,19 +2776,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isFormatOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsFormatOf() {
+    public partType.Builder clearIsFormatOf() {
       isFormatOf = null;
       fieldSetFlags()[39] = false;
       return this;
     }
 
     /** Gets the value of the 'hasFormat' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasFormat() {
+    public java.util.List<relationType> getHasFormat() {
       return hasFormat;
     }
     
     /** Sets the value of the 'hasFormat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasFormat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasFormat(java.util.List<relationType> value) {
       validate(fields()[40], value);
       this.hasFormat = value;
       fieldSetFlags()[40] = true;
@@ -2802,19 +2801,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasFormat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasFormat() {
+    public partType.Builder clearHasFormat() {
       hasFormat = null;
       fieldSetFlags()[40] = false;
       return this;
     }
 
     /** Gets the value of the 'isEpisodeOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsEpisodeOf() {
+    public java.util.List<relationType> getIsEpisodeOf() {
       return isEpisodeOf;
     }
     
     /** Sets the value of the 'isEpisodeOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsEpisodeOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsEpisodeOf(java.util.List<relationType> value) {
       validate(fields()[41], value);
       this.isEpisodeOf = value;
       fieldSetFlags()[41] = true;
@@ -2827,19 +2826,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isEpisodeOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsEpisodeOf() {
+    public partType.Builder clearIsEpisodeOf() {
       isEpisodeOf = null;
       fieldSetFlags()[41] = false;
       return this;
     }
 
     /** Gets the value of the 'isSeasonOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsSeasonOf() {
+    public java.util.List<relationType> getIsSeasonOf() {
       return isSeasonOf;
     }
     
     /** Sets the value of the 'isSeasonOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsSeasonOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsSeasonOf(java.util.List<relationType> value) {
       validate(fields()[42], value);
       this.isSeasonOf = value;
       fieldSetFlags()[42] = true;
@@ -2852,19 +2851,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isSeasonOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsSeasonOf() {
+    public partType.Builder clearIsSeasonOf() {
       isSeasonOf = null;
       fieldSetFlags()[42] = false;
       return this;
     }
 
     /** Gets the value of the 'hasEpisode' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasEpisode() {
+    public java.util.List<relationType> getHasEpisode() {
       return hasEpisode;
     }
     
     /** Sets the value of the 'hasEpisode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasEpisode(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasEpisode(java.util.List<relationType> value) {
       validate(fields()[43], value);
       this.hasEpisode = value;
       fieldSetFlags()[43] = true;
@@ -2877,19 +2876,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasEpisode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasEpisode() {
+    public partType.Builder clearHasEpisode() {
       hasEpisode = null;
       fieldSetFlags()[43] = false;
       return this;
     }
 
     /** Gets the value of the 'hasSeason' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasSeason() {
+    public java.util.List<relationType> getHasSeason() {
       return hasSeason;
     }
     
     /** Sets the value of the 'hasSeason' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasSeason(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasSeason(java.util.List<relationType> value) {
       validate(fields()[44], value);
       this.hasSeason = value;
       fieldSetFlags()[44] = true;
@@ -2902,19 +2901,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasSeason' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasSeason() {
+    public partType.Builder clearHasSeason() {
       hasSeason = null;
       fieldSetFlags()[44] = false;
       return this;
     }
 
     /** Gets the value of the 'hasSeries' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasSeries() {
+    public java.util.List<relationType> getHasSeries() {
       return hasSeries;
     }
     
     /** Sets the value of the 'hasSeries' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasSeries(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasSeries(java.util.List<relationType> value) {
       validate(fields()[45], value);
       this.hasSeries = value;
       fieldSetFlags()[45] = true;
@@ -2927,19 +2926,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasSeries' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasSeries() {
+    public partType.Builder clearHasSeries() {
       hasSeries = null;
       fieldSetFlags()[45] = false;
       return this;
     }
 
     /** Gets the value of the 'isSeriesOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsSeriesOf() {
+    public java.util.List<relationType> getIsSeriesOf() {
       return isSeriesOf;
     }
     
     /** Sets the value of the 'isSeriesOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsSeriesOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsSeriesOf(java.util.List<relationType> value) {
       validate(fields()[46], value);
       this.isSeriesOf = value;
       fieldSetFlags()[46] = true;
@@ -2952,19 +2951,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isSeriesOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsSeriesOf() {
+    public partType.Builder clearIsSeriesOf() {
       isSeriesOf = null;
       fieldSetFlags()[46] = false;
       return this;
     }
 
     /** Gets the value of the 'isMemberOf' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getIsMemberOf() {
+    public java.util.List<relationType> getIsMemberOf() {
       return isMemberOf;
     }
     
     /** Sets the value of the 'isMemberOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setIsMemberOf(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setIsMemberOf(java.util.List<relationType> value) {
       validate(fields()[47], value);
       this.isMemberOf = value;
       fieldSetFlags()[47] = true;
@@ -2977,19 +2976,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'isMemberOf' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearIsMemberOf() {
+    public partType.Builder clearIsMemberOf() {
       isMemberOf = null;
       fieldSetFlags()[47] = false;
       return this;
     }
 
     /** Gets the value of the 'hasMember' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getHasMember() {
+    public java.util.List<relationType> getHasMember() {
       return hasMember;
     }
     
     /** Sets the value of the 'hasMember' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setHasMember(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setHasMember(java.util.List<relationType> value) {
       validate(fields()[48], value);
       this.hasMember = value;
       fieldSetFlags()[48] = true;
@@ -3002,19 +3001,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'hasMember' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearHasMember() {
+    public partType.Builder clearHasMember() {
       hasMember = null;
       fieldSetFlags()[48] = false;
       return this;
     }
 
     /** Gets the value of the 'sameAs' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> getSameAs() {
+    public java.util.List<relationType> getSameAs() {
       return sameAs;
     }
     
     /** Sets the value of the 'sameAs' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setSameAs(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType> value) {
+    public partType.Builder setSameAs(java.util.List<relationType> value) {
       validate(fields()[49], value);
       this.sameAs = value;
       fieldSetFlags()[49] = true;
@@ -3027,19 +3026,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'sameAs' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearSameAs() {
+    public partType.Builder clearSameAs() {
       sameAs = null;
       fieldSetFlags()[49] = false;
       return this;
     }
 
     /** Gets the value of the 'coverage' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> getCoverage() {
+    public java.util.List<coverageType> getCoverage() {
       return coverage;
     }
     
     /** Sets the value of the 'coverage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setCoverage(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType> value) {
+    public partType.Builder setCoverage(java.util.List<coverageType> value) {
       validate(fields()[50], value);
       this.coverage = value;
       fieldSetFlags()[50] = true;
@@ -3052,19 +3051,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'coverage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearCoverage() {
+    public partType.Builder clearCoverage() {
       coverage = null;
       fieldSetFlags()[50] = false;
       return this;
     }
 
     /** Gets the value of the 'rights' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> getRights() {
+    public java.util.List<rightsType> getRights() {
       return rights;
     }
     
     /** Sets the value of the 'rights' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setRights(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType> value) {
+    public partType.Builder setRights(java.util.List<rightsType> value) {
       validate(fields()[51], value);
       this.rights = value;
       fieldSetFlags()[51] = true;
@@ -3077,19 +3076,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'rights' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearRights() {
+    public partType.Builder clearRights() {
       rights = null;
       fieldSetFlags()[51] = false;
       return this;
     }
 
     /** Gets the value of the 'version' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> getVersion() {
+    public java.util.List<versionType> getVersion() {
       return version;
     }
     
     /** Sets the value of the 'version' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setVersion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType> value) {
+    public partType.Builder setVersion(java.util.List<versionType> value) {
       validate(fields()[52], value);
       this.version = value;
       fieldSetFlags()[52] = true;
@@ -3102,19 +3101,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'version' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearVersion() {
+    public partType.Builder clearVersion() {
       version = null;
       fieldSetFlags()[52] = false;
       return this;
     }
 
     /** Gets the value of the 'publicationHistory' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> getPublicationHistory() {
+    public java.util.List<publicationHistoryType> getPublicationHistory() {
       return publicationHistory;
     }
     
     /** Sets the value of the 'publicationHistory' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPublicationHistory(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType> value) {
+    public partType.Builder setPublicationHistory(java.util.List<publicationHistoryType> value) {
       validate(fields()[53], value);
       this.publicationHistory = value;
       fieldSetFlags()[53] = true;
@@ -3127,19 +3126,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'publicationHistory' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPublicationHistory() {
+    public partType.Builder clearPublicationHistory() {
       publicationHistory = null;
       fieldSetFlags()[53] = false;
       return this;
     }
 
     /** Gets the value of the 'planning' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> getPlanning() {
+    public java.util.List<planningType> getPlanning() {
       return planning;
     }
     
     /** Sets the value of the 'planning' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPlanning(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType> value) {
+    public partType.Builder setPlanning(java.util.List<planningType> value) {
       validate(fields()[54], value);
       this.planning = value;
       fieldSetFlags()[54] = true;
@@ -3152,19 +3151,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'planning' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPlanning() {
+    public partType.Builder clearPlanning() {
       planning = null;
       fieldSetFlags()[54] = false;
       return this;
     }
 
     /** Gets the value of the 'rating' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> getRating() {
+    public java.util.List<ratingType> getRating() {
       return rating;
     }
     
     /** Sets the value of the 'rating' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setRating(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> value) {
+    public partType.Builder setRating(java.util.List<ratingType> value) {
       validate(fields()[55], value);
       this.rating = value;
       fieldSetFlags()[55] = true;
@@ -3177,19 +3176,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'rating' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearRating() {
+    public partType.Builder clearRating() {
       rating = null;
       fieldSetFlags()[55] = false;
       return this;
     }
 
     /** Gets the value of the 'audienceRating' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> getAudienceRating() {
+    public java.util.List<ratingType> getAudienceRating() {
       return audienceRating;
     }
     
     /** Sets the value of the 'audienceRating' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setAudienceRating(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType> value) {
+    public partType.Builder setAudienceRating(java.util.List<ratingType> value) {
       validate(fields()[56], value);
       this.audienceRating = value;
       fieldSetFlags()[56] = true;
@@ -3202,19 +3201,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'audienceRating' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearAudienceRating() {
+    public partType.Builder clearAudienceRating() {
       audienceRating = null;
       fieldSetFlags()[56] = false;
       return this;
     }
 
     /** Gets the value of the 'event' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> getEvent() {
+    public java.util.List<eventType> getEvent() {
       return event;
     }
     
     /** Sets the value of the 'event' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setEvent(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType> value) {
+    public partType.Builder setEvent(java.util.List<eventType> value) {
       validate(fields()[57], value);
       this.event = value;
       fieldSetFlags()[57] = true;
@@ -3227,19 +3226,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'event' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearEvent() {
+    public partType.Builder clearEvent() {
       event = null;
       fieldSetFlags()[57] = false;
       return this;
     }
 
     /** Gets the value of the 'part' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> getPart() {
+    public java.util.List<partType> getPart() {
       return part;
     }
     
     /** Sets the value of the 'part' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType> value) {
+    public partType.Builder setPart(java.util.List<partType> value) {
       validate(fields()[58], value);
       this.part = value;
       fieldSetFlags()[58] = true;
@@ -3252,19 +3251,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'part' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPart() {
+    public partType.Builder clearPart() {
       part = null;
       fieldSetFlags()[58] = false;
       return this;
     }
 
     /** Gets the value of the 'partStartTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType getPartStartTime() {
+    public timeType getPartStartTime() {
       return partStartTime;
     }
     
     /** Sets the value of the 'partStartTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartStartTime(com.beligum.blocks.schema.ebucore.v2015.avro.timeType value) {
+    public partType.Builder setPartStartTime(timeType value) {
       validate(fields()[59], value);
       this.partStartTime = value;
       fieldSetFlags()[59] = true;
@@ -3277,19 +3276,19 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partStartTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartStartTime() {
+    public partType.Builder clearPartStartTime() {
       partStartTime = null;
       fieldSetFlags()[59] = false;
       return this;
     }
 
     /** Gets the value of the 'partDuration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.durationType getPartDuration() {
+    public durationType getPartDuration() {
       return partDuration;
     }
     
     /** Sets the value of the 'partDuration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder setPartDuration(com.beligum.blocks.schema.ebucore.v2015.avro.durationType value) {
+    public partType.Builder setPartDuration(durationType value) {
       validate(fields()[60], value);
       this.partDuration = value;
       fieldSetFlags()[60] = true;
@@ -3302,7 +3301,7 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'partDuration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.partType.Builder clearPartDuration() {
+    public partType.Builder clearPartDuration() {
       partDuration = null;
       fieldSetFlags()[60] = false;
       return this;
@@ -3323,56 +3322,56 @@ public class partType extends org.apache.avro.specific.SpecificRecordBase implem
         record.typeSource = fieldSetFlags()[8] ? this.typeSource : (java.lang.CharSequence) defaultValue(fields()[8]);
         record.typeNamespace = fieldSetFlags()[9] ? this.typeNamespace : (java.lang.CharSequence) defaultValue(fields()[9]);
         record.typeLanguage = fieldSetFlags()[10] ? this.typeLanguage : (java.lang.CharSequence) defaultValue(fields()[10]);
-        record.title = fieldSetFlags()[11] ? this.title : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.titleType>) defaultValue(fields()[11]);
-        record.alternativeTitle = fieldSetFlags()[12] ? this.alternativeTitle : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.alternativeTitleType>) defaultValue(fields()[12]);
-        record.creator = fieldSetFlags()[13] ? this.creator : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>) defaultValue(fields()[13]);
-        record.subject = fieldSetFlags()[14] ? this.subject : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.subjectType>) defaultValue(fields()[14]);
-        record.description = fieldSetFlags()[15] ? this.description : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.descriptionType>) defaultValue(fields()[15]);
-        record.publisher = fieldSetFlags()[16] ? this.publisher : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>) defaultValue(fields()[16]);
-        record.contributor = fieldSetFlags()[17] ? this.contributor : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>) defaultValue(fields()[17]);
-        record.date = fieldSetFlags()[18] ? this.date : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.dateType>) defaultValue(fields()[18]);
-        record.type = fieldSetFlags()[19] ? this.type : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.typeType>) defaultValue(fields()[19]);
-        record.format = fieldSetFlags()[20] ? this.format : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.formatType>) defaultValue(fields()[20]);
-        record.identifier = fieldSetFlags()[21] ? this.identifier : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.identifierType>) defaultValue(fields()[21]);
-        record.source = fieldSetFlags()[22] ? this.source : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[22]);
-        record.language = fieldSetFlags()[23] ? this.language : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.languageType>) defaultValue(fields()[23]);
-        record.relation = fieldSetFlags()[24] ? this.relation : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[24]);
-        record.isRelatedTo = fieldSetFlags()[25] ? this.isRelatedTo : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[25]);
-        record.isNextInSequence = fieldSetFlags()[26] ? this.isNextInSequence : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[26]);
-        record.followsInSequence = fieldSetFlags()[27] ? this.followsInSequence : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[27]);
-        record.isVersionOf = fieldSetFlags()[28] ? this.isVersionOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[28]);
-        record.hasVersion = fieldSetFlags()[29] ? this.hasVersion : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[29]);
-        record.isReplacedBy = fieldSetFlags()[30] ? this.isReplacedBy : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[30]);
-        record.replaces = fieldSetFlags()[31] ? this.replaces : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[31]);
-        record.isRequiredBy = fieldSetFlags()[32] ? this.isRequiredBy : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[32]);
-        record.requires = fieldSetFlags()[33] ? this.requires : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[33]);
-        record.isPartOf = fieldSetFlags()[34] ? this.isPartOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[34]);
-        record.hasPart = fieldSetFlags()[35] ? this.hasPart : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[35]);
-        record.hasTrackPart = fieldSetFlags()[36] ? this.hasTrackPart : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_hasTrackPartcoreMetadataType>) defaultValue(fields()[36]);
-        record.isReferencedBy = fieldSetFlags()[37] ? this.isReferencedBy : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[37]);
-        record.references = fieldSetFlags()[38] ? this.references : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[38]);
-        record.isFormatOf = fieldSetFlags()[39] ? this.isFormatOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[39]);
-        record.hasFormat = fieldSetFlags()[40] ? this.hasFormat : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[40]);
-        record.isEpisodeOf = fieldSetFlags()[41] ? this.isEpisodeOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[41]);
-        record.isSeasonOf = fieldSetFlags()[42] ? this.isSeasonOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[42]);
-        record.hasEpisode = fieldSetFlags()[43] ? this.hasEpisode : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[43]);
-        record.hasSeason = fieldSetFlags()[44] ? this.hasSeason : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[44]);
-        record.hasSeries = fieldSetFlags()[45] ? this.hasSeries : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[45]);
-        record.isSeriesOf = fieldSetFlags()[46] ? this.isSeriesOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[46]);
-        record.isMemberOf = fieldSetFlags()[47] ? this.isMemberOf : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[47]);
-        record.hasMember = fieldSetFlags()[48] ? this.hasMember : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[48]);
-        record.sameAs = fieldSetFlags()[49] ? this.sameAs : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.relationType>) defaultValue(fields()[49]);
-        record.coverage = fieldSetFlags()[50] ? this.coverage : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.coverageType>) defaultValue(fields()[50]);
-        record.rights = fieldSetFlags()[51] ? this.rights : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.rightsType>) defaultValue(fields()[51]);
-        record.version = fieldSetFlags()[52] ? this.version : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.versionType>) defaultValue(fields()[52]);
-        record.publicationHistory = fieldSetFlags()[53] ? this.publicationHistory : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.publicationHistoryType>) defaultValue(fields()[53]);
-        record.planning = fieldSetFlags()[54] ? this.planning : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.planningType>) defaultValue(fields()[54]);
-        record.rating = fieldSetFlags()[55] ? this.rating : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType>) defaultValue(fields()[55]);
-        record.audienceRating = fieldSetFlags()[56] ? this.audienceRating : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.ratingType>) defaultValue(fields()[56]);
-        record.event = fieldSetFlags()[57] ? this.event : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.eventType>) defaultValue(fields()[57]);
-        record.part = fieldSetFlags()[58] ? this.part : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.partType>) defaultValue(fields()[58]);
-        record.partStartTime = fieldSetFlags()[59] ? this.partStartTime : (com.beligum.blocks.schema.ebucore.v2015.avro.timeType) defaultValue(fields()[59]);
-        record.partDuration = fieldSetFlags()[60] ? this.partDuration : (com.beligum.blocks.schema.ebucore.v2015.avro.durationType) defaultValue(fields()[60]);
+        record.title = fieldSetFlags()[11] ? this.title : (java.util.List<titleType>) defaultValue(fields()[11]);
+        record.alternativeTitle = fieldSetFlags()[12] ? this.alternativeTitle : (java.util.List<alternativeTitleType>) defaultValue(fields()[12]);
+        record.creator = fieldSetFlags()[13] ? this.creator : (java.util.List<entityType>) defaultValue(fields()[13]);
+        record.subject = fieldSetFlags()[14] ? this.subject : (java.util.List<subjectType>) defaultValue(fields()[14]);
+        record.description = fieldSetFlags()[15] ? this.description : (java.util.List<descriptionType>) defaultValue(fields()[15]);
+        record.publisher = fieldSetFlags()[16] ? this.publisher : (java.util.List<entityType>) defaultValue(fields()[16]);
+        record.contributor = fieldSetFlags()[17] ? this.contributor : (java.util.List<entityType>) defaultValue(fields()[17]);
+        record.date = fieldSetFlags()[18] ? this.date : (java.util.List<dateType>) defaultValue(fields()[18]);
+        record.type = fieldSetFlags()[19] ? this.type : (java.util.List<typeType>) defaultValue(fields()[19]);
+        record.format = fieldSetFlags()[20] ? this.format : (java.util.List<formatType>) defaultValue(fields()[20]);
+        record.identifier = fieldSetFlags()[21] ? this.identifier : (java.util.List<identifierType>) defaultValue(fields()[21]);
+        record.source = fieldSetFlags()[22] ? this.source : (java.util.List<elementType>) defaultValue(fields()[22]);
+        record.language = fieldSetFlags()[23] ? this.language : (java.util.List<languageType>) defaultValue(fields()[23]);
+        record.relation = fieldSetFlags()[24] ? this.relation : (java.util.List<relationType>) defaultValue(fields()[24]);
+        record.isRelatedTo = fieldSetFlags()[25] ? this.isRelatedTo : (java.util.List<relationType>) defaultValue(fields()[25]);
+        record.isNextInSequence = fieldSetFlags()[26] ? this.isNextInSequence : (java.util.List<relationType>) defaultValue(fields()[26]);
+        record.followsInSequence = fieldSetFlags()[27] ? this.followsInSequence : (java.util.List<relationType>) defaultValue(fields()[27]);
+        record.isVersionOf = fieldSetFlags()[28] ? this.isVersionOf : (java.util.List<relationType>) defaultValue(fields()[28]);
+        record.hasVersion = fieldSetFlags()[29] ? this.hasVersion : (java.util.List<relationType>) defaultValue(fields()[29]);
+        record.isReplacedBy = fieldSetFlags()[30] ? this.isReplacedBy : (java.util.List<relationType>) defaultValue(fields()[30]);
+        record.replaces = fieldSetFlags()[31] ? this.replaces : (java.util.List<relationType>) defaultValue(fields()[31]);
+        record.isRequiredBy = fieldSetFlags()[32] ? this.isRequiredBy : (java.util.List<relationType>) defaultValue(fields()[32]);
+        record.requires = fieldSetFlags()[33] ? this.requires : (java.util.List<relationType>) defaultValue(fields()[33]);
+        record.isPartOf = fieldSetFlags()[34] ? this.isPartOf : (java.util.List<relationType>) defaultValue(fields()[34]);
+        record.hasPart = fieldSetFlags()[35] ? this.hasPart : (java.util.List<relationType>) defaultValue(fields()[35]);
+        record.hasTrackPart = fieldSetFlags()[36] ? this.hasTrackPart : (java.util.List<AnonType_hasTrackPartcoreMetadataType>) defaultValue(fields()[36]);
+        record.isReferencedBy = fieldSetFlags()[37] ? this.isReferencedBy : (java.util.List<relationType>) defaultValue(fields()[37]);
+        record.references = fieldSetFlags()[38] ? this.references : (java.util.List<relationType>) defaultValue(fields()[38]);
+        record.isFormatOf = fieldSetFlags()[39] ? this.isFormatOf : (java.util.List<relationType>) defaultValue(fields()[39]);
+        record.hasFormat = fieldSetFlags()[40] ? this.hasFormat : (java.util.List<relationType>) defaultValue(fields()[40]);
+        record.isEpisodeOf = fieldSetFlags()[41] ? this.isEpisodeOf : (java.util.List<relationType>) defaultValue(fields()[41]);
+        record.isSeasonOf = fieldSetFlags()[42] ? this.isSeasonOf : (java.util.List<relationType>) defaultValue(fields()[42]);
+        record.hasEpisode = fieldSetFlags()[43] ? this.hasEpisode : (java.util.List<relationType>) defaultValue(fields()[43]);
+        record.hasSeason = fieldSetFlags()[44] ? this.hasSeason : (java.util.List<relationType>) defaultValue(fields()[44]);
+        record.hasSeries = fieldSetFlags()[45] ? this.hasSeries : (java.util.List<relationType>) defaultValue(fields()[45]);
+        record.isSeriesOf = fieldSetFlags()[46] ? this.isSeriesOf : (java.util.List<relationType>) defaultValue(fields()[46]);
+        record.isMemberOf = fieldSetFlags()[47] ? this.isMemberOf : (java.util.List<relationType>) defaultValue(fields()[47]);
+        record.hasMember = fieldSetFlags()[48] ? this.hasMember : (java.util.List<relationType>) defaultValue(fields()[48]);
+        record.sameAs = fieldSetFlags()[49] ? this.sameAs : (java.util.List<relationType>) defaultValue(fields()[49]);
+        record.coverage = fieldSetFlags()[50] ? this.coverage : (java.util.List<coverageType>) defaultValue(fields()[50]);
+        record.rights = fieldSetFlags()[51] ? this.rights : (java.util.List<rightsType>) defaultValue(fields()[51]);
+        record.version = fieldSetFlags()[52] ? this.version : (java.util.List<versionType>) defaultValue(fields()[52]);
+        record.publicationHistory = fieldSetFlags()[53] ? this.publicationHistory : (java.util.List<publicationHistoryType>) defaultValue(fields()[53]);
+        record.planning = fieldSetFlags()[54] ? this.planning : (java.util.List<planningType>) defaultValue(fields()[54]);
+        record.rating = fieldSetFlags()[55] ? this.rating : (java.util.List<ratingType>) defaultValue(fields()[55]);
+        record.audienceRating = fieldSetFlags()[56] ? this.audienceRating : (java.util.List<ratingType>) defaultValue(fields()[56]);
+        record.event = fieldSetFlags()[57] ? this.event : (java.util.List<eventType>) defaultValue(fields()[57]);
+        record.part = fieldSetFlags()[58] ? this.part : (java.util.List<partType>) defaultValue(fields()[58]);
+        record.partStartTime = fieldSetFlags()[59] ? this.partStartTime : (timeType) defaultValue(fields()[59]);
+        record.partDuration = fieldSetFlags()[60] ? this.partDuration : (durationType) defaultValue(fields()[60]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

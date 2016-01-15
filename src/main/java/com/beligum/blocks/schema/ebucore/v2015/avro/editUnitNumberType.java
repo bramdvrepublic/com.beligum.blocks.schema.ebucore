@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence editRate;
   @Deprecated public java.lang.CharSequence factorNumerator;
@@ -96,18 +95,18 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
   }
 
   /** Creates a new editUnitNumberType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder();
+  public static editUnitNumberType.Builder newBuilder() {
+    return new editUnitNumberType.Builder();
   }
   
   /** Creates a new editUnitNumberType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder(other);
+  public static editUnitNumberType.Builder newBuilder(editUnitNumberType.Builder other) {
+    return new editUnitNumberType.Builder(other);
   }
   
   /** Creates a new editUnitNumberType RecordBuilder by copying an existing editUnitNumberType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder(other);
+  public static editUnitNumberType.Builder newBuilder(editUnitNumberType other) {
+    return new editUnitNumberType.Builder(other);
   }
   
   /**
@@ -122,11 +121,11 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.SCHEMA$);
+      super(editUnitNumberType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder other) {
+    private Builder(editUnitNumberType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.editRate)) {
         this.editRate = data().deepCopy(fields()[0].schema(), other.editRate);
@@ -143,8 +142,8 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Creates a Builder by copying an existing editUnitNumberType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.SCHEMA$);
+    private Builder(editUnitNumberType other) {
+            super(editUnitNumberType.SCHEMA$);
       if (isValidValue(fields()[0], other.editRate)) {
         this.editRate = data().deepCopy(fields()[0].schema(), other.editRate);
         fieldSetFlags()[0] = true;
@@ -165,7 +164,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'editRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder setEditRate(java.lang.CharSequence value) {
+    public editUnitNumberType.Builder setEditRate(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.editRate = value;
       fieldSetFlags()[0] = true;
@@ -178,7 +177,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'editRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder clearEditRate() {
+    public editUnitNumberType.Builder clearEditRate() {
       editRate = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -190,7 +189,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'factorNumerator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder setFactorNumerator(java.lang.CharSequence value) {
+    public editUnitNumberType.Builder setFactorNumerator(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.factorNumerator = value;
       fieldSetFlags()[1] = true;
@@ -203,7 +202,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'factorNumerator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder clearFactorNumerator() {
+    public editUnitNumberType.Builder clearFactorNumerator() {
       factorNumerator = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -215,7 +214,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'factorDenominator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder setFactorDenominator(java.lang.CharSequence value) {
+    public editUnitNumberType.Builder setFactorDenominator(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.factorDenominator = value;
       fieldSetFlags()[2] = true;
@@ -228,7 +227,7 @@ public class editUnitNumberType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'factorDenominator' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType.Builder clearFactorDenominator() {
+    public editUnitNumberType.Builder clearFactorDenominator() {
       factorDenominator = null;
       fieldSetFlags()[2] = false;
       return this;

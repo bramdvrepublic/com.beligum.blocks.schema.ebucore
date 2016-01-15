@@ -3,13 +3,12 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class spatialType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"spatialType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"spatialType\",\"fields\":[{\"name\":\"location\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"locationType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"locationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute locationId\"},{\"name\":\"name\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element name\"},{\"name\":\"description\",\"type\":[\"null\",\"elementType\"],\"source\":\"element description\"},{\"name\":\"coordinates\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_coordinateslocationType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"posy\",\"type\":\"float\",\"source\":\"element posy\"},{\"name\":\"posx\",\"type\":\"float\",\"source\":\"element posx\"}]}],\"source\":\"element coordinates\"},{\"name\":\"code\",\"type\":[\"null\",\"string\"],\"source\":\"element code\"},{\"name\":\"region\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}],\"source\":\"element region\"}]}},\"source\":\"element location\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location;
+  @Deprecated public java.util.List<locationType> location;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -21,7 +20,7 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
   /**
    * All-args constructor.
    */
-  public spatialType(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location) {
+  public spatialType(java.util.List<locationType> location) {
     this.location = location;
   }
 
@@ -37,7 +36,7 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: location = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType>)value$; break;
+    case 0: location = (java.util.List<locationType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -45,7 +44,7 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
   /**
    * Gets the value of the 'location' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> getLocation() {
+  public java.util.List<locationType> getLocation() {
     return location;
   }
 
@@ -53,23 +52,23 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
    * Sets the value of the 'location' field.
    * @param value the value to set.
    */
-  public void setLocation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> value) {
+  public void setLocation(java.util.List<locationType> value) {
     this.location = value;
   }
 
   /** Creates a new spatialType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder();
+  public static spatialType.Builder newBuilder() {
+    return new spatialType.Builder();
   }
   
   /** Creates a new spatialType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder(other);
+  public static spatialType.Builder newBuilder(spatialType.Builder other) {
+    return new spatialType.Builder(other);
   }
   
   /** Creates a new spatialType RecordBuilder by copying an existing spatialType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder(other);
+  public static spatialType.Builder newBuilder(spatialType other) {
+    return new spatialType.Builder(other);
   }
   
   /**
@@ -78,15 +77,15 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<spatialType>
     implements org.apache.avro.data.RecordBuilder<spatialType> {
 
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> location;
+    private java.util.List<locationType> location;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.SCHEMA$);
+      super(spatialType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder other) {
+    private Builder(spatialType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.location)) {
         this.location = data().deepCopy(fields()[0].schema(), other.location);
@@ -95,8 +94,8 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
     }
     
     /** Creates a Builder by copying an existing spatialType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.SCHEMA$);
+    private Builder(spatialType other) {
+            super(spatialType.SCHEMA$);
       if (isValidValue(fields()[0], other.location)) {
         this.location = data().deepCopy(fields()[0].schema(), other.location);
         fieldSetFlags()[0] = true;
@@ -104,12 +103,12 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
     }
 
     /** Gets the value of the 'location' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> getLocation() {
+    public java.util.List<locationType> getLocation() {
       return location;
     }
     
     /** Sets the value of the 'location' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder setLocation(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType> value) {
+    public spatialType.Builder setLocation(java.util.List<locationType> value) {
       validate(fields()[0], value);
       this.location = value;
       fieldSetFlags()[0] = true;
@@ -122,7 +121,7 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
     }
     
     /** Clears the value of the 'location' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.spatialType.Builder clearLocation() {
+    public spatialType.Builder clearLocation() {
       location = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -132,7 +131,7 @@ public class spatialType extends org.apache.avro.specific.SpecificRecordBase imp
     public spatialType build() {
       try {
         spatialType record = new spatialType();
-        record.location = fieldSetFlags()[0] ? this.location : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.locationType>) defaultValue(fields()[0]);
+        record.location = fieldSetFlags()[0] ? this.location : (java.util.List<locationType>) defaultValue(fields()[0]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Boolean22\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"Boolean22\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -153,18 +152,18 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
   }
 
   /** Creates a new Boolean22 RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder();
+  public static Boolean22.Builder newBuilder() {
+    return new Boolean22.Builder();
   }
   
   /** Creates a new Boolean22 RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder(other);
+  public static Boolean22.Builder newBuilder(Boolean22.Builder other) {
+    return new Boolean22.Builder(other);
   }
   
   /** Creates a new Boolean22 RecordBuilder by copying an existing Boolean22 instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22 other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder(other);
+  public static Boolean22.Builder newBuilder(Boolean22 other) {
+    return new Boolean22.Builder(other);
   }
   
   /**
@@ -182,11 +181,11 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.SCHEMA$);
+      super(Boolean22.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder other) {
+    private Builder(Boolean22.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -215,8 +214,8 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Creates a Builder by copying an existing Boolean22 instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22 other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.SCHEMA$);
+    private Builder(Boolean22 other) {
+            super(Boolean22.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -249,7 +248,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeLabel(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -262,7 +261,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeLabel() {
+    public Boolean22.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -274,7 +273,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -287,7 +286,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeDefinition() {
+    public Boolean22.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -299,7 +298,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeLink(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -312,7 +311,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeLink() {
+    public Boolean22.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -324,7 +323,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeSource(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -337,7 +336,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeSource() {
+    public Boolean22.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -349,7 +348,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -362,7 +361,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeNamespace() {
+    public Boolean22.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -374,7 +373,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public Boolean22.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -387,7 +386,7 @@ public class Boolean22 extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.Boolean22.Builder clearTypeLanguage() {
+    public Boolean22.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;

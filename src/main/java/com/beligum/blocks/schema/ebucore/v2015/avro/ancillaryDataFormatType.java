@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ancillaryDataFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"ancillaryDataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatId\"},{\"name\":\"ancillaryDataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatName\"},{\"name\":\"ancillaryDataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatProfile\"},{\"name\":\"DID\",\"type\":[\"null\",\"string\"],\"source\":\"element DID\"},{\"name\":\"SDID\",\"type\":[\"null\",\"string\"],\"source\":\"element SDID\"},{\"name\":\"lineNumber\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element lineNumber\"},{\"name\":\"wrappingType\",\"type\":[\"null\",\"string\"],\"source\":\"element wrappingType\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ancillaryDataFormatType\",\"fields\":[{\"name\":\"ancillaryDataFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatId\"},{\"name\":\"ancillaryDataFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatName\"},{\"name\":\"ancillaryDataFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ancillaryDataFormatProfile\"},{\"name\":\"DID\",\"type\":[\"null\",\"string\"],\"source\":\"element DID\"},{\"name\":\"SDID\",\"type\":[\"null\",\"string\"],\"source\":\"element SDID\"},{\"name\":\"lineNumber\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element lineNumber\"},{\"name\":\"wrappingType\",\"type\":[\"null\",\"string\"],\"source\":\"element wrappingType\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence ancillaryDataFormatId;
   @Deprecated public java.lang.CharSequence ancillaryDataFormatName;
@@ -172,18 +171,18 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
   }
 
   /** Creates a new ancillaryDataFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder();
+  public static ancillaryDataFormatType.Builder newBuilder() {
+    return new ancillaryDataFormatType.Builder();
   }
   
   /** Creates a new ancillaryDataFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder(other);
+  public static ancillaryDataFormatType.Builder newBuilder(ancillaryDataFormatType.Builder other) {
+    return new ancillaryDataFormatType.Builder(other);
   }
   
   /** Creates a new ancillaryDataFormatType RecordBuilder by copying an existing ancillaryDataFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder(other);
+  public static ancillaryDataFormatType.Builder newBuilder(ancillaryDataFormatType other) {
+    return new ancillaryDataFormatType.Builder(other);
   }
   
   /**
@@ -202,11 +201,11 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.SCHEMA$);
+      super(ancillaryDataFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder other) {
+    private Builder(ancillaryDataFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.ancillaryDataFormatId)) {
         this.ancillaryDataFormatId = data().deepCopy(fields()[0].schema(), other.ancillaryDataFormatId);
@@ -239,8 +238,8 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Creates a Builder by copying an existing ancillaryDataFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.SCHEMA$);
+    private Builder(ancillaryDataFormatType other) {
+            super(ancillaryDataFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.ancillaryDataFormatId)) {
         this.ancillaryDataFormatId = data().deepCopy(fields()[0].schema(), other.ancillaryDataFormatId);
         fieldSetFlags()[0] = true;
@@ -277,7 +276,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'ancillaryDataFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setAncillaryDataFormatId(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setAncillaryDataFormatId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.ancillaryDataFormatId = value;
       fieldSetFlags()[0] = true;
@@ -290,7 +289,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'ancillaryDataFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearAncillaryDataFormatId() {
+    public ancillaryDataFormatType.Builder clearAncillaryDataFormatId() {
       ancillaryDataFormatId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -302,7 +301,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'ancillaryDataFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setAncillaryDataFormatName(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setAncillaryDataFormatName(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.ancillaryDataFormatName = value;
       fieldSetFlags()[1] = true;
@@ -315,7 +314,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'ancillaryDataFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearAncillaryDataFormatName() {
+    public ancillaryDataFormatType.Builder clearAncillaryDataFormatName() {
       ancillaryDataFormatName = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -327,7 +326,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'ancillaryDataFormatProfile' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setAncillaryDataFormatProfile(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setAncillaryDataFormatProfile(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.ancillaryDataFormatProfile = value;
       fieldSetFlags()[2] = true;
@@ -340,7 +339,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'ancillaryDataFormatProfile' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearAncillaryDataFormatProfile() {
+    public ancillaryDataFormatType.Builder clearAncillaryDataFormatProfile() {
       ancillaryDataFormatProfile = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -352,7 +351,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'DID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setDID(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setDID(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.DID = value;
       fieldSetFlags()[3] = true;
@@ -365,7 +364,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'DID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearDID() {
+    public ancillaryDataFormatType.Builder clearDID() {
       DID = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -377,7 +376,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'SDID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setSDID(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setSDID(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.SDID = value;
       fieldSetFlags()[4] = true;
@@ -390,7 +389,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'SDID' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearSDID() {
+    public ancillaryDataFormatType.Builder clearSDID() {
       SDID = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -402,7 +401,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'lineNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setLineNumber(java.util.List<java.lang.CharSequence> value) {
+    public ancillaryDataFormatType.Builder setLineNumber(java.util.List<java.lang.CharSequence> value) {
       validate(fields()[5], value);
       this.lineNumber = value;
       fieldSetFlags()[5] = true;
@@ -415,7 +414,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'lineNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearLineNumber() {
+    public ancillaryDataFormatType.Builder clearLineNumber() {
       lineNumber = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -427,7 +426,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Sets the value of the 'wrappingType' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder setWrappingType(java.lang.CharSequence value) {
+    public ancillaryDataFormatType.Builder setWrappingType(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.wrappingType = value;
       fieldSetFlags()[6] = true;
@@ -440,7 +439,7 @@ public class ancillaryDataFormatType extends org.apache.avro.specific.SpecificRe
     }
     
     /** Clears the value of the 'wrappingType' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ancillaryDataFormatType.Builder clearWrappingType() {
+    public ancillaryDataFormatType.Builder clearWrappingType() {
       wrappingType = null;
       fieldSetFlags()[6] = false;
       return this;

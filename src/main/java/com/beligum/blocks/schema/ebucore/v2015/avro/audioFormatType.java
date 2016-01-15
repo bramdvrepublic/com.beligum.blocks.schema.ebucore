@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"audioFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"audioFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatId\"},{\"name\":\"audioFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatVersionId\"},{\"name\":\"audioFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatName\"},{\"name\":\"audioFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatDefinition\"},{\"name\":\"audioFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfile\"},{\"name\":\"audioFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfileLevel\"},{\"name\":\"audioPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute audioPresenceFlag\"},{\"name\":\"audioEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioEncodingaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"codecType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"codecIdentifier\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]},\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"s","ource\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":","\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}],\"source\":\"element attributor\"}]}],\"source\":\"element codecIdentifier\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"],\"source\":\"element name\"},{\"name\":\"vendor\",\"type\":[\"null\",\"string\"],\"source\":\"element vendor\"},{\"name\":\"version\",\"type\":[\"null\",\"string\"],\"source\":\"element version\"},{\"name\":\"family\",\"type\":[\"null\",\"string\"],\"source\":\"element family\"},{\"name\":\"url\",\"type\":[\"null\",\"string\"],\"source\":\"element url\"}]}],\"source\":\"element codec\"},{\"name\":\"audioTrackConfiguration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioTrackConfiguration\"},{\"name\":\"samplingRate\",\"type\":[\"null\",\"long\"],\"source\":\"element samplingRate\"},{\"name\":\"sampleSize\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleSize\"},{\"name\":\"sampleType\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleType\"},{\"name\":\"bitRate\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"dimensionType\",\"fields\":[{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"audioTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_audioTrackaudioFormatType\",\"fields\":[{\"name\":\"trackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackLanguage\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element audioTrack\"},{\"name\":\"channels\",\"type\":[\"null\",\"string\"],\"source\":\"element channels\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"filterType\",\"fields\":[{\"name\":\"filterOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"trackIdRef\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"anyType\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}},\"source\":\"element trackIdRef\"},{\"name\":\"filterProfile\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_filterProfilefilterType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element filterProfile\"},{\"name\":\"filterSetting\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_filterSettingfilterType\",\"fields\":[{\"name\":\"filterAttributeOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterAttributeOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String3\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ty","peLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean4\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float5\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"}]}},\"source\":\"element filterSetting\"}]}},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String9\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",","\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean10\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float11\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"audioFormatType\",\"fields\":[{\"name\":\"audioFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatId\"},{\"name\":\"audioFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatVersionId\"},{\"name\":\"audioFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatName\"},{\"name\":\"audioFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatDefinition\"},{\"name\":\"audioFormatProfile\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfile\"},{\"name\":\"audioFormatProfileLevel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute audioFormatProfileLevel\"},{\"name\":\"audioPresenceFlag\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute audioPresenceFlag\"},{\"name\":\"audioEncoding\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioEncodingaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioEncoding\"},{\"name\":\"codec\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"codecType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"codecIdentifier\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]},\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"t","ype\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":\"identifierType\"},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute st","artYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}],\"source\":\"element attributor\"}]}],\"source\":\"element codecIdentifier\"},{\"name\":\"name\",\"type\":[\"null\",\"string\"],\"source\":\"element name\"},{\"name\":\"vendor\",\"type\":[\"null\",\"string\"],\"source\":\"element vendor\"},{\"name\":\"version\",\"type\":[\"null\",\"string\"],\"source\":\"element version\"},{\"name\":\"family\",\"type\":[\"null\",\"string\"],\"source\":\"element family\"},{\"name\":\"url\",\"type\":[\"null\",\"string\"],\"source\":\"element url\"}]}],\"source\":\"element codec\"},{\"name\":\"audioTrackConfiguration\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element audioTrackConfiguration\"},{\"name\":\"samplingRate\",\"type\":[\"null\",\"long\"],\"source\":\"element samplingRate\"},{\"name\":\"sampleSize\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleSize\"},{\"name\":\"sampleType\",\"type\":[\"null\",\"string\"],\"source\":\"element sampleType\"},{\"name\":\"bitRate\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"dimensionType\",\"fields\":[{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}],\"source\":\"element bitRate\"},{\"name\":\"bitRateMax\",\"type\":[\"null\",\"dimensionType\"],\"source\":\"element bitRateMax\"},{\"name\":\"bitRateMode\",\"type\":[\"null\",\"string\"],\"source\":\"element bitRateMode\"},{\"name\":\"audioTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_audioTrackaudioFormatType\",\"fields\":[{\"name\":\"trackLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackLanguage\"},{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element audioTrack\"},{\"name\":\"channels\",\"type\":[\"null\",\"string\"],\"source\":\"element channels\"},{\"name\":\"filter\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"filterType\",\"fields\":[{\"name\":\"filterOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"trackIdRef\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"anyType\",\"fields\":[{\"name\":\"others\",\"type\":{\"type\":\"map\",\"values\":\"string\"}}]}},\"source\":\"element trackIdRef\"},{\"name\":\"filterProfile\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_filterProfilefilterType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]},\"source\":\"element filterProfile\"},{\"name\":\"filterSetting\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_filterSettingfilterType\",\"fields\":[{\"name\":\"filterAttributeOrder\",\"type\":[\"null\",\"string\"],\"source\":\"attribute filterAttributeOrder\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String3\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"]",",\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean4\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float5\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"}]}},\"source\":\"element filterSetting\"}]}},\"source\":\"element filter\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String9\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"uni","t\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":\"Int8\"},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":\"Int16\"},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":\"Int32\"},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":\"Int64\"},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":\"UInt8\"},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":\"UInt16\"},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":\"UInt32\"},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":\"UInt64\"},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean10\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float11\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeRationalType\"},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":\"technicalAttributeUriType\"},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence audioFormatId;
   @Deprecated public java.lang.CharSequence audioFormatVersionId;
@@ -16,32 +15,32 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   @Deprecated public java.lang.CharSequence audioFormatProfile;
   @Deprecated public java.lang.CharSequence audioFormatProfileLevel;
   @Deprecated public java.lang.Boolean audioPresenceFlag;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType audioEncoding;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.codecType codec;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration;
+  @Deprecated public AnonType_audioEncodingaudioFormatType audioEncoding;
+  @Deprecated public codecType codec;
+  @Deprecated public AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration;
   @Deprecated public java.lang.Long samplingRate;
   @Deprecated public java.lang.CharSequence sampleSize;
   @Deprecated public java.lang.CharSequence sampleType;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRate;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRateMax;
+  @Deprecated public dimensionType bitRate;
+  @Deprecated public dimensionType bitRateMax;
   @Deprecated public java.lang.CharSequence bitRateMode;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> audioTrack;
+  @Deprecated public java.util.List<AnonType_audioTrackaudioFormatType> audioTrack;
   @Deprecated public java.lang.CharSequence channels;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> filter;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> technicalAttributeString;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> technicalAttributeBoolean;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> technicalAttributeFloat;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment;
+  @Deprecated public java.util.List<filterType> filter;
+  @Deprecated public java.util.List<String9> technicalAttributeString;
+  @Deprecated public java.util.List<Int8> technicalAttributeByte;
+  @Deprecated public java.util.List<Int16> technicalAttributeShort;
+  @Deprecated public java.util.List<Int32> technicalAttributeInteger;
+  @Deprecated public java.util.List<Int64> technicalAttributeLong;
+  @Deprecated public java.util.List<UInt8> technicalAttributeUnsignedByte;
+  @Deprecated public java.util.List<UInt16> technicalAttributeUnsignedShort;
+  @Deprecated public java.util.List<UInt32> technicalAttributeUnsignedInteger;
+  @Deprecated public java.util.List<UInt64> technicalAttributeUnsignedLong;
+  @Deprecated public java.util.List<Boolean10> technicalAttributeBoolean;
+  @Deprecated public java.util.List<Float11> technicalAttributeFloat;
+  @Deprecated public java.util.List<technicalAttributeRationalType> technicalAttributeRational;
+  @Deprecated public java.util.List<technicalAttributeUriType> technicalAttributeUri;
+  @Deprecated public java.util.List<AnonType_comment> comment;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -53,7 +52,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   /**
    * All-args constructor.
    */
-  public audioFormatType(java.lang.CharSequence audioFormatId, java.lang.CharSequence audioFormatVersionId, java.lang.CharSequence audioFormatName, java.lang.CharSequence audioFormatDefinition, java.lang.CharSequence audioFormatProfile, java.lang.CharSequence audioFormatProfileLevel, java.lang.Boolean audioPresenceFlag, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType audioEncoding, com.beligum.blocks.schema.ebucore.v2015.avro.codecType codec, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration, java.lang.Long samplingRate, java.lang.CharSequence sampleSize, java.lang.CharSequence sampleType, com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRate, com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRateMax, java.lang.CharSequence bitRateMode, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> audioTrack, java.lang.CharSequence channels, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> filter, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> technicalAttributeString, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> technicalAttributeBoolean, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> technicalAttributeFloat, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment) {
+  public audioFormatType(java.lang.CharSequence audioFormatId, java.lang.CharSequence audioFormatVersionId, java.lang.CharSequence audioFormatName, java.lang.CharSequence audioFormatDefinition, java.lang.CharSequence audioFormatProfile, java.lang.CharSequence audioFormatProfileLevel, java.lang.Boolean audioPresenceFlag, AnonType_audioEncodingaudioFormatType audioEncoding, codecType codec, AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration, java.lang.Long samplingRate, java.lang.CharSequence sampleSize, java.lang.CharSequence sampleType, dimensionType bitRate, dimensionType bitRateMax, java.lang.CharSequence bitRateMode, java.util.List<AnonType_audioTrackaudioFormatType> audioTrack, java.lang.CharSequence channels, java.util.List<filterType> filter, java.util.List<String9> technicalAttributeString, java.util.List<Int8> technicalAttributeByte, java.util.List<Int16> technicalAttributeShort, java.util.List<Int32> technicalAttributeInteger, java.util.List<Int64> technicalAttributeLong, java.util.List<UInt8> technicalAttributeUnsignedByte, java.util.List<UInt16> technicalAttributeUnsignedShort, java.util.List<UInt32> technicalAttributeUnsignedInteger, java.util.List<UInt64> technicalAttributeUnsignedLong, java.util.List<Boolean10> technicalAttributeBoolean, java.util.List<Float11> technicalAttributeFloat, java.util.List<technicalAttributeRationalType> technicalAttributeRational, java.util.List<technicalAttributeUriType> technicalAttributeUri, java.util.List<AnonType_comment> comment) {
     this.audioFormatId = audioFormatId;
     this.audioFormatVersionId = audioFormatVersionId;
     this.audioFormatName = audioFormatName;
@@ -140,32 +139,32 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     case 4: audioFormatProfile = (java.lang.CharSequence)value$; break;
     case 5: audioFormatProfileLevel = (java.lang.CharSequence)value$; break;
     case 6: audioPresenceFlag = (java.lang.Boolean)value$; break;
-    case 7: audioEncoding = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType)value$; break;
-    case 8: codec = (com.beligum.blocks.schema.ebucore.v2015.avro.codecType)value$; break;
-    case 9: audioTrackConfiguration = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType)value$; break;
+    case 7: audioEncoding = (AnonType_audioEncodingaudioFormatType)value$; break;
+    case 8: codec = (codecType)value$; break;
+    case 9: audioTrackConfiguration = (AnonType_audioTrackConfigurationaudioFormatType)value$; break;
     case 10: samplingRate = (java.lang.Long)value$; break;
     case 11: sampleSize = (java.lang.CharSequence)value$; break;
     case 12: sampleType = (java.lang.CharSequence)value$; break;
-    case 13: bitRate = (com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType)value$; break;
-    case 14: bitRateMax = (com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType)value$; break;
+    case 13: bitRate = (dimensionType)value$; break;
+    case 14: bitRateMax = (dimensionType)value$; break;
     case 15: bitRateMode = (java.lang.CharSequence)value$; break;
-    case 16: audioTrack = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType>)value$; break;
+    case 16: audioTrack = (java.util.List<AnonType_audioTrackaudioFormatType>)value$; break;
     case 17: channels = (java.lang.CharSequence)value$; break;
-    case 18: filter = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType>)value$; break;
-    case 19: technicalAttributeString = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9>)value$; break;
-    case 20: technicalAttributeByte = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8>)value$; break;
-    case 21: technicalAttributeShort = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16>)value$; break;
-    case 22: technicalAttributeInteger = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32>)value$; break;
-    case 23: technicalAttributeLong = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64>)value$; break;
-    case 24: technicalAttributeUnsignedByte = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8>)value$; break;
-    case 25: technicalAttributeUnsignedShort = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16>)value$; break;
-    case 26: technicalAttributeUnsignedInteger = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32>)value$; break;
-    case 27: technicalAttributeUnsignedLong = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64>)value$; break;
-    case 28: technicalAttributeBoolean = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10>)value$; break;
-    case 29: technicalAttributeFloat = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11>)value$; break;
-    case 30: technicalAttributeRational = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType>)value$; break;
-    case 31: technicalAttributeUri = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType>)value$; break;
-    case 32: comment = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment>)value$; break;
+    case 18: filter = (java.util.List<filterType>)value$; break;
+    case 19: technicalAttributeString = (java.util.List<String9>)value$; break;
+    case 20: technicalAttributeByte = (java.util.List<Int8>)value$; break;
+    case 21: technicalAttributeShort = (java.util.List<Int16>)value$; break;
+    case 22: technicalAttributeInteger = (java.util.List<Int32>)value$; break;
+    case 23: technicalAttributeLong = (java.util.List<Int64>)value$; break;
+    case 24: technicalAttributeUnsignedByte = (java.util.List<UInt8>)value$; break;
+    case 25: technicalAttributeUnsignedShort = (java.util.List<UInt16>)value$; break;
+    case 26: technicalAttributeUnsignedInteger = (java.util.List<UInt32>)value$; break;
+    case 27: technicalAttributeUnsignedLong = (java.util.List<UInt64>)value$; break;
+    case 28: technicalAttributeBoolean = (java.util.List<Boolean10>)value$; break;
+    case 29: technicalAttributeFloat = (java.util.List<Float11>)value$; break;
+    case 30: technicalAttributeRational = (java.util.List<technicalAttributeRationalType>)value$; break;
+    case 31: technicalAttributeUri = (java.util.List<technicalAttributeUriType>)value$; break;
+    case 32: comment = (java.util.List<AnonType_comment>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -278,7 +277,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   /**
    * Gets the value of the 'audioEncoding' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType getAudioEncoding() {
+  public AnonType_audioEncodingaudioFormatType getAudioEncoding() {
     return audioEncoding;
   }
 
@@ -286,14 +285,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'audioEncoding' field.
    * @param value the value to set.
    */
-  public void setAudioEncoding(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType value) {
+  public void setAudioEncoding(AnonType_audioEncodingaudioFormatType value) {
     this.audioEncoding = value;
   }
 
   /**
    * Gets the value of the 'codec' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.codecType getCodec() {
+  public codecType getCodec() {
     return codec;
   }
 
@@ -301,14 +300,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'codec' field.
    * @param value the value to set.
    */
-  public void setCodec(com.beligum.blocks.schema.ebucore.v2015.avro.codecType value) {
+  public void setCodec(codecType value) {
     this.codec = value;
   }
 
   /**
    * Gets the value of the 'audioTrackConfiguration' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType getAudioTrackConfiguration() {
+  public AnonType_audioTrackConfigurationaudioFormatType getAudioTrackConfiguration() {
     return audioTrackConfiguration;
   }
 
@@ -316,7 +315,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'audioTrackConfiguration' field.
    * @param value the value to set.
    */
-  public void setAudioTrackConfiguration(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType value) {
+  public void setAudioTrackConfiguration(AnonType_audioTrackConfigurationaudioFormatType value) {
     this.audioTrackConfiguration = value;
   }
 
@@ -368,7 +367,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   /**
    * Gets the value of the 'bitRate' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType getBitRate() {
+  public dimensionType getBitRate() {
     return bitRate;
   }
 
@@ -376,14 +375,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'bitRate' field.
    * @param value the value to set.
    */
-  public void setBitRate(com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType value) {
+  public void setBitRate(dimensionType value) {
     this.bitRate = value;
   }
 
   /**
    * Gets the value of the 'bitRateMax' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType getBitRateMax() {
+  public dimensionType getBitRateMax() {
     return bitRateMax;
   }
 
@@ -391,7 +390,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'bitRateMax' field.
    * @param value the value to set.
    */
-  public void setBitRateMax(com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType value) {
+  public void setBitRateMax(dimensionType value) {
     this.bitRateMax = value;
   }
 
@@ -413,7 +412,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   /**
    * Gets the value of the 'audioTrack' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> getAudioTrack() {
+  public java.util.List<AnonType_audioTrackaudioFormatType> getAudioTrack() {
     return audioTrack;
   }
 
@@ -421,7 +420,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'audioTrack' field.
    * @param value the value to set.
    */
-  public void setAudioTrack(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> value) {
+  public void setAudioTrack(java.util.List<AnonType_audioTrackaudioFormatType> value) {
     this.audioTrack = value;
   }
 
@@ -443,7 +442,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
   /**
    * Gets the value of the 'filter' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> getFilter() {
+  public java.util.List<filterType> getFilter() {
     return filter;
   }
 
@@ -451,14 +450,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'filter' field.
    * @param value the value to set.
    */
-  public void setFilter(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> value) {
+  public void setFilter(java.util.List<filterType> value) {
     this.filter = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeString' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> getTechnicalAttributeString() {
+  public java.util.List<String9> getTechnicalAttributeString() {
     return technicalAttributeString;
   }
 
@@ -466,14 +465,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeString' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeString(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> value) {
+  public void setTechnicalAttributeString(java.util.List<String9> value) {
     this.technicalAttributeString = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeByte' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> getTechnicalAttributeByte() {
+  public java.util.List<Int8> getTechnicalAttributeByte() {
     return technicalAttributeByte;
   }
 
@@ -481,14 +480,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeByte' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> value) {
+  public void setTechnicalAttributeByte(java.util.List<Int8> value) {
     this.technicalAttributeByte = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeShort' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> getTechnicalAttributeShort() {
+  public java.util.List<Int16> getTechnicalAttributeShort() {
     return technicalAttributeShort;
   }
 
@@ -496,14 +495,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeShort' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> value) {
+  public void setTechnicalAttributeShort(java.util.List<Int16> value) {
     this.technicalAttributeShort = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeInteger' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> getTechnicalAttributeInteger() {
+  public java.util.List<Int32> getTechnicalAttributeInteger() {
     return technicalAttributeInteger;
   }
 
@@ -511,14 +510,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeInteger' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> value) {
+  public void setTechnicalAttributeInteger(java.util.List<Int32> value) {
     this.technicalAttributeInteger = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeLong' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> getTechnicalAttributeLong() {
+  public java.util.List<Int64> getTechnicalAttributeLong() {
     return technicalAttributeLong;
   }
 
@@ -526,14 +525,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeLong' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> value) {
+  public void setTechnicalAttributeLong(java.util.List<Int64> value) {
     this.technicalAttributeLong = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedByte' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> getTechnicalAttributeUnsignedByte() {
+  public java.util.List<UInt8> getTechnicalAttributeUnsignedByte() {
     return technicalAttributeUnsignedByte;
   }
 
@@ -541,14 +540,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeUnsignedByte' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> value) {
+  public void setTechnicalAttributeUnsignedByte(java.util.List<UInt8> value) {
     this.technicalAttributeUnsignedByte = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedShort' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> getTechnicalAttributeUnsignedShort() {
+  public java.util.List<UInt16> getTechnicalAttributeUnsignedShort() {
     return technicalAttributeUnsignedShort;
   }
 
@@ -556,14 +555,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeUnsignedShort' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> value) {
+  public void setTechnicalAttributeUnsignedShort(java.util.List<UInt16> value) {
     this.technicalAttributeUnsignedShort = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedInteger' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> getTechnicalAttributeUnsignedInteger() {
+  public java.util.List<UInt32> getTechnicalAttributeUnsignedInteger() {
     return technicalAttributeUnsignedInteger;
   }
 
@@ -571,14 +570,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeUnsignedInteger' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> value) {
+  public void setTechnicalAttributeUnsignedInteger(java.util.List<UInt32> value) {
     this.technicalAttributeUnsignedInteger = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedLong' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> getTechnicalAttributeUnsignedLong() {
+  public java.util.List<UInt64> getTechnicalAttributeUnsignedLong() {
     return technicalAttributeUnsignedLong;
   }
 
@@ -586,14 +585,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeUnsignedLong' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> value) {
+  public void setTechnicalAttributeUnsignedLong(java.util.List<UInt64> value) {
     this.technicalAttributeUnsignedLong = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeBoolean' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> getTechnicalAttributeBoolean() {
+  public java.util.List<Boolean10> getTechnicalAttributeBoolean() {
     return technicalAttributeBoolean;
   }
 
@@ -601,14 +600,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeBoolean' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeBoolean(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> value) {
+  public void setTechnicalAttributeBoolean(java.util.List<Boolean10> value) {
     this.technicalAttributeBoolean = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeFloat' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> getTechnicalAttributeFloat() {
+  public java.util.List<Float11> getTechnicalAttributeFloat() {
     return technicalAttributeFloat;
   }
 
@@ -616,14 +615,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeFloat' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeFloat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> value) {
+  public void setTechnicalAttributeFloat(java.util.List<Float11> value) {
     this.technicalAttributeFloat = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeRational' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> getTechnicalAttributeRational() {
+  public java.util.List<technicalAttributeRationalType> getTechnicalAttributeRational() {
     return technicalAttributeRational;
   }
 
@@ -631,14 +630,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeRational' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeRational(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> value) {
+  public void setTechnicalAttributeRational(java.util.List<technicalAttributeRationalType> value) {
     this.technicalAttributeRational = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUri' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> getTechnicalAttributeUri() {
+  public java.util.List<technicalAttributeUriType> getTechnicalAttributeUri() {
     return technicalAttributeUri;
   }
 
@@ -646,14 +645,14 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'technicalAttributeUri' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUri(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> value) {
+  public void setTechnicalAttributeUri(java.util.List<technicalAttributeUriType> value) {
     this.technicalAttributeUri = value;
   }
 
   /**
    * Gets the value of the 'comment' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> getComment() {
+  public java.util.List<AnonType_comment> getComment() {
     return comment;
   }
 
@@ -661,23 +660,23 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
    * Sets the value of the 'comment' field.
    * @param value the value to set.
    */
-  public void setComment(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> value) {
+  public void setComment(java.util.List<AnonType_comment> value) {
     this.comment = value;
   }
 
   /** Creates a new audioFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder();
+  public static audioFormatType.Builder newBuilder() {
+    return new audioFormatType.Builder();
   }
   
   /** Creates a new audioFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder(other);
+  public static audioFormatType.Builder newBuilder(audioFormatType.Builder other) {
+    return new audioFormatType.Builder(other);
   }
   
   /** Creates a new audioFormatType RecordBuilder by copying an existing audioFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder(other);
+  public static audioFormatType.Builder newBuilder(audioFormatType other) {
+    return new audioFormatType.Builder(other);
   }
   
   /**
@@ -693,40 +692,40 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     private java.lang.CharSequence audioFormatProfile;
     private java.lang.CharSequence audioFormatProfileLevel;
     private java.lang.Boolean audioPresenceFlag;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType audioEncoding;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.codecType codec;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration;
+    private AnonType_audioEncodingaudioFormatType audioEncoding;
+    private codecType codec;
+    private AnonType_audioTrackConfigurationaudioFormatType audioTrackConfiguration;
     private java.lang.Long samplingRate;
     private java.lang.CharSequence sampleSize;
     private java.lang.CharSequence sampleType;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRate;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType bitRateMax;
+    private dimensionType bitRate;
+    private dimensionType bitRateMax;
     private java.lang.CharSequence bitRateMode;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> audioTrack;
+    private java.util.List<AnonType_audioTrackaudioFormatType> audioTrack;
     private java.lang.CharSequence channels;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> filter;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> technicalAttributeString;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> technicalAttributeBoolean;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> technicalAttributeFloat;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment;
+    private java.util.List<filterType> filter;
+    private java.util.List<String9> technicalAttributeString;
+    private java.util.List<Int8> technicalAttributeByte;
+    private java.util.List<Int16> technicalAttributeShort;
+    private java.util.List<Int32> technicalAttributeInteger;
+    private java.util.List<Int64> technicalAttributeLong;
+    private java.util.List<UInt8> technicalAttributeUnsignedByte;
+    private java.util.List<UInt16> technicalAttributeUnsignedShort;
+    private java.util.List<UInt32> technicalAttributeUnsignedInteger;
+    private java.util.List<UInt64> technicalAttributeUnsignedLong;
+    private java.util.List<Boolean10> technicalAttributeBoolean;
+    private java.util.List<Float11> technicalAttributeFloat;
+    private java.util.List<technicalAttributeRationalType> technicalAttributeRational;
+    private java.util.List<technicalAttributeUriType> technicalAttributeUri;
+    private java.util.List<AnonType_comment> comment;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.SCHEMA$);
+      super(audioFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder other) {
+    private Builder(audioFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.audioFormatId)) {
         this.audioFormatId = data().deepCopy(fields()[0].schema(), other.audioFormatId);
@@ -863,8 +862,8 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Creates a Builder by copying an existing audioFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.SCHEMA$);
+    private Builder(audioFormatType other) {
+            super(audioFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.audioFormatId)) {
         this.audioFormatId = data().deepCopy(fields()[0].schema(), other.audioFormatId);
         fieldSetFlags()[0] = true;
@@ -1005,7 +1004,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatId(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.audioFormatId = value;
       fieldSetFlags()[0] = true;
@@ -1018,7 +1017,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatId() {
+    public audioFormatType.Builder clearAudioFormatId() {
       audioFormatId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -1030,7 +1029,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatVersionId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatVersionId(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatVersionId(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.audioFormatVersionId = value;
       fieldSetFlags()[1] = true;
@@ -1043,7 +1042,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatVersionId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatVersionId() {
+    public audioFormatType.Builder clearAudioFormatVersionId() {
       audioFormatVersionId = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -1055,7 +1054,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatName(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatName(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.audioFormatName = value;
       fieldSetFlags()[2] = true;
@@ -1068,7 +1067,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatName() {
+    public audioFormatType.Builder clearAudioFormatName() {
       audioFormatName = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -1080,7 +1079,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatDefinition(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.audioFormatDefinition = value;
       fieldSetFlags()[3] = true;
@@ -1093,7 +1092,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatDefinition() {
+    public audioFormatType.Builder clearAudioFormatDefinition() {
       audioFormatDefinition = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -1105,7 +1104,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatProfile' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatProfile(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatProfile(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.audioFormatProfile = value;
       fieldSetFlags()[4] = true;
@@ -1118,7 +1117,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatProfile' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatProfile() {
+    public audioFormatType.Builder clearAudioFormatProfile() {
       audioFormatProfile = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -1130,7 +1129,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioFormatProfileLevel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioFormatProfileLevel(java.lang.CharSequence value) {
+    public audioFormatType.Builder setAudioFormatProfileLevel(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.audioFormatProfileLevel = value;
       fieldSetFlags()[5] = true;
@@ -1143,7 +1142,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioFormatProfileLevel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioFormatProfileLevel() {
+    public audioFormatType.Builder clearAudioFormatProfileLevel() {
       audioFormatProfileLevel = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -1155,7 +1154,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'audioPresenceFlag' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioPresenceFlag(java.lang.Boolean value) {
+    public audioFormatType.Builder setAudioPresenceFlag(java.lang.Boolean value) {
       validate(fields()[6], value);
       this.audioPresenceFlag = value;
       fieldSetFlags()[6] = true;
@@ -1168,19 +1167,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioPresenceFlag' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioPresenceFlag() {
+    public audioFormatType.Builder clearAudioPresenceFlag() {
       audioPresenceFlag = null;
       fieldSetFlags()[6] = false;
       return this;
     }
 
     /** Gets the value of the 'audioEncoding' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType getAudioEncoding() {
+    public AnonType_audioEncodingaudioFormatType getAudioEncoding() {
       return audioEncoding;
     }
     
     /** Sets the value of the 'audioEncoding' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioEncoding(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType value) {
+    public audioFormatType.Builder setAudioEncoding(AnonType_audioEncodingaudioFormatType value) {
       validate(fields()[7], value);
       this.audioEncoding = value;
       fieldSetFlags()[7] = true;
@@ -1193,19 +1192,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioEncoding' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioEncoding() {
+    public audioFormatType.Builder clearAudioEncoding() {
       audioEncoding = null;
       fieldSetFlags()[7] = false;
       return this;
     }
 
     /** Gets the value of the 'codec' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.codecType getCodec() {
+    public codecType getCodec() {
       return codec;
     }
     
     /** Sets the value of the 'codec' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setCodec(com.beligum.blocks.schema.ebucore.v2015.avro.codecType value) {
+    public audioFormatType.Builder setCodec(codecType value) {
       validate(fields()[8], value);
       this.codec = value;
       fieldSetFlags()[8] = true;
@@ -1218,19 +1217,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'codec' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearCodec() {
+    public audioFormatType.Builder clearCodec() {
       codec = null;
       fieldSetFlags()[8] = false;
       return this;
     }
 
     /** Gets the value of the 'audioTrackConfiguration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType getAudioTrackConfiguration() {
+    public AnonType_audioTrackConfigurationaudioFormatType getAudioTrackConfiguration() {
       return audioTrackConfiguration;
     }
     
     /** Sets the value of the 'audioTrackConfiguration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioTrackConfiguration(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType value) {
+    public audioFormatType.Builder setAudioTrackConfiguration(AnonType_audioTrackConfigurationaudioFormatType value) {
       validate(fields()[9], value);
       this.audioTrackConfiguration = value;
       fieldSetFlags()[9] = true;
@@ -1243,7 +1242,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioTrackConfiguration' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioTrackConfiguration() {
+    public audioFormatType.Builder clearAudioTrackConfiguration() {
       audioTrackConfiguration = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -1255,7 +1254,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'samplingRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setSamplingRate(java.lang.Long value) {
+    public audioFormatType.Builder setSamplingRate(java.lang.Long value) {
       validate(fields()[10], value);
       this.samplingRate = value;
       fieldSetFlags()[10] = true;
@@ -1268,7 +1267,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'samplingRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearSamplingRate() {
+    public audioFormatType.Builder clearSamplingRate() {
       samplingRate = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -1280,7 +1279,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'sampleSize' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setSampleSize(java.lang.CharSequence value) {
+    public audioFormatType.Builder setSampleSize(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.sampleSize = value;
       fieldSetFlags()[11] = true;
@@ -1293,7 +1292,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'sampleSize' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearSampleSize() {
+    public audioFormatType.Builder clearSampleSize() {
       sampleSize = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -1305,7 +1304,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'sampleType' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setSampleType(java.lang.CharSequence value) {
+    public audioFormatType.Builder setSampleType(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.sampleType = value;
       fieldSetFlags()[12] = true;
@@ -1318,19 +1317,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'sampleType' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearSampleType() {
+    public audioFormatType.Builder clearSampleType() {
       sampleType = null;
       fieldSetFlags()[12] = false;
       return this;
     }
 
     /** Gets the value of the 'bitRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType getBitRate() {
+    public dimensionType getBitRate() {
       return bitRate;
     }
     
     /** Sets the value of the 'bitRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setBitRate(com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType value) {
+    public audioFormatType.Builder setBitRate(dimensionType value) {
       validate(fields()[13], value);
       this.bitRate = value;
       fieldSetFlags()[13] = true;
@@ -1343,19 +1342,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'bitRate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearBitRate() {
+    public audioFormatType.Builder clearBitRate() {
       bitRate = null;
       fieldSetFlags()[13] = false;
       return this;
     }
 
     /** Gets the value of the 'bitRateMax' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType getBitRateMax() {
+    public dimensionType getBitRateMax() {
       return bitRateMax;
     }
     
     /** Sets the value of the 'bitRateMax' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setBitRateMax(com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType value) {
+    public audioFormatType.Builder setBitRateMax(dimensionType value) {
       validate(fields()[14], value);
       this.bitRateMax = value;
       fieldSetFlags()[14] = true;
@@ -1368,7 +1367,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'bitRateMax' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearBitRateMax() {
+    public audioFormatType.Builder clearBitRateMax() {
       bitRateMax = null;
       fieldSetFlags()[14] = false;
       return this;
@@ -1380,7 +1379,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'bitRateMode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setBitRateMode(java.lang.CharSequence value) {
+    public audioFormatType.Builder setBitRateMode(java.lang.CharSequence value) {
       validate(fields()[15], value);
       this.bitRateMode = value;
       fieldSetFlags()[15] = true;
@@ -1393,19 +1392,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'bitRateMode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearBitRateMode() {
+    public audioFormatType.Builder clearBitRateMode() {
       bitRateMode = null;
       fieldSetFlags()[15] = false;
       return this;
     }
 
     /** Gets the value of the 'audioTrack' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> getAudioTrack() {
+    public java.util.List<AnonType_audioTrackaudioFormatType> getAudioTrack() {
       return audioTrack;
     }
     
     /** Sets the value of the 'audioTrack' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setAudioTrack(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType> value) {
+    public audioFormatType.Builder setAudioTrack(java.util.List<AnonType_audioTrackaudioFormatType> value) {
       validate(fields()[16], value);
       this.audioTrack = value;
       fieldSetFlags()[16] = true;
@@ -1418,7 +1417,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'audioTrack' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearAudioTrack() {
+    public audioFormatType.Builder clearAudioTrack() {
       audioTrack = null;
       fieldSetFlags()[16] = false;
       return this;
@@ -1430,7 +1429,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Sets the value of the 'channels' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setChannels(java.lang.CharSequence value) {
+    public audioFormatType.Builder setChannels(java.lang.CharSequence value) {
       validate(fields()[17], value);
       this.channels = value;
       fieldSetFlags()[17] = true;
@@ -1443,19 +1442,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'channels' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearChannels() {
+    public audioFormatType.Builder clearChannels() {
       channels = null;
       fieldSetFlags()[17] = false;
       return this;
     }
 
     /** Gets the value of the 'filter' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> getFilter() {
+    public java.util.List<filterType> getFilter() {
       return filter;
     }
     
     /** Sets the value of the 'filter' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setFilter(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType> value) {
+    public audioFormatType.Builder setFilter(java.util.List<filterType> value) {
       validate(fields()[18], value);
       this.filter = value;
       fieldSetFlags()[18] = true;
@@ -1468,19 +1467,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'filter' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearFilter() {
+    public audioFormatType.Builder clearFilter() {
       filter = null;
       fieldSetFlags()[18] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeString' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> getTechnicalAttributeString() {
+    public java.util.List<String9> getTechnicalAttributeString() {
       return technicalAttributeString;
     }
     
     /** Sets the value of the 'technicalAttributeString' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeString(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9> value) {
+    public audioFormatType.Builder setTechnicalAttributeString(java.util.List<String9> value) {
       validate(fields()[19], value);
       this.technicalAttributeString = value;
       fieldSetFlags()[19] = true;
@@ -1493,19 +1492,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeString' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeString() {
+    public audioFormatType.Builder clearTechnicalAttributeString() {
       technicalAttributeString = null;
       fieldSetFlags()[19] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeByte' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> getTechnicalAttributeByte() {
+    public java.util.List<Int8> getTechnicalAttributeByte() {
       return technicalAttributeByte;
     }
     
     /** Sets the value of the 'technicalAttributeByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> value) {
+    public audioFormatType.Builder setTechnicalAttributeByte(java.util.List<Int8> value) {
       validate(fields()[20], value);
       this.technicalAttributeByte = value;
       fieldSetFlags()[20] = true;
@@ -1518,19 +1517,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeByte() {
+    public audioFormatType.Builder clearTechnicalAttributeByte() {
       technicalAttributeByte = null;
       fieldSetFlags()[20] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeShort' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> getTechnicalAttributeShort() {
+    public java.util.List<Int16> getTechnicalAttributeShort() {
       return technicalAttributeShort;
     }
     
     /** Sets the value of the 'technicalAttributeShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> value) {
+    public audioFormatType.Builder setTechnicalAttributeShort(java.util.List<Int16> value) {
       validate(fields()[21], value);
       this.technicalAttributeShort = value;
       fieldSetFlags()[21] = true;
@@ -1543,19 +1542,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeShort() {
+    public audioFormatType.Builder clearTechnicalAttributeShort() {
       technicalAttributeShort = null;
       fieldSetFlags()[21] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeInteger' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> getTechnicalAttributeInteger() {
+    public java.util.List<Int32> getTechnicalAttributeInteger() {
       return technicalAttributeInteger;
     }
     
     /** Sets the value of the 'technicalAttributeInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> value) {
+    public audioFormatType.Builder setTechnicalAttributeInteger(java.util.List<Int32> value) {
       validate(fields()[22], value);
       this.technicalAttributeInteger = value;
       fieldSetFlags()[22] = true;
@@ -1568,19 +1567,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeInteger() {
+    public audioFormatType.Builder clearTechnicalAttributeInteger() {
       technicalAttributeInteger = null;
       fieldSetFlags()[22] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeLong' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> getTechnicalAttributeLong() {
+    public java.util.List<Int64> getTechnicalAttributeLong() {
       return technicalAttributeLong;
     }
     
     /** Sets the value of the 'technicalAttributeLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> value) {
+    public audioFormatType.Builder setTechnicalAttributeLong(java.util.List<Int64> value) {
       validate(fields()[23], value);
       this.technicalAttributeLong = value;
       fieldSetFlags()[23] = true;
@@ -1593,19 +1592,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeLong() {
+    public audioFormatType.Builder clearTechnicalAttributeLong() {
       technicalAttributeLong = null;
       fieldSetFlags()[23] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedByte' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> getTechnicalAttributeUnsignedByte() {
+    public java.util.List<UInt8> getTechnicalAttributeUnsignedByte() {
       return technicalAttributeUnsignedByte;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeUnsignedByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> value) {
+    public audioFormatType.Builder setTechnicalAttributeUnsignedByte(java.util.List<UInt8> value) {
       validate(fields()[24], value);
       this.technicalAttributeUnsignedByte = value;
       fieldSetFlags()[24] = true;
@@ -1618,19 +1617,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeUnsignedByte() {
+    public audioFormatType.Builder clearTechnicalAttributeUnsignedByte() {
       technicalAttributeUnsignedByte = null;
       fieldSetFlags()[24] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedShort' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> getTechnicalAttributeUnsignedShort() {
+    public java.util.List<UInt16> getTechnicalAttributeUnsignedShort() {
       return technicalAttributeUnsignedShort;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeUnsignedShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> value) {
+    public audioFormatType.Builder setTechnicalAttributeUnsignedShort(java.util.List<UInt16> value) {
       validate(fields()[25], value);
       this.technicalAttributeUnsignedShort = value;
       fieldSetFlags()[25] = true;
@@ -1643,19 +1642,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeUnsignedShort() {
+    public audioFormatType.Builder clearTechnicalAttributeUnsignedShort() {
       technicalAttributeUnsignedShort = null;
       fieldSetFlags()[25] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedInteger' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> getTechnicalAttributeUnsignedInteger() {
+    public java.util.List<UInt32> getTechnicalAttributeUnsignedInteger() {
       return technicalAttributeUnsignedInteger;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeUnsignedInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> value) {
+    public audioFormatType.Builder setTechnicalAttributeUnsignedInteger(java.util.List<UInt32> value) {
       validate(fields()[26], value);
       this.technicalAttributeUnsignedInteger = value;
       fieldSetFlags()[26] = true;
@@ -1668,19 +1667,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeUnsignedInteger() {
+    public audioFormatType.Builder clearTechnicalAttributeUnsignedInteger() {
       technicalAttributeUnsignedInteger = null;
       fieldSetFlags()[26] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedLong' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> getTechnicalAttributeUnsignedLong() {
+    public java.util.List<UInt64> getTechnicalAttributeUnsignedLong() {
       return technicalAttributeUnsignedLong;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeUnsignedLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> value) {
+    public audioFormatType.Builder setTechnicalAttributeUnsignedLong(java.util.List<UInt64> value) {
       validate(fields()[27], value);
       this.technicalAttributeUnsignedLong = value;
       fieldSetFlags()[27] = true;
@@ -1693,19 +1692,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeUnsignedLong() {
+    public audioFormatType.Builder clearTechnicalAttributeUnsignedLong() {
       technicalAttributeUnsignedLong = null;
       fieldSetFlags()[27] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeBoolean' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> getTechnicalAttributeBoolean() {
+    public java.util.List<Boolean10> getTechnicalAttributeBoolean() {
       return technicalAttributeBoolean;
     }
     
     /** Sets the value of the 'technicalAttributeBoolean' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeBoolean(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10> value) {
+    public audioFormatType.Builder setTechnicalAttributeBoolean(java.util.List<Boolean10> value) {
       validate(fields()[28], value);
       this.technicalAttributeBoolean = value;
       fieldSetFlags()[28] = true;
@@ -1718,19 +1717,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeBoolean' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeBoolean() {
+    public audioFormatType.Builder clearTechnicalAttributeBoolean() {
       technicalAttributeBoolean = null;
       fieldSetFlags()[28] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeFloat' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> getTechnicalAttributeFloat() {
+    public java.util.List<Float11> getTechnicalAttributeFloat() {
       return technicalAttributeFloat;
     }
     
     /** Sets the value of the 'technicalAttributeFloat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeFloat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11> value) {
+    public audioFormatType.Builder setTechnicalAttributeFloat(java.util.List<Float11> value) {
       validate(fields()[29], value);
       this.technicalAttributeFloat = value;
       fieldSetFlags()[29] = true;
@@ -1743,19 +1742,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeFloat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeFloat() {
+    public audioFormatType.Builder clearTechnicalAttributeFloat() {
       technicalAttributeFloat = null;
       fieldSetFlags()[29] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeRational' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> getTechnicalAttributeRational() {
+    public java.util.List<technicalAttributeRationalType> getTechnicalAttributeRational() {
       return technicalAttributeRational;
     }
     
     /** Sets the value of the 'technicalAttributeRational' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeRational(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> value) {
+    public audioFormatType.Builder setTechnicalAttributeRational(java.util.List<technicalAttributeRationalType> value) {
       validate(fields()[30], value);
       this.technicalAttributeRational = value;
       fieldSetFlags()[30] = true;
@@ -1768,19 +1767,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeRational' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeRational() {
+    public audioFormatType.Builder clearTechnicalAttributeRational() {
       technicalAttributeRational = null;
       fieldSetFlags()[30] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUri' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> getTechnicalAttributeUri() {
+    public java.util.List<technicalAttributeUriType> getTechnicalAttributeUri() {
       return technicalAttributeUri;
     }
     
     /** Sets the value of the 'technicalAttributeUri' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setTechnicalAttributeUri(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> value) {
+    public audioFormatType.Builder setTechnicalAttributeUri(java.util.List<technicalAttributeUriType> value) {
       validate(fields()[31], value);
       this.technicalAttributeUri = value;
       fieldSetFlags()[31] = true;
@@ -1793,19 +1792,19 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'technicalAttributeUri' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearTechnicalAttributeUri() {
+    public audioFormatType.Builder clearTechnicalAttributeUri() {
       technicalAttributeUri = null;
       fieldSetFlags()[31] = false;
       return this;
     }
 
     /** Gets the value of the 'comment' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> getComment() {
+    public java.util.List<AnonType_comment> getComment() {
       return comment;
     }
     
     /** Sets the value of the 'comment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder setComment(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> value) {
+    public audioFormatType.Builder setComment(java.util.List<AnonType_comment> value) {
       validate(fields()[32], value);
       this.comment = value;
       fieldSetFlags()[32] = true;
@@ -1818,7 +1817,7 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
     }
     
     /** Clears the value of the 'comment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.audioFormatType.Builder clearComment() {
+    public audioFormatType.Builder clearComment() {
       comment = null;
       fieldSetFlags()[32] = false;
       return this;
@@ -1835,32 +1834,32 @@ public class audioFormatType extends org.apache.avro.specific.SpecificRecordBase
         record.audioFormatProfile = fieldSetFlags()[4] ? this.audioFormatProfile : (java.lang.CharSequence) defaultValue(fields()[4]);
         record.audioFormatProfileLevel = fieldSetFlags()[5] ? this.audioFormatProfileLevel : (java.lang.CharSequence) defaultValue(fields()[5]);
         record.audioPresenceFlag = fieldSetFlags()[6] ? this.audioPresenceFlag : (java.lang.Boolean) defaultValue(fields()[6]);
-        record.audioEncoding = fieldSetFlags()[7] ? this.audioEncoding : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioEncodingaudioFormatType) defaultValue(fields()[7]);
-        record.codec = fieldSetFlags()[8] ? this.codec : (com.beligum.blocks.schema.ebucore.v2015.avro.codecType) defaultValue(fields()[8]);
-        record.audioTrackConfiguration = fieldSetFlags()[9] ? this.audioTrackConfiguration : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType) defaultValue(fields()[9]);
+        record.audioEncoding = fieldSetFlags()[7] ? this.audioEncoding : (AnonType_audioEncodingaudioFormatType) defaultValue(fields()[7]);
+        record.codec = fieldSetFlags()[8] ? this.codec : (codecType) defaultValue(fields()[8]);
+        record.audioTrackConfiguration = fieldSetFlags()[9] ? this.audioTrackConfiguration : (AnonType_audioTrackConfigurationaudioFormatType) defaultValue(fields()[9]);
         record.samplingRate = fieldSetFlags()[10] ? this.samplingRate : (java.lang.Long) defaultValue(fields()[10]);
         record.sampleSize = fieldSetFlags()[11] ? this.sampleSize : (java.lang.CharSequence) defaultValue(fields()[11]);
         record.sampleType = fieldSetFlags()[12] ? this.sampleType : (java.lang.CharSequence) defaultValue(fields()[12]);
-        record.bitRate = fieldSetFlags()[13] ? this.bitRate : (com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType) defaultValue(fields()[13]);
-        record.bitRateMax = fieldSetFlags()[14] ? this.bitRateMax : (com.beligum.blocks.schema.ebucore.v2015.avro.dimensionType) defaultValue(fields()[14]);
+        record.bitRate = fieldSetFlags()[13] ? this.bitRate : (dimensionType) defaultValue(fields()[13]);
+        record.bitRateMax = fieldSetFlags()[14] ? this.bitRateMax : (dimensionType) defaultValue(fields()[14]);
         record.bitRateMode = fieldSetFlags()[15] ? this.bitRateMode : (java.lang.CharSequence) defaultValue(fields()[15]);
-        record.audioTrack = fieldSetFlags()[16] ? this.audioTrack : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackaudioFormatType>) defaultValue(fields()[16]);
+        record.audioTrack = fieldSetFlags()[16] ? this.audioTrack : (java.util.List<AnonType_audioTrackaudioFormatType>) defaultValue(fields()[16]);
         record.channels = fieldSetFlags()[17] ? this.channels : (java.lang.CharSequence) defaultValue(fields()[17]);
-        record.filter = fieldSetFlags()[18] ? this.filter : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.filterType>) defaultValue(fields()[18]);
-        record.technicalAttributeString = fieldSetFlags()[19] ? this.technicalAttributeString : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String9>) defaultValue(fields()[19]);
-        record.technicalAttributeByte = fieldSetFlags()[20] ? this.technicalAttributeByte : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8>) defaultValue(fields()[20]);
-        record.technicalAttributeShort = fieldSetFlags()[21] ? this.technicalAttributeShort : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16>) defaultValue(fields()[21]);
-        record.technicalAttributeInteger = fieldSetFlags()[22] ? this.technicalAttributeInteger : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32>) defaultValue(fields()[22]);
-        record.technicalAttributeLong = fieldSetFlags()[23] ? this.technicalAttributeLong : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64>) defaultValue(fields()[23]);
-        record.technicalAttributeUnsignedByte = fieldSetFlags()[24] ? this.technicalAttributeUnsignedByte : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8>) defaultValue(fields()[24]);
-        record.technicalAttributeUnsignedShort = fieldSetFlags()[25] ? this.technicalAttributeUnsignedShort : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16>) defaultValue(fields()[25]);
-        record.technicalAttributeUnsignedInteger = fieldSetFlags()[26] ? this.technicalAttributeUnsignedInteger : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32>) defaultValue(fields()[26]);
-        record.technicalAttributeUnsignedLong = fieldSetFlags()[27] ? this.technicalAttributeUnsignedLong : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64>) defaultValue(fields()[27]);
-        record.technicalAttributeBoolean = fieldSetFlags()[28] ? this.technicalAttributeBoolean : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean10>) defaultValue(fields()[28]);
-        record.technicalAttributeFloat = fieldSetFlags()[29] ? this.technicalAttributeFloat : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float11>) defaultValue(fields()[29]);
-        record.technicalAttributeRational = fieldSetFlags()[30] ? this.technicalAttributeRational : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType>) defaultValue(fields()[30]);
-        record.technicalAttributeUri = fieldSetFlags()[31] ? this.technicalAttributeUri : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType>) defaultValue(fields()[31]);
-        record.comment = fieldSetFlags()[32] ? this.comment : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment>) defaultValue(fields()[32]);
+        record.filter = fieldSetFlags()[18] ? this.filter : (java.util.List<filterType>) defaultValue(fields()[18]);
+        record.technicalAttributeString = fieldSetFlags()[19] ? this.technicalAttributeString : (java.util.List<String9>) defaultValue(fields()[19]);
+        record.technicalAttributeByte = fieldSetFlags()[20] ? this.technicalAttributeByte : (java.util.List<Int8>) defaultValue(fields()[20]);
+        record.technicalAttributeShort = fieldSetFlags()[21] ? this.technicalAttributeShort : (java.util.List<Int16>) defaultValue(fields()[21]);
+        record.technicalAttributeInteger = fieldSetFlags()[22] ? this.technicalAttributeInteger : (java.util.List<Int32>) defaultValue(fields()[22]);
+        record.technicalAttributeLong = fieldSetFlags()[23] ? this.technicalAttributeLong : (java.util.List<Int64>) defaultValue(fields()[23]);
+        record.technicalAttributeUnsignedByte = fieldSetFlags()[24] ? this.technicalAttributeUnsignedByte : (java.util.List<UInt8>) defaultValue(fields()[24]);
+        record.technicalAttributeUnsignedShort = fieldSetFlags()[25] ? this.technicalAttributeUnsignedShort : (java.util.List<UInt16>) defaultValue(fields()[25]);
+        record.technicalAttributeUnsignedInteger = fieldSetFlags()[26] ? this.technicalAttributeUnsignedInteger : (java.util.List<UInt32>) defaultValue(fields()[26]);
+        record.technicalAttributeUnsignedLong = fieldSetFlags()[27] ? this.technicalAttributeUnsignedLong : (java.util.List<UInt64>) defaultValue(fields()[27]);
+        record.technicalAttributeBoolean = fieldSetFlags()[28] ? this.technicalAttributeBoolean : (java.util.List<Boolean10>) defaultValue(fields()[28]);
+        record.technicalAttributeFloat = fieldSetFlags()[29] ? this.technicalAttributeFloat : (java.util.List<Float11>) defaultValue(fields()[29]);
+        record.technicalAttributeRational = fieldSetFlags()[30] ? this.technicalAttributeRational : (java.util.List<technicalAttributeRationalType>) defaultValue(fields()[30]);
+        record.technicalAttributeUri = fieldSetFlags()[31] ? this.technicalAttributeUri : (java.util.List<technicalAttributeUriType>) defaultValue(fields()[31]);
+        record.comment = fieldSetFlags()[32] ? this.comment : (java.util.List<AnonType_comment>) defaultValue(fields()[32]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

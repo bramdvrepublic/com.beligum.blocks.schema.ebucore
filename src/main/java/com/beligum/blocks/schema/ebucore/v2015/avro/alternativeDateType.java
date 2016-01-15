@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class alternativeDateType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"alternativeDateType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"alternativeDateType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence startYear;
   @Deprecated public java.lang.CharSequence startDate;
@@ -286,18 +285,18 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
   }
 
   /** Creates a new alternativeDateType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder();
+  public static alternativeDateType.Builder newBuilder() {
+    return new alternativeDateType.Builder();
   }
   
   /** Creates a new alternativeDateType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder(other);
+  public static alternativeDateType.Builder newBuilder(alternativeDateType.Builder other) {
+    return new alternativeDateType.Builder(other);
   }
   
   /** Creates a new alternativeDateType RecordBuilder by copying an existing alternativeDateType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder(other);
+  public static alternativeDateType.Builder newBuilder(alternativeDateType other) {
+    return new alternativeDateType.Builder(other);
   }
   
   /**
@@ -322,11 +321,11 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.SCHEMA$);
+      super(alternativeDateType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder other) {
+    private Builder(alternativeDateType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.startYear)) {
         this.startYear = data().deepCopy(fields()[0].schema(), other.startYear);
@@ -383,8 +382,8 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Creates a Builder by copying an existing alternativeDateType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.SCHEMA$);
+    private Builder(alternativeDateType other) {
+            super(alternativeDateType.SCHEMA$);
       if (isValidValue(fields()[0], other.startYear)) {
         this.startYear = data().deepCopy(fields()[0].schema(), other.startYear);
         fieldSetFlags()[0] = true;
@@ -445,7 +444,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'startYear' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setStartYear(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setStartYear(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.startYear = value;
       fieldSetFlags()[0] = true;
@@ -458,7 +457,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'startYear' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearStartYear() {
+    public alternativeDateType.Builder clearStartYear() {
       startYear = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -470,7 +469,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'startDate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setStartDate(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setStartDate(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.startDate = value;
       fieldSetFlags()[1] = true;
@@ -483,7 +482,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'startDate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearStartDate() {
+    public alternativeDateType.Builder clearStartDate() {
       startDate = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -495,7 +494,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'startTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setStartTime(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setStartTime(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.startTime = value;
       fieldSetFlags()[2] = true;
@@ -508,7 +507,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'startTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearStartTime() {
+    public alternativeDateType.Builder clearStartTime() {
       startTime = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -520,7 +519,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'endYear' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setEndYear(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setEndYear(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.endYear = value;
       fieldSetFlags()[3] = true;
@@ -533,7 +532,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'endYear' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearEndYear() {
+    public alternativeDateType.Builder clearEndYear() {
       endYear = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -545,7 +544,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'endDate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setEndDate(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setEndDate(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.endDate = value;
       fieldSetFlags()[4] = true;
@@ -558,7 +557,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'endDate' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearEndDate() {
+    public alternativeDateType.Builder clearEndDate() {
       endDate = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -570,7 +569,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'endTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setEndTime(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setEndTime(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.endTime = value;
       fieldSetFlags()[5] = true;
@@ -583,7 +582,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'endTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearEndTime() {
+    public alternativeDateType.Builder clearEndTime() {
       endTime = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -595,7 +594,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'period' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setPeriod(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setPeriod(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.period = value;
       fieldSetFlags()[6] = true;
@@ -608,7 +607,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'period' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearPeriod() {
+    public alternativeDateType.Builder clearPeriod() {
       period = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -620,7 +619,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.typeLabel = value;
       fieldSetFlags()[7] = true;
@@ -633,7 +632,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeLabel() {
+    public alternativeDateType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -645,7 +644,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[8], value);
       this.typeDefinition = value;
       fieldSetFlags()[8] = true;
@@ -658,7 +657,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeDefinition() {
+    public alternativeDateType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -670,7 +669,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeLink(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[9], value);
       this.typeLink = value;
       fieldSetFlags()[9] = true;
@@ -683,7 +682,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeLink() {
+    public alternativeDateType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -695,7 +694,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeSource(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.typeSource = value;
       fieldSetFlags()[10] = true;
@@ -708,7 +707,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeSource() {
+    public alternativeDateType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -720,7 +719,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.typeNamespace = value;
       fieldSetFlags()[11] = true;
@@ -733,7 +732,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeNamespace() {
+    public alternativeDateType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -745,7 +744,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public alternativeDateType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.typeLanguage = value;
       fieldSetFlags()[12] = true;
@@ -758,7 +757,7 @@ public class alternativeDateType extends org.apache.avro.specific.SpecificRecord
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.alternativeDateType.Builder clearTypeLanguage() {
+    public alternativeDateType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[12] = false;
       return this;

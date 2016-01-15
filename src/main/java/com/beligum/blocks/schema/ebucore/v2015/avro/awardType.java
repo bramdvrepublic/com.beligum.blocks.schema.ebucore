@@ -3,19 +3,18 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class awardType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"awardType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":","\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":\"awardType\"},\"source\":\"element award\"}]}},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"arra","y\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":\"awardType\"},\"source\":\"element award\"}]}},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence awardId;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> category;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ceremony;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> official;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> date;
+  @Deprecated public java.util.List<elementType> name;
+  @Deprecated public java.util.List<elementType> description;
+  @Deprecated public java.util.List<AnonType_categoryawardType> category;
+  @Deprecated public java.util.List<elementType> ceremony;
+  @Deprecated public java.util.List<entityType> official;
+  @Deprecated public java.util.List<AnonType_dateawardType> date;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -27,7 +26,7 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
   /**
    * All-args constructor.
    */
-  public awardType(java.lang.CharSequence awardId, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> category, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ceremony, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> official, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> date) {
+  public awardType(java.lang.CharSequence awardId, java.util.List<elementType> name, java.util.List<elementType> description, java.util.List<AnonType_categoryawardType> category, java.util.List<elementType> ceremony, java.util.List<entityType> official, java.util.List<AnonType_dateawardType> date) {
     this.awardId = awardId;
     this.name = name;
     this.description = description;
@@ -56,12 +55,12 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
     case 0: awardId = (java.lang.CharSequence)value$; break;
-    case 1: name = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 2: description = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 3: category = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType>)value$; break;
-    case 4: ceremony = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 5: official = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>)value$; break;
-    case 6: date = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType>)value$; break;
+    case 1: name = (java.util.List<elementType>)value$; break;
+    case 2: description = (java.util.List<elementType>)value$; break;
+    case 3: category = (java.util.List<AnonType_categoryawardType>)value$; break;
+    case 4: ceremony = (java.util.List<elementType>)value$; break;
+    case 5: official = (java.util.List<entityType>)value$; break;
+    case 6: date = (java.util.List<AnonType_dateawardType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -84,7 +83,7 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
   /**
    * Gets the value of the 'name' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getName() {
+  public java.util.List<elementType> getName() {
     return name;
   }
 
@@ -92,14 +91,14 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'name' field.
    * @param value the value to set.
    */
-  public void setName(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setName(java.util.List<elementType> value) {
     this.name = value;
   }
 
   /**
    * Gets the value of the 'description' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDescription() {
+  public java.util.List<elementType> getDescription() {
     return description;
   }
 
@@ -107,14 +106,14 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'description' field.
    * @param value the value to set.
    */
-  public void setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setDescription(java.util.List<elementType> value) {
     this.description = value;
   }
 
   /**
    * Gets the value of the 'category' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> getCategory() {
+  public java.util.List<AnonType_categoryawardType> getCategory() {
     return category;
   }
 
@@ -122,14 +121,14 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'category' field.
    * @param value the value to set.
    */
-  public void setCategory(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> value) {
+  public void setCategory(java.util.List<AnonType_categoryawardType> value) {
     this.category = value;
   }
 
   /**
    * Gets the value of the 'ceremony' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getCeremony() {
+  public java.util.List<elementType> getCeremony() {
     return ceremony;
   }
 
@@ -137,14 +136,14 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'ceremony' field.
    * @param value the value to set.
    */
-  public void setCeremony(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setCeremony(java.util.List<elementType> value) {
     this.ceremony = value;
   }
 
   /**
    * Gets the value of the 'official' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getOfficial() {
+  public java.util.List<entityType> getOfficial() {
     return official;
   }
 
@@ -152,14 +151,14 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'official' field.
    * @param value the value to set.
    */
-  public void setOfficial(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+  public void setOfficial(java.util.List<entityType> value) {
     this.official = value;
   }
 
   /**
    * Gets the value of the 'date' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> getDate() {
+  public java.util.List<AnonType_dateawardType> getDate() {
     return date;
   }
 
@@ -167,23 +166,23 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
    * Sets the value of the 'date' field.
    * @param value the value to set.
    */
-  public void setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> value) {
+  public void setDate(java.util.List<AnonType_dateawardType> value) {
     this.date = value;
   }
 
   /** Creates a new awardType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder();
+  public static awardType.Builder newBuilder() {
+    return new awardType.Builder();
   }
   
   /** Creates a new awardType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder(other);
+  public static awardType.Builder newBuilder(awardType.Builder other) {
+    return new awardType.Builder(other);
   }
   
   /** Creates a new awardType RecordBuilder by copying an existing awardType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.awardType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder(other);
+  public static awardType.Builder newBuilder(awardType other) {
+    return new awardType.Builder(other);
   }
   
   /**
@@ -193,20 +192,20 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     implements org.apache.avro.data.RecordBuilder<awardType> {
 
     private java.lang.CharSequence awardId;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> name;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> description;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> category;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ceremony;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> official;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> date;
+    private java.util.List<elementType> name;
+    private java.util.List<elementType> description;
+    private java.util.List<AnonType_categoryawardType> category;
+    private java.util.List<elementType> ceremony;
+    private java.util.List<entityType> official;
+    private java.util.List<AnonType_dateawardType> date;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.awardType.SCHEMA$);
+      super(awardType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder other) {
+    private Builder(awardType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.awardId)) {
         this.awardId = data().deepCopy(fields()[0].schema(), other.awardId);
@@ -239,8 +238,8 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Creates a Builder by copying an existing awardType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.awardType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.awardType.SCHEMA$);
+    private Builder(awardType other) {
+            super(awardType.SCHEMA$);
       if (isValidValue(fields()[0], other.awardId)) {
         this.awardId = data().deepCopy(fields()[0].schema(), other.awardId);
         fieldSetFlags()[0] = true;
@@ -277,7 +276,7 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Sets the value of the 'awardId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setAwardId(java.lang.CharSequence value) {
+    public awardType.Builder setAwardId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.awardId = value;
       fieldSetFlags()[0] = true;
@@ -290,19 +289,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'awardId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearAwardId() {
+    public awardType.Builder clearAwardId() {
       awardId = null;
       fieldSetFlags()[0] = false;
       return this;
     }
 
     /** Gets the value of the 'name' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getName() {
+    public java.util.List<elementType> getName() {
       return name;
     }
     
     /** Sets the value of the 'name' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setName(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public awardType.Builder setName(java.util.List<elementType> value) {
       validate(fields()[1], value);
       this.name = value;
       fieldSetFlags()[1] = true;
@@ -315,19 +314,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'name' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearName() {
+    public awardType.Builder clearName() {
       name = null;
       fieldSetFlags()[1] = false;
       return this;
     }
 
     /** Gets the value of the 'description' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getDescription() {
+    public java.util.List<elementType> getDescription() {
       return description;
     }
     
     /** Sets the value of the 'description' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setDescription(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public awardType.Builder setDescription(java.util.List<elementType> value) {
       validate(fields()[2], value);
       this.description = value;
       fieldSetFlags()[2] = true;
@@ -340,19 +339,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'description' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearDescription() {
+    public awardType.Builder clearDescription() {
       description = null;
       fieldSetFlags()[2] = false;
       return this;
     }
 
     /** Gets the value of the 'category' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> getCategory() {
+    public java.util.List<AnonType_categoryawardType> getCategory() {
       return category;
     }
     
     /** Sets the value of the 'category' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setCategory(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType> value) {
+    public awardType.Builder setCategory(java.util.List<AnonType_categoryawardType> value) {
       validate(fields()[3], value);
       this.category = value;
       fieldSetFlags()[3] = true;
@@ -365,19 +364,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'category' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearCategory() {
+    public awardType.Builder clearCategory() {
       category = null;
       fieldSetFlags()[3] = false;
       return this;
     }
 
     /** Gets the value of the 'ceremony' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getCeremony() {
+    public java.util.List<elementType> getCeremony() {
       return ceremony;
     }
     
     /** Sets the value of the 'ceremony' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setCeremony(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public awardType.Builder setCeremony(java.util.List<elementType> value) {
       validate(fields()[4], value);
       this.ceremony = value;
       fieldSetFlags()[4] = true;
@@ -390,19 +389,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'ceremony' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearCeremony() {
+    public awardType.Builder clearCeremony() {
       ceremony = null;
       fieldSetFlags()[4] = false;
       return this;
     }
 
     /** Gets the value of the 'official' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> getOfficial() {
+    public java.util.List<entityType> getOfficial() {
       return official;
     }
     
     /** Sets the value of the 'official' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setOfficial(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType> value) {
+    public awardType.Builder setOfficial(java.util.List<entityType> value) {
       validate(fields()[5], value);
       this.official = value;
       fieldSetFlags()[5] = true;
@@ -415,19 +414,19 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'official' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearOfficial() {
+    public awardType.Builder clearOfficial() {
       official = null;
       fieldSetFlags()[5] = false;
       return this;
     }
 
     /** Gets the value of the 'date' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> getDate() {
+    public java.util.List<AnonType_dateawardType> getDate() {
       return date;
     }
     
     /** Sets the value of the 'date' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder setDate(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType> value) {
+    public awardType.Builder setDate(java.util.List<AnonType_dateawardType> value) {
       validate(fields()[6], value);
       this.date = value;
       fieldSetFlags()[6] = true;
@@ -440,7 +439,7 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
     }
     
     /** Clears the value of the 'date' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.awardType.Builder clearDate() {
+    public awardType.Builder clearDate() {
       date = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -451,12 +450,12 @@ public class awardType extends org.apache.avro.specific.SpecificRecordBase imple
       try {
         awardType record = new awardType();
         record.awardId = fieldSetFlags()[0] ? this.awardId : (java.lang.CharSequence) defaultValue(fields()[0]);
-        record.name = fieldSetFlags()[1] ? this.name : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[1]);
-        record.description = fieldSetFlags()[2] ? this.description : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[2]);
-        record.category = fieldSetFlags()[3] ? this.category : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_categoryawardType>) defaultValue(fields()[3]);
-        record.ceremony = fieldSetFlags()[4] ? this.ceremony : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[4]);
-        record.official = fieldSetFlags()[5] ? this.official : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.entityType>) defaultValue(fields()[5]);
-        record.date = fieldSetFlags()[6] ? this.date : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_dateawardType>) defaultValue(fields()[6]);
+        record.name = fieldSetFlags()[1] ? this.name : (java.util.List<elementType>) defaultValue(fields()[1]);
+        record.description = fieldSetFlags()[2] ? this.description : (java.util.List<elementType>) defaultValue(fields()[2]);
+        record.category = fieldSetFlags()[3] ? this.category : (java.util.List<AnonType_categoryawardType>) defaultValue(fields()[3]);
+        record.ceremony = fieldSetFlags()[4] ? this.ceremony : (java.util.List<elementType>) defaultValue(fields()[4]);
+        record.official = fieldSetFlags()[5] ? this.official : (java.util.List<entityType>) defaultValue(fields()[5]);
+        record.date = fieldSetFlags()[6] ? this.date : (java.util.List<AnonType_dateawardType>) defaultValue(fields()[6]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

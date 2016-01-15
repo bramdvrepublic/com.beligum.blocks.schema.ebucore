@@ -3,13 +3,12 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"zoneExclusionType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"zone\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"zoneType\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}},\"source\":\"element zone\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"zoneExclusionType\",\"fields\":[{\"name\":\"zone\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"zoneType\",\"fields\":[{\"name\":\"minX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minX\"},{\"name\":\"maxX\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxX\"},{\"name\":\"minY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minY\"},{\"name\":\"maxY\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxY\"},{\"name\":\"minZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute minZ\"},{\"name\":\"maxZ\",\"type\":[\"null\",\"float\"],\"source\":\"attribute maxZ\"}]}},\"source\":\"element zone\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> zone;
+  @Deprecated public java.util.List<zoneType> zone;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -21,7 +20,7 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
   /**
    * All-args constructor.
    */
-  public zoneExclusionType(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> zone) {
+  public zoneExclusionType(java.util.List<zoneType> zone) {
     this.zone = zone;
   }
 
@@ -37,7 +36,7 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: zone = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType>)value$; break;
+    case 0: zone = (java.util.List<zoneType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -45,7 +44,7 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
   /**
    * Gets the value of the 'zone' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> getZone() {
+  public java.util.List<zoneType> getZone() {
     return zone;
   }
 
@@ -53,23 +52,23 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
    * Sets the value of the 'zone' field.
    * @param value the value to set.
    */
-  public void setZone(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> value) {
+  public void setZone(java.util.List<zoneType> value) {
     this.zone = value;
   }
 
   /** Creates a new zoneExclusionType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder();
+  public static zoneExclusionType.Builder newBuilder() {
+    return new zoneExclusionType.Builder();
   }
   
   /** Creates a new zoneExclusionType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder(other);
+  public static zoneExclusionType.Builder newBuilder(zoneExclusionType.Builder other) {
+    return new zoneExclusionType.Builder(other);
   }
   
   /** Creates a new zoneExclusionType RecordBuilder by copying an existing zoneExclusionType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder(other);
+  public static zoneExclusionType.Builder newBuilder(zoneExclusionType other) {
+    return new zoneExclusionType.Builder(other);
   }
   
   /**
@@ -78,15 +77,15 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<zoneExclusionType>
     implements org.apache.avro.data.RecordBuilder<zoneExclusionType> {
 
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> zone;
+    private java.util.List<zoneType> zone;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.SCHEMA$);
+      super(zoneExclusionType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder other) {
+    private Builder(zoneExclusionType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.zone)) {
         this.zone = data().deepCopy(fields()[0].schema(), other.zone);
@@ -95,8 +94,8 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Creates a Builder by copying an existing zoneExclusionType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.SCHEMA$);
+    private Builder(zoneExclusionType other) {
+            super(zoneExclusionType.SCHEMA$);
       if (isValidValue(fields()[0], other.zone)) {
         this.zone = data().deepCopy(fields()[0].schema(), other.zone);
         fieldSetFlags()[0] = true;
@@ -104,12 +103,12 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
     }
 
     /** Gets the value of the 'zone' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> getZone() {
+    public java.util.List<zoneType> getZone() {
       return zone;
     }
     
     /** Sets the value of the 'zone' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder setZone(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType> value) {
+    public zoneExclusionType.Builder setZone(java.util.List<zoneType> value) {
       validate(fields()[0], value);
       this.zone = value;
       fieldSetFlags()[0] = true;
@@ -122,7 +121,7 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
     }
     
     /** Clears the value of the 'zone' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.zoneExclusionType.Builder clearZone() {
+    public zoneExclusionType.Builder clearZone() {
       zone = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -132,7 +131,7 @@ public class zoneExclusionType extends org.apache.avro.specific.SpecificRecordBa
     public zoneExclusionType build() {
       try {
         zoneExclusionType record = new zoneExclusionType();
-        record.zone = fieldSetFlags()[0] ? this.zone : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.zoneType>) defaultValue(fields()[0]);
+        record.zone = fieldSetFlags()[0] ? this.zone : (java.util.List<zoneType>) defaultValue(fields()[0]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

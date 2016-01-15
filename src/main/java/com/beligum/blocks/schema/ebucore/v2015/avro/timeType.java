@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class timeType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"timeType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"timeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -17,8 +16,8 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
   @Deprecated public java.lang.CharSequence typeLanguage;
   @Deprecated public java.lang.CharSequence timecode;
   @Deprecated public java.lang.CharSequence normalPlayTime;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType time;
+  @Deprecated public editUnitNumberType editUnitNumber;
+  @Deprecated public AnonType_timetimeType time;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -30,7 +29,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * All-args constructor.
    */
-  public timeType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence timecode, java.lang.CharSequence normalPlayTime, com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber, com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType time) {
+  public timeType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence timecode, java.lang.CharSequence normalPlayTime, editUnitNumberType editUnitNumber, AnonType_timetimeType time) {
     this.typeLabel = typeLabel;
     this.typeDefinition = typeDefinition;
     this.typeLink = typeLink;
@@ -72,8 +71,8 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     case 5: typeLanguage = (java.lang.CharSequence)value$; break;
     case 6: timecode = (java.lang.CharSequence)value$; break;
     case 7: normalPlayTime = (java.lang.CharSequence)value$; break;
-    case 8: editUnitNumber = (com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType)value$; break;
-    case 9: time = (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType)value$; break;
+    case 8: editUnitNumber = (editUnitNumberType)value$; break;
+    case 9: time = (AnonType_timetimeType)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -201,7 +200,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
   /**
    * Gets the value of the 'editUnitNumber' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType getEditUnitNumber() {
+  public editUnitNumberType getEditUnitNumber() {
     return editUnitNumber;
   }
 
@@ -209,14 +208,14 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'editUnitNumber' field.
    * @param value the value to set.
    */
-  public void setEditUnitNumber(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType value) {
+  public void setEditUnitNumber(editUnitNumberType value) {
     this.editUnitNumber = value;
   }
 
   /**
    * Gets the value of the 'time' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType getTime() {
+  public AnonType_timetimeType getTime() {
     return time;
   }
 
@@ -224,23 +223,23 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
    * Sets the value of the 'time' field.
    * @param value the value to set.
    */
-  public void setTime(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType value) {
+  public void setTime(AnonType_timetimeType value) {
     this.time = value;
   }
 
   /** Creates a new timeType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder();
+  public static timeType.Builder newBuilder() {
+    return new timeType.Builder();
   }
   
   /** Creates a new timeType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder(other);
+  public static timeType.Builder newBuilder(timeType.Builder other) {
+    return new timeType.Builder(other);
   }
   
   /** Creates a new timeType RecordBuilder by copying an existing timeType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.timeType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder(other);
+  public static timeType.Builder newBuilder(timeType other) {
+    return new timeType.Builder(other);
   }
   
   /**
@@ -257,16 +256,16 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     private java.lang.CharSequence typeLanguage;
     private java.lang.CharSequence timecode;
     private java.lang.CharSequence normalPlayTime;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType editUnitNumber;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType time;
+    private editUnitNumberType editUnitNumber;
+    private AnonType_timetimeType time;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.timeType.SCHEMA$);
+      super(timeType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder other) {
+    private Builder(timeType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -311,8 +310,8 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Creates a Builder by copying an existing timeType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.timeType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.timeType.SCHEMA$);
+    private Builder(timeType other) {
+            super(timeType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -361,7 +360,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public timeType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -374,7 +373,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeLabel() {
+    public timeType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -386,7 +385,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public timeType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -399,7 +398,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeDefinition() {
+    public timeType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -411,7 +410,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeLink(java.lang.CharSequence value) {
+    public timeType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -424,7 +423,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeLink() {
+    public timeType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -436,7 +435,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeSource(java.lang.CharSequence value) {
+    public timeType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -449,7 +448,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeSource() {
+    public timeType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -461,7 +460,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public timeType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -474,7 +473,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeNamespace() {
+    public timeType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -486,7 +485,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public timeType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -499,7 +498,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTypeLanguage() {
+    public timeType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -511,7 +510,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'timecode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTimecode(java.lang.CharSequence value) {
+    public timeType.Builder setTimecode(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.timecode = value;
       fieldSetFlags()[6] = true;
@@ -524,7 +523,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'timecode' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTimecode() {
+    public timeType.Builder clearTimecode() {
       timecode = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -536,7 +535,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Sets the value of the 'normalPlayTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setNormalPlayTime(java.lang.CharSequence value) {
+    public timeType.Builder setNormalPlayTime(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.normalPlayTime = value;
       fieldSetFlags()[7] = true;
@@ -549,19 +548,19 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'normalPlayTime' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearNormalPlayTime() {
+    public timeType.Builder clearNormalPlayTime() {
       normalPlayTime = null;
       fieldSetFlags()[7] = false;
       return this;
     }
 
     /** Gets the value of the 'editUnitNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType getEditUnitNumber() {
+    public editUnitNumberType getEditUnitNumber() {
       return editUnitNumber;
     }
     
     /** Sets the value of the 'editUnitNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setEditUnitNumber(com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType value) {
+    public timeType.Builder setEditUnitNumber(editUnitNumberType value) {
       validate(fields()[8], value);
       this.editUnitNumber = value;
       fieldSetFlags()[8] = true;
@@ -574,19 +573,19 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'editUnitNumber' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearEditUnitNumber() {
+    public timeType.Builder clearEditUnitNumber() {
       editUnitNumber = null;
       fieldSetFlags()[8] = false;
       return this;
     }
 
     /** Gets the value of the 'time' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType getTime() {
+    public AnonType_timetimeType getTime() {
       return time;
     }
     
     /** Sets the value of the 'time' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder setTime(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType value) {
+    public timeType.Builder setTime(AnonType_timetimeType value) {
       validate(fields()[9], value);
       this.time = value;
       fieldSetFlags()[9] = true;
@@ -599,7 +598,7 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
     }
     
     /** Clears the value of the 'time' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timeType.Builder clearTime() {
+    public timeType.Builder clearTime() {
       time = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -617,8 +616,8 @@ public class timeType extends org.apache.avro.specific.SpecificRecordBase implem
         record.typeLanguage = fieldSetFlags()[5] ? this.typeLanguage : (java.lang.CharSequence) defaultValue(fields()[5]);
         record.timecode = fieldSetFlags()[6] ? this.timecode : (java.lang.CharSequence) defaultValue(fields()[6]);
         record.normalPlayTime = fieldSetFlags()[7] ? this.normalPlayTime : (java.lang.CharSequence) defaultValue(fields()[7]);
-        record.editUnitNumber = fieldSetFlags()[8] ? this.editUnitNumber : (com.beligum.blocks.schema.ebucore.v2015.avro.editUnitNumberType) defaultValue(fields()[8]);
-        record.time = fieldSetFlags()[9] ? this.time : (com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timetimeType) defaultValue(fields()[9]);
+        record.editUnitNumber = fieldSetFlags()[8] ? this.editUnitNumber : (editUnitNumberType) defaultValue(fields()[8]);
+        record.time = fieldSetFlags()[9] ? this.time : (AnonType_timetimeType) defaultValue(fields()[9]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

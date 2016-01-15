@@ -3,32 +3,31 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"timecodeFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"timecodeFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatId\"},{\"name\":\"timecodeFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatVersionId\"},{\"name\":\"timecodeFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatName\"},{\"name\":\"timecodeFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatDefinition\"},{\"name\":\"timecodeStart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}},\"source\":\"element timecodeStart\"},{\"name\":\"timecodeTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_timecodeTracktimecodeFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element timecodeTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String18\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"","null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean19\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float20\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"timecodeFormatType\",\"fields\":[{\"name\":\"timecodeFormatId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatId\"},{\"name\":\"timecodeFormatVersionId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatVersionId\"},{\"name\":\"timecodeFormatName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatName\"},{\"name\":\"timecodeFormatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute timecodeFormatDefinition\"},{\"name\":\"timecodeStart\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"timeType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"timecode\",\"type\":[\"null\",\"string\"],\"source\":\"element timecode\"},{\"name\":\"normalPlayTime\",\"type\":[\"null\",\"string\"],\"source\":\"element normalPlayTime\"},{\"name\":\"editUnitNumber\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"editUnitNumberType\",\"fields\":[{\"name\":\"editRate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute editRate\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"}]}],\"source\":\"element editUnitNumber\"},{\"name\":\"time\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_timetimeType\",\"fields\":[{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"}]}],\"source\":\"element time\"}]}},\"source\":\"element timecodeStart\"},{\"name\":\"timecodeTrack\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_timecodeTracktimecodeFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element timecodeTrack\"},{\"name\":\"technicalAttributeString\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"String18\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeString\"},{\"name\":\"technicalAttributeByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeByte\"},{\"name\":\"technicalAttributeShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeShort\"},{\"name\":\"technicalAttributeInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeInteger\"},{\"name\":\"technicalAttributeLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Int64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeLong\"},{\"name\":\"technicalAttributeUnsignedByte\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt8\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedByte\"},{\"name\":\"technicalAttributeUnsignedShort\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt16\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typ","eSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedShort\"},{\"name\":\"technicalAttributeUnsignedInteger\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt32\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedInteger\"},{\"name\":\"technicalAttributeUnsignedLong\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"UInt64\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeUnsignedLong\"},{\"name\":\"technicalAttributeBoolean\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Boolean19\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeBoolean\"},{\"name\":\"technicalAttributeFloat\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"Float20\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeFloat\"},{\"name\":\"technicalAttributeRational\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeRationalType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"factorNumerator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorNumerator\"},{\"name\":\"factorDenominator\",\"type\":[\"null\",\"string\"],\"source\":\"attribute factorDenominator\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}},\"source\":\"element technicalAttributeRational\"},{\"name\":\"technicalAttributeUri\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"technicalAttributeUriType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element technicalAttributeUri\"},{\"name\":\"comment\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_comment\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element comment\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence timecodeFormatId;
   @Deprecated public java.lang.CharSequence timecodeFormatVersionId;
   @Deprecated public java.lang.CharSequence timecodeFormatName;
   @Deprecated public java.lang.CharSequence timecodeFormatDefinition;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> timecodeStart;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> timecodeTrack;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> technicalAttributeString;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> technicalAttributeBoolean;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> technicalAttributeFloat;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment;
+  @Deprecated public java.util.List<timeType> timecodeStart;
+  @Deprecated public java.util.List<AnonType_timecodeTracktimecodeFormatType> timecodeTrack;
+  @Deprecated public java.util.List<String18> technicalAttributeString;
+  @Deprecated public java.util.List<Int8> technicalAttributeByte;
+  @Deprecated public java.util.List<Int16> technicalAttributeShort;
+  @Deprecated public java.util.List<Int32> technicalAttributeInteger;
+  @Deprecated public java.util.List<Int64> technicalAttributeLong;
+  @Deprecated public java.util.List<UInt8> technicalAttributeUnsignedByte;
+  @Deprecated public java.util.List<UInt16> technicalAttributeUnsignedShort;
+  @Deprecated public java.util.List<UInt32> technicalAttributeUnsignedInteger;
+  @Deprecated public java.util.List<UInt64> technicalAttributeUnsignedLong;
+  @Deprecated public java.util.List<Boolean19> technicalAttributeBoolean;
+  @Deprecated public java.util.List<Float20> technicalAttributeFloat;
+  @Deprecated public java.util.List<technicalAttributeRationalType> technicalAttributeRational;
+  @Deprecated public java.util.List<technicalAttributeUriType> technicalAttributeUri;
+  @Deprecated public java.util.List<AnonType_comment> comment;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -40,7 +39,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
   /**
    * All-args constructor.
    */
-  public timecodeFormatType(java.lang.CharSequence timecodeFormatId, java.lang.CharSequence timecodeFormatVersionId, java.lang.CharSequence timecodeFormatName, java.lang.CharSequence timecodeFormatDefinition, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> timecodeStart, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> timecodeTrack, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> technicalAttributeString, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> technicalAttributeBoolean, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> technicalAttributeFloat, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment) {
+  public timecodeFormatType(java.lang.CharSequence timecodeFormatId, java.lang.CharSequence timecodeFormatVersionId, java.lang.CharSequence timecodeFormatName, java.lang.CharSequence timecodeFormatDefinition, java.util.List<timeType> timecodeStart, java.util.List<AnonType_timecodeTracktimecodeFormatType> timecodeTrack, java.util.List<String18> technicalAttributeString, java.util.List<Int8> technicalAttributeByte, java.util.List<Int16> technicalAttributeShort, java.util.List<Int32> technicalAttributeInteger, java.util.List<Int64> technicalAttributeLong, java.util.List<UInt8> technicalAttributeUnsignedByte, java.util.List<UInt16> technicalAttributeUnsignedShort, java.util.List<UInt32> technicalAttributeUnsignedInteger, java.util.List<UInt64> technicalAttributeUnsignedLong, java.util.List<Boolean19> technicalAttributeBoolean, java.util.List<Float20> technicalAttributeFloat, java.util.List<technicalAttributeRationalType> technicalAttributeRational, java.util.List<technicalAttributeUriType> technicalAttributeUri, java.util.List<AnonType_comment> comment) {
     this.timecodeFormatId = timecodeFormatId;
     this.timecodeFormatVersionId = timecodeFormatVersionId;
     this.timecodeFormatName = timecodeFormatName;
@@ -98,22 +97,22 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     case 1: timecodeFormatVersionId = (java.lang.CharSequence)value$; break;
     case 2: timecodeFormatName = (java.lang.CharSequence)value$; break;
     case 3: timecodeFormatDefinition = (java.lang.CharSequence)value$; break;
-    case 4: timecodeStart = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType>)value$; break;
-    case 5: timecodeTrack = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType>)value$; break;
-    case 6: technicalAttributeString = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18>)value$; break;
-    case 7: technicalAttributeByte = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8>)value$; break;
-    case 8: technicalAttributeShort = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16>)value$; break;
-    case 9: technicalAttributeInteger = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32>)value$; break;
-    case 10: technicalAttributeLong = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64>)value$; break;
-    case 11: technicalAttributeUnsignedByte = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8>)value$; break;
-    case 12: technicalAttributeUnsignedShort = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16>)value$; break;
-    case 13: technicalAttributeUnsignedInteger = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32>)value$; break;
-    case 14: technicalAttributeUnsignedLong = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64>)value$; break;
-    case 15: technicalAttributeBoolean = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19>)value$; break;
-    case 16: technicalAttributeFloat = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20>)value$; break;
-    case 17: technicalAttributeRational = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType>)value$; break;
-    case 18: technicalAttributeUri = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType>)value$; break;
-    case 19: comment = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment>)value$; break;
+    case 4: timecodeStart = (java.util.List<timeType>)value$; break;
+    case 5: timecodeTrack = (java.util.List<AnonType_timecodeTracktimecodeFormatType>)value$; break;
+    case 6: technicalAttributeString = (java.util.List<String18>)value$; break;
+    case 7: technicalAttributeByte = (java.util.List<Int8>)value$; break;
+    case 8: technicalAttributeShort = (java.util.List<Int16>)value$; break;
+    case 9: technicalAttributeInteger = (java.util.List<Int32>)value$; break;
+    case 10: technicalAttributeLong = (java.util.List<Int64>)value$; break;
+    case 11: technicalAttributeUnsignedByte = (java.util.List<UInt8>)value$; break;
+    case 12: technicalAttributeUnsignedShort = (java.util.List<UInt16>)value$; break;
+    case 13: technicalAttributeUnsignedInteger = (java.util.List<UInt32>)value$; break;
+    case 14: technicalAttributeUnsignedLong = (java.util.List<UInt64>)value$; break;
+    case 15: technicalAttributeBoolean = (java.util.List<Boolean19>)value$; break;
+    case 16: technicalAttributeFloat = (java.util.List<Float20>)value$; break;
+    case 17: technicalAttributeRational = (java.util.List<technicalAttributeRationalType>)value$; break;
+    case 18: technicalAttributeUri = (java.util.List<technicalAttributeUriType>)value$; break;
+    case 19: comment = (java.util.List<AnonType_comment>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -181,7 +180,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
   /**
    * Gets the value of the 'timecodeStart' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> getTimecodeStart() {
+  public java.util.List<timeType> getTimecodeStart() {
     return timecodeStart;
   }
 
@@ -189,14 +188,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'timecodeStart' field.
    * @param value the value to set.
    */
-  public void setTimecodeStart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> value) {
+  public void setTimecodeStart(java.util.List<timeType> value) {
     this.timecodeStart = value;
   }
 
   /**
    * Gets the value of the 'timecodeTrack' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> getTimecodeTrack() {
+  public java.util.List<AnonType_timecodeTracktimecodeFormatType> getTimecodeTrack() {
     return timecodeTrack;
   }
 
@@ -204,14 +203,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'timecodeTrack' field.
    * @param value the value to set.
    */
-  public void setTimecodeTrack(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> value) {
+  public void setTimecodeTrack(java.util.List<AnonType_timecodeTracktimecodeFormatType> value) {
     this.timecodeTrack = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeString' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> getTechnicalAttributeString() {
+  public java.util.List<String18> getTechnicalAttributeString() {
     return technicalAttributeString;
   }
 
@@ -219,14 +218,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeString' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeString(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> value) {
+  public void setTechnicalAttributeString(java.util.List<String18> value) {
     this.technicalAttributeString = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeByte' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> getTechnicalAttributeByte() {
+  public java.util.List<Int8> getTechnicalAttributeByte() {
     return technicalAttributeByte;
   }
 
@@ -234,14 +233,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeByte' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> value) {
+  public void setTechnicalAttributeByte(java.util.List<Int8> value) {
     this.technicalAttributeByte = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeShort' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> getTechnicalAttributeShort() {
+  public java.util.List<Int16> getTechnicalAttributeShort() {
     return technicalAttributeShort;
   }
 
@@ -249,14 +248,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeShort' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> value) {
+  public void setTechnicalAttributeShort(java.util.List<Int16> value) {
     this.technicalAttributeShort = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeInteger' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> getTechnicalAttributeInteger() {
+  public java.util.List<Int32> getTechnicalAttributeInteger() {
     return technicalAttributeInteger;
   }
 
@@ -264,14 +263,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeInteger' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> value) {
+  public void setTechnicalAttributeInteger(java.util.List<Int32> value) {
     this.technicalAttributeInteger = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeLong' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> getTechnicalAttributeLong() {
+  public java.util.List<Int64> getTechnicalAttributeLong() {
     return technicalAttributeLong;
   }
 
@@ -279,14 +278,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeLong' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> value) {
+  public void setTechnicalAttributeLong(java.util.List<Int64> value) {
     this.technicalAttributeLong = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedByte' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> getTechnicalAttributeUnsignedByte() {
+  public java.util.List<UInt8> getTechnicalAttributeUnsignedByte() {
     return technicalAttributeUnsignedByte;
   }
 
@@ -294,14 +293,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeUnsignedByte' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> value) {
+  public void setTechnicalAttributeUnsignedByte(java.util.List<UInt8> value) {
     this.technicalAttributeUnsignedByte = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedShort' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> getTechnicalAttributeUnsignedShort() {
+  public java.util.List<UInt16> getTechnicalAttributeUnsignedShort() {
     return technicalAttributeUnsignedShort;
   }
 
@@ -309,14 +308,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeUnsignedShort' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> value) {
+  public void setTechnicalAttributeUnsignedShort(java.util.List<UInt16> value) {
     this.technicalAttributeUnsignedShort = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedInteger' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> getTechnicalAttributeUnsignedInteger() {
+  public java.util.List<UInt32> getTechnicalAttributeUnsignedInteger() {
     return technicalAttributeUnsignedInteger;
   }
 
@@ -324,14 +323,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeUnsignedInteger' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> value) {
+  public void setTechnicalAttributeUnsignedInteger(java.util.List<UInt32> value) {
     this.technicalAttributeUnsignedInteger = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUnsignedLong' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> getTechnicalAttributeUnsignedLong() {
+  public java.util.List<UInt64> getTechnicalAttributeUnsignedLong() {
     return technicalAttributeUnsignedLong;
   }
 
@@ -339,14 +338,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeUnsignedLong' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUnsignedLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> value) {
+  public void setTechnicalAttributeUnsignedLong(java.util.List<UInt64> value) {
     this.technicalAttributeUnsignedLong = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeBoolean' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> getTechnicalAttributeBoolean() {
+  public java.util.List<Boolean19> getTechnicalAttributeBoolean() {
     return technicalAttributeBoolean;
   }
 
@@ -354,14 +353,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeBoolean' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeBoolean(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> value) {
+  public void setTechnicalAttributeBoolean(java.util.List<Boolean19> value) {
     this.technicalAttributeBoolean = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeFloat' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> getTechnicalAttributeFloat() {
+  public java.util.List<Float20> getTechnicalAttributeFloat() {
     return technicalAttributeFloat;
   }
 
@@ -369,14 +368,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeFloat' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeFloat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> value) {
+  public void setTechnicalAttributeFloat(java.util.List<Float20> value) {
     this.technicalAttributeFloat = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeRational' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> getTechnicalAttributeRational() {
+  public java.util.List<technicalAttributeRationalType> getTechnicalAttributeRational() {
     return technicalAttributeRational;
   }
 
@@ -384,14 +383,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeRational' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeRational(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> value) {
+  public void setTechnicalAttributeRational(java.util.List<technicalAttributeRationalType> value) {
     this.technicalAttributeRational = value;
   }
 
   /**
    * Gets the value of the 'technicalAttributeUri' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> getTechnicalAttributeUri() {
+  public java.util.List<technicalAttributeUriType> getTechnicalAttributeUri() {
     return technicalAttributeUri;
   }
 
@@ -399,14 +398,14 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'technicalAttributeUri' field.
    * @param value the value to set.
    */
-  public void setTechnicalAttributeUri(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> value) {
+  public void setTechnicalAttributeUri(java.util.List<technicalAttributeUriType> value) {
     this.technicalAttributeUri = value;
   }
 
   /**
    * Gets the value of the 'comment' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> getComment() {
+  public java.util.List<AnonType_comment> getComment() {
     return comment;
   }
 
@@ -414,23 +413,23 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
    * Sets the value of the 'comment' field.
    * @param value the value to set.
    */
-  public void setComment(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> value) {
+  public void setComment(java.util.List<AnonType_comment> value) {
     this.comment = value;
   }
 
   /** Creates a new timecodeFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder();
+  public static timecodeFormatType.Builder newBuilder() {
+    return new timecodeFormatType.Builder();
   }
   
   /** Creates a new timecodeFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder(other);
+  public static timecodeFormatType.Builder newBuilder(timecodeFormatType.Builder other) {
+    return new timecodeFormatType.Builder(other);
   }
   
   /** Creates a new timecodeFormatType RecordBuilder by copying an existing timecodeFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder(other);
+  public static timecodeFormatType.Builder newBuilder(timecodeFormatType other) {
+    return new timecodeFormatType.Builder(other);
   }
   
   /**
@@ -443,30 +442,30 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     private java.lang.CharSequence timecodeFormatVersionId;
     private java.lang.CharSequence timecodeFormatName;
     private java.lang.CharSequence timecodeFormatDefinition;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> timecodeStart;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> timecodeTrack;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> technicalAttributeString;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> technicalAttributeByte;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> technicalAttributeShort;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> technicalAttributeInteger;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> technicalAttributeLong;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> technicalAttributeUnsignedByte;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> technicalAttributeUnsignedShort;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> technicalAttributeUnsignedInteger;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> technicalAttributeUnsignedLong;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> technicalAttributeBoolean;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> technicalAttributeFloat;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> technicalAttributeRational;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> technicalAttributeUri;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> comment;
+    private java.util.List<timeType> timecodeStart;
+    private java.util.List<AnonType_timecodeTracktimecodeFormatType> timecodeTrack;
+    private java.util.List<String18> technicalAttributeString;
+    private java.util.List<Int8> technicalAttributeByte;
+    private java.util.List<Int16> technicalAttributeShort;
+    private java.util.List<Int32> technicalAttributeInteger;
+    private java.util.List<Int64> technicalAttributeLong;
+    private java.util.List<UInt8> technicalAttributeUnsignedByte;
+    private java.util.List<UInt16> technicalAttributeUnsignedShort;
+    private java.util.List<UInt32> technicalAttributeUnsignedInteger;
+    private java.util.List<UInt64> technicalAttributeUnsignedLong;
+    private java.util.List<Boolean19> technicalAttributeBoolean;
+    private java.util.List<Float20> technicalAttributeFloat;
+    private java.util.List<technicalAttributeRationalType> technicalAttributeRational;
+    private java.util.List<technicalAttributeUriType> technicalAttributeUri;
+    private java.util.List<AnonType_comment> comment;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.SCHEMA$);
+      super(timecodeFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder other) {
+    private Builder(timecodeFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.timecodeFormatId)) {
         this.timecodeFormatId = data().deepCopy(fields()[0].schema(), other.timecodeFormatId);
@@ -551,8 +550,8 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Creates a Builder by copying an existing timecodeFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.SCHEMA$);
+    private Builder(timecodeFormatType other) {
+            super(timecodeFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.timecodeFormatId)) {
         this.timecodeFormatId = data().deepCopy(fields()[0].schema(), other.timecodeFormatId);
         fieldSetFlags()[0] = true;
@@ -641,7 +640,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'timecodeFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeFormatId(java.lang.CharSequence value) {
+    public timecodeFormatType.Builder setTimecodeFormatId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.timecodeFormatId = value;
       fieldSetFlags()[0] = true;
@@ -654,7 +653,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeFormatId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeFormatId() {
+    public timecodeFormatType.Builder clearTimecodeFormatId() {
       timecodeFormatId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -666,7 +665,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'timecodeFormatVersionId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeFormatVersionId(java.lang.CharSequence value) {
+    public timecodeFormatType.Builder setTimecodeFormatVersionId(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.timecodeFormatVersionId = value;
       fieldSetFlags()[1] = true;
@@ -679,7 +678,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeFormatVersionId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeFormatVersionId() {
+    public timecodeFormatType.Builder clearTimecodeFormatVersionId() {
       timecodeFormatVersionId = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -691,7 +690,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'timecodeFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeFormatName(java.lang.CharSequence value) {
+    public timecodeFormatType.Builder setTimecodeFormatName(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.timecodeFormatName = value;
       fieldSetFlags()[2] = true;
@@ -704,7 +703,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeFormatName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeFormatName() {
+    public timecodeFormatType.Builder clearTimecodeFormatName() {
       timecodeFormatName = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -716,7 +715,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Sets the value of the 'timecodeFormatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeFormatDefinition(java.lang.CharSequence value) {
+    public timecodeFormatType.Builder setTimecodeFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.timecodeFormatDefinition = value;
       fieldSetFlags()[3] = true;
@@ -729,19 +728,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeFormatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeFormatDefinition() {
+    public timecodeFormatType.Builder clearTimecodeFormatDefinition() {
       timecodeFormatDefinition = null;
       fieldSetFlags()[3] = false;
       return this;
     }
 
     /** Gets the value of the 'timecodeStart' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> getTimecodeStart() {
+    public java.util.List<timeType> getTimecodeStart() {
       return timecodeStart;
     }
     
     /** Sets the value of the 'timecodeStart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeStart(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType> value) {
+    public timecodeFormatType.Builder setTimecodeStart(java.util.List<timeType> value) {
       validate(fields()[4], value);
       this.timecodeStart = value;
       fieldSetFlags()[4] = true;
@@ -754,19 +753,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeStart' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeStart() {
+    public timecodeFormatType.Builder clearTimecodeStart() {
       timecodeStart = null;
       fieldSetFlags()[4] = false;
       return this;
     }
 
     /** Gets the value of the 'timecodeTrack' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> getTimecodeTrack() {
+    public java.util.List<AnonType_timecodeTracktimecodeFormatType> getTimecodeTrack() {
       return timecodeTrack;
     }
     
     /** Sets the value of the 'timecodeTrack' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTimecodeTrack(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType> value) {
+    public timecodeFormatType.Builder setTimecodeTrack(java.util.List<AnonType_timecodeTracktimecodeFormatType> value) {
       validate(fields()[5], value);
       this.timecodeTrack = value;
       fieldSetFlags()[5] = true;
@@ -779,19 +778,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'timecodeTrack' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTimecodeTrack() {
+    public timecodeFormatType.Builder clearTimecodeTrack() {
       timecodeTrack = null;
       fieldSetFlags()[5] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeString' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> getTechnicalAttributeString() {
+    public java.util.List<String18> getTechnicalAttributeString() {
       return technicalAttributeString;
     }
     
     /** Sets the value of the 'technicalAttributeString' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeString(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeString(java.util.List<String18> value) {
       validate(fields()[6], value);
       this.technicalAttributeString = value;
       fieldSetFlags()[6] = true;
@@ -804,19 +803,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeString' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeString() {
+    public timecodeFormatType.Builder clearTechnicalAttributeString() {
       technicalAttributeString = null;
       fieldSetFlags()[6] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeByte' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> getTechnicalAttributeByte() {
+    public java.util.List<Int8> getTechnicalAttributeByte() {
       return technicalAttributeByte;
     }
     
     /** Sets the value of the 'technicalAttributeByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeByte(java.util.List<Int8> value) {
       validate(fields()[7], value);
       this.technicalAttributeByte = value;
       fieldSetFlags()[7] = true;
@@ -829,19 +828,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeByte() {
+    public timecodeFormatType.Builder clearTechnicalAttributeByte() {
       technicalAttributeByte = null;
       fieldSetFlags()[7] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeShort' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> getTechnicalAttributeShort() {
+    public java.util.List<Int16> getTechnicalAttributeShort() {
       return technicalAttributeShort;
     }
     
     /** Sets the value of the 'technicalAttributeShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeShort(java.util.List<Int16> value) {
       validate(fields()[8], value);
       this.technicalAttributeShort = value;
       fieldSetFlags()[8] = true;
@@ -854,19 +853,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeShort() {
+    public timecodeFormatType.Builder clearTechnicalAttributeShort() {
       technicalAttributeShort = null;
       fieldSetFlags()[8] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeInteger' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> getTechnicalAttributeInteger() {
+    public java.util.List<Int32> getTechnicalAttributeInteger() {
       return technicalAttributeInteger;
     }
     
     /** Sets the value of the 'technicalAttributeInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeInteger(java.util.List<Int32> value) {
       validate(fields()[9], value);
       this.technicalAttributeInteger = value;
       fieldSetFlags()[9] = true;
@@ -879,19 +878,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeInteger() {
+    public timecodeFormatType.Builder clearTechnicalAttributeInteger() {
       technicalAttributeInteger = null;
       fieldSetFlags()[9] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeLong' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> getTechnicalAttributeLong() {
+    public java.util.List<Int64> getTechnicalAttributeLong() {
       return technicalAttributeLong;
     }
     
     /** Sets the value of the 'technicalAttributeLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeLong(java.util.List<Int64> value) {
       validate(fields()[10], value);
       this.technicalAttributeLong = value;
       fieldSetFlags()[10] = true;
@@ -904,19 +903,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeLong() {
+    public timecodeFormatType.Builder clearTechnicalAttributeLong() {
       technicalAttributeLong = null;
       fieldSetFlags()[10] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedByte' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> getTechnicalAttributeUnsignedByte() {
+    public java.util.List<UInt8> getTechnicalAttributeUnsignedByte() {
       return technicalAttributeUnsignedByte;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeUnsignedByte(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeUnsignedByte(java.util.List<UInt8> value) {
       validate(fields()[11], value);
       this.technicalAttributeUnsignedByte = value;
       fieldSetFlags()[11] = true;
@@ -929,19 +928,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedByte' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeUnsignedByte() {
+    public timecodeFormatType.Builder clearTechnicalAttributeUnsignedByte() {
       technicalAttributeUnsignedByte = null;
       fieldSetFlags()[11] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedShort' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> getTechnicalAttributeUnsignedShort() {
+    public java.util.List<UInt16> getTechnicalAttributeUnsignedShort() {
       return technicalAttributeUnsignedShort;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeUnsignedShort(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeUnsignedShort(java.util.List<UInt16> value) {
       validate(fields()[12], value);
       this.technicalAttributeUnsignedShort = value;
       fieldSetFlags()[12] = true;
@@ -954,19 +953,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedShort' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeUnsignedShort() {
+    public timecodeFormatType.Builder clearTechnicalAttributeUnsignedShort() {
       technicalAttributeUnsignedShort = null;
       fieldSetFlags()[12] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedInteger' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> getTechnicalAttributeUnsignedInteger() {
+    public java.util.List<UInt32> getTechnicalAttributeUnsignedInteger() {
       return technicalAttributeUnsignedInteger;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeUnsignedInteger(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeUnsignedInteger(java.util.List<UInt32> value) {
       validate(fields()[13], value);
       this.technicalAttributeUnsignedInteger = value;
       fieldSetFlags()[13] = true;
@@ -979,19 +978,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedInteger' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeUnsignedInteger() {
+    public timecodeFormatType.Builder clearTechnicalAttributeUnsignedInteger() {
       technicalAttributeUnsignedInteger = null;
       fieldSetFlags()[13] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUnsignedLong' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> getTechnicalAttributeUnsignedLong() {
+    public java.util.List<UInt64> getTechnicalAttributeUnsignedLong() {
       return technicalAttributeUnsignedLong;
     }
     
     /** Sets the value of the 'technicalAttributeUnsignedLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeUnsignedLong(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeUnsignedLong(java.util.List<UInt64> value) {
       validate(fields()[14], value);
       this.technicalAttributeUnsignedLong = value;
       fieldSetFlags()[14] = true;
@@ -1004,19 +1003,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeUnsignedLong' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeUnsignedLong() {
+    public timecodeFormatType.Builder clearTechnicalAttributeUnsignedLong() {
       technicalAttributeUnsignedLong = null;
       fieldSetFlags()[14] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeBoolean' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> getTechnicalAttributeBoolean() {
+    public java.util.List<Boolean19> getTechnicalAttributeBoolean() {
       return technicalAttributeBoolean;
     }
     
     /** Sets the value of the 'technicalAttributeBoolean' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeBoolean(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeBoolean(java.util.List<Boolean19> value) {
       validate(fields()[15], value);
       this.technicalAttributeBoolean = value;
       fieldSetFlags()[15] = true;
@@ -1029,19 +1028,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeBoolean' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeBoolean() {
+    public timecodeFormatType.Builder clearTechnicalAttributeBoolean() {
       technicalAttributeBoolean = null;
       fieldSetFlags()[15] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeFloat' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> getTechnicalAttributeFloat() {
+    public java.util.List<Float20> getTechnicalAttributeFloat() {
       return technicalAttributeFloat;
     }
     
     /** Sets the value of the 'technicalAttributeFloat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeFloat(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeFloat(java.util.List<Float20> value) {
       validate(fields()[16], value);
       this.technicalAttributeFloat = value;
       fieldSetFlags()[16] = true;
@@ -1054,19 +1053,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeFloat' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeFloat() {
+    public timecodeFormatType.Builder clearTechnicalAttributeFloat() {
       technicalAttributeFloat = null;
       fieldSetFlags()[16] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeRational' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> getTechnicalAttributeRational() {
+    public java.util.List<technicalAttributeRationalType> getTechnicalAttributeRational() {
       return technicalAttributeRational;
     }
     
     /** Sets the value of the 'technicalAttributeRational' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeRational(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeRational(java.util.List<technicalAttributeRationalType> value) {
       validate(fields()[17], value);
       this.technicalAttributeRational = value;
       fieldSetFlags()[17] = true;
@@ -1079,19 +1078,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeRational' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeRational() {
+    public timecodeFormatType.Builder clearTechnicalAttributeRational() {
       technicalAttributeRational = null;
       fieldSetFlags()[17] = false;
       return this;
     }
 
     /** Gets the value of the 'technicalAttributeUri' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> getTechnicalAttributeUri() {
+    public java.util.List<technicalAttributeUriType> getTechnicalAttributeUri() {
       return technicalAttributeUri;
     }
     
     /** Sets the value of the 'technicalAttributeUri' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setTechnicalAttributeUri(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType> value) {
+    public timecodeFormatType.Builder setTechnicalAttributeUri(java.util.List<technicalAttributeUriType> value) {
       validate(fields()[18], value);
       this.technicalAttributeUri = value;
       fieldSetFlags()[18] = true;
@@ -1104,19 +1103,19 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'technicalAttributeUri' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearTechnicalAttributeUri() {
+    public timecodeFormatType.Builder clearTechnicalAttributeUri() {
       technicalAttributeUri = null;
       fieldSetFlags()[18] = false;
       return this;
     }
 
     /** Gets the value of the 'comment' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> getComment() {
+    public java.util.List<AnonType_comment> getComment() {
       return comment;
     }
     
     /** Sets the value of the 'comment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder setComment(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment> value) {
+    public timecodeFormatType.Builder setComment(java.util.List<AnonType_comment> value) {
       validate(fields()[19], value);
       this.comment = value;
       fieldSetFlags()[19] = true;
@@ -1129,7 +1128,7 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
     }
     
     /** Clears the value of the 'comment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.timecodeFormatType.Builder clearComment() {
+    public timecodeFormatType.Builder clearComment() {
       comment = null;
       fieldSetFlags()[19] = false;
       return this;
@@ -1143,22 +1142,22 @@ public class timecodeFormatType extends org.apache.avro.specific.SpecificRecordB
         record.timecodeFormatVersionId = fieldSetFlags()[1] ? this.timecodeFormatVersionId : (java.lang.CharSequence) defaultValue(fields()[1]);
         record.timecodeFormatName = fieldSetFlags()[2] ? this.timecodeFormatName : (java.lang.CharSequence) defaultValue(fields()[2]);
         record.timecodeFormatDefinition = fieldSetFlags()[3] ? this.timecodeFormatDefinition : (java.lang.CharSequence) defaultValue(fields()[3]);
-        record.timecodeStart = fieldSetFlags()[4] ? this.timecodeStart : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.timeType>) defaultValue(fields()[4]);
-        record.timecodeTrack = fieldSetFlags()[5] ? this.timecodeTrack : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_timecodeTracktimecodeFormatType>) defaultValue(fields()[5]);
-        record.technicalAttributeString = fieldSetFlags()[6] ? this.technicalAttributeString : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.String18>) defaultValue(fields()[6]);
-        record.technicalAttributeByte = fieldSetFlags()[7] ? this.technicalAttributeByte : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int8>) defaultValue(fields()[7]);
-        record.technicalAttributeShort = fieldSetFlags()[8] ? this.technicalAttributeShort : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int16>) defaultValue(fields()[8]);
-        record.technicalAttributeInteger = fieldSetFlags()[9] ? this.technicalAttributeInteger : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int32>) defaultValue(fields()[9]);
-        record.technicalAttributeLong = fieldSetFlags()[10] ? this.technicalAttributeLong : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Int64>) defaultValue(fields()[10]);
-        record.technicalAttributeUnsignedByte = fieldSetFlags()[11] ? this.technicalAttributeUnsignedByte : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt8>) defaultValue(fields()[11]);
-        record.technicalAttributeUnsignedShort = fieldSetFlags()[12] ? this.technicalAttributeUnsignedShort : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt16>) defaultValue(fields()[12]);
-        record.technicalAttributeUnsignedInteger = fieldSetFlags()[13] ? this.technicalAttributeUnsignedInteger : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt32>) defaultValue(fields()[13]);
-        record.technicalAttributeUnsignedLong = fieldSetFlags()[14] ? this.technicalAttributeUnsignedLong : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.UInt64>) defaultValue(fields()[14]);
-        record.technicalAttributeBoolean = fieldSetFlags()[15] ? this.technicalAttributeBoolean : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Boolean19>) defaultValue(fields()[15]);
-        record.technicalAttributeFloat = fieldSetFlags()[16] ? this.technicalAttributeFloat : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.Float20>) defaultValue(fields()[16]);
-        record.technicalAttributeRational = fieldSetFlags()[17] ? this.technicalAttributeRational : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeRationalType>) defaultValue(fields()[17]);
-        record.technicalAttributeUri = fieldSetFlags()[18] ? this.technicalAttributeUri : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.technicalAttributeUriType>) defaultValue(fields()[18]);
-        record.comment = fieldSetFlags()[19] ? this.comment : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_comment>) defaultValue(fields()[19]);
+        record.timecodeStart = fieldSetFlags()[4] ? this.timecodeStart : (java.util.List<timeType>) defaultValue(fields()[4]);
+        record.timecodeTrack = fieldSetFlags()[5] ? this.timecodeTrack : (java.util.List<AnonType_timecodeTracktimecodeFormatType>) defaultValue(fields()[5]);
+        record.technicalAttributeString = fieldSetFlags()[6] ? this.technicalAttributeString : (java.util.List<String18>) defaultValue(fields()[6]);
+        record.technicalAttributeByte = fieldSetFlags()[7] ? this.technicalAttributeByte : (java.util.List<Int8>) defaultValue(fields()[7]);
+        record.technicalAttributeShort = fieldSetFlags()[8] ? this.technicalAttributeShort : (java.util.List<Int16>) defaultValue(fields()[8]);
+        record.technicalAttributeInteger = fieldSetFlags()[9] ? this.technicalAttributeInteger : (java.util.List<Int32>) defaultValue(fields()[9]);
+        record.technicalAttributeLong = fieldSetFlags()[10] ? this.technicalAttributeLong : (java.util.List<Int64>) defaultValue(fields()[10]);
+        record.technicalAttributeUnsignedByte = fieldSetFlags()[11] ? this.technicalAttributeUnsignedByte : (java.util.List<UInt8>) defaultValue(fields()[11]);
+        record.technicalAttributeUnsignedShort = fieldSetFlags()[12] ? this.technicalAttributeUnsignedShort : (java.util.List<UInt16>) defaultValue(fields()[12]);
+        record.technicalAttributeUnsignedInteger = fieldSetFlags()[13] ? this.technicalAttributeUnsignedInteger : (java.util.List<UInt32>) defaultValue(fields()[13]);
+        record.technicalAttributeUnsignedLong = fieldSetFlags()[14] ? this.technicalAttributeUnsignedLong : (java.util.List<UInt64>) defaultValue(fields()[14]);
+        record.technicalAttributeBoolean = fieldSetFlags()[15] ? this.technicalAttributeBoolean : (java.util.List<Boolean19>) defaultValue(fields()[15]);
+        record.technicalAttributeFloat = fieldSetFlags()[16] ? this.technicalAttributeFloat : (java.util.List<Float20>) defaultValue(fields()[16]);
+        record.technicalAttributeRational = fieldSetFlags()[17] ? this.technicalAttributeRational : (java.util.List<technicalAttributeRationalType>) defaultValue(fields()[17]);
+        record.technicalAttributeUri = fieldSetFlags()[18] ? this.technicalAttributeUri : (java.util.List<technicalAttributeUriType>) defaultValue(fields()[18]);
+        record.comment = fieldSetFlags()[19] ? this.comment : (java.util.List<AnonType_comment>) defaultValue(fields()[19]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class ratingType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ratingType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"ratingSystem\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingSystem\"},{\"name\":\"ratingEnvironment\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingEnvironment\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"ratingValue\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element ratingValue\"},{\"name\":\"ratingLink\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element ratingLink\"},{\"name\":\"ratingScaleMaxValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMaxValue\"},{\"name\":\"ratingScaleMinValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMinValue\"},{\"name\":\"ratingProvider\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender","\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"t","ype\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}],\"source\":\"element ratingProvider\"},{\"name\":\"ratingRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}},\"source\":\"element ratingRegion\"},{\"name\":\"ratingExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingExclusionRegion\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"ratingType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"ratingSystem\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingSystem\"},{\"name\":\"ratingEnvironment\",\"type\":[\"null\",\"string\"],\"source\":\"attribute ratingEnvironment\"},{\"name\":\"reason\",\"type\":[\"null\",\"string\"],\"source\":\"attribute reason\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"notRated\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute notRated\"},{\"name\":\"adultContent\",\"type\":[\"null\",\"boolean\"],\"source\":\"attribute adultContent\"},{\"name\":\"ratingValue\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"elementType\",\"fields\":[{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element ratingValue\"},{\"name\":\"ratingLink\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element ratingLink\"},{\"name\":\"ratingScaleMaxValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMaxValue\"},{\"name\":\"ratingScaleMinValue\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ratingScaleMinValue\"},{\"name\":\"ratingProvider\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"entityType\",\"fields\":[{\"name\":\"entityId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute entityId\"},{\"name\":\"contactDetails\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"contactDetailsType\",\"fields\":[{\"name\":\"contactId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute contactId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"compoundNameType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element name\"},{\"name\":\"givenName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element givenName\"},{\"name\":\"familyName\",\"type\":[\"null\",\"elementType\"],\"source\":\"element familyName\"},{\"name\":\"otherGivenName\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element otherGivenName\"},{\"name\":\"suffix\",\"type\":[\"null\",\"elementType\"],\"source\":\"element suffix\"},{\"name\":\"salutation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element salutation\"},{\"name\":\"birthDate\",\"type\":[\"null\",\"string\"],\"source\":\"element birthDate\"},{\"name\":\"deathDate\",\"type\":[\"null\",\"string\"],\"source\":\"element deathDate\"},{\"name\":\"birthPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element birthPlace\"},{\"name\":\"deathPlace\",\"type\":[\"null\",\"string\"],\"source\":\"element deathPlace\"},{\"name\":\"nationality\",\"type\":[\"null\",\"string\"],\"source\":\"element nationality\"},{\"name\":\"username\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element username\"},{\"name\":\"nickname\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element nickname\"},{\"name\":\"occupation\",\"type\":[\"null\",\"elementType\"],\"source\":\"element occupation\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"detailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"emailAddress\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element emailAddress\"},{\"name\":\"webAddress\",\"type\":[\"null\",\"string\"],\"source\":\"element webAddress\"},{\"name\":\"address\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"addressType\",\"fields\":[{\"name\":\"addressLine\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element addressLine\"},{\"name\":\"addressTownCity\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressTownCity\"},{\"name\":\"addressCountyState\",\"type\":[\"null\",\"elementType\"],\"source\":\"element addressCountyState\"},{\"name\":\"addressDeliveryCode\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element addressDeliveryCode\"},{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryaddressType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"}]}],\"source\":\"element address\"},{\"name\":\"telephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element telephoneNumber\"},{\"name\":\"mobileTelephoneNumber\",\"type\":[\"null\",\"string\"],\"source\":\"element mobileTelephoneNumber\"}]}},\"source\":\"element details\"},{\"name\":\"stageName\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_stageNamecontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}},\"source\":\"element stageName\"},{\"name\":\"guest\",\"type\":[\"null\",\"boolean\"],\"source\":\"element guest\"},{\"name\":\"gender\",\"type\":[\"null\",\"elementType\"],\"source\":\"element gender\"},","{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkcontactDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"relatedContacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element relatedContacts\"},{\"name\":\"skill\",\"type\":{\"type\":\"array\",\"items\":\"string\"},\"source\":\"element skill\"},{\"name\":\"affiliation\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"affiliationType\",\"fields\":[{\"name\":\"organisation\",\"type\":{\"type\":\"record\",\"name\":\"organisationDetailsType\",\"fields\":[{\"name\":\"organisationId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute organisationId\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"linkToLogo\",\"type\":[\"null\",\"string\"],\"source\":\"attribute linkToLogo\"},{\"name\":\"lastUpdate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lastUpdate\"},{\"name\":\"organisationName\",\"type\":{\"type\":\"array\",\"items\":\"compoundNameType\"},\"source\":\"element organisationName\"},{\"name\":\"organisationCode\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"identifierType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"formatLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLabel\"},{\"name\":\"formatDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatDefinition\"},{\"name\":\"formatLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLink\"},{\"name\":\"formatSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatSource\"},{\"name\":\"formatNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatNamespace\"},{\"name\":\"formatLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute formatLanguage\"},{\"name\":\"note\",\"type\":[\"null\",\"string\"],\"source\":\"attribute note\"},{\"name\":\"identifier\",\"type\":\"elementType\",\"source\":\"element identifier\"},{\"name\":\"attributor\",\"type\":[\"null\",\"entityType\"],\"source\":\"element attributor\"}]}},\"source\":\"element organisationCode\"},{\"name\":\"organisationDescription\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element organisationDescription\"},{\"name\":\"organisationNationality\",\"type\":[\"null\",\"string\"],\"source\":\"element organisationNationality\"},{\"name\":\"organisationDepartment\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"organisationDepartmentType\",\"fields\":[{\"name\":\"departmentId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute departmentId\"},{\"name\":\"lang\",\"type\":[\"null\",\"string\"],\"source\":\"attribute lang\"}]}],\"source\":\"element organisationDepartment\"},{\"name\":\"details\",\"type\":{\"type\":\"array\",\"items\":\"detailsType\"},\"source\":\"element details\"},{\"name\":\"relatedInformationLink\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_relatedInformationLinkorganisationDetailsType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element relatedInformationLink\"},{\"name\":\"contacts\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element contacts\"}]},\"source\":\"element organisation\"},{\"name\":\"startDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_startDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element startDate\"},{\"name\":\"endDate\",\"type\":{\"type\":\"record\",\"name\":\"AnonType_endDateaffiliationType\",\"fields\":[{\"name\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]},\"source\":\"element endDate\"}]}},\"source\":\"element affiliation\"}]}},\"source\":\"element contactDetails\"},{\"name\":\"organisationDetails\",\"type\":{\"type\":\"array\",\"items\":\"organisationDetailsType\"},\"source\":\"element organisationDetails\"},{\"name\":\"role\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_roleentityType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"costCentre\",\"type\":[\"null\",\"string\"],\"source\":\"attribute costCentre\"}]}},\"source\":\"element role\"},{\"name\":\"award\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"awardType\",\"fields\":[{\"name\":\"awardId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute awardId\"},{\"name\":\"name\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element name\"},{\"name\":\"description\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element description\"},{\"name\":\"category\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_categoryawardType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element category\"},{\"name\":\"ceremony\",\"type\":{\"type\":\"array\",\"items\":\"elementType\"},\"source\":\"element ceremony\"},{\"name\":\"official\",\"type\":{\"type\":\"array\",\"items\":\"entityType\"},\"source\":\"element official\"},{\"name\":\"date\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_dateawardType\",\"fields\":[{\"n","ame\":\"startYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startYear\"},{\"name\":\"startDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startDate\"},{\"name\":\"startTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute startTime\"},{\"name\":\"endYear\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endYear\"},{\"name\":\"endDate\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endDate\"},{\"name\":\"endTime\",\"type\":[\"null\",\"string\"],\"source\":\"attribute endTime\"},{\"name\":\"period\",\"type\":[\"null\",\"string\"],\"source\":\"attribute period\"}]}},\"source\":\"element date\"}]}},\"source\":\"element award\"}]}],\"source\":\"element ratingProvider\"},{\"name\":\"ratingRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"regionType\",\"fields\":[{\"name\":\"country\",\"type\":[\"null\",{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}],\"source\":\"element country\"},{\"name\":\"countryRegion\",\"type\":{\"type\":\"array\",\"items\":{\"type\":\"record\",\"name\":\"AnonType_countryRegionregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}},\"source\":\"element countryRegion\"}]}},\"source\":\"element ratingRegion\"},{\"name\":\"ratingExclusionRegion\",\"type\":{\"type\":\"array\",\"items\":\"regionType\"},\"source\":\"element ratingExclusionRegion\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -27,13 +26,13 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
   @Deprecated public java.lang.CharSequence linkToLogo;
   @Deprecated public java.lang.Boolean notRated;
   @Deprecated public java.lang.Boolean adultContent;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingValue;
+  @Deprecated public java.util.List<elementType> ratingValue;
   @Deprecated public java.util.List<java.lang.CharSequence> ratingLink;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMaxValue;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMinValue;
-  @Deprecated public com.beligum.blocks.schema.ebucore.v2015.avro.entityType ratingProvider;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingRegion;
-  @Deprecated public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingExclusionRegion;
+  @Deprecated public java.util.List<elementType> ratingScaleMaxValue;
+  @Deprecated public java.util.List<elementType> ratingScaleMinValue;
+  @Deprecated public entityType ratingProvider;
+  @Deprecated public java.util.List<regionType> ratingRegion;
+  @Deprecated public java.util.List<regionType> ratingExclusionRegion;
 
   /**
    * Default constructor.  Note that this does not initialize fields
@@ -45,7 +44,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * All-args constructor.
    */
-  public ratingType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence formatLabel, java.lang.CharSequence formatDefinition, java.lang.CharSequence formatLink, java.lang.CharSequence formatSource, java.lang.CharSequence formatNamespace, java.lang.CharSequence formatLanguage, java.lang.CharSequence ratingSystem, java.lang.CharSequence ratingEnvironment, java.lang.CharSequence reason, java.lang.CharSequence linkToLogo, java.lang.Boolean notRated, java.lang.Boolean adultContent, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingValue, java.util.List<java.lang.CharSequence> ratingLink, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMaxValue, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMinValue, com.beligum.blocks.schema.ebucore.v2015.avro.entityType ratingProvider, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingRegion, java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingExclusionRegion) {
+  public ratingType(java.lang.CharSequence typeLabel, java.lang.CharSequence typeDefinition, java.lang.CharSequence typeLink, java.lang.CharSequence typeSource, java.lang.CharSequence typeNamespace, java.lang.CharSequence typeLanguage, java.lang.CharSequence formatLabel, java.lang.CharSequence formatDefinition, java.lang.CharSequence formatLink, java.lang.CharSequence formatSource, java.lang.CharSequence formatNamespace, java.lang.CharSequence formatLanguage, java.lang.CharSequence ratingSystem, java.lang.CharSequence ratingEnvironment, java.lang.CharSequence reason, java.lang.CharSequence linkToLogo, java.lang.Boolean notRated, java.lang.Boolean adultContent, java.util.List<elementType> ratingValue, java.util.List<java.lang.CharSequence> ratingLink, java.util.List<elementType> ratingScaleMaxValue, java.util.List<elementType> ratingScaleMinValue, entityType ratingProvider, java.util.List<regionType> ratingRegion, java.util.List<regionType> ratingExclusionRegion) {
     this.typeLabel = typeLabel;
     this.typeDefinition = typeDefinition;
     this.typeLink = typeLink;
@@ -127,13 +126,13 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     case 15: linkToLogo = (java.lang.CharSequence)value$; break;
     case 16: notRated = (java.lang.Boolean)value$; break;
     case 17: adultContent = (java.lang.Boolean)value$; break;
-    case 18: ratingValue = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
+    case 18: ratingValue = (java.util.List<elementType>)value$; break;
     case 19: ratingLink = (java.util.List<java.lang.CharSequence>)value$; break;
-    case 20: ratingScaleMaxValue = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 21: ratingScaleMinValue = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>)value$; break;
-    case 22: ratingProvider = (com.beligum.blocks.schema.ebucore.v2015.avro.entityType)value$; break;
-    case 23: ratingRegion = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType>)value$; break;
-    case 24: ratingExclusionRegion = (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType>)value$; break;
+    case 20: ratingScaleMaxValue = (java.util.List<elementType>)value$; break;
+    case 21: ratingScaleMinValue = (java.util.List<elementType>)value$; break;
+    case 22: ratingProvider = (entityType)value$; break;
+    case 23: ratingRegion = (java.util.List<regionType>)value$; break;
+    case 24: ratingExclusionRegion = (java.util.List<regionType>)value$; break;
     default: throw new org.apache.avro.AvroRuntimeException("Bad index");
     }
   }
@@ -411,7 +410,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * Gets the value of the 'ratingValue' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingValue() {
+  public java.util.List<elementType> getRatingValue() {
     return ratingValue;
   }
 
@@ -419,7 +418,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingValue' field.
    * @param value the value to set.
    */
-  public void setRatingValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setRatingValue(java.util.List<elementType> value) {
     this.ratingValue = value;
   }
 
@@ -441,7 +440,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
   /**
    * Gets the value of the 'ratingScaleMaxValue' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingScaleMaxValue() {
+  public java.util.List<elementType> getRatingScaleMaxValue() {
     return ratingScaleMaxValue;
   }
 
@@ -449,14 +448,14 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingScaleMaxValue' field.
    * @param value the value to set.
    */
-  public void setRatingScaleMaxValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setRatingScaleMaxValue(java.util.List<elementType> value) {
     this.ratingScaleMaxValue = value;
   }
 
   /**
    * Gets the value of the 'ratingScaleMinValue' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingScaleMinValue() {
+  public java.util.List<elementType> getRatingScaleMinValue() {
     return ratingScaleMinValue;
   }
 
@@ -464,14 +463,14 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingScaleMinValue' field.
    * @param value the value to set.
    */
-  public void setRatingScaleMinValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+  public void setRatingScaleMinValue(java.util.List<elementType> value) {
     this.ratingScaleMinValue = value;
   }
 
   /**
    * Gets the value of the 'ratingProvider' field.
    */
-  public com.beligum.blocks.schema.ebucore.v2015.avro.entityType getRatingProvider() {
+  public entityType getRatingProvider() {
     return ratingProvider;
   }
 
@@ -479,14 +478,14 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingProvider' field.
    * @param value the value to set.
    */
-  public void setRatingProvider(com.beligum.blocks.schema.ebucore.v2015.avro.entityType value) {
+  public void setRatingProvider(entityType value) {
     this.ratingProvider = value;
   }
 
   /**
    * Gets the value of the 'ratingRegion' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> getRatingRegion() {
+  public java.util.List<regionType> getRatingRegion() {
     return ratingRegion;
   }
 
@@ -494,14 +493,14 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingRegion' field.
    * @param value the value to set.
    */
-  public void setRatingRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> value) {
+  public void setRatingRegion(java.util.List<regionType> value) {
     this.ratingRegion = value;
   }
 
   /**
    * Gets the value of the 'ratingExclusionRegion' field.
    */
-  public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> getRatingExclusionRegion() {
+  public java.util.List<regionType> getRatingExclusionRegion() {
     return ratingExclusionRegion;
   }
 
@@ -509,23 +508,23 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
    * Sets the value of the 'ratingExclusionRegion' field.
    * @param value the value to set.
    */
-  public void setRatingExclusionRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> value) {
+  public void setRatingExclusionRegion(java.util.List<regionType> value) {
     this.ratingExclusionRegion = value;
   }
 
   /** Creates a new ratingType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder();
+  public static ratingType.Builder newBuilder() {
+    return new ratingType.Builder();
   }
   
   /** Creates a new ratingType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder(other);
+  public static ratingType.Builder newBuilder(ratingType.Builder other) {
+    return new ratingType.Builder(other);
   }
   
   /** Creates a new ratingType RecordBuilder by copying an existing ratingType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder(other);
+  public static ratingType.Builder newBuilder(ratingType other) {
+    return new ratingType.Builder(other);
   }
   
   /**
@@ -552,21 +551,21 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     private java.lang.CharSequence linkToLogo;
     private java.lang.Boolean notRated;
     private java.lang.Boolean adultContent;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingValue;
+    private java.util.List<elementType> ratingValue;
     private java.util.List<java.lang.CharSequence> ratingLink;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMaxValue;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> ratingScaleMinValue;
-    private com.beligum.blocks.schema.ebucore.v2015.avro.entityType ratingProvider;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingRegion;
-    private java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> ratingExclusionRegion;
+    private java.util.List<elementType> ratingScaleMaxValue;
+    private java.util.List<elementType> ratingScaleMinValue;
+    private entityType ratingProvider;
+    private java.util.List<regionType> ratingRegion;
+    private java.util.List<regionType> ratingExclusionRegion;
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.SCHEMA$);
+      super(ratingType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder other) {
+    private Builder(ratingType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -671,8 +670,8 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Creates a Builder by copying an existing ratingType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.SCHEMA$);
+    private Builder(ratingType other) {
+            super(ratingType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -781,7 +780,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -794,7 +793,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeLabel() {
+    public ratingType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -806,7 +805,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -819,7 +818,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeDefinition() {
+    public ratingType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -831,7 +830,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeLink(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -844,7 +843,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeLink() {
+    public ratingType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -856,7 +855,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeSource(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -869,7 +868,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeSource() {
+    public ratingType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -881,7 +880,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -894,7 +893,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeNamespace() {
+    public ratingType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -906,7 +905,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public ratingType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -919,7 +918,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearTypeLanguage() {
+    public ratingType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -931,7 +930,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatLabel(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatLabel(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.formatLabel = value;
       fieldSetFlags()[6] = true;
@@ -944,7 +943,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatLabel() {
+    public ratingType.Builder clearFormatLabel() {
       formatLabel = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -956,7 +955,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatDefinition(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatDefinition(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.formatDefinition = value;
       fieldSetFlags()[7] = true;
@@ -969,7 +968,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatDefinition() {
+    public ratingType.Builder clearFormatDefinition() {
       formatDefinition = null;
       fieldSetFlags()[7] = false;
       return this;
@@ -981,7 +980,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatLink(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatLink(java.lang.CharSequence value) {
       validate(fields()[8], value);
       this.formatLink = value;
       fieldSetFlags()[8] = true;
@@ -994,7 +993,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatLink() {
+    public ratingType.Builder clearFormatLink() {
       formatLink = null;
       fieldSetFlags()[8] = false;
       return this;
@@ -1006,7 +1005,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatSource(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatSource(java.lang.CharSequence value) {
       validate(fields()[9], value);
       this.formatSource = value;
       fieldSetFlags()[9] = true;
@@ -1019,7 +1018,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatSource() {
+    public ratingType.Builder clearFormatSource() {
       formatSource = null;
       fieldSetFlags()[9] = false;
       return this;
@@ -1031,7 +1030,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatNamespace(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatNamespace(java.lang.CharSequence value) {
       validate(fields()[10], value);
       this.formatNamespace = value;
       fieldSetFlags()[10] = true;
@@ -1044,7 +1043,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatNamespace() {
+    public ratingType.Builder clearFormatNamespace() {
       formatNamespace = null;
       fieldSetFlags()[10] = false;
       return this;
@@ -1056,7 +1055,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'formatLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setFormatLanguage(java.lang.CharSequence value) {
+    public ratingType.Builder setFormatLanguage(java.lang.CharSequence value) {
       validate(fields()[11], value);
       this.formatLanguage = value;
       fieldSetFlags()[11] = true;
@@ -1069,7 +1068,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'formatLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearFormatLanguage() {
+    public ratingType.Builder clearFormatLanguage() {
       formatLanguage = null;
       fieldSetFlags()[11] = false;
       return this;
@@ -1081,7 +1080,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'ratingSystem' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingSystem(java.lang.CharSequence value) {
+    public ratingType.Builder setRatingSystem(java.lang.CharSequence value) {
       validate(fields()[12], value);
       this.ratingSystem = value;
       fieldSetFlags()[12] = true;
@@ -1094,7 +1093,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingSystem' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingSystem() {
+    public ratingType.Builder clearRatingSystem() {
       ratingSystem = null;
       fieldSetFlags()[12] = false;
       return this;
@@ -1106,7 +1105,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'ratingEnvironment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingEnvironment(java.lang.CharSequence value) {
+    public ratingType.Builder setRatingEnvironment(java.lang.CharSequence value) {
       validate(fields()[13], value);
       this.ratingEnvironment = value;
       fieldSetFlags()[13] = true;
@@ -1119,7 +1118,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingEnvironment' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingEnvironment() {
+    public ratingType.Builder clearRatingEnvironment() {
       ratingEnvironment = null;
       fieldSetFlags()[13] = false;
       return this;
@@ -1131,7 +1130,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'reason' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setReason(java.lang.CharSequence value) {
+    public ratingType.Builder setReason(java.lang.CharSequence value) {
       validate(fields()[14], value);
       this.reason = value;
       fieldSetFlags()[14] = true;
@@ -1144,7 +1143,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'reason' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearReason() {
+    public ratingType.Builder clearReason() {
       reason = null;
       fieldSetFlags()[14] = false;
       return this;
@@ -1156,7 +1155,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'linkToLogo' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setLinkToLogo(java.lang.CharSequence value) {
+    public ratingType.Builder setLinkToLogo(java.lang.CharSequence value) {
       validate(fields()[15], value);
       this.linkToLogo = value;
       fieldSetFlags()[15] = true;
@@ -1169,7 +1168,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'linkToLogo' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearLinkToLogo() {
+    public ratingType.Builder clearLinkToLogo() {
       linkToLogo = null;
       fieldSetFlags()[15] = false;
       return this;
@@ -1181,7 +1180,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'notRated' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setNotRated(java.lang.Boolean value) {
+    public ratingType.Builder setNotRated(java.lang.Boolean value) {
       validate(fields()[16], value);
       this.notRated = value;
       fieldSetFlags()[16] = true;
@@ -1194,7 +1193,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'notRated' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearNotRated() {
+    public ratingType.Builder clearNotRated() {
       notRated = null;
       fieldSetFlags()[16] = false;
       return this;
@@ -1206,7 +1205,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'adultContent' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setAdultContent(java.lang.Boolean value) {
+    public ratingType.Builder setAdultContent(java.lang.Boolean value) {
       validate(fields()[17], value);
       this.adultContent = value;
       fieldSetFlags()[17] = true;
@@ -1219,19 +1218,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'adultContent' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearAdultContent() {
+    public ratingType.Builder clearAdultContent() {
       adultContent = null;
       fieldSetFlags()[17] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingValue' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingValue() {
+    public java.util.List<elementType> getRatingValue() {
       return ratingValue;
     }
     
     /** Sets the value of the 'ratingValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public ratingType.Builder setRatingValue(java.util.List<elementType> value) {
       validate(fields()[18], value);
       this.ratingValue = value;
       fieldSetFlags()[18] = true;
@@ -1244,7 +1243,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingValue() {
+    public ratingType.Builder clearRatingValue() {
       ratingValue = null;
       fieldSetFlags()[18] = false;
       return this;
@@ -1256,7 +1255,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Sets the value of the 'ratingLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingLink(java.util.List<java.lang.CharSequence> value) {
+    public ratingType.Builder setRatingLink(java.util.List<java.lang.CharSequence> value) {
       validate(fields()[19], value);
       this.ratingLink = value;
       fieldSetFlags()[19] = true;
@@ -1269,19 +1268,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingLink() {
+    public ratingType.Builder clearRatingLink() {
       ratingLink = null;
       fieldSetFlags()[19] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingScaleMaxValue' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingScaleMaxValue() {
+    public java.util.List<elementType> getRatingScaleMaxValue() {
       return ratingScaleMaxValue;
     }
     
     /** Sets the value of the 'ratingScaleMaxValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingScaleMaxValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public ratingType.Builder setRatingScaleMaxValue(java.util.List<elementType> value) {
       validate(fields()[20], value);
       this.ratingScaleMaxValue = value;
       fieldSetFlags()[20] = true;
@@ -1294,19 +1293,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingScaleMaxValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingScaleMaxValue() {
+    public ratingType.Builder clearRatingScaleMaxValue() {
       ratingScaleMaxValue = null;
       fieldSetFlags()[20] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingScaleMinValue' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> getRatingScaleMinValue() {
+    public java.util.List<elementType> getRatingScaleMinValue() {
       return ratingScaleMinValue;
     }
     
     /** Sets the value of the 'ratingScaleMinValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingScaleMinValue(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType> value) {
+    public ratingType.Builder setRatingScaleMinValue(java.util.List<elementType> value) {
       validate(fields()[21], value);
       this.ratingScaleMinValue = value;
       fieldSetFlags()[21] = true;
@@ -1319,19 +1318,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingScaleMinValue' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingScaleMinValue() {
+    public ratingType.Builder clearRatingScaleMinValue() {
       ratingScaleMinValue = null;
       fieldSetFlags()[21] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingProvider' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.entityType getRatingProvider() {
+    public entityType getRatingProvider() {
       return ratingProvider;
     }
     
     /** Sets the value of the 'ratingProvider' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingProvider(com.beligum.blocks.schema.ebucore.v2015.avro.entityType value) {
+    public ratingType.Builder setRatingProvider(entityType value) {
       validate(fields()[22], value);
       this.ratingProvider = value;
       fieldSetFlags()[22] = true;
@@ -1344,19 +1343,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingProvider' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingProvider() {
+    public ratingType.Builder clearRatingProvider() {
       ratingProvider = null;
       fieldSetFlags()[22] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingRegion' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> getRatingRegion() {
+    public java.util.List<regionType> getRatingRegion() {
       return ratingRegion;
     }
     
     /** Sets the value of the 'ratingRegion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> value) {
+    public ratingType.Builder setRatingRegion(java.util.List<regionType> value) {
       validate(fields()[23], value);
       this.ratingRegion = value;
       fieldSetFlags()[23] = true;
@@ -1369,19 +1368,19 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingRegion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingRegion() {
+    public ratingType.Builder clearRatingRegion() {
       ratingRegion = null;
       fieldSetFlags()[23] = false;
       return this;
     }
 
     /** Gets the value of the 'ratingExclusionRegion' field */
-    public java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> getRatingExclusionRegion() {
+    public java.util.List<regionType> getRatingExclusionRegion() {
       return ratingExclusionRegion;
     }
     
     /** Sets the value of the 'ratingExclusionRegion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder setRatingExclusionRegion(java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType> value) {
+    public ratingType.Builder setRatingExclusionRegion(java.util.List<regionType> value) {
       validate(fields()[24], value);
       this.ratingExclusionRegion = value;
       fieldSetFlags()[24] = true;
@@ -1394,7 +1393,7 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
     }
     
     /** Clears the value of the 'ratingExclusionRegion' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.ratingType.Builder clearRatingExclusionRegion() {
+    public ratingType.Builder clearRatingExclusionRegion() {
       ratingExclusionRegion = null;
       fieldSetFlags()[24] = false;
       return this;
@@ -1422,13 +1421,13 @@ public class ratingType extends org.apache.avro.specific.SpecificRecordBase impl
         record.linkToLogo = fieldSetFlags()[15] ? this.linkToLogo : (java.lang.CharSequence) defaultValue(fields()[15]);
         record.notRated = fieldSetFlags()[16] ? this.notRated : (java.lang.Boolean) defaultValue(fields()[16]);
         record.adultContent = fieldSetFlags()[17] ? this.adultContent : (java.lang.Boolean) defaultValue(fields()[17]);
-        record.ratingValue = fieldSetFlags()[18] ? this.ratingValue : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[18]);
+        record.ratingValue = fieldSetFlags()[18] ? this.ratingValue : (java.util.List<elementType>) defaultValue(fields()[18]);
         record.ratingLink = fieldSetFlags()[19] ? this.ratingLink : (java.util.List<java.lang.CharSequence>) defaultValue(fields()[19]);
-        record.ratingScaleMaxValue = fieldSetFlags()[20] ? this.ratingScaleMaxValue : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[20]);
-        record.ratingScaleMinValue = fieldSetFlags()[21] ? this.ratingScaleMinValue : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.elementType>) defaultValue(fields()[21]);
-        record.ratingProvider = fieldSetFlags()[22] ? this.ratingProvider : (com.beligum.blocks.schema.ebucore.v2015.avro.entityType) defaultValue(fields()[22]);
-        record.ratingRegion = fieldSetFlags()[23] ? this.ratingRegion : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType>) defaultValue(fields()[23]);
-        record.ratingExclusionRegion = fieldSetFlags()[24] ? this.ratingExclusionRegion : (java.util.List<com.beligum.blocks.schema.ebucore.v2015.avro.regionType>) defaultValue(fields()[24]);
+        record.ratingScaleMaxValue = fieldSetFlags()[20] ? this.ratingScaleMaxValue : (java.util.List<elementType>) defaultValue(fields()[20]);
+        record.ratingScaleMinValue = fieldSetFlags()[21] ? this.ratingScaleMinValue : (java.util.List<elementType>) defaultValue(fields()[21]);
+        record.ratingProvider = fieldSetFlags()[22] ? this.ratingProvider : (entityType) defaultValue(fields()[22]);
+        record.ratingRegion = fieldSetFlags()[23] ? this.ratingRegion : (java.util.List<regionType>) defaultValue(fields()[23]);
+        record.ratingExclusionRegion = fieldSetFlags()[24] ? this.ratingExclusionRegion : (java.util.List<regionType>) defaultValue(fields()[24]);
         return record;
       } catch (Exception e) {
         throw new org.apache.avro.AvroRuntimeException(e);

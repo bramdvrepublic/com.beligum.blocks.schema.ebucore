@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_videoTrackvideoFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_videoTrackvideoFormatType\",\"fields\":[{\"name\":\"trackId\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackId\"},{\"name\":\"trackName\",\"type\":[\"null\",\"string\"],\"source\":\"attribute trackName\"},{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence trackId;
   @Deprecated public java.lang.CharSequence trackName;
@@ -191,18 +190,18 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
   }
 
   /** Creates a new AnonType_videoTrackvideoFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder();
+  public static AnonType_videoTrackvideoFormatType.Builder newBuilder() {
+    return new AnonType_videoTrackvideoFormatType.Builder();
   }
   
   /** Creates a new AnonType_videoTrackvideoFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder(other);
+  public static AnonType_videoTrackvideoFormatType.Builder newBuilder(AnonType_videoTrackvideoFormatType.Builder other) {
+    return new AnonType_videoTrackvideoFormatType.Builder(other);
   }
   
   /** Creates a new AnonType_videoTrackvideoFormatType RecordBuilder by copying an existing AnonType_videoTrackvideoFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder(other);
+  public static AnonType_videoTrackvideoFormatType.Builder newBuilder(AnonType_videoTrackvideoFormatType other) {
+    return new AnonType_videoTrackvideoFormatType.Builder(other);
   }
   
   /**
@@ -222,11 +221,11 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.SCHEMA$);
+      super(AnonType_videoTrackvideoFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder other) {
+    private Builder(AnonType_videoTrackvideoFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.trackId)) {
         this.trackId = data().deepCopy(fields()[0].schema(), other.trackId);
@@ -263,8 +262,8 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Creates a Builder by copying an existing AnonType_videoTrackvideoFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.SCHEMA$);
+    private Builder(AnonType_videoTrackvideoFormatType other) {
+            super(AnonType_videoTrackvideoFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.trackId)) {
         this.trackId = data().deepCopy(fields()[0].schema(), other.trackId);
         fieldSetFlags()[0] = true;
@@ -305,7 +304,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'trackId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTrackId(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTrackId(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.trackId = value;
       fieldSetFlags()[0] = true;
@@ -318,7 +317,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'trackId' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTrackId() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTrackId() {
       trackId = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -330,7 +329,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'trackName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTrackName(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTrackName(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.trackName = value;
       fieldSetFlags()[1] = true;
@@ -343,7 +342,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'trackName' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTrackName() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTrackName() {
       trackName = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -355,7 +354,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLabel = value;
       fieldSetFlags()[2] = true;
@@ -368,7 +367,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeLabel() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -380,7 +379,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeDefinition = value;
       fieldSetFlags()[3] = true;
@@ -393,7 +392,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeDefinition() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -405,7 +404,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeLink(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeLink = value;
       fieldSetFlags()[4] = true;
@@ -418,7 +417,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeLink() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -430,7 +429,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeSource(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeSource = value;
       fieldSetFlags()[5] = true;
@@ -443,7 +442,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeSource() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -455,7 +454,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.typeNamespace = value;
       fieldSetFlags()[6] = true;
@@ -468,7 +467,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeNamespace() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[6] = false;
       return this;
@@ -480,7 +479,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public AnonType_videoTrackvideoFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[7], value);
       this.typeLanguage = value;
       fieldSetFlags()[7] = true;
@@ -493,7 +492,7 @@ public class AnonType_videoTrackvideoFormatType extends org.apache.avro.specific
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_videoTrackvideoFormatType.Builder clearTypeLanguage() {
+    public AnonType_videoTrackvideoFormatType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[7] = false;
       return this;

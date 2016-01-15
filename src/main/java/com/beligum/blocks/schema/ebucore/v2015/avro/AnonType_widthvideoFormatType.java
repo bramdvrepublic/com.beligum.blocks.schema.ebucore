@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_widthvideoFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_widthvideoFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_widthvideoFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"},{\"name\":\"unit\",\"type\":[\"null\",\"string\"],\"source\":\"attribute unit\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -172,18 +171,18 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
   }
 
   /** Creates a new AnonType_widthvideoFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder();
+  public static AnonType_widthvideoFormatType.Builder newBuilder() {
+    return new AnonType_widthvideoFormatType.Builder();
   }
   
   /** Creates a new AnonType_widthvideoFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder(other);
+  public static AnonType_widthvideoFormatType.Builder newBuilder(AnonType_widthvideoFormatType.Builder other) {
+    return new AnonType_widthvideoFormatType.Builder(other);
   }
   
   /** Creates a new AnonType_widthvideoFormatType RecordBuilder by copying an existing AnonType_widthvideoFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder(other);
+  public static AnonType_widthvideoFormatType.Builder newBuilder(AnonType_widthvideoFormatType other) {
+    return new AnonType_widthvideoFormatType.Builder(other);
   }
   
   /**
@@ -202,11 +201,11 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.SCHEMA$);
+      super(AnonType_widthvideoFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder other) {
+    private Builder(AnonType_widthvideoFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -239,8 +238,8 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Creates a Builder by copying an existing AnonType_widthvideoFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.SCHEMA$);
+    private Builder(AnonType_widthvideoFormatType other) {
+            super(AnonType_widthvideoFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -277,7 +276,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -290,7 +289,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeLabel() {
+    public AnonType_widthvideoFormatType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -302,7 +301,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -315,7 +314,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeDefinition() {
+    public AnonType_widthvideoFormatType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -327,7 +326,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeLink(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -340,7 +339,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeLink() {
+    public AnonType_widthvideoFormatType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -352,7 +351,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeSource(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -365,7 +364,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeSource() {
+    public AnonType_widthvideoFormatType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -377,7 +376,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -390,7 +389,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeNamespace() {
+    public AnonType_widthvideoFormatType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -402,7 +401,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -415,7 +414,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearTypeLanguage() {
+    public AnonType_widthvideoFormatType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
@@ -427,7 +426,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Sets the value of the 'unit' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder setUnit(java.lang.CharSequence value) {
+    public AnonType_widthvideoFormatType.Builder setUnit(java.lang.CharSequence value) {
       validate(fields()[6], value);
       this.unit = value;
       fieldSetFlags()[6] = true;
@@ -440,7 +439,7 @@ public class AnonType_widthvideoFormatType extends org.apache.avro.specific.Spec
     }
     
     /** Clears the value of the 'unit' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_widthvideoFormatType.Builder clearUnit() {
+    public AnonType_widthvideoFormatType.Builder clearUnit() {
       unit = null;
       fieldSetFlags()[6] = false;
       return this;

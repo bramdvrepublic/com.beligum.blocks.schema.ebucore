@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_audioTrackConfigurationaudioFormatType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -153,18 +152,18 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
   }
 
   /** Creates a new AnonType_audioTrackConfigurationaudioFormatType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder();
+  public static AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder() {
+    return new AnonType_audioTrackConfigurationaudioFormatType.Builder();
   }
   
   /** Creates a new AnonType_audioTrackConfigurationaudioFormatType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder(other);
+  public static AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder(AnonType_audioTrackConfigurationaudioFormatType.Builder other) {
+    return new AnonType_audioTrackConfigurationaudioFormatType.Builder(other);
   }
   
   /** Creates a new AnonType_audioTrackConfigurationaudioFormatType RecordBuilder by copying an existing AnonType_audioTrackConfigurationaudioFormatType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder(other);
+  public static AnonType_audioTrackConfigurationaudioFormatType.Builder newBuilder(AnonType_audioTrackConfigurationaudioFormatType other) {
+    return new AnonType_audioTrackConfigurationaudioFormatType.Builder(other);
   }
   
   /**
@@ -182,11 +181,11 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.SCHEMA$);
+      super(AnonType_audioTrackConfigurationaudioFormatType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder other) {
+    private Builder(AnonType_audioTrackConfigurationaudioFormatType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -215,8 +214,8 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Creates a Builder by copying an existing AnonType_audioTrackConfigurationaudioFormatType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.SCHEMA$);
+    private Builder(AnonType_audioTrackConfigurationaudioFormatType other) {
+            super(AnonType_audioTrackConfigurationaudioFormatType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -249,7 +248,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -262,7 +261,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLabel() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -274,7 +273,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -287,7 +286,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeDefinition() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -299,7 +298,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLink(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -312,7 +311,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLink() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -324,7 +323,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeSource(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -337,7 +336,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeSource() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -349,7 +348,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -362,7 +361,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeNamespace() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -374,7 +373,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -387,7 +386,7 @@ public class AnonType_audioTrackConfigurationaudioFormatType extends org.apache.
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLanguage() {
+    public AnonType_audioTrackConfigurationaudioFormatType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;

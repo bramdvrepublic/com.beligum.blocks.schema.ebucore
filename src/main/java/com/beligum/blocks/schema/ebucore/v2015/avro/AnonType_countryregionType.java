@@ -3,11 +3,10 @@
  * 
  * DO NOT EDIT DIRECTLY
  */
-package com.beligum.blocks.schema.ebucore.v2015.avro;  
 @SuppressWarnings("all")
 @org.apache.avro.specific.AvroGenerated
 public class AnonType_countryregionType extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"namespace\":\"com.beligum.blocks.schema.ebucore.v2015.avro\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"AnonType_countryregionType\",\"fields\":[{\"name\":\"typeLabel\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLabel\"},{\"name\":\"typeDefinition\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeDefinition\"},{\"name\":\"typeLink\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLink\"},{\"name\":\"typeSource\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeSource\"},{\"name\":\"typeNamespace\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeNamespace\"},{\"name\":\"typeLanguage\",\"type\":[\"null\",\"string\"],\"source\":\"attribute typeLanguage\"}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
   @Deprecated public java.lang.CharSequence typeLabel;
   @Deprecated public java.lang.CharSequence typeDefinition;
@@ -153,18 +152,18 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
   }
 
   /** Creates a new AnonType_countryregionType RecordBuilder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder newBuilder() {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder();
+  public static AnonType_countryregionType.Builder newBuilder() {
+    return new AnonType_countryregionType.Builder();
   }
   
   /** Creates a new AnonType_countryregionType RecordBuilder by copying an existing Builder */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder(other);
+  public static AnonType_countryregionType.Builder newBuilder(AnonType_countryregionType.Builder other) {
+    return new AnonType_countryregionType.Builder(other);
   }
   
   /** Creates a new AnonType_countryregionType RecordBuilder by copying an existing AnonType_countryregionType instance */
-  public static com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder newBuilder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType other) {
-    return new com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder(other);
+  public static AnonType_countryregionType.Builder newBuilder(AnonType_countryregionType other) {
+    return new AnonType_countryregionType.Builder(other);
   }
   
   /**
@@ -182,11 +181,11 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
 
     /** Creates a new Builder */
     private Builder() {
-      super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.SCHEMA$);
+      super(AnonType_countryregionType.SCHEMA$);
     }
     
     /** Creates a Builder by copying an existing Builder */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder other) {
+    private Builder(AnonType_countryregionType.Builder other) {
       super(other);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
@@ -215,8 +214,8 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Creates a Builder by copying an existing AnonType_countryregionType instance */
-    private Builder(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType other) {
-            super(com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.SCHEMA$);
+    private Builder(AnonType_countryregionType other) {
+            super(AnonType_countryregionType.SCHEMA$);
       if (isValidValue(fields()[0], other.typeLabel)) {
         this.typeLabel = data().deepCopy(fields()[0].schema(), other.typeLabel);
         fieldSetFlags()[0] = true;
@@ -249,7 +248,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeLabel(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeLabel(java.lang.CharSequence value) {
       validate(fields()[0], value);
       this.typeLabel = value;
       fieldSetFlags()[0] = true;
@@ -262,7 +261,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeLabel' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeLabel() {
+    public AnonType_countryregionType.Builder clearTypeLabel() {
       typeLabel = null;
       fieldSetFlags()[0] = false;
       return this;
@@ -274,7 +273,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeDefinition(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeDefinition(java.lang.CharSequence value) {
       validate(fields()[1], value);
       this.typeDefinition = value;
       fieldSetFlags()[1] = true;
@@ -287,7 +286,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeDefinition' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeDefinition() {
+    public AnonType_countryregionType.Builder clearTypeDefinition() {
       typeDefinition = null;
       fieldSetFlags()[1] = false;
       return this;
@@ -299,7 +298,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeLink(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeLink(java.lang.CharSequence value) {
       validate(fields()[2], value);
       this.typeLink = value;
       fieldSetFlags()[2] = true;
@@ -312,7 +311,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeLink' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeLink() {
+    public AnonType_countryregionType.Builder clearTypeLink() {
       typeLink = null;
       fieldSetFlags()[2] = false;
       return this;
@@ -324,7 +323,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeSource(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeSource(java.lang.CharSequence value) {
       validate(fields()[3], value);
       this.typeSource = value;
       fieldSetFlags()[3] = true;
@@ -337,7 +336,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeSource' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeSource() {
+    public AnonType_countryregionType.Builder clearTypeSource() {
       typeSource = null;
       fieldSetFlags()[3] = false;
       return this;
@@ -349,7 +348,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeNamespace(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeNamespace(java.lang.CharSequence value) {
       validate(fields()[4], value);
       this.typeNamespace = value;
       fieldSetFlags()[4] = true;
@@ -362,7 +361,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeNamespace' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeNamespace() {
+    public AnonType_countryregionType.Builder clearTypeNamespace() {
       typeNamespace = null;
       fieldSetFlags()[4] = false;
       return this;
@@ -374,7 +373,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Sets the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder setTypeLanguage(java.lang.CharSequence value) {
+    public AnonType_countryregionType.Builder setTypeLanguage(java.lang.CharSequence value) {
       validate(fields()[5], value);
       this.typeLanguage = value;
       fieldSetFlags()[5] = true;
@@ -387,7 +386,7 @@ public class AnonType_countryregionType extends org.apache.avro.specific.Specifi
     }
     
     /** Clears the value of the 'typeLanguage' field */
-    public com.beligum.blocks.schema.ebucore.v2015.avro.AnonType_countryregionType.Builder clearTypeLanguage() {
+    public AnonType_countryregionType.Builder clearTypeLanguage() {
       typeLanguage = null;
       fieldSetFlags()[5] = false;
       return this;
