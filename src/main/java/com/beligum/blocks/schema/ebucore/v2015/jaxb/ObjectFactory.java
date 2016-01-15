@@ -13,8 +13,7 @@ import javax.xml.bind.annotation.XmlElementDecl;
 import javax.xml.bind.annotation.XmlIDREF;
 import javax.xml.bind.annotation.XmlRegistry;
 import javax.xml.namespace.QName;
-import java.lang.*;
-import java.lang.Float;
+
 
 /**
  * This object contains factory methods for each 
@@ -805,18 +804,18 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link java.lang.Boolean }
+     * Create an instance of {@link Boolean }
      * 
      */
-    public java.lang.Boolean createBoolean() {
-        return new java.lang.Boolean();
+    public Boolean createBoolean() {
+        return new Boolean();
     }
 
     /**
-     * Create an instance of {@link java.lang.Float }
+     * Create an instance of {@link Float }
      * 
      */
-    public java.lang.Float createFloat() {
+    public Float createFloat() {
         return new Float();
     }
 

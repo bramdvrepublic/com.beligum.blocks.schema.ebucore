@@ -8,15 +8,9 @@
 
 package com.beligum.blocks.schema.ebucore.v2015.jaxb;
 
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import com.beligum.blocks.schema.dublincore.v2002.ElementType;
 
 
 /**
@@ -59,7 +53,7 @@ public class IdentifierType {
 
     @XmlElement(namespace = "http://purl.org/dc/elements/1.1/", required = true)
     protected ElementType identifier;
-    protected EntityType attributor;
+    protected com.beligum.blocks.schema.ebucore.v2015.jaxb.EntityType attributor;
     @XmlAttribute(name = "note")
     protected java.lang.String note;
     @XmlAttribute(name = "formatLabel")
@@ -127,7 +121,7 @@ public class IdentifierType {
      *     {@link EntityType }
      *     
      */
-    public EntityType getAttributor() {
+    public com.beligum.blocks.schema.ebucore.v2015.jaxb.EntityType getAttributor() {
         return attributor;
     }
 
@@ -139,7 +133,7 @@ public class IdentifierType {
      *     {@link EntityType }
      *     
      */
-    public void setAttributor(EntityType value) {
+    public void setAttributor(com.beligum.blocks.schema.ebucore.v2015.jaxb.EntityType value) {
         this.attributor = value;
     }
 

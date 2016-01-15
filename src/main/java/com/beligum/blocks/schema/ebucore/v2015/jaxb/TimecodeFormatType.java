@@ -8,18 +8,12 @@
 
 package com.beligum.blocks.schema.ebucore.v2015.jaxb;
 
-import java.lang.*;
+import javax.xml.bind.annotation.*;
+import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
+import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import java.lang.Boolean;
 import java.util.ArrayList;
 import java.util.List;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 
 /**
@@ -81,7 +75,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 })
 public class TimecodeFormatType {
 
-    protected List<TimeType> timecodeStart;
+    protected List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TimeType> timecodeStart;
     protected List<TimecodeFormatType.TimecodeTrack> timecodeTrack;
     protected List<java.lang.String> technicalAttributeString;
     protected List<Int8> technicalAttributeByte;
@@ -93,10 +87,10 @@ public class TimecodeFormatType {
     protected List<UInt32> technicalAttributeUnsignedInteger;
     protected List<UInt64> technicalAttributeUnsignedLong;
     protected List<java.lang.Boolean> technicalAttributeBoolean;
-    protected List<com.beligum.blocks.schema.ebucore.v2015.Float> technicalAttributeFloat;
+    protected List<com.beligum.blocks.schema.ebucore.v2015.jaxb.Float> technicalAttributeFloat;
     @XmlElement(defaultValue = "1")
-    protected List<TechnicalAttributeRationalType> technicalAttributeRational;
-    protected List<TechnicalAttributeUriType> technicalAttributeUri;
+    protected List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeRationalType> technicalAttributeRational;
+    protected List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeUriType> technicalAttributeUri;
     protected List<Comment> comment;
     @XmlAttribute(name = "timecodeFormatId")
     @XmlSchemaType(name = "anyURI")
@@ -133,9 +127,9 @@ public class TimecodeFormatType {
      * 
      * 
      */
-    public List<TimeType> getTimecodeStart() {
+    public List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TimeType> getTimecodeStart() {
         if (timecodeStart == null) {
-            timecodeStart = new ArrayList<TimeType>();
+            timecodeStart = new ArrayList<com.beligum.blocks.schema.ebucore.v2015.jaxb.TimeType>();
         }
         return this.timecodeStart;
     }
@@ -477,13 +471,13 @@ public class TimecodeFormatType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link com.beligum.blocks.schema.ebucore.v2015.Float }
+     * {@link com.beligum.blocks.schema.ebucore.v2015.jaxb.Float }
      * 
      * 
      */
-    public List<com.beligum.blocks.schema.ebucore.v2015.Float> getTechnicalAttributeFloat() {
+    public List<com.beligum.blocks.schema.ebucore.v2015.jaxb.Float> getTechnicalAttributeFloat() {
         if (technicalAttributeFloat == null) {
-            technicalAttributeFloat = new ArrayList<com.beligum.blocks.schema.ebucore.v2015.Float>();
+            technicalAttributeFloat = new ArrayList<com.beligum.blocks.schema.ebucore.v2015.jaxb.Float>();
         }
         return this.technicalAttributeFloat;
     }
@@ -510,9 +504,9 @@ public class TimecodeFormatType {
      * 
      * 
      */
-    public List<TechnicalAttributeRationalType> getTechnicalAttributeRational() {
+    public List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeRationalType> getTechnicalAttributeRational() {
         if (technicalAttributeRational == null) {
-            technicalAttributeRational = new ArrayList<TechnicalAttributeRationalType>();
+            technicalAttributeRational = new ArrayList<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeRationalType>();
         }
         return this.technicalAttributeRational;
     }
@@ -539,9 +533,9 @@ public class TimecodeFormatType {
      * 
      * 
      */
-    public List<TechnicalAttributeUriType> getTechnicalAttributeUri() {
+    public List<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeUriType> getTechnicalAttributeUri() {
         if (technicalAttributeUri == null) {
-            technicalAttributeUri = new ArrayList<TechnicalAttributeUriType>();
+            technicalAttributeUri = new ArrayList<com.beligum.blocks.schema.ebucore.v2015.jaxb.TechnicalAttributeUriType>();
         }
         return this.technicalAttributeUri;
     }

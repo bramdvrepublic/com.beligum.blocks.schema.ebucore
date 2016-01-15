@@ -16,7 +16,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
-import com.beligum.blocks.schema.dublincore.v2002.ElementType;
+import com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType;
 
 
 /**

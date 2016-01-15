@@ -8,17 +8,11 @@
 
 package com.beligum.blocks.schema.ebucore.v2015.jaxb;
 
-import java.util.ArrayList;
-import java.util.List;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlValue;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -90,7 +84,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 public class RightsType {
 
     @XmlElement(namespace = "http://purl.org/dc/elements/1.1/")
-    protected List<com.beligum.blocks.schema.dublincore.v2002.ElementType> rights;
+    protected List<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType> rights;
     @XmlSchemaType(name = "anyURI")
     protected java.lang.String rightsLink;
     protected List<EntityType> rightsHolder;
@@ -147,13 +141,13 @@ public class RightsType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link com.beligum.blocks.schema.dublincore.v2002.ElementType }
+     * {@link com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType }
      * 
      * 
      */
-    public List<com.beligum.blocks.schema.dublincore.v2002.ElementType> getRights() {
+    public List<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType> getRights() {
         if (rights == null) {
-            rights = new ArrayList<com.beligum.blocks.schema.dublincore.v2002.ElementType>();
+            rights = new ArrayList<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType>();
         }
         return this.rights;
     }

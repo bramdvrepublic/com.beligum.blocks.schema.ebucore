@@ -8,16 +8,11 @@
 
 package com.beligum.blocks.schema.ebucore.v2015.jaxb;
 
-import java.util.ArrayList;
-import java.util.List;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlAttribute;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlSchemaType;
-import javax.xml.bind.annotation.XmlType;
+import javax.xml.bind.annotation.*;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import java.util.ArrayList;
+import java.util.List;
 
 
 /**
@@ -65,7 +60,7 @@ import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 public class SubjectType {
 
     @XmlElement(namespace = "http://purl.org/dc/elements/1.1/")
-    protected List<com.beligum.blocks.schema.dublincore.v2002.ElementType> subject;
+    protected List<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType> subject;
     @XmlSchemaType(name = "anyURI")
     protected java.lang.String subjectCode;
     protected List<ElementType> subjectDefinition;
@@ -106,13 +101,13 @@ public class SubjectType {
      * 
      * <p>
      * Objects of the following type(s) are allowed in the list
-     * {@link com.beligum.blocks.schema.dublincore.v2002.ElementType }
+     * {@link com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType }
      * 
      * 
      */
-    public List<com.beligum.blocks.schema.dublincore.v2002.ElementType> getSubject() {
+    public List<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType> getSubject() {
         if (subject == null) {
-            subject = new ArrayList<com.beligum.blocks.schema.dublincore.v2002.ElementType>();
+            subject = new ArrayList<com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType>();
         }
         return this.subject;
     }

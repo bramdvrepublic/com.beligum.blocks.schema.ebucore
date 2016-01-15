@@ -33,14 +33,14 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "elementType")
 @XmlSeeAlso({
-    ContactDetailsType.StageName.class,
-    OrganisationDepartmentType.class,
-    CompoundNameType.class,
-    VersionType.class,
+    com.beligum.blocks.schema.ebucore.v2015.jaxb.ContactDetailsType.StageName.class,
+    com.beligum.blocks.schema.ebucore.v2015.jaxb.OrganisationDepartmentType.class,
+    com.beligum.blocks.schema.ebucore.v2015.jaxb.CompoundNameType.class,
+    com.beligum.blocks.schema.ebucore.v2015.jaxb.VersionType.class,
     Comment.class
 })
 public class ElementType
-                extends com.beligum.blocks.schema.dublincore.v2002.ElementType
+                extends com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType
 {
 
 

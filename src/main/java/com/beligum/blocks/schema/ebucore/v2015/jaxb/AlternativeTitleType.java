@@ -20,7 +20,7 @@ import javax.xml.bind.annotation.XmlType;
 import javax.xml.bind.annotation.adapters.CollapsedStringAdapter;
 import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.datatype.XMLGregorianCalendar;
-import com.beligum.blocks.schema.dublincore.v2002.ElementType;
+import com.beligum.blocks.schema.dublincore.v2002.jaxb.ElementType;
 
 
 /**
