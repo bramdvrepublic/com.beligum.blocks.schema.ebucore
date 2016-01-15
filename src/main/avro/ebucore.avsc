@@ -1,6 +1,7 @@
 {
   "type" : "record",
   "name" : "type30",
+  "namespace": "com.beligum.blocks.schema.ebucore.v2015.avro",
   "doc" : "",
   "fields" : [ {
     "name" : "audioObject",
