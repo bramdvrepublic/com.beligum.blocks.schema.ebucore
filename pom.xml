@@ -2,23 +2,22 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
     <groupId>com.beligum.blocks</groupId>
     <artifactId>blocks-schema-ebucore</artifactId>
-    <version>0.0.5-SNAPSHOT</version>
+    <version>1.6-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <url>http://www.beligum.com</url>
 
     <parent>
         <groupId>com.beligum</groupId>
-        <artifactId>parent-web</artifactId>
+        <artifactId>parent-root</artifactId>
         <version>1.0.0</version>
     </parent>
 
     <properties>
         <jdkLevel>1.7</jdkLevel>
-        <git.url.repo.name>${git.url.repo.prefix}blocks.schema.ebucore</git.url.repo.name>
+        <git.url.repo.name>${git.url.repo.prefix}blocks.com.beligum.blocks.schema.schema.ebucore</git.url.repo.name>
 
         <avro.version>1.7.7</avro.version>
     </properties>
@@ -33,10 +32,98 @@
             <artifactId>avro</artifactId>
             <version>${avro.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.beligum.blocks</groupId>
+            <artifactId>blocks-schema-dublincore-simple</artifactId>
+            <version>2002.12.12</version>
+        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>mpigott</groupId>-->
+            <!--<artifactId>avro-to-xml</artifactId>-->
+            <!--<version>0.0.1-SNAPSHOT</version>-->
+        <!--</dependency>-->
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-avro</artifactId>
+            <version>2.4.3</version>
+        </dependency>
     </dependencies>
 
     <build>
         <plugins>
+            <!-- Wrapper around the JAXB Schema Compiler (XJC). See https://github.com/highsource/maven-jaxb2-plugin-->
+            <!-- For namespace prefixing, see https://java.net/projects/jaxb2-commons/pages/Namespace-prefix -->
+            <!-- For config, see https://github.com/highsource/maven-jaxb2-plugin/wiki/Configuration-Cheat-Sheet -->
+            <plugin>
+                <groupId>org.jvnet.jaxb2.maven2</groupId>
+                <artifactId>maven-jaxb2-plugin</artifactId>
+                <version>0.13.1</version>
+                <!-- don't auto-generate -->
+                <!--<executions>-->
+                <!--<execution>-->
+                <!--<goals>-->
+                <!--<goal>generate</goal>-->
+                <!--</goals>-->
+                <!--</execution>-->
+                <!--</executions>-->
+                <configuration>
+                    <!--<generateDirectory>${project.build.directory}/generated-sources/jaxb</generateDirectory>-->
+                    <generateDirectory>${project.basedir}/src/main/java</generateDirectory>
+                    <!-- package names are controlled by bindings.x
+                    ml instead -->
+                    <!--<generatePackage>com.beligum.blocks.com.beligum.blocks.schema.schema.ebucore.jaxb</generatePackage>-->
+                    <removeOldOutput>true</removeOldOutput>
+
+                    <schemaDirectory>src/main/resources</schemaDirectory>
+                    <schemaIncludes>
+                        <include>xml.xsd</include>
+                        <include>simpledc20021212.xsd</include>
+                        <include>ebucore.xsd</include>
+                    </schemaIncludes>
+                    <bindingDirectory>src/main/resources</bindingDirectory>
+                    <bindingIncludes>
+                        <include>bindings.xml</include>
+                    </bindingIncludes>
+                    <args>
+                        <arg>-extension</arg>
+                        <arg>-Xnamespace-prefix</arg>
+                    </args>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.jvnet.jaxb2_commons</groupId>
+                        <artifactId>jaxb2-namespace-prefix</artifactId>
+                        <version>1.1</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
+            <plugin>
+                <groupId>com.nokia.util.avro</groupId>
+                <artifactId>schemagen-plugin</artifactId>
+                <version>0.4-SNAPSHOT</version>
+                <configuration>
+                    <outputDirectory>${project.basedir}/src/main/nokia</outputDirectory>
+                    <clearOutputDirectory>true</clearOutputDirectory>
+
+                    <!--<packageName>my.generated</packageName>-->
+                    <!--<bindingFiles>-->
+                        <!--<file>src/main/resources/bindings.xml</file>-->
+                    <!--</bindingFiles>-->
+                    <schemaFiles>
+                        <schema>src/main/resources/xml.xsd</schema>
+                        <schema>src/main/resources/simpledc20021212.xsd</schema>
+                        <schema>src/main/resources/ebucore.xsd</schema>
+                    </schemaFiles>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.jvnet.jaxb2_commons</groupId>
+                        <artifactId>jaxb2-namespace-prefix</artifactId>
+                        <version>1.1</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.avro</groupId>
@@ -44,46 +131,16 @@
                 <version>${avro.version}</version>
                 <executions>
                     <execution>
-                        <!-- don't auto-generate -->
                         <!--<phase>generate-sources</phase>-->
                         <goals>
                             <goal>schema</goal>
                         </goals>
                         <configuration>
                             <sourceDirectory>${project.basedir}/src/main/avro/</sourceDirectory>
-                            <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
+                            <outputDirectory>${project.build.directory}/generated-sources/avro</outputDirectory>
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-
-            <!-- Wrapper around the JAXB Schema Compiler (XJC). See https://github.com/highsource/maven-jaxb2-plugin-->
-            <!-- Note: ebucore.xsd scheme -->
-            <plugin>
-                <groupId>org.jvnet.jaxb2.maven2</groupId>
-                <artifactId>maven-jaxb2-plugin</artifactId>
-                <version>0.12.3</version>
-                <!-- don't auto-generate -->
-                <!--<executions>-->
-                    <!--<execution>-->
-                        <!--<goals>-->
-                            <!--<goal>generate</goal>-->
-                        <!--</goals>-->
-                    <!--</execution>-->
-                <!--</executions>-->
-                <!-- See https://github.com/highsource/maven-jaxb2-plugin/wiki/Configuration-Cheat-Sheet -->
-                <configuration>
-                    <generateDirectory>${basedir}/src/main/java</generateDirectory>
-                    <!--<generatePackage>com.beligum.blocks.schema.ebucore.v2015</generatePackage>-->
-                    <removeOldOutput>true</removeOldOutput>
-                    <!--<verbose>true</verbose>-->
-
-                    <schemaDirectory>src/main/resources</schemaDirectory>
-                    <schemaIncludes>
-                        <include>ebucore.xsd</include>
-                    </schemaIncludes>
-
-                </configuration>
             </plugin>
         </plugins>
     </build>

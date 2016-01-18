@@ -1,28 +1,8 @@
-<urn:audioProgramme audioProgrammeID="string" audioProgrammeName="string" audioProgrammeLanguage="string" start="string" end="string" typeLabel="string" typeDefinition="string" typeLink="http://www.company.org/cum/sonoras" typeSource="string" typeNamespace="string" typeLanguage="string" formatLabel="string" formatDefinition="string" formatLink="http://www.any.org/ventos/verrantque" formatSource="string" formatNamespace="string" formatLanguage="string" maxDuckingDepth="1.5E2" xmlns:urn="urn:ebu:metadata-schema:ebuCore_2015">
-  <!--Zero or more repetitions:-->
-  <urn:audioContentIDRef>string</urn:audioContentIDRef>
-  <!--Optional:-->
-  <urn:loudnessMetadata loudnessMethod="string" loudnessRecType="string" loudnessCorrectionType="string">
-    <!--Optional:-->
-    <urn:integratedLoudness>1.5E2</urn:integratedLoudness>
-    <!--Optional:-->
-    <urn:loudnessRange>1.5E2</urn:loudnessRange>
-    <!--Optional:-->
-    <urn:maxTruePeak>1.5E2</urn:maxTruePeak>
-    <!--Optional:-->
-    <urn:maxMomentary>1.5E2</urn:maxMomentary>
-    <!--Optional:-->
-    <urn:maxShortTerm>1.5E2</urn:maxShortTerm>
-    <!--Optional:-->
-    <urn:dialogLoudness>1.5E2</urn:dialogLoudness>
-  </urn:loudnessMetadata>
-  <!--Optional:-->
-  <urn:audioProgrammeReferenceScreen>
-    <!--Optional:-->
-    <urn:aspectRatio>1.5E2</urn:aspectRatio>
-    <!--Optional:-->
-    <urn:screenCentrePosition azimuth="1.5E2" elevation="1.5E2" distance="1.5E2" X="1.5E2" Y="1.5E2" Z="1.5E2">1.5E2</urn:screenCentrePosition>
-    <!--Optional:-->
-    <urn:screenWidth azimuth="1.5E2" X="1.5E2">1.5E2</urn:screenWidth>
-  </urn:audioProgrammeReferenceScreen>
-</urn:audioProgramme>
+<?xml version="1.0" encoding="UTF-8"?>
+<ebucore:ebuCoreMain xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ebucore="urn:ebu:metadata-schema:ebuCore_2015" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schema="schema0" version="1.6" xml:lang="en-US">
+    <ebucore:coreMetadata>
+        <ebucore:title note="note0">
+            <dc:title xml:lang="en">Raiders of the Lost Ark</dc:title>
+        </ebucore:title>
+    </ebucore:coreMetadata>
+</ebucore:ebuCoreMain>

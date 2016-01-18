@@ -1,4 +1,4 @@
-Original schema file downloaded from here:
+Original com.beligum.blocks.schema.schema file downloaded from here:
 https://tech.ebu.ch/docs/tech/tech3293.pdf
 --> https://www.ebu.ch/metadata/schemas/EBUCore/ebucore.zip
 (see https://tech.ebu.ch/MetadataEbuCore for overview)
@@ -6,18 +6,59 @@ https://tech.ebu.ch/docs/tech/tech3293.pdf
 To generate, run the jaxb2:generate plugin, or from command line:
   mvn clean org.jvnet.jaxb2.maven2:maven-jaxb2-plugin:0.12.3:generate
 
+Note: didn't succeed to generate the sources using the remote imports from ebucore.xsd, so after downloading (and unpacking) the schemas,
+change the two imports at the top of ebucore.xsd to their local (./xml.xsd and ./simpledc20021212.xsd) variants (also better to always use local versions)
+
 Note: because of the complexity of the xsd, it wasn't possible to set the generatePackage config in the pom.xml,
 so I generated the packages without and renamed them later to their final names you see here.
+--> Update: now done using bindings.xml (see pom.xml)
 
-To generate the avro schema, this is what I did:
+After generating the classes automatically, I added one manual modification to be able to serialize structures with namespace prefixes
+  see here: https://github.com/mikrosimage/jebu-core/blob/master/src/main/java/ebu/metadata_schema/ebucore_2014/package-info.java (the xmlns part)
+in both ebucore and dublincore package-info.java
+--> Update: now done using bindings.xml (see pom.xml)
+
+Note that we don't need to include the generated dublin core classes, because they're importer through a maven dependency
+
+To generate the avro com.beligum.blocks.schema.schema, this is what I did:
+
+# Method 1: using xml-avro (best results: strongest typing)
   see https://github.com/stealthly/xml-avro
+  cd 3rdparty
   git clone git@github.com:stealthly/xml-avro.git
-    (or see 3rd party folder)
   cd xml-avro
-  generate XML files from both (ebucore and dc core) schemas, doesn't matter which field, but for dc core, don't take an abstract one
-    use IntelliJ for this: open the schema, then Tools->XML Actions->Generate XML
+  generate XML files from both (ebucore and dc core) schemas, doesn't matter which field, but for dc core, don't take an abstract one (for ebucore, the root element didn't work, took another simpler one)
+    use IntelliJ for this: open the com.beligum.blocks.schema.schema, then Tools->XML Actions->Generate XML
   edit the schemas so the imports are absolute, eg:
-    <import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/xml.xsd" />
+    <import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.com.beligum.blocks.schema.schema.ebucore/src/main/resources/xml.xsd" />
+  compile:
+    mvn package
   run the converter:
     java -jar target/xml-avro*.jar /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd.xml
   copy ebucore.avsc to src/main/avro/ebucore.avsc
+
+# Method 2: using xml-to-avro (second best results)
+  see https://github.com/mikepigott/xml-to-avro
+  cd 3rdparty
+  git clone https://github.com/mikepigott/xml-to-avro
+  Especially note these:
+    https://issues.apache.org/jira/browse/AVRO-457
+    https://docs.google.com/document/d/1BkuMPplmgd4imrU-Fv9RhVsubWMFtmI0mcRzcDAWXD4/edit
+  Had to modify ebucore.xsd quite a bit, see ebucore_adjusted.xsd, eg. add string types to elements that didn't have any
+  In the end, successfully generated the avro schema with a little piece of code, see XsdToAvsc.xsdToAvsc()
+  Results were good, but after expecting the schema for ebucore, it's not really type save (in higher levels)
+
+# Method 3: using the (nokia) Avro-Schema-Generator (not working without hacking the code)
+  see https://github.com/nokia/Avro-Schema-Generator and http://www.infoq.com/articles/AVROSchemaJAXB
+  cd 3rdparty
+  git clone git@github.com:nokia/Avro-Schema-Generator.git
+  --> couldn't get this to work for ebucore (worked for Dublin Core) without seriously hacking the code
+     had to modify SchemagenHelper.avroFromType() (line 233; javax.xml.bind.JAXBElement<java.lang.Object>) because not everything was parameterized as Object
+     had to modify SchemagenHelper.avroFromSpecialTypes() (line 275; more before return) because of javax.xml.datatype.Duration, also see https://github.com/nokia/Avro-Schema-Generator/issues/3
+     --> bottom line: gave up
+
+# Method 4: using jackson-dataformat-avro
+  see https://github.com/FasterXML/jackson-dataformat-avro
+  --> wrote some code to test the "Generating Avro Schema from POJO definition" starting from the generated JAXB beans, but stumbled on the 'Any' type not supported, gave up
+      Note that this could have been a solution maybe; http://stackoverflow.com/questions/28666618/can-apache-avro-framework-handle-parameterized-types-during-serialization
+
