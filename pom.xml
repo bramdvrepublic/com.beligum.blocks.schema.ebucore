@@ -4,7 +4,7 @@
 
     <groupId>com.beligum.blocks</groupId>
     <artifactId>blocks-schema-ebucore</artifactId>
-    <version>1.6</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <url>http://www.beligum.com</url>
@@ -29,14 +29,15 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.beligum.blocks</groupId>
+            <artifactId>blocks-schema-dublincore</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <dependency>
             <groupId>org.apache.avro</groupId>
             <artifactId>avro</artifactId>
             <version>${avro.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.beligum.blocks</groupId>
-            <artifactId>blocks-schema-dublincore-simple</artifactId>
-            <version>20021212</version>
         </dependency>
         <!--<dependency>-->
             <!--<groupId>mpigott</groupId>-->
