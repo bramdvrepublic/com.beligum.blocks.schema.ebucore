@@ -1,5 +1,7 @@
-import com.beligum.blocks.schema.ebucore.v1_6.jaxb.DescriptionType;
-import com.beligum.blocks.schema.ebucore.v1_6.jaxb.EbuCoreMainType;
+import com.beligum.blocks.schema.ebucore.v1_6.jaxb.*;
+import com.fasterxml.jackson.annotation.JsonAutoDetect;
+import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
@@ -25,6 +27,7 @@ import org.jsonschema2pojo.rules.RuleFactory;
 
 import java.io.File;
 import java.io.FileWriter;
+import java.lang.String;
 import java.net.URL;
 
 /**
@@ -211,6 +214,38 @@ public class XsdToAvsc
         mapper.generate(codeModel, "ClassName", "com.example", source);
 
         codeModel.build(new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/json-pojo"));
+    }
+    public static void testJsonSerialization() throws Exception
+    {
+        // see https://github.com/mikrosimage/jebu-core
+        final ObjectFactory ebuCoreFactory = new ObjectFactory();
+        final EbuCoreMainType ebuCore = ebuCoreFactory.createEbuCoreMainType();
+        final CoreMetadataType ebuCoreMetaData = ebuCoreFactory.createCoreMetadataType();
+        ebuCore.setCoreMetadata(ebuCoreMetaData);
+
+        final PartType editorialMetadataPart = ebuCoreFactory.createPartType();
+        editorialMetadataPart.setPartName("EditorialMetadata");
+        final TitleType titleType = ebuCoreFactory.createTitleType();
+        titleType.setTypeLabel("ProgramTitle");
+        final ElementType titleElementType = ebuCoreFactory.createElementType();
+        titleElementType.setLang("fr");
+        titleElementType.setValue("Titre du pogramme");
+        titleType.getTitle().add(titleElementType);
+        editorialMetadataPart.getTitle().add(titleType);
+        ebuCoreMetaData.getPart().add(editorialMetadataPart);
+
+        ObjectMapper mapper = new ObjectMapper();
+        //ObjectMapper mapper = new DefaultObjectMapper();
+        mapper.setSerializationInclusion(JsonInclude.Include.NON_EMPTY);
+        mapper.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.NONE);
+        mapper.setVisibility(PropertyAccessor.GETTER, JsonAutoDetect.Visibility.ANY);
+
+        mapper.setAnnotationIntrospector(new JacksonAnnotationIntrospector());
+        String json = mapper.writerWithType(ebuCore.getClass()).writeValueAsString(ebuCore);
+        System.out.println(json);
+
+        EbuCoreMainType in = mapper.reader(EbuCoreMainType.class).readValue(json);
+        System.out.println(mapper.writerWithType(in.getClass()).writeValueAsString(in));
     }
 
     //-----PROTECTED METHODS-----
