@@ -1,0 +1,12 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:com:beligum:blocks:schema:dublincore:jaxb:ElementType",
+  "properties" : {
+    "value" : {
+      "type" : "string"
+    },
+    "lang" : {
+      "type" : "string"
+    }
+  }
+}

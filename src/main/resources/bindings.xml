@@ -8,7 +8,7 @@
 
     <jxb:bindings schemaLocation="xml.xsd">
         <jxb:schemaBindings>
-            <jxb:package name="com.beligum.blocks.schema.xml.jaxb" />
+            <jxb:package name="com.beligum.blocks.schema.xml" />
         </jxb:schemaBindings>
         <jxb:bindings>
             <namespace:prefix name="xml" />
@@ -17,7 +17,7 @@
 
     <jxb:bindings schemaLocation="simpledc20021212.xsd">
         <jxb:schemaBindings>
-            <jxb:package name="com.beligum.blocks.schema.dublincore.jaxb" />
+            <jxb:package name="com.beligum.blocks.schema.dublincore.simple.v20021212.jaxb" />
         </jxb:schemaBindings>
         <jxb:bindings>
             <namespace:prefix name="dc" />
@@ -26,7 +26,7 @@
 
     <jxb:bindings schemaLocation="ebucore.xsd">
         <jxb:schemaBindings>
-            <jxb:package name="com.beligum.blocks.schema.ebucore.jaxb" />
+            <jxb:package name="com.beligum.blocks.schema.ebucore.v1_6.jaxb" />
         </jxb:schemaBindings>
         <jxb:bindings>
             <namespace:prefix name="ebucore" />

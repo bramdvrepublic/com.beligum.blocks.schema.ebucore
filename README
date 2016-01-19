@@ -35,6 +35,9 @@ To generate the avro com.beligum.blocks.schema.schema, this is what I did:
     mvn package
   run the converter:
     java -jar target/xml-avro*.jar /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd /home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.xsd.xml
+  edit ebucore.avsc to make it generate a better schema:
+    - find/replace "AnonType_" with ""
+    -
   copy ebucore.avsc to src/main/avro/ebucore.avsc
 
 # Method 2: using xml-to-avro (second best results)
@@ -62,3 +65,10 @@ To generate the avro com.beligum.blocks.schema.schema, this is what I did:
   --> wrote some code to test the "Generating Avro Schema from POJO definition" starting from the generated JAXB beans, but stumbled on the 'Any' type not supported, gave up
       Note that this could have been a solution maybe; http://stackoverflow.com/questions/28666618/can-apache-avro-framework-handle-parameterized-types-during-serialization
 
+# Method 5: see https://github.com/fge/json-schema-avro
+
+# Method 6: see https://avro.apache.org/docs/1.7.7/api/java/org/apache/avro/reflect/ReflectData.html with https://github.com/joelittlejohn/jsonschema2pojo ?
+
+# ebucore.xsd errata
+ - line 5642: <complexType name="Boolean"> had wrong (double) docs
+ - line 5523++: A technical attribute "ot" type (should be "of")
