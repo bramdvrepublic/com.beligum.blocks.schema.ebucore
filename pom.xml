@@ -17,7 +17,7 @@
 
     <properties>
         <jdkLevel>1.7</jdkLevel>
-        <git.url.repo.name>${git.url.repo.prefix}blocks.com.beligum.blocks.schema.schema.ebucore</git.url.repo.name>
+        <git.url.repo.name>${git.url.repo.prefix}blocks.schema.ebucore</git.url.repo.name>
 
         <avro.version>1.7.7</avro.version>
         <jackson.version>2.7.0</jackson.version>
