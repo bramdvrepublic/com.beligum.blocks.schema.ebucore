@@ -2,33 +2,14 @@ import com.beligum.blocks.schema.ebucore.v1_6.jaxb.*;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
-import com.fasterxml.jackson.databind.introspect.AnnotationIntrospectorPair;
 import com.fasterxml.jackson.databind.introspect.JacksonAnnotationIntrospector;
-import com.fasterxml.jackson.databind.type.TypeFactory;
-import com.fasterxml.jackson.module.jaxb.JaxbAnnotationIntrospector;
-import com.fasterxml.jackson.module.jsonSchema.JsonSchema;
-import com.fasterxml.jackson.module.jsonSchema.factories.SchemaFactoryWrapper;
-import com.github.fge.jackson.JsonLoader;
-import com.github.fge.jsonschema.core.report.ConsoleProcessingReport;
-import com.github.fge.jsonschema.core.report.LogLevel;
-import com.github.fge.jsonschema.core.report.ProcessingReport;
-import com.github.fge.jsonschema.core.tree.CanonicalSchemaTree;
-import com.github.fge.jsonschema.core.tree.SchemaTree;
-import com.github.fge.jsonschema.core.util.ValueHolder;
-import com.github.fge.jsonschema2avro.AvroWriterProcessor;
-import com.sun.codemodel.JCodeModel;
 import org.apache.avro.Schema;
 import org.apache.avro.reflect.ReflectData;
-import org.jsonschema2pojo.*;
-import org.jsonschema2pojo.rules.RuleFactory;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.lang.String;
-import java.net.URL;
 
 /**
  * Created by bram on 1/17/16.
@@ -58,7 +39,7 @@ public class XsdToAvsc
 
         //        testEbuCore();
 
-        //testAvroReflection();
+        testAvroReflection();
 
         //        testXml();
 
@@ -68,7 +49,7 @@ public class XsdToAvsc
 
         //generateJsonSchema();
 
-        jsonSchemaToAvro();
+        //jsonSchemaToAvro();
 
         //testBuildPojoFromJsonSchema();
     }
@@ -80,9 +61,9 @@ public class XsdToAvsc
 
     public static void testAvroReflection() throws Exception
     {
-        Schema avroSchema = ReflectData.get().getSchema(DescriptionType.class);
+        Schema avroSchema = ReflectData.get().getSchema(EbuCoreMainType.class);
 
-        FileWriter schemaWriter = new FileWriter(new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/avro/ebucore.avsc"));
+        FileWriter schemaWriter = new FileWriter(new File("/home/bram/temp/ebucore.avsc"));
         schemaWriter.write(avroSchema.toString(true));
         schemaWriter.flush();
         schemaWriter.close();
@@ -156,64 +137,64 @@ public class XsdToAvsc
     //    }
     public static void generateJsonSchema() throws Exception
     {
-        final File jsonSchemaFile = new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
-
-        //see http://stackoverflow.com/questions/15915971/how-to-generate-json-schema-from-a-jaxb-annotated-class
-        AnnotationIntrospectorPair introspector = new AnnotationIntrospectorPair(
-                        new JaxbAnnotationIntrospector(TypeFactory.defaultInstance()),
-                        new JacksonAnnotationIntrospector());
-
-        //http://stackoverflow.com/questions/17783909/create-json-schema-from-java-class
-        ObjectMapper objectMapper2 = new ObjectMapper();
-        objectMapper2.setAnnotationIntrospector(introspector);
-
-        //HyperSchemaFactoryWrapper visitor = new HyperSchemaFactoryWrapper();
-        SchemaFactoryWrapper visitor = new SchemaFactoryWrapper();
-        objectMapper2.acceptJsonFormatVisitor(objectMapper2.constructType(EbuCoreMainType.class), visitor);
-        JsonSchema jsonSchema2 = visitor.finalSchema();
-        if (jsonSchemaFile.exists()) {
-            jsonSchemaFile.delete();
-        }
-        //String schema = objectMapper2.writerWithDefaultPrettyPrinter().writeValueAsString(jsonSchema2);
-        ObjectWriter fileSchemaWriter = objectMapper2.writerWithDefaultPrettyPrinter();
-        fileSchemaWriter.writeValue(jsonSchemaFile, jsonSchema2);
+//        final File jsonSchemaFile = new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
+//
+//        //see http://stackoverflow.com/questions/15915971/how-to-generate-json-schema-from-a-jaxb-annotated-class
+//        AnnotationIntrospectorPair introspector = new AnnotationIntrospectorPair(
+//                        new JaxbAnnotationIntrospector(TypeFactory.defaultInstance()),
+//                        new JacksonAnnotationIntrospector());
+//
+//        //http://stackoverflow.com/questions/17783909/create-json-schema-from-java-class
+//        ObjectMapper objectMapper2 = new ObjectMapper();
+//        objectMapper2.setAnnotationIntrospector(introspector);
+//
+//        //HyperSchemaFactoryWrapper visitor = new HyperSchemaFactoryWrapper();
+//        SchemaFactoryWrapper visitor = new SchemaFactoryWrapper();
+//        objectMapper2.acceptJsonFormatVisitor(objectMapper2.constructType(EbuCoreMainType.class), visitor);
+//        JsonSchema jsonSchema2 = visitor.finalSchema();
+//        if (jsonSchemaFile.exists()) {
+//            jsonSchemaFile.delete();
+//        }
+//        //String schema = objectMapper2.writerWithDefaultPrettyPrinter().writeValueAsString(jsonSchema2);
+//        ObjectWriter fileSchemaWriter = objectMapper2.writerWithDefaultPrettyPrinter();
+//        fileSchemaWriter.writeValue(jsonSchemaFile, jsonSchema2);
     }
     public static void jsonSchemaToAvro() throws Exception
     {
-        final File jsonSchemaFile = new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
-
-        //see https://github.com/fge/json-schema-avro/blob/master/src/test/java/com/github/fge/jsonschema2avro/AvroWriterProcessorTest.java
-        JsonNode jsonSchema = JsonLoader.fromFile(jsonSchemaFile);
-        //jsonSchema = JsonLoader.fromString("{\"type\":\"object\",\"additionalProperties\":{\"type\":\"string\"}}");
-
-        final SchemaTree tree = new CanonicalSchemaTree(jsonSchema);
-        //final SchemaTree tree = new CanonicalSchemaTree(SchemaKey.forJsonRef(JsonRef.emptyRef()), jsonSchema);
-        final ValueHolder<SchemaTree> input = ValueHolder.hold("schema", tree);
-        AvroWriterProcessor processor = new AvroWriterProcessor();
-
-        ProcessingReport report = new ConsoleProcessingReport(LogLevel.DEBUG);
-        Schema jsonSchemaToAvro = processor.process(report, input).getValue();
-
-        FileWriter schemaWriter = new FileWriter("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.avsc");
-        schemaWriter.write(jsonSchemaToAvro.toString(true));
+//        final File jsonSchemaFile = new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
+//
+//        //see https://github.com/fge/json-schema-avro/blob/master/src/test/java/com/github/fge/jsonschema2avro/AvroWriterProcessorTest.java
+//        JsonNode jsonSchema = JsonLoader.fromFile(jsonSchemaFile);
+//        //jsonSchema = JsonLoader.fromString("{\"type\":\"object\",\"additionalProperties\":{\"type\":\"string\"}}");
+//
+//        final SchemaTree tree = new CanonicalSchemaTree(jsonSchema);
+//        //final SchemaTree tree = new CanonicalSchemaTree(SchemaKey.forJsonRef(JsonRef.emptyRef()), jsonSchema);
+//        final ValueHolder<SchemaTree> input = ValueHolder.hold("schema", tree);
+//        AvroWriterProcessor processor = new AvroWriterProcessor();
+//
+//        ProcessingReport report = new ConsoleProcessingReport(LogLevel.DEBUG);
+//        Schema jsonSchemaToAvro = processor.process(report, input).getValue();
+//
+//        FileWriter schemaWriter = new FileWriter("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.avsc");
+//        schemaWriter.write(jsonSchemaToAvro.toString(true));
     }
     public static void testBuildPojoFromJsonSchema() throws Exception
     {
-        JCodeModel codeModel = new JCodeModel();
-
-        URL source = new URL("file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
-
-        GenerationConfig config = new DefaultGenerationConfig() {
-            @Override
-            public boolean isGenerateBuilders() { // set config option by overriding method
-                return true;
-            }
-        };
-
-        SchemaMapper mapper = new SchemaMapper(new RuleFactory(config, new Jackson2Annotator(), new SchemaStore()), new SchemaGenerator());
-        mapper.generate(codeModel, "ClassName", "com.example", source);
-
-        codeModel.build(new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/json-pojo"));
+//        JCodeModel codeModel = new JCodeModel();
+//
+//        URL source = new URL("file:///home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/ebucore.json");
+//
+//        GenerationConfig config = new DefaultGenerationConfig() {
+//            @Override
+//            public boolean isGenerateBuilders() { // set config option by overriding method
+//                return true;
+//            }
+//        };
+//
+//        SchemaMapper mapper = new SchemaMapper(new RuleFactory(config, new Jackson2Annotator(), new SchemaStore()), new SchemaGenerator());
+//        mapper.generate(codeModel, "ClassName", "com.example", source);
+//
+//        codeModel.build(new File("/home/bram/Projects/Workspace/idea/com.beligum.blocks.schema.ebucore/src/main/resources/json-pojo"));
     }
     public static void testJsonSerialization() throws Exception
     {

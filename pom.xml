@@ -4,7 +4,7 @@
 
     <groupId>com.beligum.blocks</groupId>
     <artifactId>blocks-schema-ebucore</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <url>http://www.beligum.com</url>
@@ -70,17 +70,17 @@
             <!--<artifactId>json-schema-validator</artifactId>-->
             <!--<version>2.2.6</version>-->
         <!--</dependency>-->
-        <dependency>
-            <groupId>com.github.fge</groupId>
-            <artifactId>json-schema-avro</artifactId>
-            <version>0.1.5-SNAPSHOT</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>com.github.fge</groupId>-->
+            <!--<artifactId>json-schema-avro</artifactId>-->
+            <!--<version>0.1.5-SNAPSHOT</version>-->
+        <!--</dependency>-->
 
-        <dependency>
-            <groupId>org.jsonschema2pojo</groupId>
-            <artifactId>jsonschema2pojo-core</artifactId>
-            <version>0.4.18</version>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.jsonschema2pojo</groupId>-->
+            <!--<artifactId>jsonschema2pojo-core</artifactId>-->
+            <!--<version>0.4.18</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
@@ -132,32 +132,32 @@
                 </dependencies>
             </plugin>
 
-            <plugin>
-                <groupId>com.nokia.util.avro</groupId>
-                <artifactId>schemagen-plugin</artifactId>
-                <version>0.4-SNAPSHOT</version>
-                <configuration>
-                    <outputDirectory>${project.basedir}/src/main/nokia</outputDirectory>
-                    <clearOutputDirectory>true</clearOutputDirectory>
+            <!--<plugin>-->
+                <!--<groupId>com.nokia.util.avro</groupId>-->
+                <!--<artifactId>schemagen-plugin</artifactId>-->
+                <!--<version>0.4-SNAPSHOT</version>-->
+                <!--<configuration>-->
+                    <!--<outputDirectory>${project.basedir}/src/main/nokia</outputDirectory>-->
+                    <!--<clearOutputDirectory>true</clearOutputDirectory>-->
 
-                    <!--<packageName>my.generated</packageName>-->
-                    <!--<bindingFiles>-->
-                        <!--<file>src/main/resources/bindings.xml</file>-->
-                    <!--</bindingFiles>-->
-                    <schemaFiles>
-                        <schema>src/main/resources/xml.xsd</schema>
-                        <schema>src/main/resources/simpledc20021212.xsd</schema>
-                        <schema>src/main/resources/ebucore.xsd</schema>
-                    </schemaFiles>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.jvnet.jaxb2_commons</groupId>
-                        <artifactId>jaxb2-namespace-prefix</artifactId>
-                        <version>1.1</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
+                    <!--&lt;!&ndash;<packageName>my.generated</packageName>&ndash;&gt;-->
+                    <!--&lt;!&ndash;<bindingFiles>&ndash;&gt;-->
+                        <!--&lt;!&ndash;<file>src/main/resources/bindings.xml</file>&ndash;&gt;-->
+                    <!--&lt;!&ndash;</bindingFiles>&ndash;&gt;-->
+                    <!--<schemaFiles>-->
+                        <!--<schema>src/main/resources/xml.xsd</schema>-->
+                        <!--<schema>src/main/resources/simpledc20021212.xsd</schema>-->
+                        <!--<schema>src/main/resources/ebucore.xsd</schema>-->
+                    <!--</schemaFiles>-->
+                <!--</configuration>-->
+                <!--<dependencies>-->
+                    <!--<dependency>-->
+                        <!--<groupId>org.jvnet.jaxb2_commons</groupId>-->
+                        <!--<artifactId>jaxb2-namespace-prefix</artifactId>-->
+                        <!--<version>1.1</version>-->
+                    <!--</dependency>-->
+                <!--</dependencies>-->
+            <!--</plugin>-->
 
             <plugin>
                 <groupId>org.apache.avro</groupId>
